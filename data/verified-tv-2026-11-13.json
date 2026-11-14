@@ -161,8 +161,11 @@
     "competition": "Leinster Club SFC",
     "name": "Cuala vs Sarsfields",
     "channel": "RTÉ2",
-    "detail": "TV coverage start · Ireland",
-    "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/"
+    "detail": "Official throw-in · Ireland",
+    "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+    "start_time": "2026-11-14T16:45:00+00:00",
+    "start_source": "https://stcomgalls.gaa.ie/fixtures-results/team/sarsfields/44968aec-e94f-667e-4095-002d140b1920/",
+    "coverage_time": "2026-11-14T16:30:00+00:00"
   },
   {
     "id": "tv-202611-15",
@@ -293,8 +296,11 @@
     "competition": "Munster Club SHC",
     "name": "Inagh-Kilnamona vs Thurles Sarsfields",
     "channel": "TG4",
-    "detail": "TV coverage start · Ireland",
-    "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/"
+    "detail": "Official throw-in · Ireland",
+    "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+    "start_time": "2026-11-15T13:15:00+00:00",
+    "start_source": "https://munster.gaa.ie/event/2026-aib-munster-club-senior-hurling-championship-semi-final-tipperary-representatives-v-clare-representatives/",
+    "coverage_time": null
   },
   {
     "id": "tv-202611-27",
@@ -337,8 +343,11 @@
     "competition": "Connacht Club SFC",
     "name": "Salthill-Knocknacarra vs St Brigid's",
     "channel": "TG4",
-    "detail": "TV coverage start · Ireland",
-    "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/"
+    "detail": "Official throw-in · Ireland",
+    "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+    "start_time": "2026-11-15T15:15:00+00:00",
+    "start_source": "https://www.rte.ie/sport/football/2026/1111/1598835-club-gaa-weekend-all-you-need-to-know/",
+    "coverage_time": null
   },
   {
     "id": "tv-202611-31",
