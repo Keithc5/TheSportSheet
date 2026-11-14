@@ -59,6 +59,13 @@ days = [friday + dt.timedelta(days=i) for i in range(3)]
 with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
     futures = [pool.submit(get, category, day) for category in LEAGUES for day in days]
     events = [event for future in futures for event in future.result()]
+# Verified, date-specific Irish television coverage supplements fixture feeds.
+# Keep TV programme starts distinct from match kick-off times.
+verified_path = pathlib.Path(__file__).parent / "data" / "verified-tv-2026-11-13.json"
+if verified_path.exists():
+    for event in json.loads(verified_path.read_text()):
+        if dt.datetime.fromisoformat(event["start"]).astimezone(TZ).date() in days:
+            events.append(event)
 unique = {event["id"]: event for event in events}
 path = pathlib.Path(__file__).parent / "data" / "events.json"
 path.parent.mkdir(exist_ok=True)
