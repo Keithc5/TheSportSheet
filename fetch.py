@@ -66,9 +66,9 @@ if verified_path.exists():
     for event in json.loads(verified_path.read_text()):
         if dt.datetime.fromisoformat(event["start"]).astimezone(TZ).date() in days:
             # These entries record broadcast starts, not event start times.
-            event["coverage_time"] = event["start"]
-            event["start_time"] = None
-            event["coverage_source"] = event.get("source")
+            event["coverage_time"] = event.get("coverage_time", event["start"] if not event.get("start_time") else None)
+            event.setdefault("start_time", None)
+            event["coverage_source"] = event.get("source") if event.get("coverage_time") else None
             events.append(event)
 unique = {event["id"]: event for event in events}
 path = pathlib.Path(__file__).parent / "data" / "events.json"
