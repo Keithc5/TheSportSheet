@@ -22,7 +22,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Retrieve and audit sports fixtures
+      - name: Validate collector\n        run: python -m unittest discover -s tests\n      - name: Retrieve and audit sports fixtures
         run: python fetch.py
       - name: Publish fixture and source-health reports
         run: |
