@@ -290,6 +290,60 @@
       "notes": "Add other top-tier international rugby competitions separately.",
       "last_checked": null,
       "code": null
+    },
+    {
+      "id": "espn-nations",
+      "name": "ESPN UEFA Nations League",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates={YYYYMMDD}&limit=250",
+      "type": "api",
+      "sports": [
+        "ESPN UEFA Nations League"
+      ],
+      "data": [
+        "fixtures",
+        "start_times"
+      ],
+      "status": "candidate",
+      "automation": "implemented",
+      "notes": "Candidate; endpoint coverage unverified",
+      "last_checked": null,
+      "code": "fetch.py"
+    },
+    {
+      "id": "espn-urc",
+      "name": "ESPN URC",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/rugby/united-rugby-championship/scoreboard?dates={YYYYMMDD}&limit=250",
+      "type": "api",
+      "sports": [
+        "ESPN URC"
+      ],
+      "data": [
+        "fixtures",
+        "start_times"
+      ],
+      "status": "candidate",
+      "automation": "implemented",
+      "notes": "Candidate; league identifier unverified",
+      "last_checked": null,
+      "code": "fetch.py"
+    },
+    {
+      "id": "espn-rugby-international",
+      "name": "ESPN international rugby",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/rugby/international/scoreboard?dates={YYYYMMDD}&limit=250",
+      "type": "api",
+      "sports": [
+        "ESPN international rugby"
+      ],
+      "data": [
+        "fixtures",
+        "start_times"
+      ],
+      "status": "candidate",
+      "automation": "implemented",
+      "notes": "Candidate; league identifier unverified",
+      "last_checked": null,
+      "code": "fetch.py"
     }
   ]
 }
