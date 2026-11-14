@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-14",
+  "purpose": "Research and operational inventory; candidate does not imply verified access, licensing or accuracy.",
+  "status_definitions": {
+    "working": "Confirmed successful recurring automated retrieval",
+    "partially-working": "Confirmed for some competitions only",
+    "used-once": "Used for a specific dated schedule",
+    "candidate": "Not yet technically validated",
+    "blocked": "Unable to use, with reason in notes",
+    "retired": "No longer maintained"
+  },
+  "sources": [
+    {
+      "id": "espn-scoreboard",
+      "name": "ESPN public scoreboard",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/{sport}/{league}/scoreboard?dates={YYYYMMDD}&limit=250",
+      "type": "api",
+      "sports": [
+        "NFL",
+        "Football",
+        "Golf",
+        "Formula 1"
+      ],
+      "data": [
+        "fixtures",
+        "start_times",
+        "results"
+      ],
+      "status": "partially-working",
+      "automation": "implemented",
+      "notes": "Unofficial endpoint; league support varies. NFL confirmed populated; other league coverage not guaranteed.",
+      "last_checked": "2026-11-14",
+      "code": "fetch.py"
+    },
+    {
+      "id": "the42-tv",
+      "name": "The42 weekend TV guide",
+      "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "type": "website",
+      "sports": [
+        "Golf",
+        "Football",
+        "Rugby",
+        "GAA",
+        "Darts",
+        "Snooker",
+        "NFL"
+      ],
+      "data": [
+        "irish_tv_channels",
+        "coverage_start_times"
+      ],
+      "status": "used-once",
+      "automation": "manual",
+      "notes": "Source for dated 13–15 November 2026 TV entries; not a reusable API.",
+      "last_checked": "2026-11-14",
+      "code": "data/verified-tv-2026-11-13.json"
+    },
+    {
+      "id": "irish-times-tv",
+      "name": "Irish Times sport on television",
+      "url": "https://www.irishtimes.com/sport/2026/11/08/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/",
+      "type": "website",
+      "sports": [
+        "Multi-sport"
+      ],
+      "data": [
+        "irish_tv_channels",
+        "coverage_start_times"
+      ],
+      "status": "candidate",
+      "automation": "not-implemented",
+      "notes": "Editorial guide; coverage may be selective and subject to access and reuse conditions.",
+      "last_checked": null,
+      "code": null
+    },
+    {
+      "id": "tvguide-ie",
+      "name": "TVGuide.ie sport",
+      "url": "https://www.tvguide.ie/sport",
+      "type": "website",
+      "sports": [
+        "Multi-sport"
+      ],
+      "data": [
+        "irish_tv_channels",
+        "coverage_start_times"
+      ],
+      "status": "candidate",
+      "automation": "not-implemented",
+      "notes": "Check listings completeness, HTML structure, terms and robots before extraction.",
+      "last_checked": null,
+      "code": null
+    },
+    {
+      "id": "onthebox-ie",
+      "name": "OnTheBox Ireland sports",
+      "url": "https://onthebox.tv/ie/sports",
+      "type": "website",
+      "sports": [
+        "Multi-sport"
+      ],
+      "data": [
+        "irish_tv_channels",
+        "coverage_start_times"
+      ],
+      "status": "candidate",
+      "automation": "not-implemented",
+      "notes": "Check listing accuracy, terms and robots before extraction.",
+      "last_checked": null,
+      "code": null
+    },
+    {
+      "id": "pga-tour",
+      "name": "PGA Tour official schedule",
+      "url": "https://www.pgatour.com/schedule",
+      "type": "official-website",
+      "sports": [
+        "PGA Tour"
+      ],
+      "data": [
+        "tournaments",
+        "dates"
+      ],
+      "status": "candidate",
+      "automation": "not-implemented",
+      "notes": "Investigate official event metadata and allowed API usage.",
+      "last_checked": null,
+      "code": null
+    },
+    {
+      "id": "dp-world-tour",
+      "name": "DP World Tour schedule",
+      "url": "https://www.europeantour.com/dpworld-tour/schedule/",
+      "type": "official-website",
+      "sports": [
+        "DP World Tour"
+      ],
+      "data": [
+        "tournaments",
+        "dates"
+      ],
+      "status": "candidate",
+      "automation": "not-implemented",
+      "notes": "Investigate round sessions and official event feeds.",
+      "last_checked": null,
+      "code": null
+    },
+    {
+      "id": "lpga",
+      "name": "LPGA tournaments",
+      "url": "https://www.lpga.com/tournaments",
+      "type": "official-website",
+      "sports": [
+        "LPGA"
+      ],
+      "data": [
+        "tournaments",
+        "dates"
+      ],
+      "status": "candidate",
+      "automation": "not-implemented",
+      "notes": "Check calendar structure and permitted use.",
+      "last_checked": null,
+      "code": null
+    },
+    {
+      "id": "premier-league",
+      "name": "Premier League fixtures",
+      "url": "https://www.premierleague.com/fixtures",
+      "type": "official-website",
+      "sports": [
+        "Premier League"
+      ],
+      "data": [
+        "fixtures",
+        "start_times"
+      ],
+      "status": "candidate",
+      "automation": "not-implemented",
+      "notes": "Official cross-check for match schedules.",
+      "last_checked": null,
+      "code": null
+    },
+    {
+      "id": "nfl",
+      "name": "NFL schedules",
+      "url": "https://www.nfl.com/schedules/",
+      "type": "official-website",
+      "sports": [
+        "NFL"
+      ],
+      "data": [
+        "fixtures",
+        "start_times"
+      ],
+      "status": "candidate",
+      "automation": "not-implemented",
+      "notes": "Official cross-check for fixtures; Irish TV rights separate.",
+      "last_checked": null,
+      "code": null
+    },
+    {
+      "id": "gaa",
+      "name": "GAA fixtures",
+      "url": "https://www.gaa.ie/fixtures-results",
+      "type": "official-website",
+      "sports": [
+        "GAA"
+      ],
+      "data": [
+        "fixtures",
+        "start_times"
+      ],
+      "status": "candidate",
+      "automation": "not-implemented",
+      "notes": "Check intercounty and club coverage and reliable IDs.",
+      "last_checked": null,
+      "code": null
+    },
+    {
+      "id": "pdc",
+      "name": "PDC calendar",
+      "url": "https://www.pdc.tv/tournaments",
+      "type": "official-website",
+      "sports": [
+        "Darts"
+      ],
+      "data": [
+        "tournaments",
+        "sessions"
+      ],
+      "status": "candidate",
+      "automation": "not-implemented",
+      "notes": "Only major PDC tournaments should be selected.",
+      "last_checked": null,
+      "code": null
+    },
+    {
+      "id": "world-snooker",
+      "name": "World Snooker Tour",
+      "url": "https://www.wst.tv/",
+      "type": "official-website",
+      "sports": [
+        "Snooker"
+      ],
+      "data": [
+        "tournaments",
+        "sessions"
+      ],
+      "status": "candidate",
+      "automation": "not-implemented",
+      "notes": "Limit to major professional tournaments.",
+      "last_checked": null,
+      "code": null
+    },
+    {
+      "id": "formula-one",
+      "name": "Formula 1 calendar",
+      "url": "https://www.formula1.com/en/racing",
+      "type": "official-website",
+      "sports": [
+        "Formula 1"
+      ],
+      "data": [
+        "race_weekends",
+        "session_times"
+      ],
+      "status": "candidate",
+      "automation": "not-implemented",
+      "notes": "Qualifying, sprint and race sessions need separate records.",
+      "last_checked": null,
+      "code": null
+    },
+    {
+      "id": "six-nations",
+      "name": "Six Nations fixtures",
+      "url": "https://www.sixnationsrugby.com/en/m6n/fixtures",
+      "type": "official-website",
+      "sports": [
+        "Rugby"
+      ],
+      "data": [
+        "fixtures",
+        "start_times"
+      ],
+      "status": "candidate",
+      "automation": "not-implemented",
+      "notes": "Add other top-tier international rugby competitions separately.",
+      "last_checked": null,
+      "code": null
+    }
+  ]
+}
