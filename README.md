@@ -29,3 +29,7 @@ Run `python fetch.py` and `python -m http.server 8000` locally, then open http:/
 - **Additional candidates for future licensed or permission-based integration:** TVGuide.ie sport listings and Onthebox Ireland sports schedules. Check site terms, robots rules, permitted extraction and data rights before building automated importers.
 - **Quality:** A TV coverage start is not necessarily an event start; event entries tagged `TV coverage start · Ireland` should be interpreted accordingly. Some NFL fixture feed entries and TV coverage entries may represent the same game and appear separately.
 - **Current gap:** reliable recurring Irish broadcaster mapping, additional rugby leagues, GAA, darts, snooker and golf per-round sessions. The weekend snapshot is populated, but the 75% threshold is not yet demonstrated for future weekends.
+
+## Persistent source catalogue
+
+See [sources/sources.json](sources/sources.json) for the structured inventory of APIs and sports information sites, including testing status and limitations. See [sources/README.md](sources/README.md) for the process to grow, validate and maintain the catalogue. Keep candidate sources distinct from tested automated feeds.
