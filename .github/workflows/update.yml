@@ -1,22 +1,32 @@
 name: Refresh weekend fixtures
 on:
   schedule:
-    - cron: '17 */6 * * *'
+    - cron: '17 5 * * 1'
+    - cron: '17 5 * * 2'
+    - cron: '17 5 * * 3'
+    - cron: '17 */6 * * 4,5,6,0'
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: weekend-fixtures
+  cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python fetch.py
-      - name: Commit refreshed fixtures
+      - name: Retrieve and audit sports fixtures
+        run: python fetch.py
+      - name: Publish fixture and source-health reports
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/events.json
-          if ! git diff --cached --quiet; then git commit -m 'Refresh weekend fixtures'; git push; fi
+          git add data/events.json data/source-health.json
+          if ! git diff --cached --quiet; then git commit -m 'Refresh weekend fixtures and source audit'; git pull --rebase; git push; fi
