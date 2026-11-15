@@ -33,6 +33,11 @@ def weekend():
  if today.weekday() in (5,6): friday = today-dt.timedelta(days=today.weekday()-4)
  return [friday+dt.timedelta(days=i) for i in range(3)]
 
+def collection_days():
+ today = dt.datetime.now(TZ).date()
+ next_monday = today + dt.timedelta(days=7-today.weekday())
+ return sorted(set(weekend() + [next_monday + dt.timedelta(days=i) for i in range(7)]))
+
 def fetch_one(item):
  category,day = item
  sport,league,label,competition=LEAGUES[category]
@@ -102,7 +107,7 @@ def attach_tv(events,days):
  return unmatched
 
 def main():
- days=weekend()
+ days=collection_days()
  jobs=[(cat,day) for cat in LEAGUES for day in days]
  with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
   batches=list(pool.map(fetch_one,jobs))
@@ -114,7 +119,7 @@ def main():
  events=sorted(unique.values(),key=lambda e:e.get("start_time") or e.get("coverage_time") or e["start"])
  counts=dict(Counter(e["category"] for e in events))
  now=dt.datetime.now(dt.timezone.utc).isoformat()
- audit={"updated":now,"weekend":[str(d) for d in days],
+ audit={"updated":now,"collection_dates":[str(d) for d in days],
   "total_events":len(events),"by_category":counts,
   "source_requests":health,"successful_requests":sum(x["status"]=="ok" for x in health),
   "failed_requests":sum(x["status"]=="error" for x in health),
