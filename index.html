@@ -13,7 +13,7 @@ function selectWeek(next){nextWeekSelected=next;dates=next?followingDates:weeken
 document.getElementById('currentWeek').onclick=()=>selectWeek(false);
 document.getElementById('nextWeek').onclick=()=>selectWeek(true);
 function renderTabs(){document.getElementById('currentWeek').setAttribute('aria-pressed',String(!nextWeekSelected));document.getElementById('nextWeek').setAttribute('aria-pressed',String(nextWeekSelected));document.getElementById('days').innerHTML=dates.map((d,i)=>`<button data-day="${i}" aria-pressed="${chosen===i}">${label(d)}</button>`).join('');document.querySelectorAll('[data-day]').forEach(b=>b.onclick=()=>{chosen=+b.dataset.day;render()})}
-function sportGroup(category){if(category.startsWith('golf-'))return 'Golf';if(category.startsWith('soccer-'))return 'Soccer';if(category.startsWith('rugby'))return 'Rugby';return ({'football-nfl':'NFL','gaa':'GAA','darts':'Darts','snooker':'Snooker','racing-f1':'Formula 1','horse-racing':'Horse racing'})[category]||category}
+function sportGroup(category){if(category.startsWith('golf-'))return 'Golf';if(category.startsWith('soccer-'))return 'Football';if(category.startsWith('rugby'))return 'Rugby';return ({'football-nfl':'NFL','gaa':'GAA','darts':'Darts','snooker':'Snooker','racing-f1':'Formula 1','horse-racing':'Horse racing'})[category]||category}
 const sportFilter=document.getElementById('sportFilter'),clearSportFilter=document.getElementById('clearSportFilter');
 sportFilter.onchange=()=>{activeSport=sportFilter.value;render()};
 clearSportFilter.onclick=()=>{activeSport='';render()};
