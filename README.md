@@ -1,12 +1,12 @@
 # The Sport Sheet
 
-A personalised Friday–Sunday sports fixture guide for Ireland, designed for GitHub Pages.
+A personalised current-weekend and next-week (Monday–Sunday) sports fixture guide for Ireland, designed for GitHub Pages.
 
 ## Features
-- Friday, Saturday, Sunday and combined views
+- Current Friday–Sunday and next Monday–Sunday views, with individual day and combined views
 - Competition filters saved in the browser (horse racing off by default)
 - Times in Europe/Dublin, including daylight-saving changes
-- Scheduled GitHub Actions data refresh every six hours
+- Scheduled GitHub Actions fixture refresh four times daily
 - No fabricated fixtures or broadcaster listings
 
 ## Publish
@@ -28,7 +28,7 @@ Run `python fetch.py` and `python -m http.server 8000` locally, then open http:/
 - **Irish television guides:** a date-specific, source-attributed verified schedule is stored in `data/verified-tv-2026-11-13.json`. Sources: [The42](https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/) and [Irish Times](https://www.irishtimes.com/sport/2026/11/08/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/). It covers only November 13–15, 2026 and is **not** an automatically renewing TV feed.
 - **Additional candidates for future licensed or permission-based integration:** TVGuide.ie sport listings and Onthebox Ireland sports schedules. Check site terms, robots rules, permitted extraction and data rights before building automated importers.
 - **Quality:** A TV coverage start is not necessarily an event start; event entries tagged `TV coverage start · Ireland` should be interpreted accordingly. Some NFL fixture feed entries and TV coverage entries may represent the same game and appear separately.
-- **Current gap:** reliable recurring Irish broadcaster mapping, additional rugby leagues, GAA, darts, snooker and golf per-round sessions. The weekend snapshot is populated, but the 75% threshold is not yet demonstrated for future weekends.
+- **Current gap:** reliable recurring Irish broadcaster mapping, additional rugby leagues, GAA, darts, snooker and golf per-round sessions. The fixture snapshot is populated, but the 75% threshold is not yet demonstrated for future weekends.
 
 ## Persistent source catalogue
 
