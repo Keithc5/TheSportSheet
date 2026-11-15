@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T06:43:57.708029+00:00",
+  "updated": "2026-11-15T18:51:30.145090+00:00",
   "events": [
     {
       "id": "tv-202611-0",
@@ -1552,6 +1552,806 @@
         {
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-nations-401861180",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Faroe Islands vs Moldova",
+      "start": "2026-11-16T15:00:00+00:00",
+      "start_time": "2026-11-16T15:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-nations-401861181",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Kazakhstan vs Slovakia",
+      "start": "2026-11-16T15:00:00+00:00",
+      "start_time": "2026-11-16T15:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-nations-401861183",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Estonia vs Bulgaria",
+      "start": "2026-11-16T17:00:00+00:00",
+      "start_time": "2026-11-16T17:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-nations-401861182",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Iceland vs Luxembourg",
+      "start": "2026-11-16T17:00:00+00:00",
+      "start_time": "2026-11-16T17:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-nations-401861184",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Lithuania vs Liechtenstein",
+      "start": "2026-11-16T17:00:00+00:00",
+      "start_time": "2026-11-16T17:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-nations-401861185",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Germany vs Netherlands",
+      "start": "2026-11-16T19:45:00+00:00",
+      "start_time": "2026-11-16T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-nations-401861179",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Gibraltar vs Malta",
+      "start": "2026-11-16T19:45:00+00:00",
+      "start_time": "2026-11-16T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-nations-401861188",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Greece vs Serbia",
+      "start": "2026-11-16T19:45:00+00:00",
+      "start_time": "2026-11-16T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-nations-401861187",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "North Macedonia vs Slovenia",
+      "start": "2026-11-16T19:45:00+00:00",
+      "start_time": "2026-11-16T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-nations-401861186",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Switzerland vs Scotland",
+      "start": "2026-11-16T19:45:00+00:00",
+      "start_time": "2026-11-16T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-nations-401861196",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Bosnia-Herzegovina vs Romania",
+      "start": "2026-11-17T19:45:00+00:00",
+      "start_time": "2026-11-17T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-nations-401861194",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Denmark vs Norway",
+      "start": "2026-11-17T19:45:00+00:00",
+      "start_time": "2026-11-17T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-nations-401861191",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Hungary vs Northern Ireland",
+      "start": "2026-11-17T19:45:00+00:00",
+      "start_time": "2026-11-17T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-nations-401861193",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Israel vs Austria",
+      "start": "2026-11-17T19:45:00+00:00",
+      "start_time": "2026-11-17T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-nations-401861195",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Poland vs Sweden",
+      "start": "2026-11-17T19:45:00+00:00",
+      "start_time": "2026-11-17T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-nations-401861192",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Republic of Ireland vs Kosovo",
+      "start": "2026-11-17T19:45:00+00:00",
+      "start_time": "2026-11-17T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-nations-401861190",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Ukraine vs Georgia",
+      "start": "2026-11-17T19:45:00+00:00",
+      "start_time": "2026-11-17T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-nations-401861189",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Wales vs Portugal",
+      "start": "2026-11-17T19:45:00+00:00",
+      "start_time": "2026-11-17T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "golf-pga-401850981",
+      "category": "golf-pga",
+      "sport": "Golf",
+      "competition": "PGA Tour",
+      "name": "The RSM Classic",
+      "start": "2026-11-19T05:00:00+00:00",
+      "start_time": "2026-11-19T05:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20261119&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20261119&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "golf-lpga-401835177",
+      "category": "golf-lpga",
+      "sport": "Golf",
+      "competition": "LPGA",
+      "name": "CME Group Tour Championship",
+      "start": "2026-11-19T05:00:00+00:00",
+      "start_time": "2026-11-19T05:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261119&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261119&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "racing-f1-600057449",
+      "category": "racing-f1",
+      "sport": "Formula 1",
+      "competition": "Formula 1",
+      "name": "Heineken Las Vegas Grand Prix",
+      "start": "2026-11-20T00:30:00+00:00",
+      "start_time": "2026-11-20T00:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261120&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261120&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-eng.1-401879233",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "Manchester City vs Fulham",
+      "start": "2026-11-21T12:30:00+00:00",
+      "start_time": "2026-11-21T12:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-eng.1-401879238",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "AFC Bournemouth vs Nottingham Forest",
+      "start": "2026-11-21T15:00:00+00:00",
+      "start_time": "2026-11-21T15:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-eng.1-401878756",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "Aston Villa vs Sunderland",
+      "start": "2026-11-21T15:00:00+00:00",
+      "start_time": "2026-11-21T15:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-eng.1-401879236",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "Chelsea vs Leeds United",
+      "start": "2026-11-21T15:00:00+00:00",
+      "start_time": "2026-11-21T15:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-eng.1-401879235",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "Coventry City vs Crystal Palace",
+      "start": "2026-11-21T15:00:00+00:00",
+      "start_time": "2026-11-21T15:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-eng.1-401878754",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "Tottenham Hotspur vs Ipswich Town",
+      "start": "2026-11-21T15:00:00+00:00",
+      "start_time": "2026-11-21T15:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-eng.1-401879232",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "Newcastle United vs Arsenal",
+      "start": "2026-11-21T17:30:00+00:00",
+      "start_time": "2026-11-21T17:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-eng.1-401879234",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "Hull City vs Brighton & Hove Albion",
+      "start": "2026-11-22T14:00:00+00:00",
+      "start_time": "2026-11-22T14:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261122&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261122&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "soccer-eng.1-401878755",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "Liverpool vs Manchester United",
+      "start": "2026-11-22T16:30:00+00:00",
+      "start_time": "2026-11-22T16:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261122&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261122&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "football-nfl-401873070",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Buffalo Bills vs Miami Dolphins",
+      "start": "2026-11-22T18:00:00+00:00",
+      "start_time": "2026-11-22T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "football-nfl-401873071",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Chicago Bears vs New Orleans Saints",
+      "start": "2026-11-22T18:00:00+00:00",
+      "start_time": "2026-11-22T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "football-nfl-401873073",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Dallas Cowboys vs Tennessee Titans",
+      "start": "2026-11-22T18:00:00+00:00",
+      "start_time": "2026-11-22T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "football-nfl-401873072",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Detroit Lions vs Tampa Bay Buccaneers",
+      "start": "2026-11-22T18:00:00+00:00",
+      "start_time": "2026-11-22T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "football-nfl-401873067",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Kansas City Chiefs vs Arizona Cardinals",
+      "start": "2026-11-22T18:00:00+00:00",
+      "start_time": "2026-11-22T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "football-nfl-401873076",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Philadelphia Eagles vs Pittsburgh Steelers",
+      "start": "2026-11-22T18:00:00+00:00",
+      "start_time": "2026-11-22T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "football-nfl-401873068",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Carolina Panthers vs Baltimore Ravens",
+      "start": "2026-11-22T18:00:00+00:00",
+      "start_time": "2026-11-22T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "football-nfl-401873074",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Los Angeles Chargers vs New York Jets",
+      "start": "2026-11-22T21:05:00+00:00",
+      "start_time": "2026-11-22T21:05:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "football-nfl-401873075",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Denver Broncos vs Las Vegas Raiders",
+      "start": "2026-11-22T21:25:00+00:00",
+      "start_time": "2026-11-22T21:25:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": ""
+    },
+    {
+      "id": "football-nfl-401873069",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "New York Giants vs Jacksonville Jaguars",
+      "start": "2026-11-22T21:25:00+00:00",
+      "start_time": "2026-11-22T21:25:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
           "field": "start_time"
         }
       ],
