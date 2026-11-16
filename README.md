@@ -41,3 +41,6 @@ See [sources/sources.json](sources/sources.json) for the structured inventory of
 - The source-health report exposes the number of official F1 sessions, malformed official schedule records, and ESPN single-source times. Other sports still use provisional ESPN timestamps and are **not yet independently corroborated**.
 - Any newly scheduled F1 weekend needs a new official timetable entry; never promote the weekend opening date to a race start. Future improvements: automated official timetable ingestion, independent competition schedules for football/rugby/GAA, matching across providers, time-difference thresholds, missing-event alerts and a review queue.
 - Collector unit tests explicitly prevent regression of the Las Vegas Friday/Sunday error.
+
+### Formula 1 display policy
+Only **Qualifying, Sprint Qualifying, Sprint and Race** sessions are displayed; free practice is excluded from both the collector and the page. [F1Calendar.com](https://f1calendar.com/) is a useful independent human-readable cross-check of race weekends and local times, alongside official Formula 1 session schedules. Its public webpage is not yet an automated feed in this project; do not label sessions as cross-referenced merely because the website is listed here.
