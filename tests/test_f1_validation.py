@@ -12,7 +12,15 @@ class F1ScheduleTests(unittest.TestCase):
         self.assertEqual(len(race),1)
         self.assertEqual(race[0]["start_time"],"2026-11-22T04:00:00+00:00")
         self.assertEqual(race[0]["verification"],"official-schedule")
-        self.assertEqual(len([e for e in events if "Las Vegas" in e["name"]]),5)
+        self.assertEqual(len([e for e in events if "Las Vegas" in e["name"]]),2)
+        self.assertTrue(all(e["session"] in fetch.F1_DISPLAY_SESSIONS for e in events))
+
+    def test_practice_sessions_are_excluded(self):
+        self.assertNotIn("Practice 1",fetch.F1_DISPLAY_SESSIONS)
+        self.assertIn("Qualifying",fetch.F1_DISPLAY_SESSIONS)
+        self.assertIn("Sprint Qualifying",fetch.F1_DISPLAY_SESSIONS)
+        self.assertIn("Sprint",fetch.F1_DISPLAY_SESSIONS)
+        self.assertIn("Race",fetch.F1_DISPLAY_SESSIONS)
 
     def test_espn_meeting_date_is_not_a_race_start(self):
         payload={"events":[{"id":"123","date":"2026-11-20T00:30:00Z","name":"Las Vegas Grand Prix","competitions":[]}]}
