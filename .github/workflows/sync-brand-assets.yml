@@ -1,0 +1,40 @@
+name: Sync authentic sports brand assets
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'sync_brand_assets.py'
+      - '.github/workflows/sync-brand-assets.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: sync-sports-brand-assets
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Download and validate published logos
+        run: python sync_brand_assets.py
+      - name: Commit authentic logos into repository
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/sports/
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Store sourced official sports logos and provenance"
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep $((i*3))
+          done
+          exit 1
