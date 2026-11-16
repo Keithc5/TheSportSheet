@@ -1,26 +1,6 @@
 {
-  "updated": "2026-11-16T02:43:31.693766+00:00",
+  "updated": "2026-11-16T10:44:32.611952+00:00",
   "events": [
-    {
-      "id": "racing-f1-600057449",
-      "category": "racing-f1",
-      "sport": "Formula 1",
-      "competition": "Formula 1",
-      "name": "Heineken Las Vegas Grand Prix",
-      "start": "2026-11-20T00:30:00+00:00",
-      "start_time": "2026-11-20T00:30:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261120&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261120&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": ""
-    },
     {
       "id": "soccer-eng.1-401879233",
       "category": "soccer-eng.1",
@@ -834,26 +814,6 @@
         {
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261126&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": ""
-    },
-    {
-      "id": "racing-f1-600057450",
-      "category": "racing-f1",
-      "sport": "Formula 1",
-      "competition": "Formula 1",
-      "name": "Qatar Airways Qatar Grand Prix",
-      "start": "2026-11-27T13:30:00+00:00",
-      "start_time": "2026-11-27T13:30:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261127&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261127&limit=250",
           "field": "start_time"
         }
       ],

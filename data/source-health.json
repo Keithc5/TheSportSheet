@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T02:43:31.693766+00:00",
+  "updated": "2026-11-16T10:44:32.611952+00:00",
   "collection_dates": [
     "2026-11-20",
     "2026-11-21",
@@ -12,9 +12,8 @@
     "2026-11-28",
     "2026-11-29"
   ],
-  "total_events": 63,
+  "total_events": 61,
   "by_category": {
-    "racing-f1": 2,
     "soccer-eng.1": 20,
     "football-nfl": 22,
     "soccer-uefa.champions": 18,
@@ -795,7 +794,7 @@
       "source": "racing-f1",
       "date": "2026-11-20",
       "status": "ok",
-      "count": 1,
+      "count": 0,
       "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261120&limit=250"
     },
     {
@@ -844,7 +843,7 @@
       "source": "racing-f1",
       "date": "2026-11-27",
       "status": "ok",
-      "count": 1,
+      "count": 0,
       "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261127&limit=250"
     },
     {
@@ -864,13 +863,19 @@
   ],
   "successful_requests": 90,
   "failed_requests": 30,
-  "verified_start_times": 63,
+  "verified_start_times": 61,
   "coverage_only": 0,
   "cross_referenced": 0,
+  "official_schedule_issues": [],
+  "f1_official_sessions": 0,
+  "unverified_start_times": 61,
   "conflicts": [],
   "limitations": [
     "Empty API results do not prove no events are scheduled.",
     "ESPN endpoints are unofficial; successful HTTP responses may omit competitions.",
+    "F1 sessions are included only when independently listed in the curated official Formula 1 timetable; ESPN meeting dates are rejected.",
+    "Official F1 timetable must be refreshed as each new Grand Prix approaches.",
+    "Single-source ESPN fixture times are provisional, not independently confirmed.",
     "TV guide supplement is manually curated for 13\u201315 November only.",
     "Coverage percentage cannot be calculated without independent expected-event inventory."
   ]
