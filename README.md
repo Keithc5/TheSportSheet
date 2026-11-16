@@ -33,3 +33,11 @@ Run `python fetch.py` and `python -m http.server 8000` locally, then open http:/
 ## Persistent source catalogue
 
 See [sources/sources.json](sources/sources.json) for the structured inventory of APIs and sports information sites, including testing status and limitations. See [sources/README.md](sources/README.md) for the process to grow, validate and maintain the catalogue. Keep candidate sources distinct from tested automated feeds.
+
+## Fixture reliability policy (November 2026)
+
+- A tournament or meeting start is **not** an individual race/session start. In particular, ESPN F1 scoreboard event dates are discarded, not shown as race starts.
+- F1 sessions are collected from `data/official-f1-sessions.json` with separate practice, qualifying, sprint and race records, each with an official Formula 1 URL and timezone-aware ISO timestamp. The 2026 Las Vegas GP race is **Sunday 22 November at 04:00 Ireland time** (Saturday 21 November 20:00 in Las Vegas).
+- The source-health report exposes the number of official F1 sessions, malformed official schedule records, and ESPN single-source times. Other sports still use provisional ESPN timestamps and are **not yet independently corroborated**.
+- Any newly scheduled F1 weekend needs a new official timetable entry; never promote the weekend opening date to a race start. Future improvements: automated official timetable ingestion, independent competition schedules for football/rugby/GAA, matching across providers, time-difference thresholds, missing-event alerts and a review queue.
+- Collector unit tests explicitly prevent regression of the Las Vegas Friday/Sunday error.
