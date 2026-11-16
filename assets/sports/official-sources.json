@@ -1,0 +1,38 @@
+{
+  "assets": [
+    {
+      "file": "gaa-official.jpg",
+      "title": "Official Gaelic Athletic Association logo.jpg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/3/35/Official_Gaelic_Athletic_Association_logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Official_Gaelic_Athletic_Association_logo.jpg"
+    },
+    {
+      "file": "irfu-official.svg",
+      "title": "Irish rugby union textlogo.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Irish_rugby_union_textlogo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Irish_rugby_union_textlogo.svg"
+    }
+  ],
+  "failed": [
+    {
+      "file": "snooker-federation.svg",
+      "reason": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "file": "pdc-official.png",
+      "reason": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "file": "darts-world-series.svg",
+      "reason": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "file": "rugby-world-cup.svg",
+      "reason": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "file": "racing-jockey-club.png",
+      "reason": "HTTP Error 429: Too many requests (f061ab2)"
+    }
+  ]
+}
