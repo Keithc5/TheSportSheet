@@ -2,69 +2,6 @@
   "updated": "2026-11-16T10:44:52.809211+00:00",
   "events": [
     {
-      "id": "racing-f1-las-vegas-2026-practice-1",
-      "category": "racing-f1",
-      "sport": "Formula 1",
-      "competition": "Formula 1",
-      "name": "Las Vegas Grand Prix — Practice 1",
-      "session": "Practice 1",
-      "start": "2026-11-20T00:30:00+00:00",
-      "start_time": "2026-11-20T00:30:00+00:00",
-      "start_source": "https://www.formula1.com/en/latest/article/formula-1-heineken-las-vegas-grand-prix-2026.1qmWzcBwKK5hkTbYbhVC22",
-      "sources": [
-        {
-          "provider": "formula1-official",
-          "url": "https://www.formula1.com/en/latest/article/formula-1-heineken-las-vegas-grand-prix-2026.1qmWzcBwKK5hkTbYbhVC22",
-          "field": "session_start"
-        }
-      ],
-      "verification": "official-schedule",
-      "detail": "Practice 1",
-      "channel": ""
-    },
-    {
-      "id": "racing-f1-las-vegas-2026-practice-2",
-      "category": "racing-f1",
-      "sport": "Formula 1",
-      "competition": "Formula 1",
-      "name": "Las Vegas Grand Prix — Practice 2",
-      "session": "Practice 2",
-      "start": "2026-11-20T04:00:00+00:00",
-      "start_time": "2026-11-20T04:00:00+00:00",
-      "start_source": "https://www.formula1.com/en/latest/article/formula-1-heineken-las-vegas-grand-prix-2026.1qmWzcBwKK5hkTbYbhVC22",
-      "sources": [
-        {
-          "provider": "formula1-official",
-          "url": "https://www.formula1.com/en/latest/article/formula-1-heineken-las-vegas-grand-prix-2026.1qmWzcBwKK5hkTbYbhVC22",
-          "field": "session_start"
-        }
-      ],
-      "verification": "official-schedule",
-      "detail": "Practice 2",
-      "channel": ""
-    },
-    {
-      "id": "racing-f1-las-vegas-2026-practice-3",
-      "category": "racing-f1",
-      "sport": "Formula 1",
-      "competition": "Formula 1",
-      "name": "Las Vegas Grand Prix — Practice 3",
-      "session": "Practice 3",
-      "start": "2026-11-21T00:30:00+00:00",
-      "start_time": "2026-11-21T00:30:00+00:00",
-      "start_source": "https://www.formula1.com/en/latest/article/formula-1-heineken-las-vegas-grand-prix-2026.1qmWzcBwKK5hkTbYbhVC22",
-      "sources": [
-        {
-          "provider": "formula1-official",
-          "url": "https://www.formula1.com/en/latest/article/formula-1-heineken-las-vegas-grand-prix-2026.1qmWzcBwKK5hkTbYbhVC22",
-          "field": "session_start"
-        }
-      ],
-      "verification": "official-schedule",
-      "detail": "Practice 3",
-      "channel": ""
-    },
-    {
       "id": "racing-f1-las-vegas-2026-qualifying",
       "category": "racing-f1",
       "sport": "Formula 1",
