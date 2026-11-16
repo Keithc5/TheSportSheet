@@ -1,0 +1,44 @@
+[
+  {
+    "event_id": "las-vegas-2026",
+    "grand_prix": "Las Vegas Grand Prix",
+    "session": "Practice 1",
+    "start": "2026-11-20T00:30:00+00:00",
+    "source": "https://www.formula1.com/en/latest/article/formula-1-heineken-las-vegas-grand-prix-2026.1qmWzcBwKK5hkTbYbhVC22"
+  },
+  {
+    "event_id": "las-vegas-2026",
+    "grand_prix": "Las Vegas Grand Prix",
+    "session": "Practice 2",
+    "start": "2026-11-20T04:00:00+00:00",
+    "source": "https://www.formula1.com/en/latest/article/formula-1-heineken-las-vegas-grand-prix-2026.1qmWzcBwKK5hkTbYbhVC22"
+  },
+  {
+    "event_id": "las-vegas-2026",
+    "grand_prix": "Las Vegas Grand Prix",
+    "session": "Practice 3",
+    "start": "2026-11-21T00:30:00+00:00",
+    "source": "https://www.formula1.com/en/latest/article/formula-1-heineken-las-vegas-grand-prix-2026.1qmWzcBwKK5hkTbYbhVC22"
+  },
+  {
+    "event_id": "las-vegas-2026",
+    "grand_prix": "Las Vegas Grand Prix",
+    "session": "Qualifying",
+    "start": "2026-11-21T04:00:00+00:00",
+    "source": "https://www.formula1.com/en/latest/article/formula-1-heineken-las-vegas-grand-prix-2026.1qmWzcBwKK5hkTbYbhVC22"
+  },
+  {
+    "event_id": "las-vegas-2026",
+    "grand_prix": "Las Vegas Grand Prix",
+    "session": "Race",
+    "start": "2026-11-22T04:00:00+00:00",
+    "source": "https://www.formula1.com/en/latest/article/formula-1-heineken-las-vegas-grand-prix-2026.1qmWzcBwKK5hkTbYbhVC22"
+  },
+  {
+    "event_id": "qatar-2026",
+    "grand_prix": "Qatar Grand Prix",
+    "session": "Race",
+    "start": "2026-11-29T16:00:00+00:00",
+    "source": "https://www.formula1.com/en/latest/article/official-grand-prix-start-times-for-2026-f1-season-confirmed.2UgPfArqH76tzlOYh21jSG"
+  }
+]
