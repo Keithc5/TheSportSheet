@@ -3,6 +3,7 @@
 Run in GitHub Actions (network access); no invented or traced logos.
 """
 import json
+import hashlib
 import pathlib
 import time
 import urllib.parse
@@ -30,15 +31,13 @@ def request(url):
    if exc.code not in (429,503) or attempt==4:raise
    time.sleep(8*(attempt+1))
 def fetch(filename,title):
- params=urllib.parse.urlencode({"action":"query","format":"json","prop":"imageinfo","iiprop":"url|mime|size","titles":"File:"+title})
- data=json.loads(request("https://commons.wikimedia.org/w/api.php?"+params))
- page=next(iter(data["query"]["pages"].values()))
- info=page["imageinfo"][0]
- url=info["url"]
+ normalized=title.replace(" ","_")
+ digest=hashlib.md5(normalized.encode("utf-8")).hexdigest()
+ url="https://upload.wikimedia.org/wikipedia/commons/"+digest[0]+"/"+digest[:2]+"/"+urllib.parse.quote(normalized)
  blob=request(url)
  if len(blob)<100 or len(blob)>2_000_000:raise ValueError("Unexpected asset size")
  if filename.endswith(".svg"):
-  if info["mime"]!="image/svg+xml":raise ValueError("Expected SVG")
+  if not blob.lstrip().startswith((b"<svg",b"<?xml",b"<!--")):raise ValueError("Expected SVG")
   ET.fromstring(blob)
  elif filename.endswith(".png"):
   if not blob[:8]==bytes([137,80,78,71,13,10,26,10]):raise ValueError("Expected PNG")
