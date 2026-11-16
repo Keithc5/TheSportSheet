@@ -46,6 +46,8 @@ def valid_start(value, day):
   return parsed.tzinfo is not None and parsed.astimezone(TZ).date()==day
  except (ValueError,AttributeError,TypeError): return False
 
+F1_DISPLAY_SESSIONS = frozenset(("Qualifying", "Sprint Qualifying", "Sprint", "Race"))
+
 def official_f1_sessions(days):
  """Load individually timed official F1 sessions; never interpret weekend starts as race starts."""
  path=ROOT/"data"/"official-f1-sessions.json"
@@ -56,7 +58,8 @@ def official_f1_sessions(days):
    start=dt.datetime.fromisoformat(row["start"].replace("Z","+00:00"))
    if start.tzinfo is None: raise ValueError("Timezone missing")
    if start.astimezone(TZ).date() not in days: continue
-   if row["session"] not in ("Practice 1","Practice 2","Practice 3","Qualifying","Sprint Qualifying","Sprint","Race"): raise ValueError("Invalid session")
+   if row["session"] in ("Practice 1","Practice 2","Practice 3"): continue
+   if row["session"] not in F1_DISPLAY_SESSIONS: raise ValueError("Invalid session")
    if not row["source"].startswith("https://www.formula1.com/"): raise ValueError("Not an official F1 source")
    result.append({"id":"racing-f1-"+row["event_id"]+"-"+re.sub(r"[^a-z0-9]+","-",row["session"].lower()).strip("-"),"category":"racing-f1","sport":"Formula 1","competition":"Formula 1","name":row["grand_prix"]+" — "+row["session"],"session":row["session"],"start":start.isoformat(),"start_time":start.isoformat(),"start_source":row["source"],"sources":[{"provider":"formula1-official","url":row["source"],"field":"session_start"}],"verification":"official-schedule","detail":row["session"],"channel":""})
   except (KeyError,ValueError,TypeError,AttributeError) as exc: issues.append({"record":str(row)[:100],"reason":str(exc)})
