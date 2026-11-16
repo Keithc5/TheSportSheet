@@ -5,6 +5,7 @@ import concurrent.futures
 import datetime as dt
 import json
 import pathlib
+import os
 import re
 import urllib.request
 from collections import Counter, defaultdict
@@ -38,6 +39,29 @@ def collection_days():
  next_monday = today + dt.timedelta(days=7-today.weekday())
  return sorted(set(weekend() + [next_monday + dt.timedelta(days=i) for i in range(7)]))
 
+def valid_start(value, day):
+ """Require a timezone-aware, plausible kickoff/session time on the Irish display day."""
+ try:
+  parsed=dt.datetime.fromisoformat(value.replace("Z","+00:00"))
+  return parsed.tzinfo is not None and parsed.astimezone(TZ).date()==day
+ except (ValueError,AttributeError,TypeError): return False
+
+def official_f1_sessions(days):
+ """Load individually timed official F1 sessions; never interpret weekend starts as race starts."""
+ path=ROOT/"data"/"official-f1-sessions.json"
+ if not path.exists(): return [],[]
+ result=[];issues=[]
+ for row in json.loads(path.read_text()):
+  try:
+   start=dt.datetime.fromisoformat(row["start"].replace("Z","+00:00"))
+   if start.tzinfo is None: raise ValueError("Timezone missing")
+   if start.astimezone(TZ).date() not in days: continue
+   if row["session"] not in ("Practice 1","Practice 2","Practice 3","Qualifying","Sprint Qualifying","Sprint","Race"): raise ValueError("Invalid session")
+   if not row["source"].startswith("https://www.formula1.com/"): raise ValueError("Not an official F1 source")
+   result.append({"id":"racing-f1-"+row["event_id"]+"-"+re.sub(r"[^a-z0-9]+","-",row["session"].lower()).strip("-"),"category":"racing-f1","sport":"Formula 1","competition":"Formula 1","name":row["grand_prix"]+" — "+row["session"],"session":row["session"],"start":start.isoformat(),"start_time":start.isoformat(),"start_source":row["source"],"sources":[{"provider":"formula1-official","url":row["source"],"field":"session_start"}],"verification":"official-schedule","detail":row["session"],"channel":""})
+  except (KeyError,ValueError,TypeError,AttributeError) as exc: issues.append({"record":str(row)[:100],"reason":str(exc)})
+ return result,issues
+
 def fetch_one(item):
  category,day = item
  sport,league,label,competition=LEAGUES[category]
@@ -53,6 +77,7 @@ def fetch_one(item):
   try:
    start=dt.datetime.fromisoformat(event["date"].replace("Z","+00:00"))
    if start.astimezone(TZ).date()!=day: continue
+   if category=="racing-f1": continue  # ESPN event.date is a meeting start, NOT a race/session time
    if not event.get("id"): continue
    match=(event.get("competitions") or [{}])[0]
    competitors=match.get("competitors") or []
@@ -112,6 +137,8 @@ def main():
  with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
   batches=list(pool.map(fetch_one,jobs))
  events=[e for batch,_ in batches for e in batch]
+ f1,official_issues=official_f1_sessions(days)
+ events.extend(f1)
  health=[h for _,h in batches]
  tv=attach_tv(events,days)
  events.extend(tv)
@@ -126,9 +153,15 @@ def main():
   "verified_start_times":sum(bool(e.get("start_time")) for e in events),
   "coverage_only":sum(not e.get("start_time") for e in events),
   "cross_referenced":sum(e.get("verification")=="cross-referenced" for e in events),
+  "official_schedule_issues":official_issues,
+  "f1_official_sessions":len(f1),
+  "unverified_start_times":sum(e.get("verification")=="single-source" for e in events),
   "conflicts":[{"id":e["id"],"name":e["name"],"times":e["time_conflict"]} for e in events if e.get("time_conflict")],
   "limitations":["Empty API results do not prove no events are scheduled.",
   "ESPN endpoints are unofficial; successful HTTP responses may omit competitions.",
+  "F1 sessions are included only when independently listed in the curated official Formula 1 timetable; ESPN meeting dates are rejected.",
+  "Official F1 timetable must be refreshed as each new Grand Prix approaches.",
+  "Single-source ESPN fixture times are provisional, not independently confirmed.",
   "TV guide supplement is manually curated for 13–15 November only.",
   "Coverage percentage cannot be calculated without independent expected-event inventory."]}
  out=ROOT/"data";out.mkdir(exist_ok=True)
