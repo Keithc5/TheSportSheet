@@ -37,7 +37,7 @@ def weekend():
 def collection_days():
  today = dt.datetime.now(TZ).date()
  next_monday = today + dt.timedelta(days=7-today.weekday())
- return sorted(set(weekend() + [next_monday + dt.timedelta(days=i) for i in range(7)]))
+ return sorted(set([today-dt.timedelta(days=i) for i in range(7)] + weekend() + [next_monday + dt.timedelta(days=i) for i in range(7)]))
 
 def valid_start(value, day):
  """Require a timezone-aware, plausible kickoff/session time on the Irish display day."""
@@ -88,10 +88,21 @@ def fetch_one(item):
    teams=[t for t in teams if t]
    name=" vs ".join(teams[:2]) if len(teams)==2 else event.get("name") or event.get("shortName") or competition
    if not name: continue
+   state=(event.get("status") or {}).get("type") or {}
+   completed=state.get("completed") is True
+   scores=[]
+   if completed and len(competitors)==2:
+    for team in competitors[:2]:
+     value=team.get("score")
+     if isinstance(value,dict): value=value.get("displayValue") or value.get("value")
+     if value is None or str(value).strip()=="": scores=[];break
+     scores.append(str(value))
+   result_text=" – ".join(scores) if len(scores)==2 else None
    result.append({"id":f'{category}-{event["id"]}',"category":category,"sport":label,
     "competition":competition,"name":name,"start":start.isoformat(),"start_time":start.isoformat(),
     "start_source":url,"sources":[{"provider":"espn","url":url,"field":"start_time"}],
-    "verification":"single-source","detail":"","channel":""})
+    "verification":"single-source","detail":"","channel":"",
+    "completed":completed,"result":result_text})
   except (KeyError,TypeError,ValueError,AttributeError): continue
  return result,{"source":category,"date":str(day),"status":"ok","count":len(result),"url":url}
 
