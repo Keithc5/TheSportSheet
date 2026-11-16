@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T10:44:32.611952+00:00",
+  "updated": "2026-11-16T10:44:52.809211+00:00",
   "collection_dates": [
     "2026-11-20",
     "2026-11-21",
@@ -12,8 +12,9 @@
     "2026-11-28",
     "2026-11-29"
   ],
-  "total_events": 61,
+  "total_events": 67,
   "by_category": {
+    "racing-f1": 6,
     "soccer-eng.1": 20,
     "football-nfl": 22,
     "soccer-uefa.champions": 18,
@@ -863,11 +864,11 @@
   ],
   "successful_requests": 90,
   "failed_requests": 30,
-  "verified_start_times": 61,
+  "verified_start_times": 67,
   "coverage_only": 0,
   "cross_referenced": 0,
   "official_schedule_issues": [],
-  "f1_official_sessions": 0,
+  "f1_official_sessions": 6,
   "unverified_start_times": 61,
   "conflicts": [],
   "limitations": [
