@@ -34,9 +34,9 @@ def fetch(filename,title):
   if info["mime"]!="image/svg+xml":raise ValueError("Expected SVG")
   ET.fromstring(blob)
  elif filename.endswith(".png"):
-  if not blob.startswith(b"\\x89PNG\\r\\n\\x1a\\n"):raise ValueError("Expected PNG")
+  if not blob[:8]==bytes([137,80,78,71,13,10,26,10]):raise ValueError("Expected PNG")
  elif filename.endswith(".jpg"):
-  if not blob.startswith(b"\\xff\\xd8"):raise ValueError("Expected JPEG")
+  if not blob[:2]==bytes([255,216]):raise ValueError("Expected JPEG")
  (DEST/filename).write_bytes(blob)
  print("Saved",filename,len(blob),"bytes",url)
  return {"file":filename,"title":title,"source":url,"commons_page":"https://commons.wikimedia.org/wiki/File:"+urllib.parse.quote(title.replace(" ","_"))}
@@ -46,6 +46,6 @@ def main():
  for name,title in FILES.items():
   try:manifest.append(fetch(name,title))
   except Exception as e:failed.append({"file":name,"reason":str(e)});print("ERROR",name,str(e))
- (DEST/"official-sources.json").write_text(json.dumps({"assets":manifest,"failed":failed},indent=2)+"\\n")
+ (DEST/"official-sources.json").write_text(json.dumps({"assets":manifest,"failed":failed},indent=2)+"\n")
  if failed:raise SystemExit("Some official brand assets failed to download; successful files retained")
 if __name__=="__main__":main()
