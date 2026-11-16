@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-16T10:46:37.728892+00:00",
+  "updated": "2026-11-16T11:15:28.079792+00:00",
   "collection_dates": [
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12",
+    "2026-11-13",
+    "2026-11-14",
+    "2026-11-15",
+    "2026-11-16",
     "2026-11-20",
     "2026-11-21",
     "2026-11-22",
@@ -12,15 +19,72 @@
     "2026-11-28",
     "2026-11-29"
   ],
-  "total_events": 64,
+  "total_events": 156,
   "by_category": {
+    "golf-pga": 4,
+    "golf-euro": 5,
+    "golf-lpga": 4,
+    "soccer-nations": 44,
+    "snooker": 5,
+    "rugby": 6,
+    "soccer-wsl": 6,
+    "darts": 4,
+    "gaa": 3,
+    "football-nfl": 34,
     "racing-f1": 3,
     "soccer-eng.1": 20,
-    "football-nfl": 22,
-    "soccer-uefa.champions": 18,
-    "golf-euro": 1
+    "soccer-uefa.champions": 18
   },
   "source_requests": [
+    {
+      "source": "golf-pga",
+      "date": "2026-11-10",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20261110&limit=250"
+    },
+    {
+      "source": "golf-pga",
+      "date": "2026-11-11",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20261111&limit=250"
+    },
+    {
+      "source": "golf-pga",
+      "date": "2026-11-12",
+      "status": "ok",
+      "count": 1,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20261112&limit=250"
+    },
+    {
+      "source": "golf-pga",
+      "date": "2026-11-13",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20261113&limit=250"
+    },
+    {
+      "source": "golf-pga",
+      "date": "2026-11-14",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20261114&limit=250"
+    },
+    {
+      "source": "golf-pga",
+      "date": "2026-11-15",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20261115&limit=250"
+    },
+    {
+      "source": "golf-pga",
+      "date": "2026-11-16",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20261116&limit=250"
+    },
     {
       "source": "golf-pga",
       "date": "2026-11-20",
@@ -90,6 +154,55 @@
       "status": "ok",
       "count": 0,
       "url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20261129&limit=250"
+    },
+    {
+      "source": "golf-euro",
+      "date": "2026-11-10",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261110&limit=250"
+    },
+    {
+      "source": "golf-euro",
+      "date": "2026-11-11",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261111&limit=250"
+    },
+    {
+      "source": "golf-euro",
+      "date": "2026-11-12",
+      "status": "ok",
+      "count": 1,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261112&limit=250"
+    },
+    {
+      "source": "golf-euro",
+      "date": "2026-11-13",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261113&limit=250"
+    },
+    {
+      "source": "golf-euro",
+      "date": "2026-11-14",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261114&limit=250"
+    },
+    {
+      "source": "golf-euro",
+      "date": "2026-11-15",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261115&limit=250"
+    },
+    {
+      "source": "golf-euro",
+      "date": "2026-11-16",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261116&limit=250"
     },
     {
       "source": "golf-euro",
@@ -163,6 +276,55 @@
     },
     {
       "source": "golf-lpga",
+      "date": "2026-11-10",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261110&limit=250"
+    },
+    {
+      "source": "golf-lpga",
+      "date": "2026-11-11",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261111&limit=250"
+    },
+    {
+      "source": "golf-lpga",
+      "date": "2026-11-12",
+      "status": "ok",
+      "count": 1,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261112&limit=250"
+    },
+    {
+      "source": "golf-lpga",
+      "date": "2026-11-13",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261113&limit=250"
+    },
+    {
+      "source": "golf-lpga",
+      "date": "2026-11-14",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261114&limit=250"
+    },
+    {
+      "source": "golf-lpga",
+      "date": "2026-11-15",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261115&limit=250"
+    },
+    {
+      "source": "golf-lpga",
+      "date": "2026-11-16",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261116&limit=250"
+    },
+    {
+      "source": "golf-lpga",
       "date": "2026-11-20",
       "status": "ok",
       "count": 0,
@@ -230,6 +392,55 @@
       "status": "ok",
       "count": 0,
       "url": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261129&limit=250"
+    },
+    {
+      "source": "soccer-eng.1",
+      "date": "2026-11-10",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261110&limit=250"
+    },
+    {
+      "source": "soccer-eng.1",
+      "date": "2026-11-11",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261111&limit=250"
+    },
+    {
+      "source": "soccer-eng.1",
+      "date": "2026-11-12",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261112&limit=250"
+    },
+    {
+      "source": "soccer-eng.1",
+      "date": "2026-11-13",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261113&limit=250"
+    },
+    {
+      "source": "soccer-eng.1",
+      "date": "2026-11-14",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261114&limit=250"
+    },
+    {
+      "source": "soccer-eng.1",
+      "date": "2026-11-15",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261115&limit=250"
+    },
+    {
+      "source": "soccer-eng.1",
+      "date": "2026-11-16",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261116&limit=250"
     },
     {
       "source": "soccer-eng.1",
@@ -303,6 +514,55 @@
     },
     {
       "source": "soccer-uefa.champions",
+      "date": "2026-11-10",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261110&limit=250"
+    },
+    {
+      "source": "soccer-uefa.champions",
+      "date": "2026-11-11",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261111&limit=250"
+    },
+    {
+      "source": "soccer-uefa.champions",
+      "date": "2026-11-12",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261112&limit=250"
+    },
+    {
+      "source": "soccer-uefa.champions",
+      "date": "2026-11-13",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261113&limit=250"
+    },
+    {
+      "source": "soccer-uefa.champions",
+      "date": "2026-11-14",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261114&limit=250"
+    },
+    {
+      "source": "soccer-uefa.champions",
+      "date": "2026-11-15",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261115&limit=250"
+    },
+    {
+      "source": "soccer-uefa.champions",
+      "date": "2026-11-16",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261116&limit=250"
+    },
+    {
+      "source": "soccer-uefa.champions",
       "date": "2026-11-20",
       "status": "ok",
       "count": 0,
@@ -370,6 +630,55 @@
       "status": "ok",
       "count": 0,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261129&limit=250"
+    },
+    {
+      "source": "soccer-fifa.world",
+      "date": "2026-11-10",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20261110&limit=250"
+    },
+    {
+      "source": "soccer-fifa.world",
+      "date": "2026-11-11",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20261111&limit=250"
+    },
+    {
+      "source": "soccer-fifa.world",
+      "date": "2026-11-12",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20261112&limit=250"
+    },
+    {
+      "source": "soccer-fifa.world",
+      "date": "2026-11-13",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20261113&limit=250"
+    },
+    {
+      "source": "soccer-fifa.world",
+      "date": "2026-11-14",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20261114&limit=250"
+    },
+    {
+      "source": "soccer-fifa.world",
+      "date": "2026-11-15",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20261115&limit=250"
+    },
+    {
+      "source": "soccer-fifa.world",
+      "date": "2026-11-16",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20261116&limit=250"
     },
     {
       "source": "soccer-fifa.world",
@@ -443,6 +752,55 @@
     },
     {
       "source": "soccer-nations",
+      "date": "2026-11-10",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261110&limit=250"
+    },
+    {
+      "source": "soccer-nations",
+      "date": "2026-11-11",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261111&limit=250"
+    },
+    {
+      "source": "soccer-nations",
+      "date": "2026-11-12",
+      "status": "ok",
+      "count": 8,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250"
+    },
+    {
+      "source": "soccer-nations",
+      "date": "2026-11-13",
+      "status": "ok",
+      "count": 10,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113&limit=250"
+    },
+    {
+      "source": "soccer-nations",
+      "date": "2026-11-14",
+      "status": "ok",
+      "count": 8,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114&limit=250"
+    },
+    {
+      "source": "soccer-nations",
+      "date": "2026-11-15",
+      "status": "ok",
+      "count": 8,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115&limit=250"
+    },
+    {
+      "source": "soccer-nations",
+      "date": "2026-11-16",
+      "status": "ok",
+      "count": 10,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250"
+    },
+    {
+      "source": "soccer-nations",
       "date": "2026-11-20",
       "status": "ok",
       "count": 0,
@@ -510,6 +868,55 @@
       "status": "ok",
       "count": 0,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261129&limit=250"
+    },
+    {
+      "source": "football-nfl",
+      "date": "2026-11-10",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261110&limit=250"
+    },
+    {
+      "source": "football-nfl",
+      "date": "2026-11-11",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261111&limit=250"
+    },
+    {
+      "source": "football-nfl",
+      "date": "2026-11-12",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261112&limit=250"
+    },
+    {
+      "source": "football-nfl",
+      "date": "2026-11-13",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261113&limit=250"
+    },
+    {
+      "source": "football-nfl",
+      "date": "2026-11-14",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261114&limit=250"
+    },
+    {
+      "source": "football-nfl",
+      "date": "2026-11-15",
+      "status": "ok",
+      "count": 11,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=250"
+    },
+    {
+      "source": "football-nfl",
+      "date": "2026-11-16",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261116&limit=250"
     },
     {
       "source": "football-nfl",
@@ -583,6 +990,55 @@
     },
     {
       "source": "rugby",
+      "date": "2026-11-10",
+      "status": "error",
+      "message": "HTTP Error 400: Bad Request",
+      "count": 0
+    },
+    {
+      "source": "rugby",
+      "date": "2026-11-11",
+      "status": "error",
+      "message": "HTTP Error 400: Bad Request",
+      "count": 0
+    },
+    {
+      "source": "rugby",
+      "date": "2026-11-12",
+      "status": "error",
+      "message": "HTTP Error 400: Bad Request",
+      "count": 0
+    },
+    {
+      "source": "rugby",
+      "date": "2026-11-13",
+      "status": "error",
+      "message": "HTTP Error 400: Bad Request",
+      "count": 0
+    },
+    {
+      "source": "rugby",
+      "date": "2026-11-14",
+      "status": "error",
+      "message": "HTTP Error 400: Bad Request",
+      "count": 0
+    },
+    {
+      "source": "rugby",
+      "date": "2026-11-15",
+      "status": "error",
+      "message": "HTTP Error 400: Bad Request",
+      "count": 0
+    },
+    {
+      "source": "rugby",
+      "date": "2026-11-16",
+      "status": "error",
+      "message": "HTTP Error 400: Bad Request",
+      "count": 0
+    },
+    {
+      "source": "rugby",
       "date": "2026-11-20",
       "status": "error",
       "message": "HTTP Error 400: Bad Request",
@@ -653,6 +1109,55 @@
     },
     {
       "source": "rugby-urc",
+      "date": "2026-11-10",
+      "status": "error",
+      "message": "HTTP Error 400: Bad Request",
+      "count": 0
+    },
+    {
+      "source": "rugby-urc",
+      "date": "2026-11-11",
+      "status": "error",
+      "message": "HTTP Error 400: Bad Request",
+      "count": 0
+    },
+    {
+      "source": "rugby-urc",
+      "date": "2026-11-12",
+      "status": "error",
+      "message": "HTTP Error 400: Bad Request",
+      "count": 0
+    },
+    {
+      "source": "rugby-urc",
+      "date": "2026-11-13",
+      "status": "error",
+      "message": "HTTP Error 400: Bad Request",
+      "count": 0
+    },
+    {
+      "source": "rugby-urc",
+      "date": "2026-11-14",
+      "status": "error",
+      "message": "HTTP Error 400: Bad Request",
+      "count": 0
+    },
+    {
+      "source": "rugby-urc",
+      "date": "2026-11-15",
+      "status": "error",
+      "message": "HTTP Error 400: Bad Request",
+      "count": 0
+    },
+    {
+      "source": "rugby-urc",
+      "date": "2026-11-16",
+      "status": "error",
+      "message": "HTTP Error 400: Bad Request",
+      "count": 0
+    },
+    {
+      "source": "rugby-urc",
       "date": "2026-11-20",
       "status": "error",
       "message": "HTTP Error 400: Bad Request",
@@ -723,6 +1228,55 @@
     },
     {
       "source": "rugby-autumn",
+      "date": "2026-11-10",
+      "status": "error",
+      "message": "HTTP Error 400: Bad Request",
+      "count": 0
+    },
+    {
+      "source": "rugby-autumn",
+      "date": "2026-11-11",
+      "status": "error",
+      "message": "HTTP Error 400: Bad Request",
+      "count": 0
+    },
+    {
+      "source": "rugby-autumn",
+      "date": "2026-11-12",
+      "status": "error",
+      "message": "HTTP Error 400: Bad Request",
+      "count": 0
+    },
+    {
+      "source": "rugby-autumn",
+      "date": "2026-11-13",
+      "status": "error",
+      "message": "HTTP Error 400: Bad Request",
+      "count": 0
+    },
+    {
+      "source": "rugby-autumn",
+      "date": "2026-11-14",
+      "status": "error",
+      "message": "HTTP Error 400: Bad Request",
+      "count": 0
+    },
+    {
+      "source": "rugby-autumn",
+      "date": "2026-11-15",
+      "status": "error",
+      "message": "HTTP Error 400: Bad Request",
+      "count": 0
+    },
+    {
+      "source": "rugby-autumn",
+      "date": "2026-11-16",
+      "status": "error",
+      "message": "HTTP Error 400: Bad Request",
+      "count": 0
+    },
+    {
+      "source": "rugby-autumn",
       "date": "2026-11-20",
       "status": "error",
       "message": "HTTP Error 400: Bad Request",
@@ -790,6 +1344,55 @@
       "status": "error",
       "message": "HTTP Error 400: Bad Request",
       "count": 0
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-11-10",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261110&limit=250"
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-11-11",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261111&limit=250"
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-11-12",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261112&limit=250"
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-11-13",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261113&limit=250"
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-11-14",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261114&limit=250"
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-11-15",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261115&limit=250"
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-11-16",
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261116&limit=250"
     },
     {
       "source": "racing-f1",
@@ -862,14 +1465,14 @@
       "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261129&limit=250"
     }
   ],
-  "successful_requests": 90,
-  "failed_requests": 30,
-  "verified_start_times": 64,
-  "coverage_only": 0,
-  "cross_referenced": 0,
+  "successful_requests": 153,
+  "failed_requests": 51,
+  "verified_start_times": 125,
+  "coverage_only": 31,
+  "cross_referenced": 3,
   "official_schedule_issues": [],
   "f1_official_sessions": 3,
-  "unverified_start_times": 61,
+  "unverified_start_times": 119,
   "conflicts": [],
   "limitations": [
     "Empty API results do not prove no events are scheduled.",

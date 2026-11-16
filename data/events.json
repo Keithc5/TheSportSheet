@@ -1,6 +1,2100 @@
 {
-  "updated": "2026-11-16T10:46:37.728892+00:00",
+  "updated": "2026-11-16T11:15:28.079792+00:00",
   "events": [
+    {
+      "id": "golf-pga-401850980",
+      "category": "golf-pga",
+      "sport": "Golf",
+      "competition": "PGA Tour",
+      "name": "Austin Championship pres. by Compliance Solutions",
+      "start": "2026-11-12T05:00:00+00:00",
+      "start_time": "2026-11-12T05:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20261112&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20261112&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "golf-euro-401822709",
+      "category": "golf-euro",
+      "sport": "Golf",
+      "competition": "DP World Tour",
+      "name": "DP World Tour Championship",
+      "start": "2026-11-12T05:00:00+00:00",
+      "start_time": "2026-11-12T05:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261112&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261112&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": null
+    },
+    {
+      "id": "golf-lpga-401835176",
+      "category": "golf-lpga",
+      "sport": "Golf",
+      "competition": "LPGA",
+      "name": "The ANNIKA driven by Gainbridge at Pelican",
+      "start": "2026-11-12T05:00:00+00:00",
+      "start_time": "2026-11-12T05:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261112&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261112&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": null
+    },
+    {
+      "id": "soccer-nations-401861146",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Armenia vs Cyprus",
+      "start": "2026-11-12T17:00:00+00:00",
+      "start_time": "2026-11-12T17:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "1 \u2013 1"
+    },
+    {
+      "id": "soccer-nations-401861145",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "T\u00fcrkiye vs Belgium",
+      "start": "2026-11-12T17:00:00+00:00",
+      "start_time": "2026-11-12T17:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "1 \u2013 2"
+    },
+    {
+      "id": "soccer-nations-401861147",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Albania vs Finland",
+      "start": "2026-11-12T19:45:00+00:00",
+      "start_time": "2026-11-12T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "2 \u2013 0"
+    },
+    {
+      "id": "soccer-nations-401861148",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Czechia vs Spain",
+      "start": "2026-11-12T19:45:00+00:00",
+      "start_time": "2026-11-12T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "0 \u2013 2"
+    },
+    {
+      "id": "soccer-nations-401861150",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "England vs Croatia",
+      "start": "2026-11-12T19:45:00+00:00",
+      "start_time": "2026-11-12T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "2 \u2013 1"
+    },
+    {
+      "id": "soccer-nations-401861151",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Italy vs France",
+      "start": "2026-11-12T19:45:00+00:00",
+      "start_time": "2026-11-12T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "3 \u2013 1"
+    },
+    {
+      "id": "soccer-nations-401861152",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Montenegro vs Latvia",
+      "start": "2026-11-12T19:45:00+00:00",
+      "start_time": "2026-11-12T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "2 \u2013 1"
+    },
+    {
+      "id": "soccer-nations-401861149",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "San Marino vs Belarus",
+      "start": "2026-11-12T19:45:00+00:00",
+      "start_time": "2026-11-12T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "0 \u2013 2"
+    },
+    {
+      "id": "tv-202611-0",
+      "start": "2026-11-13T07:00:00+00:00",
+      "category": "golf-euro",
+      "sport": "Golf",
+      "competition": "DP World Tour",
+      "name": "DP World Tour Championship",
+      "channel": "Sky Sports Main Event",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-13T07:00:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "tv-202611-1",
+      "start": "2026-11-13T14:30:00+00:00",
+      "category": "golf-pga",
+      "sport": "Golf",
+      "competition": "PGA Tour",
+      "name": "Austin Championship",
+      "channel": "Sky Sports Main Event",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-13T14:30:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "tv-202611-2",
+      "start": "2026-11-13T16:00:00+00:00",
+      "category": "golf-lpga",
+      "sport": "Golf",
+      "competition": "LPGA",
+      "name": "The Annika",
+      "channel": "Sky Sports Main Event",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-13T16:00:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "soccer-nations-401861162",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Moldova vs Kazakhstan",
+      "start": "2026-11-13T17:00:00+00:00",
+      "start_time": "2026-11-13T17:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "2 \u2013 1"
+    },
+    {
+      "id": "tv-202611-3",
+      "start": "2026-11-13T19:00:00+00:00",
+      "category": "snooker",
+      "sport": "Snooker",
+      "competition": "Champion of Champions",
+      "name": "Champion of Champions",
+      "channel": "ITV4",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-13T19:00:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "soccer-nations-401861155",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Andorra vs Gibraltar",
+      "start": "2026-11-13T19:45:00+00:00",
+      "start_time": "2026-11-13T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "2 \u2013 0"
+    },
+    {
+      "id": "soccer-nations-401861157",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Bulgaria vs Iceland",
+      "start": "2026-11-13T19:45:00+00:00",
+      "start_time": "2026-11-13T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "0 \u2013 5"
+    },
+    {
+      "id": "soccer-nations-401861153",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Liechtenstein vs Azerbaijan",
+      "start": "2026-11-13T19:45:00+00:00",
+      "start_time": "2026-11-13T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "0 \u2013 1"
+    },
+    {
+      "id": "soccer-nations-401861154",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Luxembourg vs Estonia",
+      "start": "2026-11-13T19:45:00+00:00",
+      "start_time": "2026-11-13T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "0 \u2013 1"
+    },
+    {
+      "id": "soccer-nations-401861159",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Netherlands vs Greece",
+      "start": "2026-11-13T19:45:00+00:00",
+      "start_time": "2026-11-13T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "7 \u2013 0"
+    },
+    {
+      "id": "soccer-nations-401861161",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Scotland vs North Macedonia",
+      "start": "2026-11-13T19:45:00+00:00",
+      "start_time": "2026-11-13T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "2 \u2013 1"
+    },
+    {
+      "id": "soccer-nations-401861158",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Serbia vs Germany",
+      "start": "2026-11-13T19:45:00+00:00",
+      "start_time": "2026-11-13T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "1 \u2013 3"
+    },
+    {
+      "id": "soccer-nations-401861160",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Slovakia vs Faroe Islands",
+      "start": "2026-11-13T19:45:00+00:00",
+      "start_time": "2026-11-13T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "2 \u2013 2"
+    },
+    {
+      "id": "soccer-nations-401861156",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Slovenia vs Switzerland",
+      "start": "2026-11-13T19:45:00+00:00",
+      "start_time": "2026-11-13T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "0 \u2013 0"
+    },
+    {
+      "id": "tv-202611-4",
+      "start": "2026-11-13T20:10:00+00:00",
+      "category": "rugby",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "name": "France vs South Africa",
+      "channel": "Virgin Media One / ITV1",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-13T20:10:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "tv-202611-5",
+      "start": "2026-11-14T07:00:00+00:00",
+      "category": "golf-euro",
+      "sport": "Golf",
+      "competition": "DP World Tour",
+      "name": "DP World Tour Championship",
+      "channel": "Sky Sports Main Event",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-14T07:00:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "tv-202611-6",
+      "start": "2026-11-14T11:40:00+00:00",
+      "category": "rugby",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "name": "Italy vs Argentina",
+      "channel": "Virgin Media One / ITV1",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-14T11:40:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "tv-202611-7",
+      "start": "2026-11-14T12:45:00+00:00",
+      "category": "soccer-wsl",
+      "sport": "Football",
+      "competition": "Women's Super League",
+      "name": "Manchester United vs Crystal Palace",
+      "channel": "Sky Sports Premier League",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-14T12:45:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "tv-202611-8",
+      "start": "2026-11-14T13:00:00+00:00",
+      "category": "darts",
+      "sport": "Darts",
+      "competition": "Grand Slam of Darts",
+      "name": "Afternoon session",
+      "channel": "Sky Sports Main Event",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-14T13:00:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "tv-202611-9",
+      "start": "2026-11-14T13:00:00+00:00",
+      "category": "snooker",
+      "sport": "Snooker",
+      "competition": "Champion of Champions",
+      "name": "Afternoon session",
+      "channel": "ITVX",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-14T13:00:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "tv-202611-10",
+      "start": "2026-11-14T13:30:00+00:00",
+      "category": "soccer-wsl",
+      "sport": "Football",
+      "competition": "Women's Super League",
+      "name": "Chelsea vs Manchester City",
+      "channel": "BBC One",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-14T13:30:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "soccer-nations-401861163",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Kosovo vs Israel",
+      "start": "2026-11-14T14:00:00+00:00",
+      "start_time": "2026-11-14T14:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "0 \u2013 0"
+    },
+    {
+      "id": "tv-202611-11",
+      "start": "2026-11-14T14:10:00+00:00",
+      "category": "rugby",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "name": "Wales vs New Zealand",
+      "channel": "Virgin Media One / ITV1",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-14T14:10:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "tv-202611-12",
+      "start": "2026-11-14T15:00:00+00:00",
+      "category": "soccer-wsl",
+      "sport": "Football",
+      "competition": "Women's Super League",
+      "name": "Tottenham vs Everton",
+      "channel": "Sky Sports Premier League",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-14T15:00:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "tv-202611-13",
+      "start": "2026-11-14T16:40:00+00:00",
+      "category": "rugby",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "name": "England vs Japan",
+      "channel": "Virgin Media One / ITV1",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-14T16:40:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "tv-202611-14",
+      "start": "2026-11-14T16:45:00+00:00",
+      "category": "gaa",
+      "sport": "GAA",
+      "competition": "Leinster Club SFC",
+      "name": "Cuala vs Sarsfields",
+      "channel": "RT\u00c92",
+      "detail": "Official throw-in \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_time": "2026-11-14T16:45:00+00:00",
+      "start_source": "https://stcomgalls.gaa.ie/fixtures-results/team/sarsfields/44968aec-e94f-667e-4095-002d140b1920/",
+      "coverage_time": "2026-11-14T16:30:00+00:00",
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "verification": "cross-referenced",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        },
+        {
+          "provider": "official-or-broadcaster",
+          "url": "https://stcomgalls.gaa.ie/fixtures-results/team/sarsfields/44968aec-e94f-667e-4095-002d140b1920/",
+          "field": "start_time"
+        }
+      ]
+    },
+    {
+      "id": "soccer-nations-401861164",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Georgia vs Hungary",
+      "start": "2026-11-14T17:00:00+00:00",
+      "start_time": "2026-11-14T17:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "0 \u2013 2"
+    },
+    {
+      "id": "soccer-nations-401861165",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Norway vs Wales",
+      "start": "2026-11-14T17:00:00+00:00",
+      "start_time": "2026-11-14T17:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114&limit=250",
+          "field": "start_time"
+        },
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "Virgin Media Two / BBC Two",
+      "completed": true,
+      "result": "3 \u2013 1",
+      "coverage_time": "2026-11-14T17:00:00+00:00",
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/"
+    },
+    {
+      "id": "tv-202611-16",
+      "start": "2026-11-14T17:15:00+00:00",
+      "category": "soccer-wsl",
+      "sport": "Football",
+      "competition": "Women's Super League",
+      "name": "Brighton vs Liverpool",
+      "channel": "Sky Sports Premier League",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-14T17:15:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "tv-202611-17",
+      "start": "2026-11-14T19:00:00+00:00",
+      "category": "darts",
+      "sport": "Darts",
+      "competition": "Grand Slam of Darts",
+      "name": "Evening session",
+      "channel": "Sky Sports Main Event",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-14T19:00:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "tv-202611-18",
+      "start": "2026-11-14T19:00:00+00:00",
+      "category": "golf-pga",
+      "sport": "Golf",
+      "competition": "PGA Tour",
+      "name": "Austin Championship",
+      "channel": "Sky Sports Golf",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-14T19:00:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "tv-202611-19",
+      "start": "2026-11-14T19:00:00+00:00",
+      "category": "golf-lpga",
+      "sport": "Golf",
+      "competition": "LPGA",
+      "name": "The Annika",
+      "channel": "Sky Sports Mix",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-14T19:00:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "tv-202611-20",
+      "start": "2026-11-14T19:00:00+00:00",
+      "category": "snooker",
+      "sport": "Snooker",
+      "competition": "Champion of Champions",
+      "name": "Evening session",
+      "channel": "ITV4",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-14T19:00:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "soccer-nations-401861170",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Austria vs Republic of Ireland",
+      "start": "2026-11-14T19:45:00+00:00",
+      "start_time": "2026-11-14T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114&limit=250",
+          "field": "start_time"
+        },
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "RT\u00c92",
+      "completed": true,
+      "result": "1 \u2013 0",
+      "coverage_time": "2026-11-14T19:45:00+00:00",
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/"
+    },
+    {
+      "id": "soccer-nations-401861169",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Northern Ireland vs Ukraine",
+      "start": "2026-11-14T19:45:00+00:00",
+      "start_time": "2026-11-14T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "1 \u2013 0"
+    },
+    {
+      "id": "soccer-nations-401861167",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Portugal vs Denmark",
+      "start": "2026-11-14T19:45:00+00:00",
+      "start_time": "2026-11-14T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "1 \u2013 4"
+    },
+    {
+      "id": "soccer-nations-401861168",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Romania vs Poland",
+      "start": "2026-11-14T19:45:00+00:00",
+      "start_time": "2026-11-14T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "2 \u2013 1"
+    },
+    {
+      "id": "soccer-nations-401861166",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Sweden vs Bosnia-Herzegovina",
+      "start": "2026-11-14T19:45:00+00:00",
+      "start_time": "2026-11-14T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "3 \u2013 2"
+    },
+    {
+      "id": "tv-202611-22",
+      "start": "2026-11-14T20:10:00+00:00",
+      "category": "rugby",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "name": "Ireland vs Fiji",
+      "channel": "Virgin Media One / ITV1",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-14T20:10:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "tv-202611-23",
+      "start": "2026-11-15T06:30:00+00:00",
+      "category": "golf-euro",
+      "sport": "Golf",
+      "competition": "DP World Tour",
+      "name": "DP World Tour Championship",
+      "channel": "Sky Sports Main Event",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-15T06:30:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "tv-202611-24",
+      "start": "2026-11-15T13:00:00+00:00",
+      "category": "darts",
+      "sport": "Darts",
+      "competition": "Grand Slam of Darts",
+      "name": "Afternoon session",
+      "channel": "Sky Sports Main Event",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-15T13:00:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "tv-202611-25",
+      "start": "2026-11-15T13:00:00+00:00",
+      "category": "snooker",
+      "sport": "Snooker",
+      "competition": "Champion of Champions",
+      "name": "Afternoon session",
+      "channel": "ITV4",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-15T13:00:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "tv-202611-26",
+      "start": "2026-11-15T13:15:00+00:00",
+      "category": "gaa",
+      "sport": "GAA",
+      "competition": "Munster Club SHC",
+      "name": "Inagh-Kilnamona vs Thurles Sarsfields",
+      "channel": "TG4",
+      "detail": "Official throw-in \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_time": "2026-11-15T13:15:00+00:00",
+      "start_source": "https://munster.gaa.ie/event/2026-aib-munster-club-senior-hurling-championship-semi-final-tipperary-representatives-v-clare-representatives/",
+      "coverage_time": null,
+      "coverage_source": null,
+      "verification": "cross-referenced",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        },
+        {
+          "provider": "official-or-broadcaster",
+          "url": "https://munster.gaa.ie/event/2026-aib-munster-club-senior-hurling-championship-semi-final-tipperary-representatives-v-clare-representatives/",
+          "field": "start_time"
+        }
+      ]
+    },
+    {
+      "id": "soccer-nations-401861172",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Cyprus vs Montenegro",
+      "start": "2026-11-15T14:00:00+00:00",
+      "start_time": "2026-11-15T14:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "1 \u2013 4"
+    },
+    {
+      "id": "soccer-nations-401861171",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Latvia vs Armenia",
+      "start": "2026-11-15T14:00:00+00:00",
+      "start_time": "2026-11-15T14:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "0 \u2013 0"
+    },
+    {
+      "id": "tv-202611-27",
+      "start": "2026-11-15T14:00:00+00:00",
+      "category": "soccer-wsl",
+      "sport": "Football",
+      "competition": "Women's Super League",
+      "name": "Aston Villa vs Birmingham City",
+      "channel": "Sky Sports Premier League",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-15T14:00:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "football-nfl-401873053",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Detroit Lions vs New England Patriots",
+      "start": "2026-11-15T14:30:00+00:00",
+      "start_time": "2026-11-15T14:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "35 \u2013 10"
+    },
+    {
+      "id": "tv-202611-28",
+      "start": "2026-11-15T14:30:00+00:00",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "New England Patriots vs Detroit Lions",
+      "channel": "Sky Sports NFL",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-15T14:30:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "tv-202611-29",
+      "start": "2026-11-15T15:10:00+00:00",
+      "category": "rugby",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "name": "Scotland vs Australia",
+      "channel": "Virgin Media One / ITV1",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-15T15:10:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "tv-202611-30",
+      "start": "2026-11-15T15:15:00+00:00",
+      "category": "gaa",
+      "sport": "GAA",
+      "competition": "Connacht Club SFC",
+      "name": "Salthill-Knocknacarra vs St Brigid's",
+      "channel": "TG4",
+      "detail": "Official throw-in \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_time": "2026-11-15T15:15:00+00:00",
+      "start_source": "https://www.rte.ie/sport/football/2026/1111/1598835-club-gaa-weekend-all-you-need-to-know/",
+      "coverage_time": null,
+      "coverage_source": null,
+      "verification": "cross-referenced",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        },
+        {
+          "provider": "official-or-broadcaster",
+          "url": "https://www.rte.ie/sport/football/2026/1111/1598835-club-gaa-weekend-all-you-need-to-know/",
+          "field": "start_time"
+        }
+      ]
+    },
+    {
+      "id": "tv-202611-31",
+      "start": "2026-11-15T16:30:00+00:00",
+      "category": "soccer-wsl",
+      "sport": "Football",
+      "competition": "Women's Super League",
+      "name": "Arsenal vs London City Lionesses",
+      "channel": "Sky Sports Main Event",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-15T16:30:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "soccer-nations-401861173",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Belarus vs Albania",
+      "start": "2026-11-15T17:00:00+00:00",
+      "start_time": "2026-11-15T17:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "0 \u2013 2"
+    },
+    {
+      "id": "soccer-nations-401861174",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Finland vs San Marino",
+      "start": "2026-11-15T17:00:00+00:00",
+      "start_time": "2026-11-15T17:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "7 \u2013 2"
+    },
+    {
+      "id": "football-nfl-401873058",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Atlanta Falcons vs Kansas City Chiefs",
+      "start": "2026-11-15T18:00:00+00:00",
+      "start_time": "2026-11-15T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "13 \u2013 35"
+    },
+    {
+      "id": "football-nfl-401873056",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Cleveland Browns vs Houston Texans",
+      "start": "2026-11-15T18:00:00+00:00",
+      "start_time": "2026-11-15T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "27 \u2013 24"
+    },
+    {
+      "id": "football-nfl-401873060",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Green Bay Packers vs Minnesota Vikings",
+      "start": "2026-11-15T18:00:00+00:00",
+      "start_time": "2026-11-15T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "10 \u2013 30"
+    },
+    {
+      "id": "football-nfl-401873057",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Tennessee Titans vs Jacksonville Jaguars",
+      "start": "2026-11-15T18:00:00+00:00",
+      "start_time": "2026-11-15T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "23 \u2013 40"
+    },
+    {
+      "id": "football-nfl-401873059",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Indianapolis Colts vs Miami Dolphins",
+      "start": "2026-11-15T18:00:00+00:00",
+      "start_time": "2026-11-15T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "24 \u2013 22"
+    },
+    {
+      "id": "football-nfl-401873055",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "New Orleans Saints vs Carolina Panthers",
+      "start": "2026-11-15T18:00:00+00:00",
+      "start_time": "2026-11-15T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "17 \u2013 20"
+    },
+    {
+      "id": "football-nfl-401873054",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "New York Jets vs Buffalo Bills",
+      "start": "2026-11-15T18:00:00+00:00",
+      "start_time": "2026-11-15T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "12 \u2013 31"
+    },
+    {
+      "id": "tv-202611-32",
+      "start": "2026-11-15T19:00:00+00:00",
+      "category": "golf-pga",
+      "sport": "Golf",
+      "competition": "PGA Tour",
+      "name": "Austin Championship",
+      "channel": "Sky Sports Golf",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-15T19:00:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "tv-202611-33",
+      "start": "2026-11-15T19:00:00+00:00",
+      "category": "golf-lpga",
+      "sport": "Golf",
+      "competition": "LPGA",
+      "name": "The Annika",
+      "channel": "Sky Sports+",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-15T19:00:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "tv-202611-34",
+      "start": "2026-11-15T19:00:00+00:00",
+      "category": "snooker",
+      "sport": "Snooker",
+      "competition": "Champion of Champions",
+      "name": "Evening session",
+      "channel": "ITV4",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-15T19:00:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "tv-202611-35",
+      "start": "2026-11-15T19:30:00+00:00",
+      "category": "darts",
+      "sport": "Darts",
+      "competition": "Grand Slam of Darts",
+      "name": "Evening session",
+      "channel": "Sky Sports Main Event",
+      "detail": "TV coverage start \u00b7 Ireland",
+      "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "coverage_time": "2026-11-15T19:30:00+00:00",
+      "start_time": null,
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+      "start_source": null,
+      "verification": "coverage-only",
+      "sources": [
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ]
+    },
+    {
+      "id": "soccer-nations-401861176",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Belgium vs Italy",
+      "start": "2026-11-15T19:45:00+00:00",
+      "start_time": "2026-11-15T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "4 \u2013 1"
+    },
+    {
+      "id": "soccer-nations-401861178",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Croatia vs Czechia",
+      "start": "2026-11-15T19:45:00+00:00",
+      "start_time": "2026-11-15T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "2 \u2013 1"
+    },
+    {
+      "id": "soccer-nations-401861177",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "France vs T\u00fcrkiye",
+      "start": "2026-11-15T19:45:00+00:00",
+      "start_time": "2026-11-15T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "2 \u2013 1"
+    },
+    {
+      "id": "soccer-nations-401861175",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Spain vs England",
+      "start": "2026-11-15T19:45:00+00:00",
+      "start_time": "2026-11-15T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115&limit=250",
+          "field": "start_time"
+        },
+        {
+          "provider": "editorial-tv",
+          "url": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
+          "field": "coverage_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "Virgin Media Two / ITV1",
+      "completed": true,
+      "result": "2 \u2013 3",
+      "coverage_time": "2026-11-15T19:45:00+00:00",
+      "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/"
+    },
+    {
+      "id": "football-nfl-401873062",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Las Vegas Raiders vs Seattle Seahawks",
+      "start": "2026-11-15T21:05:00+00:00",
+      "start_time": "2026-11-15T21:05:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "13 \u2013 21"
+    },
+    {
+      "id": "football-nfl-401873061",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Arizona Cardinals vs Los Angeles Rams",
+      "start": "2026-11-15T21:05:00+00:00",
+      "start_time": "2026-11-15T21:05:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "6 \u2013 34"
+    },
+    {
+      "id": "football-nfl-401873063",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Dallas Cowboys vs San Francisco 49ers",
+      "start": "2026-11-15T21:25:00+00:00",
+      "start_time": "2026-11-15T21:25:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "40 \u2013 46"
+    },
+    {
+      "id": "soccer-nations-401861180",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Faroe Islands vs Moldova",
+      "start": "2026-11-16T15:00:00+00:00",
+      "start_time": "2026-11-16T15:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "soccer-nations-401861181",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Kazakhstan vs Slovakia",
+      "start": "2026-11-16T15:00:00+00:00",
+      "start_time": "2026-11-16T15:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "soccer-nations-401861183",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Estonia vs Bulgaria",
+      "start": "2026-11-16T17:00:00+00:00",
+      "start_time": "2026-11-16T17:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "soccer-nations-401861182",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Iceland vs Luxembourg",
+      "start": "2026-11-16T17:00:00+00:00",
+      "start_time": "2026-11-16T17:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "soccer-nations-401861184",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Lithuania vs Liechtenstein",
+      "start": "2026-11-16T17:00:00+00:00",
+      "start_time": "2026-11-16T17:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "soccer-nations-401861185",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Germany vs Netherlands",
+      "start": "2026-11-16T19:45:00+00:00",
+      "start_time": "2026-11-16T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "soccer-nations-401861179",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Gibraltar vs Malta",
+      "start": "2026-11-16T19:45:00+00:00",
+      "start_time": "2026-11-16T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "soccer-nations-401861188",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Greece vs Serbia",
+      "start": "2026-11-16T19:45:00+00:00",
+      "start_time": "2026-11-16T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "soccer-nations-401861187",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "North Macedonia vs Slovenia",
+      "start": "2026-11-16T19:45:00+00:00",
+      "start_time": "2026-11-16T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "soccer-nations-401861186",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Switzerland vs Scotland",
+      "start": "2026-11-16T19:45:00+00:00",
+      "start_time": "2026-11-16T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
     {
       "id": "racing-f1-las-vegas-2026-qualifying",
       "category": "racing-f1",
@@ -40,7 +2134,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-eng.1-401879238",
@@ -60,7 +2156,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-eng.1-401878756",
@@ -80,7 +2178,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-eng.1-401879236",
@@ -100,7 +2200,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-eng.1-401879235",
@@ -120,7 +2222,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-eng.1-401878754",
@@ -140,7 +2244,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-eng.1-401879232",
@@ -160,7 +2266,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "racing-f1-las-vegas-2026-race",
@@ -201,7 +2309,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-eng.1-401878755",
@@ -221,7 +2331,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "football-nfl-401873070",
@@ -241,7 +2353,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "football-nfl-401873071",
@@ -261,7 +2375,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "football-nfl-401873073",
@@ -281,7 +2397,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "football-nfl-401873072",
@@ -301,7 +2419,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "football-nfl-401873067",
@@ -321,7 +2441,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "football-nfl-401873076",
@@ -341,7 +2463,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "football-nfl-401873068",
@@ -361,7 +2485,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "football-nfl-401873074",
@@ -381,7 +2507,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "football-nfl-401873075",
@@ -401,7 +2529,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "football-nfl-401873069",
@@ -421,7 +2551,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-eng.1-401879237",
@@ -441,7 +2573,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-uefa.champions-401915380",
@@ -461,7 +2595,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-uefa.champions-401915300",
@@ -481,7 +2617,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-uefa.champions-401915295",
@@ -501,7 +2639,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-uefa.champions-401915296",
@@ -521,7 +2661,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-uefa.champions-401915294",
@@ -541,7 +2683,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-uefa.champions-401915379",
@@ -561,7 +2705,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-uefa.champions-401915299",
@@ -581,7 +2727,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-uefa.champions-401915298",
@@ -601,7 +2749,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-uefa.champions-401915297",
@@ -621,7 +2771,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-uefa.champions-401915378",
@@ -641,7 +2793,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-uefa.champions-401915293",
@@ -661,7 +2815,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-uefa.champions-401915291",
@@ -681,7 +2837,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-uefa.champions-401915292",
@@ -701,7 +2859,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-uefa.champions-401915376",
@@ -721,7 +2881,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-uefa.champions-401915377",
@@ -741,7 +2903,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-uefa.champions-401915374",
@@ -761,7 +2925,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-uefa.champions-401915375",
@@ -781,7 +2947,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-uefa.champions-401915373",
@@ -801,7 +2969,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "golf-euro-401921631",
@@ -821,7 +2991,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "football-nfl-401873081",
@@ -841,7 +3013,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "football-nfl-401873080",
@@ -861,7 +3035,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-eng.1-401879225",
@@ -881,7 +3057,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "football-nfl-401873083",
@@ -901,7 +3079,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-eng.1-401879227",
@@ -921,7 +3101,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-eng.1-401879226",
@@ -941,7 +3123,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-eng.1-401878752",
@@ -961,7 +3145,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-eng.1-401879229",
@@ -981,7 +3167,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-eng.1-401879231",
@@ -1001,7 +3189,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-eng.1-401879230",
@@ -1021,7 +3211,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-eng.1-401879228",
@@ -1041,7 +3233,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "soccer-eng.1-401879224",
@@ -1061,7 +3255,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "racing-f1-qatar-2026-race",
@@ -1102,7 +3298,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "football-nfl-401873087",
@@ -1122,7 +3320,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "football-nfl-401873086",
@@ -1142,7 +3342,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "football-nfl-401873088",
@@ -1162,7 +3364,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "football-nfl-401873089",
@@ -1182,7 +3386,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "football-nfl-401873084",
@@ -1202,7 +3408,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "football-nfl-401873085",
@@ -1222,7 +3430,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "football-nfl-401873090",
@@ -1242,7 +3452,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "football-nfl-401873092",
@@ -1262,7 +3474,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "football-nfl-401873091",
@@ -1282,7 +3496,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": ""
+      "channel": "",
+      "completed": false,
+      "result": null
     }
   ]
 }
