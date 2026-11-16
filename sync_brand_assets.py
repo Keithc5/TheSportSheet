@@ -4,7 +4,9 @@ Run in GitHub Actions (network access); no invented or traced logos.
 """
 import json
 import pathlib
+import time
 import urllib.parse
+import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 
@@ -20,8 +22,13 @@ FILES={
  "racing-jockey-club.png":"The Jockey Club UK logo.png",
 }
 def request(url):
- req=urllib.request.Request(url,headers={"User-Agent":"TheSportSheet-asset-sync/1.0 (GitHub Pages sports listings; Wikimedia Commons attribution)"})
- with urllib.request.urlopen(req,timeout=25) as r:return r.read()
+ req=urllib.request.Request(url,headers={"User-Agent":"TheSportSheet/1.0 (sports fixture listing; contact via github.com/Keithc5/TheSportSheet)"})
+ for attempt in range(5):
+  try:
+   with urllib.request.urlopen(req,timeout=30) as r:return r.read()
+  except urllib.error.HTTPError as exc:
+   if exc.code not in (429,503) or attempt==4:raise
+   time.sleep(8*(attempt+1))
 def fetch(filename,title):
  params=urllib.parse.urlencode({"action":"query","format":"json","prop":"imageinfo","iiprop":"url|mime|size","titles":"File:"+title})
  data=json.loads(request("https://commons.wikimedia.org/w/api.php?"+params))
@@ -44,6 +51,11 @@ def main():
  DEST.mkdir(parents=True,exist_ok=True)
  manifest=[];failed=[]
  for name,title in FILES.items():
+  if (DEST/name).exists():
+   print("Already stored:",name)
+   manifest.append({"file":name,"title":title,"commons_page":"https://commons.wikimedia.org/wiki/File:"+urllib.parse.quote(title.replace(" ","_"))})
+   continue
+  time.sleep(2)
   try:manifest.append(fetch(name,title))
   except Exception as e:failed.append({"file":name,"reason":str(e)});print("ERROR",name,str(e))
  (DEST/"official-sources.json").write_text(json.dumps({"assets":manifest,"failed":failed},indent=2)+"\n")
