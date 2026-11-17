@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T14:22:57.987134+00:00",
+  "updated": "2026-11-17T23:51:31.092435+00:00",
   "events": [
     {
       "id": "golf-pga-401850980",
@@ -2114,8 +2114,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "2 \u2013 1"
     },
     {
       "id": "soccer-nations-401861194",
@@ -2136,8 +2136,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "2 \u2013 3"
     },
     {
       "id": "soccer-nations-401861191",
@@ -2158,8 +2158,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "1 \u2013 1"
     },
     {
       "id": "soccer-nations-401861193",
@@ -2180,8 +2180,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "1 \u2013 1"
     },
     {
       "id": "soccer-nations-401861195",
@@ -2202,8 +2202,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "1 \u2013 1"
     },
     {
       "id": "soccer-nations-401861192",
@@ -2224,8 +2224,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "3 \u2013 0"
     },
     {
       "id": "soccer-nations-401861190",
@@ -2246,8 +2246,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "1 \u2013 0"
     },
     {
       "id": "soccer-nations-401861189",
@@ -2268,8 +2268,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "2 \u2013 3"
     },
     {
       "id": "racing-f1-las-vegas-2026-qualifying",
@@ -3501,28 +3501,6 @@
       "result": null
     },
     {
-      "id": "football-nfl-401873086",
-      "category": "football-nfl",
-      "sport": "NFL",
-      "competition": "NFL",
-      "name": "Cleveland Browns vs Las Vegas Raiders",
-      "start": "2026-11-29T18:00:00+00:00",
-      "start_time": "2026-11-29T18:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261129&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261129&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
       "id": "football-nfl-401873088",
       "category": "football-nfl",
       "sport": "NFL",
@@ -3616,6 +3594,28 @@
       "sport": "NFL",
       "competition": "NFL",
       "name": "Jacksonville Jaguars vs Tennessee Titans",
+      "start": "2026-11-29T18:00:00+00:00",
+      "start_time": "2026-11-29T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261129&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261129&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "football-nfl-401873093",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Los Angeles Chargers vs New England Patriots",
       "start": "2026-11-29T21:05:00+00:00",
       "start_time": "2026-11-29T21:05:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261129&limit=250",
