@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T13:37:45.211365+00:00",
+  "updated": "2026-11-17T00:48:02.225119+00:00",
   "events": [
     {
       "id": "golf-pga-401850980",
@@ -20,7 +20,7 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
+      "completed": true,
       "result": null
     },
     {
@@ -1894,8 +1894,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "1 \u2013 0"
     },
     {
       "id": "soccer-nations-401861181",
@@ -1916,8 +1916,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "2 \u2013 2"
     },
     {
       "id": "soccer-nations-401861183",
@@ -1938,8 +1938,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "2 \u2013 1"
     },
     {
       "id": "soccer-nations-401861182",
@@ -1960,8 +1960,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "3 \u2013 0"
     },
     {
       "id": "soccer-nations-401861184",
@@ -1982,8 +1982,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "2 \u2013 1"
     },
     {
       "id": "soccer-nations-401861185",
@@ -2004,8 +2004,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "5 \u2013 0"
     },
     {
       "id": "soccer-nations-401861179",
@@ -2026,8 +2026,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "1 \u2013 1"
     },
     {
       "id": "soccer-nations-401861188",
@@ -2048,8 +2048,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "1 \u2013 0"
     },
     {
       "id": "soccer-nations-401861187",
@@ -2070,8 +2070,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "0 \u2013 3"
     },
     {
       "id": "soccer-nations-401861186",
@@ -2086,6 +2086,182 @@
         {
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "4 \u2013 0"
+    },
+    {
+      "id": "soccer-nations-401861196",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Bosnia-Herzegovina vs Romania",
+      "start": "2026-11-17T19:45:00+00:00",
+      "start_time": "2026-11-17T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "soccer-nations-401861194",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Denmark vs Norway",
+      "start": "2026-11-17T19:45:00+00:00",
+      "start_time": "2026-11-17T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "soccer-nations-401861191",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Hungary vs Northern Ireland",
+      "start": "2026-11-17T19:45:00+00:00",
+      "start_time": "2026-11-17T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "soccer-nations-401861193",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Israel vs Austria",
+      "start": "2026-11-17T19:45:00+00:00",
+      "start_time": "2026-11-17T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "soccer-nations-401861195",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Poland vs Sweden",
+      "start": "2026-11-17T19:45:00+00:00",
+      "start_time": "2026-11-17T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "soccer-nations-401861192",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Republic of Ireland vs Kosovo",
+      "start": "2026-11-17T19:45:00+00:00",
+      "start_time": "2026-11-17T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "soccer-nations-401861190",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Ukraine vs Georgia",
+      "start": "2026-11-17T19:45:00+00:00",
+      "start_time": "2026-11-17T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "soccer-nations-401861189",
+      "category": "soccer-nations",
+      "sport": "Football",
+      "competition": "UEFA Nations League",
+      "name": "Wales vs Portugal",
+      "start": "2026-11-17T19:45:00+00:00",
+      "start_time": "2026-11-17T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=250",
           "field": "start_time"
         }
       ],
