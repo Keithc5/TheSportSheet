@@ -1,248 +1,6 @@
 {
-  "updated": "2026-11-18T23:23:20.994152+00:00",
+  "updated": "2026-11-19T14:25:20.572402+00:00",
   "events": [
-    {
-      "id": "golf-pga-401850980",
-      "category": "golf-pga",
-      "sport": "Golf",
-      "competition": "PGA Tour",
-      "name": "Austin Championship pres. by Compliance Solutions",
-      "start": "2026-11-12T05:00:00+00:00",
-      "start_time": "2026-11-12T05:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20261112&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20261112&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": null
-    },
-    {
-      "id": "golf-euro-401822709",
-      "category": "golf-euro",
-      "sport": "Golf",
-      "competition": "DP World Tour",
-      "name": "DP World Tour Championship",
-      "start": "2026-11-12T05:00:00+00:00",
-      "start_time": "2026-11-12T05:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261112&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261112&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": null
-    },
-    {
-      "id": "golf-lpga-401835176",
-      "category": "golf-lpga",
-      "sport": "Golf",
-      "competition": "LPGA",
-      "name": "The ANNIKA driven by Gainbridge at Pelican",
-      "start": "2026-11-12T05:00:00+00:00",
-      "start_time": "2026-11-12T05:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261112&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261112&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": null
-    },
-    {
-      "id": "soccer-nations-401861146",
-      "category": "soccer-nations",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "name": "Armenia vs Cyprus",
-      "start": "2026-11-12T17:00:00+00:00",
-      "start_time": "2026-11-12T17:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "1 \u2013 1"
-    },
-    {
-      "id": "soccer-nations-401861145",
-      "category": "soccer-nations",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "name": "T\u00fcrkiye vs Belgium",
-      "start": "2026-11-12T17:00:00+00:00",
-      "start_time": "2026-11-12T17:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "1 \u2013 2"
-    },
-    {
-      "id": "soccer-nations-401861147",
-      "category": "soccer-nations",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "name": "Albania vs Finland",
-      "start": "2026-11-12T19:45:00+00:00",
-      "start_time": "2026-11-12T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "2 \u2013 0"
-    },
-    {
-      "id": "soccer-nations-401861148",
-      "category": "soccer-nations",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "name": "Czechia vs Spain",
-      "start": "2026-11-12T19:45:00+00:00",
-      "start_time": "2026-11-12T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "0 \u2013 2"
-    },
-    {
-      "id": "soccer-nations-401861150",
-      "category": "soccer-nations",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "name": "England vs Croatia",
-      "start": "2026-11-12T19:45:00+00:00",
-      "start_time": "2026-11-12T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "2 \u2013 1"
-    },
-    {
-      "id": "soccer-nations-401861151",
-      "category": "soccer-nations",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "name": "Italy vs France",
-      "start": "2026-11-12T19:45:00+00:00",
-      "start_time": "2026-11-12T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "3 \u2013 1"
-    },
-    {
-      "id": "soccer-nations-401861152",
-      "category": "soccer-nations",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "name": "Montenegro vs Latvia",
-      "start": "2026-11-12T19:45:00+00:00",
-      "start_time": "2026-11-12T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "2 \u2013 1"
-    },
-    {
-      "id": "soccer-nations-401861149",
-      "category": "soccer-nations",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "name": "San Marino vs Belarus",
-      "start": "2026-11-12T19:45:00+00:00",
-      "start_time": "2026-11-12T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "0 \u2013 2"
-    },
     {
       "id": "tv-202611-0",
       "start": "2026-11-13T07:00:00+00:00",
@@ -2270,6 +2028,50 @@
       "channel": "",
       "completed": true,
       "result": "2 \u2013 3"
+    },
+    {
+      "id": "golf-pga-401850981",
+      "category": "golf-pga",
+      "sport": "Golf",
+      "competition": "PGA Tour",
+      "name": "The RSM Classic",
+      "start": "2026-11-19T05:00:00+00:00",
+      "start_time": "2026-11-19T05:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20261119&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20261119&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "golf-lpga-401835177",
+      "category": "golf-lpga",
+      "sport": "Golf",
+      "competition": "LPGA",
+      "name": "CME Group Tour Championship",
+      "start": "2026-11-19T05:00:00+00:00",
+      "start_time": "2026-11-19T05:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261119&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261119&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
     },
     {
       "id": "racing-f1-las-vegas-2026-qualifying",
