@@ -1,7 +1,7 @@
 name: Refresh sports fixtures
 on:
   schedule:
-    - cron: '17 5,11,17,23 * * *'
+    - cron: '17 3,7,11,15,19,23 * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -10,6 +10,8 @@ on:
       - 'tests/**'
       - 'data/verified-tv-*.json'
       - 'data/official-f1-sessions.json'
+      - 'data/verified-fixtures.json'
+      - 'sources/sources.json'
       - '.github/workflows/update.yml'
 permissions:
   contents: write
@@ -29,6 +31,8 @@ jobs:
           python-version: '3.12'
       - name: Validate collector
         run: python -m unittest discover -s tests
+      - name: Check fixture coverage and TV source tests
+        run: python -m unittest discover -s tests -p 'test_*.py'
       - name: Retrieve and audit sports fixtures
         run: python fetch.py
       - name: Publish fixture and source-health reports
