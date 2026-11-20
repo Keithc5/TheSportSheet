@@ -26,6 +26,19 @@ LEAGUES = {
  "rugby": ("rugby","six-nations","Rugby","Six Nations"),
  "rugby-urc": ("rugby","united-rugby-championship","Rugby","URC"),
  "rugby-autumn": ("rugby","international","Rugby","International Rugby"),
+ "rugby-nations": ("rugby","nations-championship","Rugby","Nations Championship"),
+ "rugby-premiership": ("rugby","english-premiership","Rugby","Premiership Rugby"),
+ "rugby-top14": ("rugby","french-top-14","Rugby","Top 14"),
+ "rugby-champions": ("rugby","european-rugby-champions-cup","Rugby","Champions Cup"),
+ "soccer-esp.1": ("soccer","esp.1","Football","La Liga"),
+ "soccer-ger.1": ("soccer","ger.1","Football","Bundesliga"),
+ "soccer-ita.1": ("soccer","ita.1","Football","Serie A"),
+ "soccer-fra.1": ("soccer","fra.1","Football","Ligue 1"),
+ "soccer-por.1": ("soccer","por.1","Football","Primeira Liga"),
+ "soccer-ned.1": ("soccer","ned.1","Football","Eredivisie"),
+ "soccer-bel.1": ("soccer","bel.1","Football","Belgian Pro League"),
+ "soccer-eng.2": ("soccer","eng.2","Football","Championship"),
+ "soccer-uefa.europa": ("soccer","uefa.europa","Football","Europa League"),
  "racing-f1": ("racing","f1","Formula 1","Formula 1"),
 }
 def weekend():
@@ -145,6 +158,44 @@ def attach_tv(events,days):
   else: unmatched.append(tv)
  return unmatched
 
+def curated_fixtures(days):
+ """Load dated, source-attributed verified fixtures; never invent future matches."""
+ path=ROOT/"data"/"verified-fixtures.json"
+ if not path.exists(): return [],[]
+ rows=json.loads(path.read_text())
+ result=[];issues=[]
+ for row in rows:
+  try:
+   start=dt.datetime.fromisoformat(row["start"].replace("Z","+00:00"))
+   if start.tzinfo is None: raise ValueError("Missing timezone")
+   if start.astimezone(TZ).date() not in days: continue
+   if not row.get("start_source","").startswith("https://"): raise ValueError("Missing source")
+   entry=dict(row)
+   entry.setdefault("category","rugby")
+   entry.setdefault("sport","Rugby")
+   entry.setdefault("detail","")
+   entry.setdefault("channel","")
+   entry["start"]=start.isoformat()
+   entry["start_time"]=start.isoformat()
+   entry["verification"]="cross-referenced" if len(entry.get("sources",[]))>1 else "official-schedule"
+   entry.setdefault("sources",[{"provider":"verified-schedule","url":entry["start_source"],"field":"start_time"}])
+   result.append(entry)
+  except (KeyError,ValueError,TypeError,AttributeError) as exc:
+   issues.append({"record":str(row)[:100],"reason":str(exc)})
+ return result,issues
+
+def merge_curated(events, curated):
+ """Curated fixture takes precedence; remove same-day duplicate provider entries."""
+ for row in curated:
+  day=dt.datetime.fromisoformat(row["start"]).astimezone(TZ).date()
+  pair={norm(t) for t in row["name"].split(" vs ")}
+  if len(pair)==2:
+   events[:]=[e for e in events if not (
+    e.get("sport")==row["sport"] and
+    dt.datetime.fromisoformat(e["start"]).astimezone(TZ).date()==day and
+    {norm(t) for t in e.get("name","").split(" vs ")}==pair)]
+  events.append(row)
+
 def main():
  days=collection_days()
  jobs=[(cat,day) for cat in LEAGUES for day in days]
@@ -153,6 +204,8 @@ def main():
  events=[e for batch,_ in batches for e in batch]
  f1,official_issues=official_f1_sessions(days)
  events.extend(f1)
+ curated,curated_issues=curated_fixtures(days)
+ merge_curated(events,curated)
  health=[h for _,h in batches]
  tv=attach_tv(events,days)
  events.extend(tv)
@@ -167,7 +220,8 @@ def main():
   "verified_start_times":sum(bool(e.get("start_time")) for e in events),
   "coverage_only":sum(not e.get("start_time") for e in events),
   "cross_referenced":sum(e.get("verification")=="cross-referenced" for e in events),
-  "official_schedule_issues":official_issues,
+  "official_schedule_issues":official_issues+curated_issues,
+  "curated_fixtures":len(curated),
   "f1_official_sessions":len(f1),
   "unverified_start_times":sum(e.get("verification")=="single-source" for e in events),
   "conflicts":[{"id":e["id"],"name":e["name"],"times":e["time_conflict"]} for e in events if e.get("time_conflict")],
