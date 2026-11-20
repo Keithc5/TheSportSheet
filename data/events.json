@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T23:53:10.744421+00:00",
+  "updated": "2026-11-20T23:53:13.252Z",
   "events": [
     {
       "id": "tv-202611-5",
@@ -9,7 +9,7 @@
       "competition": "DP World Tour",
       "name": "DP World Tour Championship",
       "channel": "Sky Sports Main Event",
-      "detail": "TV coverage start \u00b7 Ireland",
+      "detail": "TV coverage start · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "coverage_time": "2026-11-14T07:00:00+00:00",
       "start_time": null,
@@ -32,7 +32,7 @@
       "competition": "Nations Championship",
       "name": "Italy vs Argentina",
       "channel": "Virgin Media One / ITV1",
-      "detail": "TV coverage start \u00b7 Ireland",
+      "detail": "TV coverage start · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "coverage_time": "2026-11-14T11:40:00+00:00",
       "start_time": null,
@@ -55,7 +55,7 @@
       "competition": "Women's Super League",
       "name": "Manchester United vs Crystal Palace",
       "channel": "Sky Sports Premier League",
-      "detail": "TV coverage start \u00b7 Ireland",
+      "detail": "TV coverage start · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "coverage_time": "2026-11-14T12:45:00+00:00",
       "start_time": null,
@@ -78,7 +78,7 @@
       "competition": "Grand Slam of Darts",
       "name": "Afternoon session",
       "channel": "Sky Sports Main Event",
-      "detail": "TV coverage start \u00b7 Ireland",
+      "detail": "TV coverage start · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "coverage_time": "2026-11-14T13:00:00+00:00",
       "start_time": null,
@@ -101,7 +101,7 @@
       "competition": "Champion of Champions",
       "name": "Afternoon session",
       "channel": "ITVX",
-      "detail": "TV coverage start \u00b7 Ireland",
+      "detail": "TV coverage start · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "coverage_time": "2026-11-14T13:00:00+00:00",
       "start_time": null,
@@ -124,7 +124,7 @@
       "competition": "Women's Super League",
       "name": "Chelsea vs Manchester City",
       "channel": "BBC One",
-      "detail": "TV coverage start \u00b7 Ireland",
+      "detail": "TV coverage start · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "coverage_time": "2026-11-14T13:30:00+00:00",
       "start_time": null,
@@ -159,7 +159,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 0"
+      "result": "0 – 0"
     },
     {
       "id": "tv-202611-11",
@@ -169,7 +169,7 @@
       "competition": "Nations Championship",
       "name": "Wales vs New Zealand",
       "channel": "Virgin Media One / ITV1",
-      "detail": "TV coverage start \u00b7 Ireland",
+      "detail": "TV coverage start · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "coverage_time": "2026-11-14T14:10:00+00:00",
       "start_time": null,
@@ -192,7 +192,7 @@
       "competition": "Women's Super League",
       "name": "Tottenham vs Everton",
       "channel": "Sky Sports Premier League",
-      "detail": "TV coverage start \u00b7 Ireland",
+      "detail": "TV coverage start · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "coverage_time": "2026-11-14T15:00:00+00:00",
       "start_time": null,
@@ -215,7 +215,7 @@
       "competition": "Nations Championship",
       "name": "England vs Japan",
       "channel": "Virgin Media One / ITV1",
-      "detail": "TV coverage start \u00b7 Ireland",
+      "detail": "TV coverage start · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "coverage_time": "2026-11-14T16:40:00+00:00",
       "start_time": null,
@@ -237,8 +237,8 @@
       "sport": "GAA",
       "competition": "Leinster Club SFC",
       "name": "Cuala vs Sarsfields",
-      "channel": "RT\u00c92",
-      "detail": "Official throw-in \u00b7 Ireland",
+      "channel": "RTÉ2",
+      "detail": "Official throw-in · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "start_time": "2026-11-14T16:45:00+00:00",
       "start_source": "https://stcomgalls.gaa.ie/fixtures-results/team/sarsfields/44968aec-e94f-667e-4095-002d140b1920/",
@@ -278,7 +278,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 2"
+      "result": "0 – 2"
     },
     {
       "id": "soccer-nations-401861165",
@@ -305,7 +305,7 @@
       "detail": "",
       "channel": "Virgin Media Two / BBC Two",
       "completed": true,
-      "result": "3 \u2013 1",
+      "result": "3 – 1",
       "coverage_time": "2026-11-14T17:00:00+00:00",
       "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/"
     },
@@ -317,7 +317,7 @@
       "competition": "Women's Super League",
       "name": "Brighton vs Liverpool",
       "channel": "Sky Sports Premier League",
-      "detail": "TV coverage start \u00b7 Ireland",
+      "detail": "TV coverage start · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "coverage_time": "2026-11-14T17:15:00+00:00",
       "start_time": null,
@@ -340,7 +340,7 @@
       "competition": "Grand Slam of Darts",
       "name": "Evening session",
       "channel": "Sky Sports Main Event",
-      "detail": "TV coverage start \u00b7 Ireland",
+      "detail": "TV coverage start · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "coverage_time": "2026-11-14T19:00:00+00:00",
       "start_time": null,
@@ -363,7 +363,7 @@
       "competition": "PGA Tour",
       "name": "Austin Championship",
       "channel": "Sky Sports Golf",
-      "detail": "TV coverage start \u00b7 Ireland",
+      "detail": "TV coverage start · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "coverage_time": "2026-11-14T19:00:00+00:00",
       "start_time": null,
@@ -386,7 +386,7 @@
       "competition": "LPGA",
       "name": "The Annika",
       "channel": "Sky Sports Mix",
-      "detail": "TV coverage start \u00b7 Ireland",
+      "detail": "TV coverage start · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "coverage_time": "2026-11-14T19:00:00+00:00",
       "start_time": null,
@@ -409,7 +409,7 @@
       "competition": "Champion of Champions",
       "name": "Evening session",
       "channel": "ITV4",
-      "detail": "TV coverage start \u00b7 Ireland",
+      "detail": "TV coverage start · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "coverage_time": "2026-11-14T19:00:00+00:00",
       "start_time": null,
@@ -447,9 +447,9 @@
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": "RT\u00c92",
+      "channel": "RTÉ2",
       "completed": true,
-      "result": "1 \u2013 0",
+      "result": "1 – 0",
       "coverage_time": "2026-11-14T19:45:00+00:00",
       "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/"
     },
@@ -473,7 +473,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 0"
+      "result": "1 – 0"
     },
     {
       "id": "soccer-nations-401861167",
@@ -495,7 +495,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 4"
+      "result": "1 – 4"
     },
     {
       "id": "soccer-nations-401861168",
@@ -517,7 +517,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 1"
+      "result": "2 – 1"
     },
     {
       "id": "soccer-nations-401861166",
@@ -539,7 +539,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 2"
+      "result": "3 – 2"
     },
     {
       "id": "tv-202611-22",
@@ -549,7 +549,7 @@
       "competition": "Nations Championship",
       "name": "Ireland vs Fiji",
       "channel": "Virgin Media One / ITV1",
-      "detail": "TV coverage start \u00b7 Ireland",
+      "detail": "TV coverage start · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "coverage_time": "2026-11-14T20:10:00+00:00",
       "start_time": null,
@@ -572,7 +572,7 @@
       "competition": "DP World Tour",
       "name": "DP World Tour Championship",
       "channel": "Sky Sports Main Event",
-      "detail": "TV coverage start \u00b7 Ireland",
+      "detail": "TV coverage start · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "coverage_time": "2026-11-15T06:30:00+00:00",
       "start_time": null,
@@ -595,7 +595,7 @@
       "competition": "Grand Slam of Darts",
       "name": "Afternoon session",
       "channel": "Sky Sports Main Event",
-      "detail": "TV coverage start \u00b7 Ireland",
+      "detail": "TV coverage start · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "coverage_time": "2026-11-15T13:00:00+00:00",
       "start_time": null,
@@ -618,7 +618,7 @@
       "competition": "Champion of Champions",
       "name": "Afternoon session",
       "channel": "ITV4",
-      "detail": "TV coverage start \u00b7 Ireland",
+      "detail": "TV coverage start · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "coverage_time": "2026-11-15T13:00:00+00:00",
       "start_time": null,
@@ -641,7 +641,7 @@
       "competition": "Munster Club SHC",
       "name": "Inagh-Kilnamona vs Thurles Sarsfields",
       "channel": "TG4",
-      "detail": "Official throw-in \u00b7 Ireland",
+      "detail": "Official throw-in · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "start_time": "2026-11-15T13:15:00+00:00",
       "start_source": "https://munster.gaa.ie/event/2026-aib-munster-club-senior-hurling-championship-semi-final-tipperary-representatives-v-clare-representatives/",
@@ -681,7 +681,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 4"
+      "result": "1 – 4"
     },
     {
       "id": "soccer-nations-401861171",
@@ -703,7 +703,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 0"
+      "result": "0 – 0"
     },
     {
       "id": "tv-202611-27",
@@ -713,7 +713,7 @@
       "competition": "Women's Super League",
       "name": "Aston Villa vs Birmingham City",
       "channel": "Sky Sports Premier League",
-      "detail": "TV coverage start \u00b7 Ireland",
+      "detail": "TV coverage start · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "coverage_time": "2026-11-15T14:00:00+00:00",
       "start_time": null,
@@ -748,7 +748,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "35 \u2013 10"
+      "result": "35 – 10"
     },
     {
       "id": "tv-202611-28",
@@ -758,7 +758,7 @@
       "competition": "NFL",
       "name": "New England Patriots vs Detroit Lions",
       "channel": "Sky Sports NFL",
-      "detail": "TV coverage start \u00b7 Ireland",
+      "detail": "TV coverage start · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "coverage_time": "2026-11-15T14:30:00+00:00",
       "start_time": null,
@@ -781,7 +781,7 @@
       "competition": "Nations Championship",
       "name": "Scotland vs Australia",
       "channel": "Virgin Media One / ITV1",
-      "detail": "TV coverage start \u00b7 Ireland",
+      "detail": "TV coverage start · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "coverage_time": "2026-11-15T15:10:00+00:00",
       "start_time": null,
@@ -804,7 +804,7 @@
       "competition": "Connacht Club SFC",
       "name": "Salthill-Knocknacarra vs St Brigid's",
       "channel": "TG4",
-      "detail": "Official throw-in \u00b7 Ireland",
+      "detail": "Official throw-in · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "start_time": "2026-11-15T15:15:00+00:00",
       "start_source": "https://www.rte.ie/sport/football/2026/1111/1598835-club-gaa-weekend-all-you-need-to-know/",
@@ -832,7 +832,7 @@
       "competition": "Women's Super League",
       "name": "Arsenal vs London City Lionesses",
       "channel": "Sky Sports Main Event",
-      "detail": "TV coverage start \u00b7 Ireland",
+      "detail": "TV coverage start · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "coverage_time": "2026-11-15T16:30:00+00:00",
       "start_time": null,
@@ -867,7 +867,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 2"
+      "result": "0 – 2"
     },
     {
       "id": "soccer-nations-401861174",
@@ -889,7 +889,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "7 \u2013 2"
+      "result": "7 – 2"
     },
     {
       "id": "football-nfl-401873058",
@@ -911,7 +911,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "13 \u2013 35"
+      "result": "13 – 35"
     },
     {
       "id": "football-nfl-401873056",
@@ -933,7 +933,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "27 \u2013 24"
+      "result": "27 – 24"
     },
     {
       "id": "football-nfl-401873060",
@@ -955,7 +955,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "10 \u2013 30"
+      "result": "10 – 30"
     },
     {
       "id": "football-nfl-401873057",
@@ -977,7 +977,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "23 \u2013 40"
+      "result": "23 – 40"
     },
     {
       "id": "football-nfl-401873059",
@@ -999,7 +999,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "24 \u2013 22"
+      "result": "24 – 22"
     },
     {
       "id": "football-nfl-401873055",
@@ -1021,7 +1021,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "17 \u2013 20"
+      "result": "17 – 20"
     },
     {
       "id": "football-nfl-401873054",
@@ -1043,7 +1043,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "12 \u2013 31"
+      "result": "12 – 31"
     },
     {
       "id": "tv-202611-32",
@@ -1053,7 +1053,7 @@
       "competition": "PGA Tour",
       "name": "Austin Championship",
       "channel": "Sky Sports Golf",
-      "detail": "TV coverage start \u00b7 Ireland",
+      "detail": "TV coverage start · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "coverage_time": "2026-11-15T19:00:00+00:00",
       "start_time": null,
@@ -1076,7 +1076,7 @@
       "competition": "LPGA",
       "name": "The Annika",
       "channel": "Sky Sports+",
-      "detail": "TV coverage start \u00b7 Ireland",
+      "detail": "TV coverage start · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "coverage_time": "2026-11-15T19:00:00+00:00",
       "start_time": null,
@@ -1099,7 +1099,7 @@
       "competition": "Champion of Champions",
       "name": "Evening session",
       "channel": "ITV4",
-      "detail": "TV coverage start \u00b7 Ireland",
+      "detail": "TV coverage start · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "coverage_time": "2026-11-15T19:00:00+00:00",
       "start_time": null,
@@ -1122,7 +1122,7 @@
       "competition": "Grand Slam of Darts",
       "name": "Evening session",
       "channel": "Sky Sports Main Event",
-      "detail": "TV coverage start \u00b7 Ireland",
+      "detail": "TV coverage start · Ireland",
       "source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/",
       "coverage_time": "2026-11-15T19:30:00+00:00",
       "start_time": null,
@@ -1157,7 +1157,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "4 \u2013 1"
+      "result": "4 – 1"
     },
     {
       "id": "soccer-nations-401861178",
@@ -1179,14 +1179,14 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 1"
+      "result": "2 – 1"
     },
     {
       "id": "soccer-nations-401861177",
       "category": "soccer-nations",
       "sport": "Football",
       "competition": "UEFA Nations League",
-      "name": "France vs T\u00fcrkiye",
+      "name": "France vs Türkiye",
       "start": "2026-11-15T19:45:00+00:00",
       "start_time": "2026-11-15T19:45:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115&limit=250",
@@ -1201,7 +1201,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 1"
+      "result": "2 – 1"
     },
     {
       "id": "soccer-nations-401861175",
@@ -1228,7 +1228,7 @@
       "detail": "",
       "channel": "Virgin Media Two / ITV1",
       "completed": true,
-      "result": "2 \u2013 3",
+      "result": "2 – 3",
       "coverage_time": "2026-11-15T19:45:00+00:00",
       "coverage_source": "https://www.the42.ie/tv-guide-weekend-sport-180-7221059-Nov2026/"
     },
@@ -1252,7 +1252,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "13 \u2013 21"
+      "result": "13 – 21"
     },
     {
       "id": "football-nfl-401873061",
@@ -1274,7 +1274,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "6 \u2013 34"
+      "result": "6 – 34"
     },
     {
       "id": "football-nfl-401873063",
@@ -1296,7 +1296,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "40 \u2013 46"
+      "result": "40 – 46"
     },
     {
       "id": "soccer-nations-401861180",
@@ -1318,7 +1318,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 0"
+      "result": "1 – 0"
     },
     {
       "id": "soccer-nations-401861181",
@@ -1340,7 +1340,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 2"
+      "result": "2 – 2"
     },
     {
       "id": "soccer-nations-401861183",
@@ -1362,7 +1362,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 1"
+      "result": "2 – 1"
     },
     {
       "id": "soccer-nations-401861182",
@@ -1384,7 +1384,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 0"
+      "result": "3 – 0"
     },
     {
       "id": "soccer-nations-401861184",
@@ -1406,7 +1406,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 1"
+      "result": "2 – 1"
     },
     {
       "id": "soccer-nations-401861185",
@@ -1428,7 +1428,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "5 \u2013 0"
+      "result": "5 – 0"
     },
     {
       "id": "soccer-nations-401861179",
@@ -1450,7 +1450,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1"
+      "result": "1 – 1"
     },
     {
       "id": "soccer-nations-401861188",
@@ -1472,7 +1472,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 0"
+      "result": "1 – 0"
     },
     {
       "id": "soccer-nations-401861187",
@@ -1494,7 +1494,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 3"
+      "result": "0 – 3"
     },
     {
       "id": "soccer-nations-401861186",
@@ -1516,7 +1516,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "4 \u2013 0"
+      "result": "4 – 0"
     },
     {
       "id": "soccer-nations-401861196",
@@ -1538,7 +1538,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 1"
+      "result": "2 – 1"
     },
     {
       "id": "soccer-nations-401861194",
@@ -1560,7 +1560,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 3"
+      "result": "2 – 3"
     },
     {
       "id": "soccer-nations-401861191",
@@ -1582,7 +1582,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1"
+      "result": "1 – 1"
     },
     {
       "id": "soccer-nations-401861193",
@@ -1604,7 +1604,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1"
+      "result": "1 – 1"
     },
     {
       "id": "soccer-nations-401861195",
@@ -1626,7 +1626,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1"
+      "result": "1 – 1"
     },
     {
       "id": "soccer-nations-401861192",
@@ -1648,7 +1648,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 0"
+      "result": "3 – 0"
     },
     {
       "id": "soccer-nations-401861190",
@@ -1670,7 +1670,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 0"
+      "result": "1 – 0"
     },
     {
       "id": "soccer-nations-401861189",
@@ -1692,7 +1692,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 3"
+      "result": "2 – 3"
     },
     {
       "id": "golf-pga-401850981",
@@ -1758,7 +1758,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1"
+      "result": "1 – 1"
     },
     {
       "id": "soccer-fra.1-401876395",
@@ -1780,7 +1780,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 1"
+      "result": "3 – 1"
     },
     {
       "id": "soccer-bel.1-401878937",
@@ -1802,7 +1802,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 0"
+      "result": "1 – 0"
     },
     {
       "id": "soccer-esp.1-401882805",
@@ -1824,14 +1824,14 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 1"
+      "result": "0 – 1"
     },
     {
       "id": "racing-f1-las-vegas-2026-qualifying",
       "category": "racing-f1",
       "sport": "Formula 1",
       "competition": "Formula 1",
-      "name": "Las Vegas Grand Prix \u2014 Qualifying",
+      "name": "Las Vegas Grand Prix — Qualifying",
       "session": "Qualifying",
       "start": "2026-11-21T04:00:00+00:00",
       "start_time": "2026-11-21T04:00:00+00:00",
@@ -1940,7 +1940,7 @@
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Alav\u00e9s vs Deportivo",
+      "name": "Alavés vs Deportivo",
       "start": "2026-11-21T13:00:00+00:00",
       "start_time": "2026-11-21T13:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261121&limit=250",
@@ -2002,6 +2002,56 @@
       "result": null
     },
     {
+      "id": "verified-nations-20261121-1",
+      "category": "rugby",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "name": "England vs New Zealand",
+      "start": "2026-11-21T14:10:00+00:00",
+      "start_source": "https://www.rte.ie/sport/results/rugby/world-rugby-nations-championship/27310/fixtures/",
+      "channel": "Virgin Media One",
+      "sources": [
+        {
+          "provider": "rte-fixtures",
+          "url": "https://www.rte.ie/sport/results/rugby/world-rugby-nations-championship/27310/fixtures/",
+          "field": "start_time"
+        },
+        {
+          "provider": "rugbyworld-broadcast",
+          "url": "https://www.rugbyworld.com/deals/nations-championship-live-stream-how-to-watch-from-anywhere-184314",
+          "field": "channel"
+        }
+      ],
+      "start_time": "2026-11-21T14:10:00+00:00",
+      "verification": "cross-referenced",
+      "detail": "Kick-off · Ireland"
+    },
+    {
+      "id": "verified-nations-20261121-2",
+      "category": "rugby",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "name": "Scotland vs Japan",
+      "start": "2026-11-21T14:10:00+00:00",
+      "start_source": "https://www.rte.ie/sport/results/rugby/world-rugby-nations-championship/27310/fixtures/",
+      "channel": "Virgin Media Two",
+      "sources": [
+        {
+          "provider": "rte-fixtures",
+          "url": "https://www.rte.ie/sport/results/rugby/world-rugby-nations-championship/27310/fixtures/",
+          "field": "start_time"
+        },
+        {
+          "provider": "rugbyworld-broadcast",
+          "url": "https://www.rugbyworld.com/deals/nations-championship-live-stream-how-to-watch-from-anywhere-184314",
+          "field": "channel"
+        }
+      ],
+      "start_time": "2026-11-21T14:10:00+00:00",
+      "verification": "cross-referenced",
+      "detail": "Kick-off · Ireland"
+    },
+    {
       "id": "soccer-ger.1-401884732",
       "category": "soccer-ger.1",
       "sport": "Football",
@@ -2050,7 +2100,7 @@
       "category": "soccer-ger.1",
       "sport": "Football",
       "competition": "Bundesliga",
-      "name": "Borussia M\u00f6nchengladbach vs Borussia Dortmund",
+      "name": "Borussia Mönchengladbach vs Borussia Dortmund",
       "start": "2026-11-21T14:30:00+00:00",
       "start_time": "2026-11-21T14:30:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
@@ -2486,6 +2536,56 @@
       "result": null
     },
     {
+      "id": "verified-nations-20261121-3",
+      "category": "rugby",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "name": "Ireland vs South Africa",
+      "start": "2026-11-21T16:40:00+00:00",
+      "start_source": "https://www.rte.ie/sport/results/rugby/world-rugby-nations-championship/27310/fixtures/",
+      "channel": "Virgin Media One",
+      "sources": [
+        {
+          "provider": "rte-fixtures",
+          "url": "https://www.rte.ie/sport/results/rugby/world-rugby-nations-championship/27310/fixtures/",
+          "field": "start_time"
+        },
+        {
+          "provider": "rugbyworld-broadcast",
+          "url": "https://www.rugbyworld.com/deals/nations-championship-live-stream-how-to-watch-from-anywhere-184314",
+          "field": "channel"
+        }
+      ],
+      "start_time": "2026-11-21T16:40:00+00:00",
+      "verification": "cross-referenced",
+      "detail": "Kick-off · Ireland"
+    },
+    {
+      "id": "verified-nations-20261121-4",
+      "category": "rugby",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "name": "Italy vs Fiji",
+      "start": "2026-11-21T16:40:00+00:00",
+      "start_source": "https://www.rte.ie/sport/results/rugby/world-rugby-nations-championship/27310/fixtures/",
+      "channel": "Virgin Media Two",
+      "sources": [
+        {
+          "provider": "rte-fixtures",
+          "url": "https://www.rte.ie/sport/results/rugby/world-rugby-nations-championship/27310/fixtures/",
+          "field": "start_time"
+        },
+        {
+          "provider": "rugbyworld-broadcast",
+          "url": "https://www.rugbyworld.com/deals/nations-championship-live-stream-how-to-watch-from-anywhere-184314",
+          "field": "channel"
+        }
+      ],
+      "start_time": "2026-11-21T16:40:00+00:00",
+      "verification": "cross-referenced",
+      "detail": "Kick-off · Ireland"
+    },
+    {
       "id": "soccer-ita.1-401874967",
       "category": "soccer-ita.1",
       "sport": "Football",
@@ -2512,7 +2612,7 @@
       "category": "soccer-bel.1",
       "sport": "Football",
       "competition": "Belgian Pro League",
-      "name": "Racing Genk vs RAAL La Louvi\u00e8re",
+      "name": "Racing Genk vs RAAL La Louvière",
       "start": "2026-11-21T17:15:00+00:00",
       "start_time": "2026-11-21T17:15:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261121&limit=250",
@@ -2860,11 +2960,61 @@
       "result": null
     },
     {
+      "id": "verified-nations-20261121-5",
+      "category": "rugby",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "name": "France vs Argentina",
+      "start": "2026-11-21T20:10:00+00:00",
+      "start_source": "https://www.rte.ie/sport/results/rugby/world-rugby-nations-championship/27310/fixtures/",
+      "channel": "Virgin Media Two",
+      "sources": [
+        {
+          "provider": "rte-fixtures",
+          "url": "https://www.rte.ie/sport/results/rugby/world-rugby-nations-championship/27310/fixtures/",
+          "field": "start_time"
+        },
+        {
+          "provider": "rugbyworld-broadcast",
+          "url": "https://www.rugbyworld.com/deals/nations-championship-live-stream-how-to-watch-from-anywhere-184314",
+          "field": "channel"
+        }
+      ],
+      "start_time": "2026-11-21T20:10:00+00:00",
+      "verification": "cross-referenced",
+      "detail": "Kick-off · Ireland"
+    },
+    {
+      "id": "verified-nations-20261121-6",
+      "category": "rugby",
+      "sport": "Rugby",
+      "competition": "Nations Championship",
+      "name": "Wales vs Australia",
+      "start": "2026-11-21T20:10:00+00:00",
+      "start_source": "https://www.rte.ie/sport/results/rugby/world-rugby-nations-championship/27310/fixtures/",
+      "channel": "Virgin Media Three",
+      "sources": [
+        {
+          "provider": "rte-fixtures",
+          "url": "https://www.rte.ie/sport/results/rugby/world-rugby-nations-championship/27310/fixtures/",
+          "field": "start_time"
+        },
+        {
+          "provider": "rugbyworld-broadcast",
+          "url": "https://www.rugbyworld.com/deals/nations-championship-live-stream-how-to-watch-from-anywhere-184314",
+          "field": "channel"
+        }
+      ],
+      "start_time": "2026-11-21T20:10:00+00:00",
+      "verification": "cross-referenced",
+      "detail": "Kick-off · Ireland"
+    },
+    {
       "id": "racing-f1-las-vegas-2026-race",
       "category": "racing-f1",
       "sport": "Formula 1",
       "competition": "Formula 1",
-      "name": "Las Vegas Grand Prix \u2014 Race",
+      "name": "Las Vegas Grand Prix — Race",
       "session": "Race",
       "start": "2026-11-22T04:00:00+00:00",
       "start_time": "2026-11-22T04:00:00+00:00",
@@ -3303,7 +3453,7 @@
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Osasuna vs M\u00e1laga",
+      "name": "Osasuna vs Málaga",
       "start": "2026-11-22T17:30:00+00:00",
       "start_time": "2026-11-22T17:30:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=250",
@@ -3567,7 +3717,7 @@
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Getafe vs Atl\u00e9tico Madrid",
+      "name": "Getafe vs Atlético Madrid",
       "start": "2026-11-22T20:00:00+00:00",
       "start_time": "2026-11-22T20:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=250",
@@ -4205,7 +4355,7 @@
       "category": "soccer-uefa.champions",
       "sport": "Football",
       "competition": "Champions League",
-      "name": "Atl\u00e9tico Madrid vs Viking FK",
+      "name": "Atlético Madrid vs Viking FK",
       "start": "2026-11-25T20:00:00+00:00",
       "start_time": "2026-11-25T20:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=250",
@@ -4865,7 +5015,7 @@
       "category": "soccer-ger.1",
       "sport": "Football",
       "competition": "Bundesliga",
-      "name": "Werder Bremen vs Borussia M\u00f6nchengladbach",
+      "name": "Werder Bremen vs Borussia Mönchengladbach",
       "start": "2026-11-27T19:30:00+00:00",
       "start_time": "2026-11-27T19:30:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261127&limit=250",
@@ -5305,7 +5455,7 @@
       "category": "soccer-bel.1",
       "sport": "Football",
       "competition": "Belgian Pro League",
-      "name": "KVC Westerlo vs RAAL La Louvi\u00e8re",
+      "name": "KVC Westerlo vs RAAL La Louvière",
       "start": "2026-11-28T15:00:00+00:00",
       "start_time": "2026-11-28T15:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261128&limit=250",
@@ -5481,7 +5631,7 @@
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "M\u00e1laga vs Athletic Club",
+      "name": "Málaga vs Athletic Club",
       "start": "2026-11-28T15:15:00+00:00",
       "start_time": "2026-11-28T15:15:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128&limit=250",
@@ -5657,7 +5807,7 @@
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Elche vs Atl\u00e9tico Madrid",
+      "name": "Elche vs Atlético Madrid",
       "start": "2026-11-28T17:30:00+00:00",
       "start_time": "2026-11-28T17:30:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128&limit=250",
@@ -5723,7 +5873,7 @@
       "category": "soccer-por.1",
       "sport": "Football",
       "competition": "Primeira Liga",
-      "name": "Acad\u00e9mico de Viseu vs Alverca",
+      "name": "Académico de Viseu vs Alverca",
       "start": "2026-11-28T18:00:00+00:00",
       "start_time": "2026-11-28T18:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261128&limit=250",
@@ -5899,7 +6049,7 @@
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Real Madrid vs Alav\u00e9s",
+      "name": "Real Madrid vs Alavés",
       "start": "2026-11-28T20:00:00+00:00",
       "start_time": "2026-11-28T20:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128&limit=250",
@@ -5943,7 +6093,7 @@
       "category": "soccer-por.1",
       "sport": "Football",
       "competition": "Primeira Liga",
-      "name": "Vit\u00f3ria de Guimaraes vs Estrela",
+      "name": "Vitória de Guimaraes vs Estrela",
       "start": "2026-11-28T20:30:00+00:00",
       "start_time": "2026-11-28T20:30:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261128&limit=250",
@@ -6361,7 +6511,7 @@
       "category": "racing-f1",
       "sport": "Formula 1",
       "competition": "Formula 1",
-      "name": "Qatar Grand Prix \u2014 Race",
+      "name": "Qatar Grand Prix — Race",
       "session": "Race",
       "start": "2026-11-29T16:00:00+00:00",
       "start_time": "2026-11-29T16:00:00+00:00",
