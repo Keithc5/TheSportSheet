@@ -44,3 +44,16 @@ See [sources/sources.json](sources/sources.json) for the structured inventory of
 
 ### Formula 1 display policy
 Only **Qualifying, Sprint Qualifying, Sprint and Race** sessions are displayed; free practice is excluded from both the collector and the page. [F1Calendar.com](https://f1calendar.com/) is a useful independent human-readable cross-check of race weekends and local times, alongside official Formula 1 session schedules. Its public webpage is not yet an automated feed in this project; do not label sessions as cross-referenced merely because the website is listed here.
+
+## Fixture and TV search expansion (20 November 2026)
+
+- Scheduled collection runs **six times a day** (03:17, 07:17, 11:17, 15:17, 19:17 and 23:17 UTC), and also on collector, fixture or source catalogue changes.
+- ESPN discovery now attempts further European football leagues and rugby competitions. **An attempted endpoint is not proof of coverage**: the audit records failures and zero-event responses.
+- Date-specific verified fixtures in `data/verified-fixtures.json` are merged into the feed with source URLs, timezone-aware kickoff and Irish broadcaster. The current verified supplement covers 21 November 2026; it does **not** automatically discover future weekends.
+- `data/source-health.json` records per-provider requests, curated inventory loss, missing TV channels and rugby counts by date. Validation rejects malformed or duplicate fixture IDs and refuses to publish if verified matches or TV channels disappear.
+- The site displays an explicit **TV not confirmed** label for unknown broadcasts. This is not a claim the match is unavailable on television. Only confirmed Irish broadcaster information is displayed.
+- Automated tests cover curated fixtures, Irish TV fields, duplicate IDs and missing channel detection.
+
+### Remaining production gaps
+
+The additional ESPN league identifiers must be verified individually. Recurring broadcaster discovery and independent competition-level expected-match inventories are not yet implemented. A production-grade second-pass search should ingest permitted official competition fixture APIs, match against a separate fixture index, ingest Irish TV schedules from an authorized provider, reconcile aliases and kickoff changes, and alert on low coverage. Do not claim comprehensive fixtures or TV listings until those integrations are proven.
