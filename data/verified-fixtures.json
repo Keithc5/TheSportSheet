@@ -1,0 +1,134 @@
+[
+  {
+    "id": "verified-nations-20261121-1",
+    "category": "rugby",
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "name": "England vs New Zealand",
+    "start": "2026-11-21T14:10:00+00:00",
+    "start_source": "https://www.rte.ie/sport/results/rugby/world-rugby-nations-championship/27310/fixtures/",
+    "channel": "Virgin Media One",
+    "sources": [
+      {
+        "provider": "rte-fixtures",
+        "url": "https://www.rte.ie/sport/results/rugby/world-rugby-nations-championship/27310/fixtures/",
+        "field": "start_time"
+      },
+      {
+        "provider": "rugbyworld-broadcast",
+        "url": "https://www.rugbyworld.com/deals/nations-championship-live-stream-how-to-watch-from-anywhere-184314",
+        "field": "channel"
+      }
+    ]
+  },
+  {
+    "id": "verified-nations-20261121-2",
+    "category": "rugby",
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "name": "Scotland vs Japan",
+    "start": "2026-11-21T14:10:00+00:00",
+    "start_source": "https://www.rte.ie/sport/results/rugby/world-rugby-nations-championship/27310/fixtures/",
+    "channel": "Virgin Media Two",
+    "sources": [
+      {
+        "provider": "rte-fixtures",
+        "url": "https://www.rte.ie/sport/results/rugby/world-rugby-nations-championship/27310/fixtures/",
+        "field": "start_time"
+      },
+      {
+        "provider": "rugbyworld-broadcast",
+        "url": "https://www.rugbyworld.com/deals/nations-championship-live-stream-how-to-watch-from-anywhere-184314",
+        "field": "channel"
+      }
+    ]
+  },
+  {
+    "id": "verified-nations-20261121-3",
+    "category": "rugby",
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "name": "Ireland vs South Africa",
+    "start": "2026-11-21T16:40:00+00:00",
+    "start_source": "https://www.rte.ie/sport/results/rugby/world-rugby-nations-championship/27310/fixtures/",
+    "channel": "Virgin Media One",
+    "sources": [
+      {
+        "provider": "rte-fixtures",
+        "url": "https://www.rte.ie/sport/results/rugby/world-rugby-nations-championship/27310/fixtures/",
+        "field": "start_time"
+      },
+      {
+        "provider": "rugbyworld-broadcast",
+        "url": "https://www.rugbyworld.com/deals/nations-championship-live-stream-how-to-watch-from-anywhere-184314",
+        "field": "channel"
+      }
+    ]
+  },
+  {
+    "id": "verified-nations-20261121-4",
+    "category": "rugby",
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "name": "Italy vs Fiji",
+    "start": "2026-11-21T16:40:00+00:00",
+    "start_source": "https://www.rte.ie/sport/results/rugby/world-rugby-nations-championship/27310/fixtures/",
+    "channel": "Virgin Media Two",
+    "sources": [
+      {
+        "provider": "rte-fixtures",
+        "url": "https://www.rte.ie/sport/results/rugby/world-rugby-nations-championship/27310/fixtures/",
+        "field": "start_time"
+      },
+      {
+        "provider": "rugbyworld-broadcast",
+        "url": "https://www.rugbyworld.com/deals/nations-championship-live-stream-how-to-watch-from-anywhere-184314",
+        "field": "channel"
+      }
+    ]
+  },
+  {
+    "id": "verified-nations-20261121-5",
+    "category": "rugby",
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "name": "France vs Argentina",
+    "start": "2026-11-21T20:10:00+00:00",
+    "start_source": "https://www.rte.ie/sport/results/rugby/world-rugby-nations-championship/27310/fixtures/",
+    "channel": "Virgin Media Two",
+    "sources": [
+      {
+        "provider": "rte-fixtures",
+        "url": "https://www.rte.ie/sport/results/rugby/world-rugby-nations-championship/27310/fixtures/",
+        "field": "start_time"
+      },
+      {
+        "provider": "rugbyworld-broadcast",
+        "url": "https://www.rugbyworld.com/deals/nations-championship-live-stream-how-to-watch-from-anywhere-184314",
+        "field": "channel"
+      }
+    ]
+  },
+  {
+    "id": "verified-nations-20261121-6",
+    "category": "rugby",
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "name": "Wales vs Australia",
+    "start": "2026-11-21T20:10:00+00:00",
+    "start_source": "https://www.rte.ie/sport/results/rugby/world-rugby-nations-championship/27310/fixtures/",
+    "channel": "Virgin Media Three",
+    "sources": [
+      {
+        "provider": "rte-fixtures",
+        "url": "https://www.rte.ie/sport/results/rugby/world-rugby-nations-championship/27310/fixtures/",
+        "field": "start_time"
+      },
+      {
+        "provider": "rugbyworld-broadcast",
+        "url": "https://www.rugbyworld.com/deals/nations-championship-live-stream-how-to-watch-from-anywhere-184314",
+        "field": "channel"
+      }
+    ]
+  }
+]
