@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T23:53:13.252Z",
+  "updated": "2026-11-20T23:55:18.080Z",
   "events": [
     {
       "id": "tv-202611-5",
@@ -1846,6 +1846,25 @@
       "verification": "official-schedule",
       "detail": "Qualifying",
       "channel": ""
+    },
+    {
+      "id": "verified-prem-cup-20261121-saracens-harlequins",
+      "category": "rugby-premiership",
+      "sport": "Rugby",
+      "competition": "Premiership Rugby Cup",
+      "name": "Saracens vs Harlequins",
+      "start": "2026-11-21T12:00:00+00:00",
+      "start_time": "2026-11-21T12:00:00+00:00",
+      "start_source": "https://rugbylad.ie/rugby-tv-round-six/",
+      "channel": "PREM Rugby YouTube",
+      "verification": "single-source",
+      "sources": [
+        {
+          "provider": "rugbylad-weekend-listings",
+          "url": "https://rugbylad.ie/rugby-tv-round-six/",
+          "field": "start_time_and_channel"
+        }
+      ]
     },
     {
       "id": "soccer-eng.1-401879233",
