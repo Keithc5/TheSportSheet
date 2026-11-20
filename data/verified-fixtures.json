@@ -147,5 +147,124 @@
         "field": "start_time_and_channel"
       }
     ]
+  },
+  {
+    "id": "verified-nations-cup-20261121-hong-kong",
+    "category": "rugby-autumn",
+    "sport": "Rugby",
+    "competition": "World Rugby Nations Cup",
+    "name": "Hong Kong vs Tonga",
+    "start": "2026-11-21T09:00:00+00:00",
+    "start_source": "https://www.skysports.com/rugby-union/fixtures-results/21-November-2026",
+    "channel": "",
+    "sources": [
+      {
+        "provider": "sky-sports-fixtures",
+        "url": "https://www.skysports.com/rugby-union/fixtures-results/21-November-2026",
+        "field": "start_time"
+      }
+    ]
+  },
+  {
+    "id": "verified-nations-cup-20261121-georgia",
+    "category": "rugby-autumn",
+    "sport": "Rugby",
+    "competition": "World Rugby Nations Cup",
+    "name": "Georgia vs USA",
+    "start": "2026-11-21T14:00:00+00:00",
+    "start_source": "https://www.skysports.com/rugby-union/fixtures-results/21-November-2026",
+    "channel": "",
+    "sources": [
+      {
+        "provider": "sky-sports-fixtures",
+        "url": "https://www.skysports.com/rugby-union/fixtures-results/21-November-2026",
+        "field": "start_time"
+      }
+    ]
+  },
+  {
+    "id": "verified-nations-cup-20261121-portugal",
+    "category": "rugby-autumn",
+    "sport": "Rugby",
+    "competition": "World Rugby Nations Cup",
+    "name": "Portugal vs Uruguay",
+    "start": "2026-11-21T15:00:00+00:00",
+    "start_source": "https://www.skysports.com/rugby-union/fixtures-results/21-November-2026",
+    "channel": "",
+    "sources": [
+      {
+        "provider": "sky-sports-fixtures",
+        "url": "https://www.skysports.com/rugby-union/fixtures-results/21-November-2026",
+        "field": "start_time"
+      }
+    ]
+  },
+  {
+    "id": "verified-nations-cup-20261121-spain",
+    "category": "rugby-autumn",
+    "sport": "Rugby",
+    "competition": "World Rugby Nations Cup",
+    "name": "Spain vs Samoa",
+    "start": "2026-11-21T16:00:00+00:00",
+    "start_source": "https://www.skysports.com/rugby-union/fixtures-results/21-November-2026",
+    "channel": "",
+    "sources": [
+      {
+        "provider": "sky-sports-fixtures",
+        "url": "https://www.skysports.com/rugby-union/fixtures-results/21-November-2026",
+        "field": "start_time"
+      }
+    ]
+  },
+  {
+    "id": "verified-nations-cup-20261121-zimbabwe",
+    "category": "rugby-autumn",
+    "sport": "Rugby",
+    "competition": "World Rugby Nations Cup",
+    "name": "Zimbabwe vs Chile",
+    "start": "2026-11-21T17:15:00+00:00",
+    "start_source": "https://www.skysports.com/rugby-union/fixtures-results/21-November-2026",
+    "channel": "",
+    "sources": [
+      {
+        "provider": "sky-sports-fixtures",
+        "url": "https://www.skysports.com/rugby-union/fixtures-results/21-November-2026",
+        "field": "start_time"
+      }
+    ]
+  },
+  {
+    "id": "verified-prem-cup-20261121-exeter",
+    "category": "rugby-premiership",
+    "sport": "Rugby",
+    "competition": "Premiership Rugby Cup",
+    "name": "Exeter vs Gloucester",
+    "start": "2026-11-21T16:30:00+00:00",
+    "start_source": "https://www.skysports.com/rugby-union/fixtures-results/21-November-2026",
+    "channel": "",
+    "sources": [
+      {
+        "provider": "sky-sports-fixtures",
+        "url": "https://www.skysports.com/rugby-union/fixtures-results/21-November-2026",
+        "field": "start_time"
+      }
+    ]
+  },
+  {
+    "id": "verified-prem-cup-20261121-newcastle-red-bulls",
+    "category": "rugby-premiership",
+    "sport": "Rugby",
+    "competition": "Premiership Rugby Cup",
+    "name": "Newcastle Red Bulls vs Northampton",
+    "start": "2026-11-21T17:30:00+00:00",
+    "start_source": "https://www.skysports.com/rugby-union/fixtures-results/21-November-2026",
+    "channel": "",
+    "sources": [
+      {
+        "provider": "sky-sports-fixtures",
+        "url": "https://www.skysports.com/rugby-union/fixtures-results/21-November-2026",
+        "field": "start_time"
+      }
+    ]
   }
 ]
