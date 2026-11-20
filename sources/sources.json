@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-14",
+  "updated": "2026-11-20",
   "purpose": "Research and operational inventory; candidate does not imply verified access, licensing or accuracy.",
   "status_definitions": {
     "working": "Confirmed successful recurring automated retrieval",
@@ -344,6 +344,131 @@
       "notes": "Candidate; league identifier unverified",
       "last_checked": null,
       "code": "fetch.py"
+    },
+    {
+      "id": "rte-nations-championship",
+      "name": "RTÉ Nations Championship fixtures",
+      "url": "https://www.rte.ie/sport/results/rugby/world-rugby-nations-championship/27310/fixtures/",
+      "type": "fixture-website",
+      "sports": [
+        "Rugby"
+      ],
+      "data": [
+        "fixtures",
+        "kickoff_times"
+      ],
+      "status": "used-once",
+      "automation": "curated",
+      "notes": "21 November verified fixture list; do not assume a continuously updating API.",
+      "last_checked": "2026-11-20",
+      "code": "data/verified-fixtures.json"
+    },
+    {
+      "id": "rugbyworld-tv-20261121",
+      "name": "Rugby World Irish broadcast schedule",
+      "url": "https://www.rugbyworld.com/deals/nations-championship-live-stream-how-to-watch-from-anywhere-184314",
+      "type": "editorial-website",
+      "sports": [
+        "Rugby"
+      ],
+      "data": [
+        "irish_tv_channels"
+      ],
+      "status": "used-once",
+      "automation": "curated",
+      "notes": "Date-specific TV channel cross-check, not automated feed.",
+      "last_checked": "2026-11-20",
+      "code": "data/verified-fixtures.json"
+    },
+    {
+      "id": "sa-rugby-nations-cup",
+      "name": "SA Rugby official match appointments",
+      "url": "https://springboks.rugby/news-features/articles/2026/11/18/match-official-appointments-to-21-november-2026",
+      "type": "official-website",
+      "sports": [
+        "Rugby"
+      ],
+      "data": [
+        "Nations Cup fixtures",
+        "Nations Championship fixtures"
+      ],
+      "status": "candidate",
+      "automation": "not-implemented",
+      "notes": "Useful independent competition completeness check; times shown in South African local time.",
+      "last_checked": "2026-11-20",
+      "code": null
+    },
+    {
+      "id": "premiership-rugby",
+      "name": "premiership-rugby",
+      "url": "https://www.premiershiprugby.com/",
+      "type": "official-website",
+      "sports": [
+        "Rugby"
+      ],
+      "data": [
+        "fixtures",
+        "kickoff_times"
+      ],
+      "status": "candidate",
+      "automation": "not-implemented",
+      "notes": "Cross-check source candidate; no automated parser validated.",
+      "last_checked": null,
+      "code": null
+    },
+    {
+      "id": "urc-official",
+      "name": "urc-official",
+      "url": "https://www.unitedrugby.com/",
+      "type": "official-website",
+      "sports": [
+        "Rugby"
+      ],
+      "data": [
+        "fixtures",
+        "kickoff_times"
+      ],
+      "status": "candidate",
+      "automation": "not-implemented",
+      "notes": "Cross-check source candidate; no automated parser validated.",
+      "last_checked": null,
+      "code": null
+    },
+    {
+      "id": "epcr",
+      "name": "epcr",
+      "url": "https://www.epcrugby.com/",
+      "type": "official-website",
+      "sports": [
+        "Rugby"
+      ],
+      "data": [
+        "fixtures",
+        "kickoff_times"
+      ],
+      "status": "candidate",
+      "automation": "not-implemented",
+      "notes": "Cross-check source candidate; no automated parser validated.",
+      "last_checked": null,
+      "code": null
+    },
+    {
+      "id": "top14",
+      "name": "top14",
+      "url": "https://top14.lnr.fr/",
+      "type": "official-website",
+      "sports": [
+        "Rugby"
+      ],
+      "data": [
+        "fixtures",
+        "kickoff_times"
+      ],
+      "status": "candidate",
+      "automation": "not-implemented",
+      "notes": "Cross-check source candidate; no automated parser validated.",
+      "last_checked": null,
+      "code": null
     }
   ]
 }
