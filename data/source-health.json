@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T23:53:10.744421+00:00",
+  "updated": "2026-11-20T23:56:52.767649+00:00",
   "collection_dates": [
     "2026-11-14",
     "2026-11-15",
@@ -18,10 +18,10 @@
     "2026-11-28",
     "2026-11-29"
   ],
-  "total_events": 310,
+  "total_events": 324,
   "by_category": {
     "golf-euro": 3,
-    "rugby": 5,
+    "rugby": 11,
     "soccer-wsl": 6,
     "darts": 4,
     "snooker": 4,
@@ -35,6 +35,8 @@
     "soccer-bel.1": 18,
     "soccer-esp.1": 19,
     "racing-f1": 3,
+    "rugby-autumn": 5,
+    "rugby-premiership": 3,
     "soccer-eng.1": 20,
     "soccer-eng.2": 36,
     "soccer-ita.1": 18,
@@ -2847,11 +2849,114 @@
   ],
   "successful_requests": 288,
   "failed_requests": 112,
-  "verified_start_times": 284,
+  "verified_start_times": 298,
   "coverage_only": 26,
-  "cross_referenced": 3,
+  "cross_referenced": 9,
   "official_schedule_issues": [],
-  "curated_fixtures": 0,
+  "curated_fixtures": 14,
+  "inventory": {
+    "missing_curated": [],
+    "missing_curated_channels": [],
+    "rugby_by_day": {
+      "2026-11-14": {
+        "total": 4,
+        "with_tv": 4,
+        "without_tv": 0
+      },
+      "2026-11-15": {
+        "total": 1,
+        "with_tv": 1,
+        "without_tv": 0
+      },
+      "2026-11-16": {
+        "total": 0,
+        "with_tv": 0,
+        "without_tv": 0
+      },
+      "2026-11-17": {
+        "total": 0,
+        "with_tv": 0,
+        "without_tv": 0
+      },
+      "2026-11-18": {
+        "total": 0,
+        "with_tv": 0,
+        "without_tv": 0
+      },
+      "2026-11-19": {
+        "total": 0,
+        "with_tv": 0,
+        "without_tv": 0
+      },
+      "2026-11-20": {
+        "total": 0,
+        "with_tv": 0,
+        "without_tv": 0
+      },
+      "2026-11-21": {
+        "total": 14,
+        "with_tv": 7,
+        "without_tv": 7
+      },
+      "2026-11-22": {
+        "total": 0,
+        "with_tv": 0,
+        "without_tv": 0
+      },
+      "2026-11-23": {
+        "total": 0,
+        "with_tv": 0,
+        "without_tv": 0
+      },
+      "2026-11-24": {
+        "total": 0,
+        "with_tv": 0,
+        "without_tv": 0
+      },
+      "2026-11-25": {
+        "total": 0,
+        "with_tv": 0,
+        "without_tv": 0
+      },
+      "2026-11-26": {
+        "total": 0,
+        "with_tv": 0,
+        "without_tv": 0
+      },
+      "2026-11-27": {
+        "total": 0,
+        "with_tv": 0,
+        "without_tv": 0
+      },
+      "2026-11-28": {
+        "total": 0,
+        "with_tv": 0,
+        "without_tv": 0
+      },
+      "2026-11-29": {
+        "total": 0,
+        "with_tv": 0,
+        "without_tv": 0
+      }
+    },
+    "no_rugby_dates": [
+      "2026-11-16",
+      "2026-11-17",
+      "2026-11-18",
+      "2026-11-19",
+      "2026-11-20",
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28",
+      "2026-11-29"
+    ]
+  },
+  "tv_confirmed": 39,
+  "tv_unconfirmed": 285,
   "f1_official_sessions": 3,
   "unverified_start_times": 278,
   "conflicts": [],
@@ -2862,6 +2967,7 @@
     "Official F1 timetable must be refreshed as each new Grand Prix approaches.",
     "Single-source ESPN fixture times are provisional, not independently confirmed.",
     "TV guide supplement is manually curated for 13\u201315 November only.",
-    "Coverage percentage cannot be calculated without independent expected-event inventory."
+    "Coverage percentage cannot be calculated without independent expected-event inventory.",
+    "TV channels are only confirmed when supplied by a verified, dated source; blank means unconfirmed, not unavailable."
   ]
 }
