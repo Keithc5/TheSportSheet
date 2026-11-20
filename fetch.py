@@ -196,6 +196,37 @@ def merge_curated(events, curated):
     {norm(t) for t in e.get("name","").split(" vs ")}==pair)]
   events.append(row)
 
+def validate_inventory(events, curated, days):
+ """Detect omitted fixtures and coverage gaps without treating empty feeds as proof of no games."""
+ by_id={e.get("id"):e for e in events}
+ missing=[r["id"] for r in curated if r["id"] not in by_id]
+ missing_channels=[r["id"] for r in curated if r.get("channel") and not by_id.get(r["id"],{}).get("channel")]
+ rugby_days={str(day):{"total":0,"with_tv":0,"without_tv":0} for day in days}
+ for e in events:
+  if e.get("sport")!="Rugby": continue
+  try: day=str(dt.datetime.fromisoformat(e["start"]).astimezone(TZ).date())
+  except (ValueError,TypeError,KeyError): continue
+  if day not in rugby_days: continue
+  rugby_days[day]["total"]+=1
+  rugby_days[day]["with_tv" if e.get("channel") else "without_tv"]+=1
+ return {"missing_curated":missing,"missing_curated_channels":missing_channels,
+         "rugby_by_day":rugby_days,
+         "no_rugby_dates":[d for d,v in rugby_days.items() if v["total"]==0]}
+
+def validate_output(events):
+ """Reject malformed events and duplicate IDs before overwriting published data."""
+ seen=set()
+ for event in events:
+  identifier=event.get("id")
+  if not identifier or identifier in seen: raise ValueError("Missing/duplicate fixture ID: "+str(identifier))
+  seen.add(identifier)
+  if not event.get("name") or not event.get("category"): raise ValueError("Incomplete fixture "+identifier)
+  if not event.get("start_time") and not event.get("coverage_time"):
+   raise ValueError("No usable time for "+identifier)
+  value=event.get("start_time") or event.get("coverage_time")
+  if dt.datetime.fromisoformat(value.replace("Z","+00:00")).tzinfo is None:
+   raise ValueError("Naive time for "+identifier)
+
 def main():
  days=collection_days()
  jobs=[(cat,day) for cat in LEAGUES for day in days]
@@ -211,6 +242,10 @@ def main():
  events.extend(tv)
  unique={e["id"]:e for e in events}
  events=sorted(unique.values(),key=lambda e:e.get("start_time") or e.get("coverage_time") or e["start"])
+ validate_output(events)
+ inventory=validate_inventory(events,curated,days)
+ if inventory["missing_curated"] or inventory["missing_curated_channels"]:
+  raise SystemExit("Curated fixtures or broadcasters lost; refusing to overwrite published feed: "+str(inventory))
  counts=dict(Counter(e["category"] for e in events))
  now=dt.datetime.now(dt.timezone.utc).isoformat()
  audit={"updated":now,"collection_dates":[str(d) for d in days],
@@ -222,6 +257,9 @@ def main():
   "cross_referenced":sum(e.get("verification")=="cross-referenced" for e in events),
   "official_schedule_issues":official_issues+curated_issues,
   "curated_fixtures":len(curated),
+  "inventory":inventory,
+  "tv_confirmed":sum(bool(e.get("channel")) for e in events),
+  "tv_unconfirmed":sum(not e.get("channel") for e in events),
   "f1_official_sessions":len(f1),
   "unverified_start_times":sum(e.get("verification")=="single-source" for e in events),
   "conflicts":[{"id":e["id"],"name":e["name"],"times":e["time_conflict"]} for e in events if e.get("time_conflict")],
@@ -231,7 +269,8 @@ def main():
   "Official F1 timetable must be refreshed as each new Grand Prix approaches.",
   "Single-source ESPN fixture times are provisional, not independently confirmed.",
   "TV guide supplement is manually curated for 13–15 November only.",
-  "Coverage percentage cannot be calculated without independent expected-event inventory."]}
+  "Coverage percentage cannot be calculated without independent expected-event inventory.",
+  "TV channels are only confirmed when supplied by a verified, dated source; blank means unconfirmed, not unavailable."]}
  out=ROOT/"data";out.mkdir(exist_ok=True)
  (out/"events.json").write_text(json.dumps({"updated":now,"events":events},indent=2)+"\n")
  (out/"source-health.json").write_text(json.dumps(audit,indent=2)+"\n")
