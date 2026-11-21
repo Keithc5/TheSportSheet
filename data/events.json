@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T11:06:30.527941+00:00",
+  "updated": "2026-11-21T17:59:05.111098+00:00",
   "events": [
     {
       "id": "tv-202611-23",
@@ -1343,8 +1343,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "1 \u2013 1"
     },
     {
       "id": "soccer-eng.2-401880156",
@@ -1365,8 +1365,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "0 \u2013 1"
     },
     {
       "id": "soccer-eng.2-401880155",
@@ -1387,8 +1387,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "2 \u2013 1"
     },
     {
       "id": "soccer-eng.2-401880153",
@@ -1409,8 +1409,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "2 \u2013 0"
     },
     {
       "id": "soccer-esp.1-401882806",
@@ -1431,8 +1431,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "3 \u2013 1"
     },
     {
       "id": "soccer-ita.1-401875056",
@@ -1453,8 +1453,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "2 \u2013 0"
     },
     {
       "id": "soccer-ita.1-401874981",
@@ -1475,8 +1475,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "3 \u2013 0"
     },
     {
       "id": "verified-nations-cup-20261121-georgia",
@@ -1567,8 +1567,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "1 \u2013 5"
     },
     {
       "id": "soccer-ger.1-401884735",
@@ -1589,8 +1589,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "4 \u2013 0"
     },
     {
       "id": "soccer-ger.1-401884731",
@@ -1611,8 +1611,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "0 \u2013 1"
     },
     {
       "id": "soccer-ger.1-401884734",
@@ -1633,8 +1633,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "1 \u2013 0"
     },
     {
       "id": "soccer-ger.1-401884728",
@@ -1655,8 +1655,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "0 \u2013 1"
     },
     {
       "id": "soccer-eng.1-401879238",
@@ -1677,8 +1677,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "2 \u2013 0"
     },
     {
       "id": "soccer-eng.1-401878756",
@@ -1699,8 +1699,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "0 \u2013 0"
     },
     {
       "id": "soccer-eng.1-401879236",
@@ -1721,8 +1721,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "1 \u2013 4"
     },
     {
       "id": "soccer-eng.1-401879235",
@@ -1743,8 +1743,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "3 \u2013 2"
     },
     {
       "id": "soccer-eng.1-401878754",
@@ -1765,8 +1765,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "2 \u2013 0"
     },
     {
       "id": "soccer-bel.1-401878940",
@@ -2005,8 +2005,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "0 \u2013 1"
     },
     {
       "id": "soccer-ned.1-401875541",
@@ -2027,8 +2027,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "1 \u2013 4"
     },
     {
       "id": "verified-nations-cup-20261121-spain",
