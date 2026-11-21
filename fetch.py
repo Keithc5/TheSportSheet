@@ -238,6 +238,8 @@ def main():
  curated,curated_issues=curated_fixtures(days)
  merge_curated(events,curated)
  health=[h for _,h in batches]
+ if not any(x["status"]=="ok" for x in health):
+  raise SystemExit("All sources failed; preserving previously published fixtures")
  tv=attach_tv(events,days)
  events.extend(tv)
  unique={e["id"]:e for e in events}
@@ -276,5 +278,4 @@ def main():
  (out/"source-health.json").write_text(json.dumps(audit,indent=2)+"\n")
  print("Fixtures",len(events),"verified starts",audit["verified_start_times"],
        "coverage only",audit["coverage_only"],"failed requests",audit["failed_requests"])
- if not any(x["status"]=="ok" for x in health): raise SystemExit("All sources failed; refusing to publish as success")
 if __name__=="__main__":main()
