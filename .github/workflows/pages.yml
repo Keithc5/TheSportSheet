@@ -1,0 +1,45 @@
+name: Deploy The Sport Sheet to GitHub Pages
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'assets/**'
+      - 'data/**'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate published files
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          root=pathlib.Path('.')
+          assert (root/'index.html').exists()
+          events=json.loads((root/'data/events.json').read_text())['events']
+          assert events, 'Refusing empty fixture feed'
+          ids=[e['id'] for e in events]
+          assert len(ids)==len(set(ids)), 'Duplicate fixture IDs'
+          assert all(e.get('start_time') or e.get('coverage_time') for e in events)
+          print('Deploying',len(events),'validated fixture entries')
+          PY
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Deploy to Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
