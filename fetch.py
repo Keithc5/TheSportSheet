@@ -133,6 +133,26 @@ def fetch_one(item):
 
 def norm(name):
  return re.sub(r"[^a-z0-9]+"," ",name.casefold()).strip()
+def attach_premier_league_tv(events):
+ """Apply fixture-specific Irish TV selections without guessing by kickoff slot."""
+ path=ROOT/"data"/"premier-league-tv-verified.json"
+ if not path.exists():return {"verified_listings":0,"matched_fixtures":0,"missing_fixture_ids":[]}
+ records=json.loads(path.read_text())
+ index={(e.get("id"),dt.datetime.fromisoformat(e["start"]).astimezone(TZ).date().isoformat()):e for e in events if e.get("category")=="soccer-eng.1"}
+ matched=0;missing=[]
+ for row in records:
+  if row.get("territory")!="IE" or not row.get("channels") or not row.get("source","").startswith("https://"):continue
+  e=index.get((row.get("id"),row.get("date")))
+  if e is None:
+   missing.append(row.get("id"))
+   continue
+  e["channel"]=" / ".join(row["channels"])
+  e["tv_source"]=row["source"]
+  e["tv_verification"]="fixture-specific-irish-listing"
+  e.setdefault("sources",[]).append({"provider":"irish-tv-guide","url":row["source"],"field":"channel"})
+  matched+=1
+ return {"verified_listings":len(records),"matched_fixtures":matched,"missing_fixture_ids":missing}
+
 def attach_tv(events,days):
  """Only exact-name, exact-date matches are safe. Never guess from a broadcast title."""
  index=defaultdict(list)
@@ -329,6 +349,7 @@ def main():
   raise SystemExit("All sources failed; preserving previously published fixtures")
  events=list({e["id"]:e for e in events}.values())  # ESPN US/Irish date overlap must not duplicate events
  tv=attach_tv(events,days)
+ premier_league_tv_health=attach_premier_league_tv(events)
  nfl_tv_health=attach_nfl_tv(events)
  events.extend(tv)
  unique={e["id"]:e for e in events}
@@ -351,6 +372,7 @@ def main():
   "inventory":inventory,
   "tv_confirmed":sum(bool(e.get("channel")) for e in events),
   "nfl_tv_source":nfl_tv_health,
+  "premier_league_tv_source":premier_league_tv_health,
   "tv_unconfirmed":sum(not e.get("channel") for e in events),
   "f1_official_sessions":len(f1),
   "unverified_start_times":sum(e.get("verification")=="single-source" for e in events),

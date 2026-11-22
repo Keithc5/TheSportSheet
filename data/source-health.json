@@ -2770,14 +2770,14 @@
       "2026-11-30"
     ]
   },
-  "tv_confirmed": 16,
+  "tv_confirmed": 29,
   "nfl_tv_source": {
     "status": "ok",
     "count": 6,
     "source": "https://www.skysports.com/nfl/news/13582747/nfl-2026-season-live-on-sky-sports-fixtures-kick-off-times-tv-channel-for-games-this-week-and-weekend",
     "matched_fixtures": 9
   },
-  "tv_unconfirmed": 172,
+  "tv_unconfirmed": 159,
   "f1_official_sessions": 3,
   "unverified_start_times": 171,
   "conflicts": [],
@@ -2790,5 +2790,10 @@
     "NFL Sky Sports broadcast selections are refreshed from the dated weekly Sky guide with verified fallback records; unlisted games are not assumed to be on Sky.",
     "Coverage percentage cannot be calculated without independent expected-event inventory.",
     "TV channels are only confirmed when supplied by a verified, dated source; blank means unconfirmed, not unavailable."
-  ]
+  ],
+  "premier_league_tv_source": {
+    "verified_listings": 13,
+    "matched_fixtures": 13,
+    "missing_fixture_ids": []
+  }
 }

@@ -21,7 +21,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 0"
+      "result": "1 – 0"
     },
     {
       "id": "soccer-nations-401861181",
@@ -43,7 +43,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 2"
+      "result": "2 – 2"
     },
     {
       "id": "soccer-nations-401861183",
@@ -65,7 +65,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 1"
+      "result": "2 – 1"
     },
     {
       "id": "soccer-nations-401861182",
@@ -87,7 +87,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 0"
+      "result": "3 – 0"
     },
     {
       "id": "soccer-nations-401861184",
@@ -109,7 +109,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 1"
+      "result": "2 – 1"
     },
     {
       "id": "soccer-nations-401861185",
@@ -131,7 +131,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "5 \u2013 0"
+      "result": "5 – 0"
     },
     {
       "id": "soccer-nations-401861179",
@@ -153,7 +153,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1"
+      "result": "1 – 1"
     },
     {
       "id": "soccer-nations-401861188",
@@ -175,7 +175,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 0"
+      "result": "1 – 0"
     },
     {
       "id": "soccer-nations-401861187",
@@ -197,7 +197,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 3"
+      "result": "0 – 3"
     },
     {
       "id": "soccer-nations-401861186",
@@ -219,7 +219,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "4 \u2013 0"
+      "result": "4 – 0"
     },
     {
       "id": "football-nfl-401873065",
@@ -241,7 +241,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "20 \u2013 23"
+      "result": "20 – 23"
     },
     {
       "id": "soccer-nations-401861196",
@@ -263,7 +263,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 1"
+      "result": "2 – 1"
     },
     {
       "id": "soccer-nations-401861194",
@@ -285,7 +285,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 3"
+      "result": "2 – 3"
     },
     {
       "id": "soccer-nations-401861191",
@@ -307,7 +307,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1"
+      "result": "1 – 1"
     },
     {
       "id": "soccer-nations-401861193",
@@ -329,7 +329,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1"
+      "result": "1 – 1"
     },
     {
       "id": "soccer-nations-401861195",
@@ -351,7 +351,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1"
+      "result": "1 – 1"
     },
     {
       "id": "soccer-nations-401861192",
@@ -373,7 +373,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 0"
+      "result": "3 – 0"
     },
     {
       "id": "soccer-nations-401861190",
@@ -395,7 +395,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 0"
+      "result": "1 – 0"
     },
     {
       "id": "soccer-nations-401861189",
@@ -417,7 +417,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 3"
+      "result": "2 – 3"
     },
     {
       "id": "golf-pga-401850981",
@@ -483,7 +483,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "26 \u2013 3"
+      "result": "26 – 3"
     },
     {
       "id": "soccer-fra.1-401876395",
@@ -505,7 +505,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 1"
+      "result": "3 – 1"
     },
     {
       "id": "soccer-esp.1-401882805",
@@ -527,14 +527,14 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 1"
+      "result": "0 – 1"
     },
     {
       "id": "racing-f1-las-vegas-2026-qualifying",
       "category": "racing-f1",
       "sport": "Formula 1",
       "competition": "Formula 1",
-      "name": "Las Vegas Grand Prix \u2014 Qualifying",
+      "name": "Las Vegas Grand Prix — Qualifying",
       "session": "Qualifying",
       "start": "2026-11-21T04:00:00+00:00",
       "start_time": "2026-11-21T04:00:00+00:00",
@@ -604,17 +604,24 @@
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=250",
           "field": "start_time"
+        },
+        {
+          "provider": "irish-tv-guide",
+          "url": "https://www.fotmob.com/en-GB/tv-guide/ie",
+          "field": "channel"
         }
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": "",
+      "channel": "TNT Sports 1 / TNT Sports Ultimate",
       "completed": true,
-      "result": "1 \u2013 1",
+      "result": "1 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
-      ]
+      ],
+      "tv_source": "https://www.fotmob.com/en-GB/tv-guide/ie",
+      "tv_verification": "fixture-specific-irish-listing"
     },
     {
       "id": "soccer-eng.2-401880156",
@@ -636,7 +643,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 1"
+      "result": "0 – 1"
     },
     {
       "id": "soccer-eng.2-401880155",
@@ -658,7 +665,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 1"
+      "result": "2 – 1"
     },
     {
       "id": "soccer-eng.2-401880153",
@@ -680,14 +687,14 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 0"
+      "result": "2 – 0"
     },
     {
       "id": "soccer-esp.1-401882806",
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Alav\u00e9s vs Deportivo",
+      "name": "Alavés vs Deportivo",
       "start": "2026-11-21T13:00:00+00:00",
       "start_time": "2026-11-21T13:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261121&limit=250",
@@ -702,7 +709,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 1"
+      "result": "3 – 1"
     },
     {
       "id": "verified-nations-cup-20261121-georgia",
@@ -794,7 +801,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 0",
+      "result": "2 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/393.png"
@@ -820,7 +827,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 0",
+      "result": "0 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/366.png"
@@ -840,17 +847,24 @@
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=250",
           "field": "start_time"
+        },
+        {
+          "provider": "irish-tv-guide",
+          "url": "https://www.fotmob.com/en-GB/tv-guide/ie",
+          "field": "channel"
         }
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": "",
+      "channel": "Premier Sports 1",
       "completed": true,
-      "result": "1 \u2013 4",
+      "result": "1 – 4",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
-      ]
+      ],
+      "tv_source": "https://www.fotmob.com/en-GB/tv-guide/ie",
+      "tv_verification": "fixture-specific-irish-listing"
     },
     {
       "id": "soccer-eng.1-401879235",
@@ -872,7 +886,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 2",
+      "result": "3 – 2",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/384.png"
@@ -898,7 +912,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 0",
+      "result": "2 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/373.png"
@@ -924,7 +938,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1"
+      "result": "1 – 1"
     },
     {
       "id": "soccer-eng.2-401880158",
@@ -946,7 +960,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 1"
+      "result": "0 – 1"
     },
     {
       "id": "soccer-eng.2-401880157",
@@ -968,7 +982,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 0"
+      "result": "2 – 0"
     },
     {
       "id": "soccer-eng.2-401880154",
@@ -990,7 +1004,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "4 \u2013 0"
+      "result": "4 – 0"
     },
     {
       "id": "soccer-eng.2-401880152",
@@ -1012,7 +1026,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 0"
+      "result": "1 – 0"
     },
     {
       "id": "soccer-eng.2-401880151",
@@ -1034,7 +1048,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 2"
+      "result": "2 – 2"
     },
     {
       "id": "soccer-eng.2-401880150",
@@ -1056,7 +1070,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1"
+      "result": "1 – 1"
     },
     {
       "id": "soccer-eng.2-401880149",
@@ -1078,7 +1092,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 1"
+      "result": "2 – 1"
     },
     {
       "id": "verified-nations-cup-20261121-portugal",
@@ -1120,7 +1134,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 1"
+      "result": "0 – 1"
     },
     {
       "id": "verified-nations-cup-20261121-spain",
@@ -1162,7 +1176,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 3"
+      "result": "2 – 3"
     },
     {
       "id": "verified-prem-cup-20261121-exeter",
@@ -1268,17 +1282,24 @@
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=250",
           "field": "start_time"
+        },
+        {
+          "provider": "irish-tv-guide",
+          "url": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+          "field": "channel"
         }
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": "",
+      "channel": "Sky Sports Main Event / Sky Sports Premier League",
       "completed": true,
-      "result": "2 \u2013 2",
+      "result": "2 – 2",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/359.png"
-      ]
+      ],
+      "tv_source": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+      "tv_verification": "fixture-specific-irish-listing"
     },
     {
       "id": "soccer-esp.1-401882797",
@@ -1300,7 +1321,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1"
+      "result": "1 – 1"
     },
     {
       "id": "verified-prem-cup-20261121-newcastle-red-bulls",
@@ -1342,7 +1363,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1"
+      "result": "1 – 1"
     },
     {
       "id": "soccer-fra.1-401876403",
@@ -1364,7 +1385,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1"
+      "result": "1 – 1"
     },
     {
       "id": "soccer-fra.1-401876402",
@@ -1386,7 +1407,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 1"
+      "result": "0 – 1"
     },
     {
       "id": "soccer-fra.1-401876396",
@@ -1408,7 +1429,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 1"
+      "result": "0 – 1"
     },
     {
       "id": "soccer-esp.1-401882798",
@@ -1430,7 +1451,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 1"
+      "result": "2 – 1"
     },
     {
       "id": "verified-nations-20261121-5",
@@ -1487,7 +1508,7 @@
       "category": "racing-f1",
       "sport": "Formula 1",
       "competition": "Formula 1",
-      "name": "Las Vegas Grand Prix \u2014 Race",
+      "name": "Las Vegas Grand Prix — Race",
       "session": "Race",
       "start": "2026-11-22T04:00:00+00:00",
       "start_time": "2026-11-22T04:00:00+00:00",
@@ -1561,17 +1582,24 @@
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261122&limit=250",
           "field": "start_time"
+        },
+        {
+          "provider": "irish-tv-guide",
+          "url": "https://www.fotmob.com/en-GB/tv-guide/ie",
+          "field": "channel"
         }
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": "",
+      "channel": "Sky Sports Main Event / Sky Sports Premier League",
       "completed": false,
       "result": null,
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
-      ]
+      ],
+      "tv_source": "https://www.fotmob.com/en-GB/tv-guide/ie",
+      "tv_verification": "fixture-specific-irish-listing"
     },
     {
       "id": "soccer-ita.1-401875047",
@@ -1631,17 +1659,24 @@
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261122&limit=250",
           "field": "start_time"
+        },
+        {
+          "provider": "irish-tv-guide",
+          "url": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+          "field": "channel"
         }
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": "",
+      "channel": "Sky Sports Main Event / Sky Sports Premier League",
       "completed": false,
       "result": null,
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
-      ]
+      ],
+      "tv_source": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+      "tv_verification": "fixture-specific-irish-listing"
     },
     {
       "id": "soccer-ita.1-401874989",
@@ -2010,17 +2045,24 @@
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261123&limit=250",
           "field": "start_time"
+        },
+        {
+          "provider": "irish-tv-guide",
+          "url": "https://www.fotmob.com/en-GB/tv-guide/ie",
+          "field": "channel"
         }
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": "",
+      "channel": "Sky Sports Main Event / Sky Sports Premier League",
       "completed": false,
       "result": null,
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/368.png"
-      ]
+      ],
+      "tv_source": "https://www.fotmob.com/en-GB/tv-guide/ie",
+      "tv_verification": "fixture-specific-irish-listing"
     },
     {
       "id": "football-nfl-401873078",
@@ -2476,7 +2518,7 @@
       "category": "soccer-uefa.champions",
       "sport": "Football",
       "competition": "Champions League",
-      "name": "Atl\u00e9tico Madrid vs Viking FK",
+      "name": "Atlético Madrid vs Viking FK",
       "start": "2026-11-25T20:00:00+00:00",
       "start_time": "2026-11-25T20:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=250",
@@ -2789,7 +2831,7 @@
       "category": "soccer-ger.1",
       "sport": "Football",
       "competition": "Bundesliga",
-      "name": "Werder Bremen vs Borussia M\u00f6nchengladbach",
+      "name": "Werder Bremen vs Borussia Mönchengladbach",
       "start": "2026-11-27T19:30:00+00:00",
       "start_time": "2026-11-27T19:30:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261127&limit=250",
@@ -2842,17 +2884,24 @@
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261127&limit=250",
           "field": "start_time"
+        },
+        {
+          "provider": "irish-tv-guide",
+          "url": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+          "field": "channel"
         }
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": "",
+      "channel": "Sky Sports",
       "completed": false,
       "result": null,
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/363.png"
-      ]
+      ],
+      "tv_source": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+      "tv_verification": "fixture-specific-irish-listing"
     },
     {
       "id": "football-nfl-401873083",
@@ -3043,7 +3092,7 @@
       "category": "soccer-bel.1",
       "sport": "Football",
       "competition": "Belgian Pro League",
-      "name": "KVC Westerlo vs RAAL La Louvi\u00e8re",
+      "name": "KVC Westerlo vs RAAL La Louvière",
       "start": "2026-11-28T15:00:00+00:00",
       "start_time": "2026-11-28T15:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261128&limit=250",
@@ -3065,7 +3114,7 @@
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "M\u00e1laga vs Athletic Club",
+      "name": "Málaga vs Athletic Club",
       "start": "2026-11-28T15:15:00+00:00",
       "start_time": "2026-11-28T15:15:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128&limit=250",
@@ -3206,24 +3255,31 @@
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261128&limit=250",
           "field": "start_time"
+        },
+        {
+          "provider": "irish-tv-guide",
+          "url": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+          "field": "channel"
         }
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": "",
+      "channel": "Sky Sports",
       "completed": false,
       "result": null,
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
-      ]
+      ],
+      "tv_source": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+      "tv_verification": "fixture-specific-irish-listing"
     },
     {
       "id": "soccer-esp.1-401882793",
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Elche vs Atl\u00e9tico Madrid",
+      "name": "Elche vs Atlético Madrid",
       "start": "2026-11-28T17:30:00+00:00",
       "start_time": "2026-11-28T17:30:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128&limit=250",
@@ -3289,7 +3345,7 @@
       "category": "soccer-por.1",
       "sport": "Football",
       "competition": "Primeira Liga",
-      "name": "Acad\u00e9mico de Viseu vs Alverca",
+      "name": "Académico de Viseu vs Alverca",
       "start": "2026-11-28T18:00:00+00:00",
       "start_time": "2026-11-28T18:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261128&limit=250",
@@ -3443,7 +3499,7 @@
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Real Madrid vs Alav\u00e9s",
+      "name": "Real Madrid vs Alavés",
       "start": "2026-11-28T20:00:00+00:00",
       "start_time": "2026-11-28T20:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128&limit=250",
@@ -3487,7 +3543,7 @@
       "category": "soccer-por.1",
       "sport": "Football",
       "competition": "Primeira Liga",
-      "name": "Vit\u00f3ria de Guimaraes vs Estrela",
+      "name": "Vitória de Guimaraes vs Estrela",
       "start": "2026-11-28T20:30:00+00:00",
       "start_time": "2026-11-28T20:30:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261128&limit=250",
@@ -3698,17 +3754,24 @@
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261129&limit=250",
           "field": "start_time"
+        },
+        {
+          "provider": "irish-tv-guide",
+          "url": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+          "field": "channel"
         }
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": "",
+      "channel": "Sky Sports",
       "completed": false,
       "result": null,
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
-      ]
+      ],
+      "tv_source": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+      "tv_verification": "fixture-specific-irish-listing"
     },
     {
       "id": "soccer-eng.1-401879230",
@@ -3724,17 +3787,24 @@
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261129&limit=250",
           "field": "start_time"
+        },
+        {
+          "provider": "irish-tv-guide",
+          "url": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+          "field": "channel"
         }
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": "",
+      "channel": "Sky Sports",
       "completed": false,
       "result": null,
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/306.png"
-      ]
+      ],
+      "tv_source": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+      "tv_verification": "fixture-specific-irish-listing"
     },
     {
       "id": "soccer-eng.1-401879228",
@@ -3750,17 +3820,24 @@
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261129&limit=250",
           "field": "start_time"
+        },
+        {
+          "provider": "irish-tv-guide",
+          "url": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+          "field": "channel"
         }
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": "",
+      "channel": "Sky Sports",
       "completed": false,
       "result": null,
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/349.png"
-      ]
+      ],
+      "tv_source": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+      "tv_verification": "fixture-specific-irish-listing"
     },
     {
       "id": "soccer-eng.1-401879224",
@@ -3776,17 +3853,24 @@
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261129&limit=250",
           "field": "start_time"
+        },
+        {
+          "provider": "irish-tv-guide",
+          "url": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+          "field": "channel"
         }
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": "",
+      "channel": "Sky Sports",
       "completed": false,
       "result": null,
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
-      ]
+      ],
+      "tv_source": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+      "tv_verification": "fixture-specific-irish-listing"
     },
     {
       "id": "soccer-ger.1-401884724",
@@ -3859,7 +3943,7 @@
       "category": "racing-f1",
       "sport": "Formula 1",
       "competition": "Formula 1",
-      "name": "Qatar Grand Prix \u2014 Race",
+      "name": "Qatar Grand Prix — Race",
       "session": "Race",
       "start": "2026-11-29T16:00:00+00:00",
       "start_time": "2026-11-29T16:00:00+00:00",
@@ -3889,17 +3973,24 @@
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261129&limit=250",
           "field": "start_time"
+        },
+        {
+          "provider": "irish-tv-guide",
+          "url": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+          "field": "channel"
         }
       ],
       "verification": "single-source",
       "detail": "",
-      "channel": "",
+      "channel": "Sky Sports",
       "completed": false,
       "result": null,
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
-      ]
+      ],
+      "tv_source": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+      "tv_verification": "fixture-specific-irish-listing"
     },
     {
       "id": "soccer-ger.1-401884725",

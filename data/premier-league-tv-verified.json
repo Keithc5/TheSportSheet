@@ -1,0 +1,137 @@
+[
+  {
+    "id": "soccer-eng.1-401879233",
+    "date": "2026-11-21",
+    "name": "Manchester City vs Fulham",
+    "channels": [
+      "TNT Sports 1",
+      "TNT Sports Ultimate"
+    ],
+    "source": "https://www.fotmob.com/en-GB/tv-guide/ie",
+    "territory": "IE"
+  },
+  {
+    "id": "soccer-eng.1-401879236",
+    "date": "2026-11-21",
+    "name": "Chelsea vs Leeds United",
+    "channels": [
+      "Premier Sports 1"
+    ],
+    "source": "https://www.fotmob.com/en-GB/tv-guide/ie",
+    "territory": "IE"
+  },
+  {
+    "id": "soccer-eng.1-401879232",
+    "date": "2026-11-21",
+    "name": "Newcastle United vs Arsenal",
+    "channels": [
+      "Sky Sports Main Event",
+      "Sky Sports Premier League"
+    ],
+    "source": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+    "territory": "IE"
+  },
+  {
+    "id": "soccer-eng.1-401879234",
+    "date": "2026-11-22",
+    "name": "Hull City vs Brighton & Hove Albion",
+    "channels": [
+      "Sky Sports Main Event",
+      "Sky Sports Premier League"
+    ],
+    "source": "https://www.fotmob.com/en-GB/tv-guide/ie",
+    "territory": "IE"
+  },
+  {
+    "id": "soccer-eng.1-401878755",
+    "date": "2026-11-22",
+    "name": "Liverpool vs Manchester United",
+    "channels": [
+      "Sky Sports Main Event",
+      "Sky Sports Premier League"
+    ],
+    "source": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+    "territory": "IE"
+  },
+  {
+    "id": "soccer-eng.1-401879237",
+    "date": "2026-11-23",
+    "name": "Brentford vs Everton",
+    "channels": [
+      "Sky Sports Main Event",
+      "Sky Sports Premier League"
+    ],
+    "source": "https://www.fotmob.com/en-GB/tv-guide/ie",
+    "territory": "IE"
+  },
+  {
+    "id": "soccer-eng.1-401879225",
+    "date": "2026-11-27",
+    "name": "Nottingham Forest vs Chelsea",
+    "channels": [
+      "Sky Sports"
+    ],
+    "source": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+    "territory": "IE"
+  },
+  {
+    "id": "soccer-eng.1-401878752",
+    "date": "2026-11-28",
+    "name": "Ipswich Town vs Aston Villa",
+    "channels": [
+      "Sky Sports"
+    ],
+    "source": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+    "territory": "IE"
+  },
+  {
+    "id": "soccer-eng.1-401879231",
+    "date": "2026-11-29",
+    "name": "Brighton & Hove Albion vs Newcastle United",
+    "channels": [
+      "Sky Sports"
+    ],
+    "source": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+    "territory": "IE"
+  },
+  {
+    "id": "soccer-eng.1-401879230",
+    "date": "2026-11-29",
+    "name": "Crystal Palace vs Hull City",
+    "channels": [
+      "Sky Sports"
+    ],
+    "source": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+    "territory": "IE"
+  },
+  {
+    "id": "soccer-eng.1-401879228",
+    "date": "2026-11-29",
+    "name": "Fulham vs AFC Bournemouth",
+    "channels": [
+      "Sky Sports"
+    ],
+    "source": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+    "territory": "IE"
+  },
+  {
+    "id": "soccer-eng.1-401879224",
+    "date": "2026-11-29",
+    "name": "Sunderland vs Tottenham Hotspur",
+    "channels": [
+      "Sky Sports"
+    ],
+    "source": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+    "territory": "IE"
+  },
+  {
+    "id": "soccer-eng.1-401878753",
+    "date": "2026-11-29",
+    "name": "Arsenal vs Manchester City",
+    "channels": [
+      "Sky Sports"
+    ],
+    "source": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november",
+    "territory": "IE"
+  }
+]
