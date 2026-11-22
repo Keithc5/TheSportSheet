@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T11:28:39.373523+00:00",
+  "updated": "2026-11-22T21:05:14.112832+00:00",
   "events": [
     {
       "id": "soccer-nations-401861180",
@@ -2273,8 +2273,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "2 \u2013 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/152.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/156.png"
@@ -2300,8 +2300,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "4 \u2013 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png"
@@ -2327,8 +2327,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "2 \u2013 2",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/379.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/365.png"
@@ -2354,8 +2354,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "1 \u2013 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/13450.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/3611.png"
@@ -2381,8 +2381,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "3 \u2013 2",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
@@ -2462,8 +2462,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "3 \u2013 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/139.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/2726.png"
@@ -2489,8 +2489,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "1 \u2013 5",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/151.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/140.png"
@@ -2550,8 +2550,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "Sky Sports Main Event / Sky Sports Premier League",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "2 \u2013 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
@@ -2579,8 +2579,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "1 \u2013 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/118.png"
@@ -2606,8 +2606,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "0 \u2013 2",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png"
@@ -2633,8 +2633,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "4 \u2013 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png"
@@ -2660,8 +2660,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "3 \u2013 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png"
@@ -2687,8 +2687,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "0 \u2013 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/5786.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png"
@@ -2714,8 +2714,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "3 \u2013 2",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/89.png"
@@ -2770,8 +2770,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "0 \u2013 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/3706.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/143.png"
@@ -2797,8 +2797,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "1 \u2013 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/169.png"
@@ -2829,8 +2829,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "Sky Sports Main Event / Sky Sports Premier League",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "4 \u2013 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
@@ -2858,8 +2858,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "4 \u2013 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/127.png"
@@ -2885,8 +2885,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "5 \u2013 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png"
@@ -2912,8 +2912,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "1 \u2013 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/99.png"
@@ -2939,8 +2939,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "1 \u2013 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/441.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/5579.png"
@@ -3010,8 +3010,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "51 \u2013 30"
     },
     {
       "id": "football-nfl-401873072",
@@ -3042,37 +3042,6 @@
       "tv_source": "https://www.skysports.com/watch/nfl-on-sky",
       "tv_verification": "broadcaster-confirmed",
       "coverage_time": "2026-11-22T17:30:00+00:00",
-      "coverage_source": "https://www.skysports.com/watch/nfl-on-sky"
-    },
-    {
-      "id": "football-nfl-401873067",
-      "category": "football-nfl",
-      "sport": "NFL",
-      "competition": "NFL",
-      "name": "Kansas City Chiefs vs Arizona Cardinals",
-      "start": "2026-11-22T18:00:00+00:00",
-      "start_time": "2026-11-22T18:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
-          "field": "start_time"
-        },
-        {
-          "provider": "sky-sports",
-          "url": "https://www.skysports.com/watch/nfl-on-sky",
-          "field": "channel"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "Sky Sports NFL",
-      "completed": false,
-      "result": null,
-      "tv_source": "https://www.skysports.com/watch/nfl-on-sky",
-      "tv_verification": "broadcaster-confirmed",
-      "coverage_time": "2026-11-22T18:00:00+00:00",
       "coverage_source": "https://www.skysports.com/watch/nfl-on-sky"
     },
     {
@@ -3118,6 +3087,37 @@
       "channel": "",
       "completed": false,
       "result": null
+    },
+    {
+      "id": "football-nfl-401873067",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Kansas City Chiefs vs Arizona Cardinals",
+      "start": "2026-11-22T18:00:00+00:00",
+      "start_time": "2026-11-22T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
+          "field": "start_time"
+        },
+        {
+          "provider": "sky-sports",
+          "url": "https://www.skysports.com/watch/nfl-on-sky",
+          "field": "channel"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "Sky Sports NFL",
+      "completed": true,
+      "result": "34 \u2013 7",
+      "tv_source": "https://www.skysports.com/watch/nfl-on-sky",
+      "tv_verification": "broadcaster-confirmed",
+      "coverage_time": "2026-11-22T18:00:00+00:00",
+      "coverage_source": "https://www.skysports.com/watch/nfl-on-sky"
     },
     {
       "id": "golf-lpga-cme-final-20261122",
@@ -3186,8 +3186,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "1 \u2013 2",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/22269.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/559.png"
