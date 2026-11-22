@@ -118,11 +118,16 @@ def fetch_one(item):
      if value is None or str(value).strip()=="": scores=[];break
      scores.append(str(value))
    result_text=" – ".join(scores) if len(scores)==2 else None
+   team_logos=[]
+   if category=="soccer-eng.1" and len(competitors)==2:
+    for competitor in competitors[:2]:
+     logo=(competitor.get("team") or {}).get("logo") or ""
+     team_logos.append(logo if isinstance(logo,str) and logo.startswith("https://a.espncdn.com/i/teamlogos/soccer/") else "")
    result.append({"id":f'{category}-{event["id"]}',"category":category,"sport":label,
     "competition":competition,"name":name,"start":start.isoformat(),"start_time":start.isoformat(),
     "start_source":url,"sources":[{"provider":"espn","url":url,"field":"start_time"}],
     "verification":"single-source","detail":"","channel":"",
-    "completed":completed,"result":result_text})
+    "completed":completed,"result":result_text,**({"team_logos":team_logos} if category=="soccer-eng.1" else {})})
   except (KeyError,TypeError,ValueError,AttributeError): continue
  return result,{"source":category,"date":str(day),"status":"ok","count":len(result),"url":url}
 
