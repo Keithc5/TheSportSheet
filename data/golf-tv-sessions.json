@@ -5,17 +5,17 @@
     "competition": "LPGA Tour",
     "name": "CME Group Tour Championship — Final round",
     "coverage_time": "2026-11-22T18:00:00+00:00",
-    "channel": "",
-    "source": "https://prod.lpga.com/tournaments/cme-group-tour-championship/how-to-watch"
+    "channel": "Sky Sports Golf / Sky Sports+",
+    "source": "https://www.skysports.com/watch/golf-on-sky"
   },
   {
     "id": "golf-pga-rsm-20261122",
     "category": "golf-pga",
     "competition": "PGA Tour",
     "name": "The RSM Classic — Final round coverage",
-    "coverage_time": "2026-11-22T13:30:00+00:00",
-    "channel": "Sky Sports Golf / Sky Sports+",
-    "source": "https://www.radiotimes.com/tv/sport/golf/live-golf-today-tv/"
+    "coverage_time": "2026-11-22T18:00:00+00:00",
+    "channel": "Sky Sports Mix",
+    "source": "https://www.skysports.com/watch/golf-on-sky"
   },
   {
     "id": "golf-euro-australian-pga-20261126",
@@ -23,7 +23,7 @@
     "competition": "DP World Tour",
     "name": "BMW Australian PGA Championship — Coverage",
     "coverage_time": "2026-11-26T01:00:00+00:00",
-    "channel": "Sky Sports Golf / Sky Sports+",
-    "source": "https://www.radiotimes.com/tv/sport/golf/live-golf-today-tv/"
+    "channel": "Sky Sports Main Event / Sky Sports Golf",
+    "source": "https://www.skysports.com/watch/golf-on-sky"
   }
 ]
