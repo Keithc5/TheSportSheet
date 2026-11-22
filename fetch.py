@@ -372,6 +372,7 @@ def verified_golf_coverage(days):
     "competition":item["competition"],"name":item["name"],"start":when.isoformat(),
     "start_time":None,"coverage_time":when.isoformat(),"coverage_source":item["source"],
     "start_source":None,"channel":item.get("channel",""),
+    "watch_url":item.get("watch_url",""),"streaming_note":item.get("streaming_note",""),
     "sources":[{"provider":"dated-golf-broadcast","url":item["source"],"field":"coverage_time"}],
     "verification":"coverage-only","detail":"TV coverage, not tee time"})
   except (KeyError,ValueError,TypeError):continue

@@ -6,7 +6,9 @@
     "name": "CME Group Tour Championship — Final round",
     "coverage_time": "2026-11-22T18:00:00+00:00",
     "channel": "Sky Sports Golf / Sky Sports+",
-    "source": "https://www.skysports.com/watch/golf-on-sky"
+    "source": "https://www.skysports.com/watch/golf-on-sky",
+    "watch_url": "https://www.skysports.com/watch/golf-on-sky",
+    "streaming_note": "Sky Sports via Sky Go or NOW (subscription required)"
   },
   {
     "id": "golf-pga-rsm-20261122",
@@ -15,7 +17,9 @@
     "name": "The RSM Classic — Final round coverage",
     "coverage_time": "2026-11-22T18:00:00+00:00",
     "channel": "Sky Sports Mix",
-    "source": "https://www.skysports.com/watch/golf-on-sky"
+    "source": "https://www.skysports.com/watch/golf-on-sky",
+    "watch_url": "https://www.skysports.com/watch/golf-on-sky",
+    "streaming_note": "Sky Sports via Sky Go or NOW (subscription required)"
   },
   {
     "id": "golf-euro-australian-pga-20261126",
@@ -24,6 +28,52 @@
     "name": "BMW Australian PGA Championship — Coverage",
     "coverage_time": "2026-11-26T01:00:00+00:00",
     "channel": "Sky Sports Main Event / Sky Sports Golf",
-    "source": "https://www.skysports.com/watch/golf-on-sky"
+    "source": "https://www.skysports.com/watch/golf-on-sky",
+    "watch_url": "https://www.skysports.com/watch/golf-on-sky",
+    "streaming_note": "Sky Sports via Sky Go or NOW (subscription required)"
+  },
+  {
+    "id": "golf-let-andalucia-20261126",
+    "category": "golf-let",
+    "competition": "Ladies European Tour",
+    "name": "Andalucía Costa del Sol Open de España — Round 1",
+    "coverage_time": "2026-11-26T13:00:00+00:00",
+    "channel": "Sky Sports Golf",
+    "source": "https://www.skysports.com/watch/golf-on-sky",
+    "watch_url": "https://www.skysports.com/watch/golf-on-sky",
+    "streaming_note": "Sky Sports via Sky Go or NOW (subscription required)"
+  },
+  {
+    "id": "golf-let-andalucia-20261127",
+    "category": "golf-let",
+    "competition": "Ladies European Tour",
+    "name": "Andalucía Costa del Sol Open de España — Round 2",
+    "coverage_time": "2026-11-27T13:00:00+00:00",
+    "channel": "Sky Sports Golf",
+    "source": "https://www.skysports.com/watch/golf-on-sky",
+    "watch_url": "https://www.skysports.com/watch/golf-on-sky",
+    "streaming_note": "Sky Sports via Sky Go or NOW (subscription required)"
+  },
+  {
+    "id": "golf-let-andalucia-20261128",
+    "category": "golf-let",
+    "competition": "Ladies European Tour",
+    "name": "Andalucía Costa del Sol Open de España — Round 3",
+    "coverage_time": "2026-11-28T13:00:00+00:00",
+    "channel": "Sky Sports Golf",
+    "source": "https://www.skysports.com/watch/golf-on-sky",
+    "watch_url": "https://www.skysports.com/watch/golf-on-sky",
+    "streaming_note": "Sky Sports via Sky Go or NOW (subscription required)"
+  },
+  {
+    "id": "golf-let-andalucia-20261129",
+    "category": "golf-let",
+    "competition": "Ladies European Tour",
+    "name": "Andalucía Costa del Sol Open de España — Final round",
+    "coverage_time": "2026-11-29T12:30:00+00:00",
+    "channel": "Sky Sports Golf",
+    "source": "https://www.skysports.com/watch/golf-on-sky",
+    "watch_url": "https://www.skysports.com/watch/golf-on-sky",
+    "streaming_note": "Sky Sports via Sky Go or NOW (subscription required)"
   }
 ]
