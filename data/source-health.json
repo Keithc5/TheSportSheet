@@ -1,7 +1,6 @@
 {
-  "updated": "2026-11-21T23:48:39.980729+00:00",
+  "updated": "2026-11-22T09:19:04.398894+00:00",
   "collection_dates": [
-    "2026-11-15",
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
@@ -17,53 +16,39 @@
     "2026-11-28",
     "2026-11-29"
   ],
-  "total_events": 135,
+  "total_events": 96,
   "by_category": {
-    "golf-euro": 2,
-    "darts": 2,
-    "snooker": 2,
-    "gaa": 2,
-    "soccer-nations": 26,
-    "soccer-wsl": 2,
-    "football-nfl": 34,
-    "rugby": 7,
-    "golf-pga": 2,
-    "golf-lpga": 2,
+    "soccer-nations": 18,
+    "golf-pga": 1,
     "racing-f1": 3,
     "rugby-autumn": 5,
     "rugby-premiership": 3,
     "soccer-eng.1": 20,
-    "soccer-esp.1": 5,
+    "rugby": 6,
+    "football-nfl": 22,
     "soccer-uefa.champions": 18
   },
   "source_requests": [
     {
       "source": "golf-pga",
-      "date": "2026-11-15",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20261115&limit=250"
-    },
-    {
-      "source": "golf-pga",
       "date": "2026-11-16",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20261116&limit=250"
+      "status": "error",
+      "message": "HTTP Error 502: Bad Gateway",
+      "count": 0
     },
     {
       "source": "golf-pga",
       "date": "2026-11-17",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20261117&limit=250"
+      "status": "error",
+      "message": "HTTP Error 502: Bad Gateway",
+      "count": 0
     },
     {
       "source": "golf-pga",
       "date": "2026-11-18",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20261118&limit=250"
+      "status": "error",
+      "message": "HTTP Error 502: Bad Gateway",
+      "count": 0
     },
     {
       "source": "golf-pga",
@@ -144,143 +129,129 @@
     },
     {
       "source": "golf-euro",
-      "date": "2026-11-15",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261115&limit=250"
-    },
-    {
-      "source": "golf-euro",
       "date": "2026-11-16",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261116&limit=250"
+      "status": "error",
+      "message": "HTTP Error 502: Bad Gateway",
+      "count": 0
     },
     {
       "source": "golf-euro",
       "date": "2026-11-17",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261117&limit=250"
+      "status": "error",
+      "message": "HTTP Error 502: Bad Gateway",
+      "count": 0
     },
     {
       "source": "golf-euro",
       "date": "2026-11-18",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261118&limit=250"
+      "status": "error",
+      "message": "HTTP Error 502: Bad Gateway",
+      "count": 0
     },
     {
       "source": "golf-euro",
       "date": "2026-11-19",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261119&limit=250"
+      "status": "error",
+      "message": "HTTP Error 502: Bad Gateway",
+      "count": 0
     },
     {
       "source": "golf-euro",
       "date": "2026-11-20",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261120&limit=250"
+      "status": "error",
+      "message": "HTTP Error 502: Bad Gateway",
+      "count": 0
     },
     {
       "source": "golf-euro",
       "date": "2026-11-21",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261121&limit=250"
+      "status": "error",
+      "message": "HTTP Error 502: Bad Gateway",
+      "count": 0
     },
     {
       "source": "golf-euro",
       "date": "2026-11-22",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261122&limit=250"
+      "status": "error",
+      "message": "HTTP Error 502: Bad Gateway",
+      "count": 0
     },
     {
       "source": "golf-euro",
       "date": "2026-11-23",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261123&limit=250"
+      "status": "error",
+      "message": "HTTP Error 502: Bad Gateway",
+      "count": 0
     },
     {
       "source": "golf-euro",
       "date": "2026-11-24",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261124&limit=250"
+      "status": "error",
+      "message": "HTTP Error 502: Bad Gateway",
+      "count": 0
     },
     {
       "source": "golf-euro",
       "date": "2026-11-25",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261125&limit=250"
+      "status": "error",
+      "message": "HTTP Error 502: Bad Gateway",
+      "count": 0
     },
     {
       "source": "golf-euro",
       "date": "2026-11-26",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261126&limit=250"
+      "status": "error",
+      "message": "HTTP Error 502: Bad Gateway",
+      "count": 0
     },
     {
       "source": "golf-euro",
       "date": "2026-11-27",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261127&limit=250"
+      "status": "error",
+      "message": "HTTP Error 502: Bad Gateway",
+      "count": 0
     },
     {
       "source": "golf-euro",
       "date": "2026-11-28",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261128&limit=250"
+      "status": "error",
+      "message": "HTTP Error 502: Bad Gateway",
+      "count": 0
     },
     {
       "source": "golf-euro",
       "date": "2026-11-29",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261129&limit=250"
-    },
-    {
-      "source": "golf-lpga",
-      "date": "2026-11-15",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261115&limit=250"
+      "status": "error",
+      "message": "HTTP Error 502: Bad Gateway",
+      "count": 0
     },
     {
       "source": "golf-lpga",
       "date": "2026-11-16",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261116&limit=250"
+      "status": "error",
+      "message": "HTTP Error 502: Bad Gateway",
+      "count": 0
     },
     {
       "source": "golf-lpga",
       "date": "2026-11-17",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261117&limit=250"
+      "status": "error",
+      "message": "HTTP Error 502: Bad Gateway",
+      "count": 0
     },
     {
       "source": "golf-lpga",
       "date": "2026-11-18",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261118&limit=250"
+      "status": "error",
+      "message": "HTTP Error 502: Bad Gateway",
+      "count": 0
     },
     {
       "source": "golf-lpga",
       "date": "2026-11-19",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261119&limit=250"
+      "status": "error",
+      "message": "HTTP Error 502: Bad Gateway",
+      "count": 0
     },
     {
       "source": "golf-lpga",
@@ -351,13 +322,6 @@
       "status": "ok",
       "count": 0,
       "url": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261129&limit=250"
-    },
-    {
-      "source": "soccer-eng.1",
-      "date": "2026-11-15",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261115&limit=250"
     },
     {
       "source": "soccer-eng.1",
@@ -459,13 +423,6 @@
     },
     {
       "source": "soccer-uefa.champions",
-      "date": "2026-11-15",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261115&limit=250"
-    },
-    {
-      "source": "soccer-uefa.champions",
       "date": "2026-11-16",
       "status": "ok",
       "count": 0,
@@ -561,13 +518,6 @@
       "status": "ok",
       "count": 0,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261129&limit=250"
-    },
-    {
-      "source": "soccer-fifa.world",
-      "date": "2026-11-15",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20261115&limit=250"
     },
     {
       "source": "soccer-fifa.world",
@@ -669,13 +619,6 @@
     },
     {
       "source": "soccer-nations",
-      "date": "2026-11-15",
-      "status": "ok",
-      "count": 8,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115&limit=250"
-    },
-    {
-      "source": "soccer-nations",
       "date": "2026-11-16",
       "status": "ok",
       "count": 10,
@@ -771,13 +714,6 @@
       "status": "ok",
       "count": 0,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261129&limit=250"
-    },
-    {
-      "source": "football-nfl",
-      "date": "2026-11-15",
-      "status": "ok",
-      "count": 11,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=250"
     },
     {
       "source": "football-nfl",
@@ -879,13 +815,6 @@
     },
     {
       "source": "rugby",
-      "date": "2026-11-15",
-      "status": "error",
-      "message": "HTTP Error 400: Bad Request",
-      "count": 0
-    },
-    {
-      "source": "rugby",
       "date": "2026-11-16",
       "status": "error",
       "message": "HTTP Error 400: Bad Request",
@@ -978,13 +907,6 @@
     {
       "source": "rugby",
       "date": "2026-11-29",
-      "status": "error",
-      "message": "HTTP Error 400: Bad Request",
-      "count": 0
-    },
-    {
-      "source": "rugby-urc",
-      "date": "2026-11-15",
       "status": "error",
       "message": "HTTP Error 400: Bad Request",
       "count": 0
@@ -1089,13 +1011,6 @@
     },
     {
       "source": "rugby-autumn",
-      "date": "2026-11-15",
-      "status": "error",
-      "message": "HTTP Error 400: Bad Request",
-      "count": 0
-    },
-    {
-      "source": "rugby-autumn",
       "date": "2026-11-16",
       "status": "error",
       "message": "HTTP Error 400: Bad Request",
@@ -1188,13 +1103,6 @@
     {
       "source": "rugby-autumn",
       "date": "2026-11-29",
-      "status": "error",
-      "message": "HTTP Error 400: Bad Request",
-      "count": 0
-    },
-    {
-      "source": "rugby-nations",
-      "date": "2026-11-15",
       "status": "error",
       "message": "HTTP Error 400: Bad Request",
       "count": 0
@@ -1299,13 +1207,6 @@
     },
     {
       "source": "rugby-premiership",
-      "date": "2026-11-15",
-      "status": "error",
-      "message": "HTTP Error 400: Bad Request",
-      "count": 0
-    },
-    {
-      "source": "rugby-premiership",
       "date": "2026-11-16",
       "status": "error",
       "message": "HTTP Error 400: Bad Request",
@@ -1404,13 +1305,6 @@
     },
     {
       "source": "rugby-top14",
-      "date": "2026-11-15",
-      "status": "error",
-      "message": "HTTP Error 400: Bad Request",
-      "count": 0
-    },
-    {
-      "source": "rugby-top14",
       "date": "2026-11-16",
       "status": "error",
       "message": "HTTP Error 400: Bad Request",
@@ -1497,19 +1391,12 @@
       "source": "rugby-top14",
       "date": "2026-11-28",
       "status": "error",
-      "message": "HTTP Error 403: Forbidden",
+      "message": "HTTP Error 400: Bad Request",
       "count": 0
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-29",
-      "status": "error",
-      "message": "HTTP Error 400: Bad Request",
-      "count": 0
-    },
-    {
-      "source": "rugby-champions",
-      "date": "2026-11-15",
       "status": "error",
       "message": "HTTP Error 400: Bad Request",
       "count": 0
@@ -1525,7 +1412,7 @@
       "source": "rugby-champions",
       "date": "2026-11-17",
       "status": "error",
-      "message": "HTTP Error 403: Forbidden",
+      "message": "HTTP Error 400: Bad Request",
       "count": 0
     },
     {
@@ -1539,7 +1426,7 @@
       "source": "rugby-champions",
       "date": "2026-11-19",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
@@ -1588,43 +1475,36 @@
       "source": "rugby-champions",
       "date": "2026-11-26",
       "status": "error",
-      "message": "HTTP Error 403: Forbidden",
+      "message": "HTTP Error 400: Bad Request",
       "count": 0
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-27",
       "status": "error",
-      "message": "HTTP Error 403: Forbidden",
+      "message": "HTTP Error 400: Bad Request",
       "count": 0
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-28",
       "status": "error",
-      "message": "HTTP Error 403: Forbidden",
+      "message": "HTTP Error 400: Bad Request",
       "count": 0
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-29",
       "status": "error",
-      "message": "HTTP Error 403: Forbidden",
-      "count": 0
-    },
-    {
-      "source": "soccer-esp.1",
-      "date": "2026-11-15",
-      "status": "error",
-      "message": "HTTP Error 403: Forbidden",
+      "message": "HTTP Error 400: Bad Request",
       "count": 0
     },
     {
       "source": "soccer-esp.1",
       "date": "2026-11-16",
-      "status": "error",
-      "message": "HTTP Error 403: Forbidden",
-      "count": 0
+      "status": "ok",
+      "count": 0,
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261116&limit=250"
     },
     {
       "source": "soccer-esp.1",
@@ -1657,9 +1537,9 @@
     {
       "source": "soccer-esp.1",
       "date": "2026-11-21",
-      "status": "ok",
-      "count": 4,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261121&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-esp.1",
@@ -1671,9 +1551,9 @@
     {
       "source": "soccer-esp.1",
       "date": "2026-11-23",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261123&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-esp.1",
@@ -1713,13 +1593,6 @@
     {
       "source": "soccer-esp.1",
       "date": "2026-11-29",
-      "status": "error",
-      "message": "HTTP Error 403: Forbidden",
-      "count": 0
-    },
-    {
-      "source": "soccer-ger.1",
-      "date": "2026-11-15",
       "status": "error",
       "message": "HTTP Error 403: Forbidden",
       "count": 0
@@ -1824,13 +1697,6 @@
     },
     {
       "source": "soccer-ita.1",
-      "date": "2026-11-15",
-      "status": "error",
-      "message": "HTTP Error 403: Forbidden",
-      "count": 0
-    },
-    {
-      "source": "soccer-ita.1",
       "date": "2026-11-16",
       "status": "error",
       "message": "HTTP Error 403: Forbidden",
@@ -1923,13 +1789,6 @@
     {
       "source": "soccer-ita.1",
       "date": "2026-11-29",
-      "status": "error",
-      "message": "HTTP Error 403: Forbidden",
-      "count": 0
-    },
-    {
-      "source": "soccer-fra.1",
-      "date": "2026-11-15",
       "status": "error",
       "message": "HTTP Error 403: Forbidden",
       "count": 0
@@ -2034,13 +1893,6 @@
     },
     {
       "source": "soccer-por.1",
-      "date": "2026-11-15",
-      "status": "error",
-      "message": "HTTP Error 403: Forbidden",
-      "count": 0
-    },
-    {
-      "source": "soccer-por.1",
       "date": "2026-11-16",
       "status": "error",
       "message": "HTTP Error 403: Forbidden",
@@ -2133,13 +1985,6 @@
     {
       "source": "soccer-por.1",
       "date": "2026-11-29",
-      "status": "error",
-      "message": "HTTP Error 403: Forbidden",
-      "count": 0
-    },
-    {
-      "source": "soccer-ned.1",
-      "date": "2026-11-15",
       "status": "error",
       "message": "HTTP Error 403: Forbidden",
       "count": 0
@@ -2244,13 +2089,6 @@
     },
     {
       "source": "soccer-bel.1",
-      "date": "2026-11-15",
-      "status": "error",
-      "message": "HTTP Error 403: Forbidden",
-      "count": 0
-    },
-    {
-      "source": "soccer-bel.1",
       "date": "2026-11-16",
       "status": "error",
       "message": "HTTP Error 403: Forbidden",
@@ -2343,13 +2181,6 @@
     {
       "source": "soccer-bel.1",
       "date": "2026-11-29",
-      "status": "error",
-      "message": "HTTP Error 403: Forbidden",
-      "count": 0
-    },
-    {
-      "source": "soccer-eng.2",
-      "date": "2026-11-15",
       "status": "error",
       "message": "HTTP Error 403: Forbidden",
       "count": 0
@@ -2454,13 +2285,6 @@
     },
     {
       "source": "soccer-uefa.europa",
-      "date": "2026-11-15",
-      "status": "error",
-      "message": "HTTP Error 403: Forbidden",
-      "count": 0
-    },
-    {
-      "source": "soccer-uefa.europa",
       "date": "2026-11-16",
       "status": "error",
       "message": "HTTP Error 403: Forbidden",
@@ -2553,13 +2377,6 @@
     {
       "source": "soccer-uefa.europa",
       "date": "2026-11-29",
-      "status": "error",
-      "message": "HTTP Error 403: Forbidden",
-      "count": 0
-    },
-    {
-      "source": "racing-f1",
-      "date": "2026-11-15",
       "status": "error",
       "message": "HTTP Error 403: Forbidden",
       "count": 0
@@ -2663,22 +2480,17 @@
       "count": 0
     }
   ],
-  "successful_requests": 123,
-  "failed_requests": 252,
-  "verified_start_times": 124,
-  "coverage_only": 11,
-  "cross_referenced": 8,
+  "successful_requests": 93,
+  "failed_requests": 257,
+  "verified_start_times": 96,
+  "coverage_only": 0,
+  "cross_referenced": 6,
   "official_schedule_issues": [],
   "curated_fixtures": 14,
   "inventory": {
     "missing_curated": [],
     "missing_curated_channels": [],
     "rugby_by_day": {
-      "2026-11-15": {
-        "total": 1,
-        "with_tv": 1,
-        "without_tv": 0
-      },
       "2026-11-16": {
         "total": 0,
         "with_tv": 0,
@@ -2766,10 +2578,16 @@
       "2026-11-29"
     ]
   },
-  "tv_confirmed": 21,
-  "tv_unconfirmed": 114,
+  "tv_confirmed": 7,
+  "nfl_tv_source": {
+    "status": "ok",
+    "count": 0,
+    "source": "https://www.skysports.com/nfl/news/13582747/nfl-2026-season-live-on-sky-sports-fixtures-kick-off-times-tv-channel-for-games-this-week-and-weekend",
+    "matched_fixtures": 0
+  },
+  "tv_unconfirmed": 89,
   "f1_official_sessions": 3,
-  "unverified_start_times": 105,
+  "unverified_start_times": 79,
   "conflicts": [],
   "limitations": [
     "Empty API results do not prove no events are scheduled.",
@@ -2777,7 +2595,7 @@
     "F1 sessions are included only when independently listed in the curated official Formula 1 timetable; ESPN meeting dates are rejected.",
     "Official F1 timetable must be refreshed as each new Grand Prix approaches.",
     "Single-source ESPN fixture times are provisional, not independently confirmed.",
-    "TV guide supplement is manually curated for 13\u201315 November only.",
+    "NFL Sky Sports broadcast selections are refreshed from the dated weekly Sky guide with verified fallback records; unlisted games are not assumed to be on Sky.",
     "Coverage percentage cannot be calculated without independent expected-event inventory.",
     "TV channels are only confirmed when supplied by a verified, dated source; blank means unconfirmed, not unavailable."
   ]
