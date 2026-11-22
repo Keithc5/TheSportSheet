@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T09:24:15.415014+00:00",
+  "updated": "2026-11-22T09:25:16.928223+00:00",
   "events": [
     {
       "id": "soccer-nations-401861180",
@@ -21,7 +21,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 – 0"
+      "result": "1 \u2013 0"
     },
     {
       "id": "soccer-nations-401861181",
@@ -43,7 +43,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 – 2"
+      "result": "2 \u2013 2"
     },
     {
       "id": "soccer-nations-401861183",
@@ -65,7 +65,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 – 1"
+      "result": "2 \u2013 1"
     },
     {
       "id": "soccer-nations-401861182",
@@ -87,7 +87,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 – 0"
+      "result": "3 \u2013 0"
     },
     {
       "id": "soccer-nations-401861184",
@@ -109,7 +109,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 – 1"
+      "result": "2 \u2013 1"
     },
     {
       "id": "soccer-nations-401861185",
@@ -131,7 +131,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "5 – 0"
+      "result": "5 \u2013 0"
     },
     {
       "id": "soccer-nations-401861179",
@@ -153,7 +153,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 – 1"
+      "result": "1 \u2013 1"
     },
     {
       "id": "soccer-nations-401861188",
@@ -175,7 +175,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 – 0"
+      "result": "1 \u2013 0"
     },
     {
       "id": "soccer-nations-401861187",
@@ -197,7 +197,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 – 3"
+      "result": "0 \u2013 3"
     },
     {
       "id": "soccer-nations-401861186",
@@ -219,7 +219,29 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "4 – 0"
+      "result": "4 \u2013 0"
+    },
+    {
+      "id": "football-nfl-401873065",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Baltimore Ravens vs Los Angeles Chargers",
+      "start": "2026-11-17T01:15:00+00:00",
+      "start_time": "2026-11-17T01:15:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261116&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261116&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "20 \u2013 23"
     },
     {
       "id": "soccer-nations-401861196",
@@ -241,7 +263,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 – 1"
+      "result": "2 \u2013 1"
     },
     {
       "id": "soccer-nations-401861194",
@@ -263,7 +285,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 – 3"
+      "result": "2 \u2013 3"
     },
     {
       "id": "soccer-nations-401861191",
@@ -285,7 +307,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 – 1"
+      "result": "1 \u2013 1"
     },
     {
       "id": "soccer-nations-401861193",
@@ -307,7 +329,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 – 1"
+      "result": "1 \u2013 1"
     },
     {
       "id": "soccer-nations-401861195",
@@ -329,7 +351,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 – 1"
+      "result": "1 \u2013 1"
     },
     {
       "id": "soccer-nations-401861192",
@@ -351,7 +373,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 – 0"
+      "result": "3 \u2013 0"
     },
     {
       "id": "soccer-nations-401861190",
@@ -373,7 +395,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 – 0"
+      "result": "1 \u2013 0"
     },
     {
       "id": "soccer-nations-401861189",
@@ -395,7 +417,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 – 3"
+      "result": "2 \u2013 3"
     },
     {
       "id": "golf-pga-401850981",
@@ -420,6 +442,50 @@
       "result": null
     },
     {
+      "id": "golf-lpga-401835177",
+      "category": "golf-lpga",
+      "sport": "Golf",
+      "competition": "LPGA",
+      "name": "CME Group Tour Championship",
+      "start": "2026-11-19T05:00:00+00:00",
+      "start_time": "2026-11-19T05:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261119&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261119&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "football-nfl-401873066",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Houston Texans vs Indianapolis Colts",
+      "start": "2026-11-20T01:15:00+00:00",
+      "start_time": "2026-11-20T01:15:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261119&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261119&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "26 \u2013 3"
+    },
+    {
       "id": "soccer-ger.1-401884736",
       "category": "soccer-ger.1",
       "sport": "Football",
@@ -439,7 +505,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 – 1"
+      "result": "1 \u2013 1"
     },
     {
       "id": "soccer-fra.1-401876395",
@@ -461,7 +527,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 – 1"
+      "result": "3 \u2013 1"
     },
     {
       "id": "soccer-bel.1-401878937",
@@ -483,7 +549,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 – 0"
+      "result": "1 \u2013 0"
     },
     {
       "id": "soccer-esp.1-401882805",
@@ -505,14 +571,14 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 – 1"
+      "result": "0 \u2013 1"
     },
     {
       "id": "racing-f1-las-vegas-2026-qualifying",
       "category": "racing-f1",
       "sport": "Formula 1",
       "competition": "Formula 1",
-      "name": "Las Vegas Grand Prix — Qualifying",
+      "name": "Las Vegas Grand Prix \u2014 Qualifying",
       "session": "Qualifying",
       "start": "2026-11-21T04:00:00+00:00",
       "start_time": "2026-11-21T04:00:00+00:00",
@@ -588,7 +654,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 – 1"
+      "result": "1 \u2013 1"
     },
     {
       "id": "soccer-eng.2-401880156",
@@ -610,7 +676,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 – 1"
+      "result": "0 \u2013 1"
     },
     {
       "id": "soccer-eng.2-401880155",
@@ -632,7 +698,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 – 1"
+      "result": "2 \u2013 1"
     },
     {
       "id": "soccer-eng.2-401880153",
@@ -654,14 +720,14 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 – 0"
+      "result": "2 \u2013 0"
     },
     {
       "id": "soccer-esp.1-401882806",
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Alavés vs Deportivo",
+      "name": "Alav\u00e9s vs Deportivo",
       "start": "2026-11-21T13:00:00+00:00",
       "start_time": "2026-11-21T13:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261121&limit=250",
@@ -676,7 +742,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 – 1"
+      "result": "3 \u2013 1"
     },
     {
       "id": "soccer-ita.1-401875056",
@@ -698,7 +764,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 – 0"
+      "result": "2 \u2013 0"
     },
     {
       "id": "soccer-ita.1-401874981",
@@ -720,7 +786,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 – 0"
+      "result": "3 \u2013 0"
     },
     {
       "id": "verified-nations-cup-20261121-georgia",
@@ -812,7 +878,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 – 5"
+      "result": "1 \u2013 5"
     },
     {
       "id": "soccer-ger.1-401884735",
@@ -834,14 +900,14 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "4 – 0"
+      "result": "4 \u2013 0"
     },
     {
       "id": "soccer-ger.1-401884731",
       "category": "soccer-ger.1",
       "sport": "Football",
       "competition": "Bundesliga",
-      "name": "Borussia Mönchengladbach vs Borussia Dortmund",
+      "name": "Borussia M\u00f6nchengladbach vs Borussia Dortmund",
       "start": "2026-11-21T14:30:00+00:00",
       "start_time": "2026-11-21T14:30:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
@@ -856,7 +922,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 – 1"
+      "result": "0 \u2013 1"
     },
     {
       "id": "soccer-ger.1-401884734",
@@ -878,7 +944,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 – 0"
+      "result": "1 \u2013 0"
     },
     {
       "id": "soccer-ger.1-401884728",
@@ -900,7 +966,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 – 1"
+      "result": "0 \u2013 1"
     },
     {
       "id": "soccer-eng.1-401879238",
@@ -922,7 +988,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 – 0"
+      "result": "2 \u2013 0"
     },
     {
       "id": "soccer-eng.1-401878756",
@@ -944,7 +1010,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 – 0"
+      "result": "0 \u2013 0"
     },
     {
       "id": "soccer-eng.1-401879236",
@@ -966,7 +1032,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 – 4"
+      "result": "1 \u2013 4"
     },
     {
       "id": "soccer-eng.1-401879235",
@@ -988,7 +1054,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 – 2"
+      "result": "3 \u2013 2"
     },
     {
       "id": "soccer-eng.1-401878754",
@@ -1010,7 +1076,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 – 0"
+      "result": "2 \u2013 0"
     },
     {
       "id": "soccer-bel.1-401878940",
@@ -1032,7 +1098,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 – 2"
+      "result": "2 \u2013 2"
     },
     {
       "id": "soccer-eng.2-401880160",
@@ -1054,7 +1120,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 – 1"
+      "result": "1 \u2013 1"
     },
     {
       "id": "soccer-eng.2-401880158",
@@ -1076,7 +1142,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 – 1"
+      "result": "0 \u2013 1"
     },
     {
       "id": "soccer-eng.2-401880157",
@@ -1098,7 +1164,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 – 0"
+      "result": "2 \u2013 0"
     },
     {
       "id": "soccer-eng.2-401880154",
@@ -1120,7 +1186,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "4 – 0"
+      "result": "4 \u2013 0"
     },
     {
       "id": "soccer-eng.2-401880152",
@@ -1142,7 +1208,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 – 0"
+      "result": "1 \u2013 0"
     },
     {
       "id": "soccer-eng.2-401880151",
@@ -1164,7 +1230,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 – 2"
+      "result": "2 \u2013 2"
     },
     {
       "id": "soccer-eng.2-401880150",
@@ -1186,7 +1252,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 – 1"
+      "result": "1 \u2013 1"
     },
     {
       "id": "soccer-eng.2-401880149",
@@ -1208,7 +1274,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 – 1"
+      "result": "2 \u2013 1"
     },
     {
       "id": "verified-nations-cup-20261121-portugal",
@@ -1250,7 +1316,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 – 1"
+      "result": "0 \u2013 1"
     },
     {
       "id": "soccer-ned.1-401875541",
@@ -1272,7 +1338,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 – 4"
+      "result": "1 \u2013 4"
     },
     {
       "id": "verified-nations-cup-20261121-spain",
@@ -1314,7 +1380,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 – 3"
+      "result": "2 \u2013 3"
     },
     {
       "id": "verified-prem-cup-20261121-exeter",
@@ -1406,14 +1472,14 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 – 5"
+      "result": "1 \u2013 5"
     },
     {
       "id": "soccer-bel.1-401878939",
       "category": "soccer-bel.1",
       "sport": "Football",
       "competition": "Belgian Pro League",
-      "name": "Racing Genk vs RAAL La Louvière",
+      "name": "Racing Genk vs RAAL La Louvi\u00e8re",
       "start": "2026-11-21T17:15:00+00:00",
       "start_time": "2026-11-21T17:15:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261121&limit=250",
@@ -1428,7 +1494,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 – 0"
+      "result": "3 \u2013 0"
     },
     {
       "id": "verified-nations-cup-20261121-zimbabwe",
@@ -1470,7 +1536,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 – 2"
+      "result": "2 \u2013 2"
     },
     {
       "id": "soccer-esp.1-401882797",
@@ -1492,7 +1558,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 – 1"
+      "result": "1 \u2013 1"
     },
     {
       "id": "soccer-ger.1-401884729",
@@ -1514,7 +1580,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 – 0"
+      "result": "0 \u2013 0"
     },
     {
       "id": "verified-prem-cup-20261121-newcastle-red-bulls",
@@ -1556,7 +1622,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 – 3"
+      "result": "2 \u2013 3"
     },
     {
       "id": "soccer-ned.1-401875543",
@@ -1578,7 +1644,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 – 3"
+      "result": "2 \u2013 3"
     },
     {
       "id": "soccer-ita.1-401875067",
@@ -1600,7 +1666,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 – 0"
+      "result": "1 \u2013 0"
     },
     {
       "id": "soccer-fra.1-401876399",
@@ -1622,7 +1688,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 – 1"
+      "result": "1 \u2013 1"
     },
     {
       "id": "soccer-fra.1-401876403",
@@ -1644,7 +1710,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 – 1"
+      "result": "1 \u2013 1"
     },
     {
       "id": "soccer-fra.1-401876402",
@@ -1666,7 +1732,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 – 1"
+      "result": "0 \u2013 1"
     },
     {
       "id": "soccer-fra.1-401876396",
@@ -1688,7 +1754,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 – 1"
+      "result": "0 \u2013 1"
     },
     {
       "id": "soccer-bel.1-401878935",
@@ -1710,7 +1776,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 – 5"
+      "result": "1 \u2013 5"
     },
     {
       "id": "soccer-bel.1-401878938",
@@ -1732,7 +1798,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 – 2"
+      "result": "2 \u2013 2"
     },
     {
       "id": "soccer-esp.1-401882798",
@@ -1754,7 +1820,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 – 1"
+      "result": "2 \u2013 1"
     },
     {
       "id": "soccer-ned.1-401875546",
@@ -1776,7 +1842,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 – 3"
+      "result": "1 \u2013 3"
     },
     {
       "id": "soccer-ned.1-401875539",
@@ -1798,7 +1864,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 – 3"
+      "result": "1 \u2013 3"
     },
     {
       "id": "verified-nations-20261121-5",
@@ -1855,7 +1921,7 @@
       "category": "racing-f1",
       "sport": "Formula 1",
       "competition": "Formula 1",
-      "name": "Las Vegas Grand Prix — Race",
+      "name": "Las Vegas Grand Prix \u2014 Race",
       "session": "Race",
       "start": "2026-11-22T04:00:00+00:00",
       "start_time": "2026-11-22T04:00:00+00:00",
@@ -2294,7 +2360,7 @@
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Osasuna vs Málaga",
+      "name": "Osasuna vs M\u00e1laga",
       "start": "2026-11-22T17:30:00+00:00",
       "start_time": "2026-11-22T17:30:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=250",
@@ -2576,7 +2642,7 @@
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Getafe vs Atlético Madrid",
+      "name": "Getafe vs Atl\u00e9tico Madrid",
       "start": "2026-11-22T20:00:00+00:00",
       "start_time": "2026-11-22T20:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=250",
@@ -2678,30 +2744,35 @@
       "coverage_source": "https://www.skysports.com/watch/nfl-on-sky"
     },
     {
-      "id": "football-nfl-official-2026-11-22-min-sf",
+      "id": "football-nfl-401873077",
       "category": "football-nfl",
       "sport": "NFL",
       "competition": "NFL",
-      "name": "Minnesota Vikings vs San Francisco 49ers",
+      "name": "San Francisco 49ers vs Minnesota Vikings",
       "start": "2026-11-23T01:20:00+00:00",
       "start_time": "2026-11-23T01:20:00+00:00",
-      "start_source": "https://www.nfl.com/schedules/2026/reg11/",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
       "sources": [
         {
-          "provider": "nfl-official",
-          "url": "https://www.nfl.com/schedules/2026/reg11/",
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
           "field": "start_time"
+        },
+        {
+          "provider": "sky-sports",
+          "url": "https://www.skysports.com/watch/nfl-on-sky",
+          "field": "channel"
         }
       ],
-      "verification": "official-schedule",
-      "detail": "Sunday Night Football · Mexico City",
+      "verification": "single-source",
+      "detail": "",
       "channel": "Sky Sports NFL / Sky Sports Main Event",
+      "completed": false,
+      "result": null,
       "tv_source": "https://www.skysports.com/watch/nfl-on-sky",
       "tv_verification": "broadcaster-confirmed",
       "coverage_time": "2026-11-23T01:10:00+00:00",
-      "coverage_source": "https://www.skysports.com/watch/nfl-on-sky",
-      "completed": false,
-      "result": null
+      "coverage_source": "https://www.skysports.com/watch/nfl-on-sky"
     },
     {
       "id": "soccer-ita.1-401875009",
@@ -2768,6 +2839,37 @@
       "channel": "",
       "completed": false,
       "result": null
+    },
+    {
+      "id": "football-nfl-401873078",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Washington Commanders vs Cincinnati Bengals",
+      "start": "2026-11-24T01:15:00+00:00",
+      "start_time": "2026-11-24T01:15:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261123&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261123&limit=250",
+          "field": "start_time"
+        },
+        {
+          "provider": "sky-sports",
+          "url": "https://www.skysports.com/watch/nfl-on-sky",
+          "field": "channel"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "Sky Sports NFL / Sky Sports Main Event",
+      "completed": false,
+      "result": null,
+      "tv_source": "https://www.skysports.com/watch/nfl-on-sky",
+      "tv_verification": "broadcaster-confirmed",
+      "coverage_time": "2026-11-24T01:10:00+00:00",
+      "coverage_source": "https://www.skysports.com/watch/nfl-on-sky"
     },
     {
       "id": "soccer-uefa.champions-401915380",
@@ -3258,7 +3360,7 @@
       "category": "soccer-uefa.champions",
       "sport": "Football",
       "competition": "Champions League",
-      "name": "Atlético Madrid vs Viking FK",
+      "name": "Atl\u00e9tico Madrid vs Viking FK",
       "start": "2026-11-25T20:00:00+00:00",
       "start_time": "2026-11-25T20:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=250",
@@ -3420,6 +3522,50 @@
         {
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261125&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "football-nfl-401873079",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Los Angeles Rams vs Green Bay Packers",
+      "start": "2026-11-26T01:00:00+00:00",
+      "start_time": "2026-11-26T01:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261125&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261125&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "golf-euro-401921631",
+      "category": "golf-euro",
+      "sport": "Golf",
+      "competition": "DP World Tour",
+      "name": "BMW Australian PGA Championship",
+      "start": "2026-11-26T05:00:00+00:00",
+      "start_time": "2026-11-26T05:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261126&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261126&limit=250",
           "field": "start_time"
         }
       ],
@@ -3888,6 +4034,37 @@
       "coverage_source": "https://www.skysports.com/watch/nfl-on-sky"
     },
     {
+      "id": "football-nfl-401873082",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Buffalo Bills vs Kansas City Chiefs",
+      "start": "2026-11-27T01:20:00+00:00",
+      "start_time": "2026-11-27T01:20:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261126&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261126&limit=250",
+          "field": "start_time"
+        },
+        {
+          "provider": "sky-sports",
+          "url": "https://www.skysports.com/watch/nfl-on-sky",
+          "field": "channel"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "Sky Sports NFL / Sky Sports Main Event",
+      "completed": false,
+      "result": null,
+      "tv_source": "https://www.skysports.com/watch/nfl-on-sky",
+      "tv_verification": "broadcaster-confirmed",
+      "coverage_time": "2026-11-27T01:10:00+00:00",
+      "coverage_source": "https://www.skysports.com/watch/nfl-on-sky"
+    },
+    {
       "id": "soccer-ned.1-401875536",
       "category": "soccer-ned.1",
       "sport": "Football",
@@ -3914,7 +4091,7 @@
       "category": "soccer-ger.1",
       "sport": "Football",
       "competition": "Bundesliga",
-      "name": "Werder Bremen vs Borussia Mönchengladbach",
+      "name": "Werder Bremen vs Borussia M\u00f6nchengladbach",
       "start": "2026-11-27T19:30:00+00:00",
       "start_time": "2026-11-27T19:30:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261127&limit=250",
@@ -4354,7 +4531,7 @@
       "category": "soccer-bel.1",
       "sport": "Football",
       "competition": "Belgian Pro League",
-      "name": "KVC Westerlo vs RAAL La Louvière",
+      "name": "KVC Westerlo vs RAAL La Louvi\u00e8re",
       "start": "2026-11-28T15:00:00+00:00",
       "start_time": "2026-11-28T15:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261128&limit=250",
@@ -4530,7 +4707,7 @@
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Málaga vs Athletic Club",
+      "name": "M\u00e1laga vs Athletic Club",
       "start": "2026-11-28T15:15:00+00:00",
       "start_time": "2026-11-28T15:15:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128&limit=250",
@@ -4706,7 +4883,7 @@
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Elche vs Atlético Madrid",
+      "name": "Elche vs Atl\u00e9tico Madrid",
       "start": "2026-11-28T17:30:00+00:00",
       "start_time": "2026-11-28T17:30:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128&limit=250",
@@ -4772,7 +4949,7 @@
       "category": "soccer-por.1",
       "sport": "Football",
       "competition": "Primeira Liga",
-      "name": "Académico de Viseu vs Alverca",
+      "name": "Acad\u00e9mico de Viseu vs Alverca",
       "start": "2026-11-28T18:00:00+00:00",
       "start_time": "2026-11-28T18:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261128&limit=250",
@@ -4948,7 +5125,7 @@
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Real Madrid vs Alavés",
+      "name": "Real Madrid vs Alav\u00e9s",
       "start": "2026-11-28T20:00:00+00:00",
       "start_time": "2026-11-28T20:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128&limit=250",
@@ -4992,7 +5169,7 @@
       "category": "soccer-por.1",
       "sport": "Football",
       "competition": "Primeira Liga",
-      "name": "Vitória de Guimaraes vs Estrela",
+      "name": "Vit\u00f3ria de Guimaraes vs Estrela",
       "start": "2026-11-28T20:30:00+00:00",
       "start_time": "2026-11-28T20:30:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261128&limit=250",
@@ -5410,7 +5587,7 @@
       "category": "racing-f1",
       "sport": "Formula 1",
       "competition": "Formula 1",
-      "name": "Qatar Grand Prix — Race",
+      "name": "Qatar Grand Prix \u2014 Race",
       "session": "Race",
       "start": "2026-11-29T16:00:00+00:00",
       "start_time": "2026-11-29T16:00:00+00:00",
@@ -5923,6 +6100,138 @@
         {
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261129&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "football-nfl-401873086",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Cleveland Browns vs Las Vegas Raiders",
+      "start": "2026-11-30T01:20:00+00:00",
+      "start_time": "2026-11-30T01:20:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261129&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261129&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "soccer-ita.1-401875095",
+      "category": "soccer-ita.1",
+      "sport": "Football",
+      "competition": "Serie A",
+      "name": "Lecce vs Atalanta",
+      "start": "2026-11-30T17:30:00+00:00",
+      "start_time": "2026-11-30T17:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261130&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261130&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "soccer-ita.1-401875019",
+      "category": "soccer-ita.1",
+      "sport": "Football",
+      "competition": "Serie A",
+      "name": "Cagliari vs AC Milan",
+      "start": "2026-11-30T19:45:00+00:00",
+      "start_time": "2026-11-30T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261130&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261130&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "soccer-esp.1-401882792",
+      "category": "soccer-esp.1",
+      "sport": "Football",
+      "competition": "La Liga",
+      "name": "Espanyol vs Getafe",
+      "start": "2026-11-30T20:00:00+00:00",
+      "start_time": "2026-11-30T20:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261130&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261130&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "soccer-por.1-401885386",
+      "category": "soccer-por.1",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "name": "Benfica vs FC Famalicao",
+      "start": "2026-11-30T20:15:00+00:00",
+      "start_time": "2026-11-30T20:15:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261130&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261130&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "soccer-por.1-401885391",
+      "category": "soccer-por.1",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "name": "Casa Pia vs Braga",
+      "start": "2026-11-30T20:15:00+00:00",
+      "start_time": "2026-11-30T20:15:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261130&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261130&limit=250",
           "field": "start_time"
         }
       ],
