@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T09:53:21.619672+00:00",
+  "updated": "2026-11-22T09:57:05.352057+00:00",
   "collection_dates": [
     "2026-11-16",
     "2026-11-17",
@@ -17,12 +17,12 @@
     "2026-11-29",
     "2026-11-30"
   ],
-  "total_events": 286,
+  "total_events": 289,
   "by_category": {
     "soccer-nations": 18,
     "football-nfl": 29,
-    "golf-pga": 1,
-    "golf-lpga": 1,
+    "golf-pga": 2,
+    "golf-lpga": 2,
     "soccer-ger.1": 18,
     "soccer-fra.1": 18,
     "soccer-bel.1": 18,
@@ -38,7 +38,7 @@
     "darts": 3,
     "gaa": 3,
     "soccer-uefa.champions": 18,
-    "golf-euro": 1,
+    "golf-euro": 2,
     "soccer-uefa.europa": 18,
     "soccer-por.1": 9
   },
@@ -2683,7 +2683,7 @@
   "successful_requests": 270,
   "failed_requests": 105,
   "verified_start_times": 286,
-  "coverage_only": 0,
+  "coverage_only": 3,
   "cross_referenced": 11,
   "official_schedule_issues": [],
   "curated_fixtures": 20,
@@ -2784,7 +2784,7 @@
       "2026-11-30"
     ]
   },
-  "tv_confirmed": 34,
+  "tv_confirmed": 36,
   "nfl_tv_source": {
     "status": "ok",
     "count": 6,
@@ -2805,8 +2805,9 @@
       "url": "https://www.skysports.com/watch/football-on-sky/competitions/premier-league"
     }
   ],
-  "tv_unconfirmed": 252,
+  "tv_unconfirmed": 253,
   "f1_official_sessions": 3,
+  "golf_verified_coverage_sessions": 3,
   "unverified_start_times": 263,
   "conflicts": [],
   "limitations": [
