@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T09:57:05.352057+00:00",
+  "updated": "2026-11-22T09:58:39.589365+00:00",
   "events": [
     {
       "id": "soccer-nations-401861180",
@@ -508,50 +508,6 @@
         ""
       ],
       "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
-    },
-    {
-      "id": "golf-pga-401850981",
-      "category": "golf-pga",
-      "sport": "Golf",
-      "competition": "PGA Tour",
-      "name": "The RSM Classic",
-      "start": "2026-11-19T05:00:00+00:00",
-      "start_time": "2026-11-19T05:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20261119&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20261119&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "golf-lpga-401835177",
-      "category": "golf-lpga",
-      "sport": "Golf",
-      "competition": "LPGA",
-      "name": "CME Group Tour Championship",
-      "start": "2026-11-19T05:00:00+00:00",
-      "start_time": "2026-11-19T05:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261119&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261119&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
     },
     {
       "id": "football-nfl-401873066",
@@ -4427,28 +4383,6 @@
       ],
       "verification": "coverage-only",
       "detail": "TV coverage, not tee time"
-    },
-    {
-      "id": "golf-euro-401921631",
-      "category": "golf-euro",
-      "sport": "Golf",
-      "competition": "DP World Tour",
-      "name": "BMW Australian PGA Championship",
-      "start": "2026-11-26T05:00:00+00:00",
-      "start_time": "2026-11-26T05:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261126&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261126&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
     },
     {
       "id": "soccer-uefa.europa-401915506",

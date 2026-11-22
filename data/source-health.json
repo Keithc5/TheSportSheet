@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T09:57:05.352057+00:00",
+  "updated": "2026-11-22T09:58:39.589365+00:00",
   "collection_dates": [
     "2026-11-16",
     "2026-11-17",
@@ -17,12 +17,10 @@
     "2026-11-29",
     "2026-11-30"
   ],
-  "total_events": 289,
+  "total_events": 286,
   "by_category": {
     "soccer-nations": 18,
     "football-nfl": 29,
-    "golf-pga": 2,
-    "golf-lpga": 2,
     "soccer-ger.1": 18,
     "soccer-fra.1": 18,
     "soccer-bel.1": 18,
@@ -37,8 +35,10 @@
     "soccer-ned.1": 18,
     "darts": 3,
     "gaa": 3,
+    "golf-pga": 1,
+    "golf-lpga": 1,
     "soccer-uefa.champions": 18,
-    "golf-euro": 2,
+    "golf-euro": 1,
     "soccer-uefa.europa": 18,
     "soccer-por.1": 9
   },
@@ -79,7 +79,7 @@
       "source": "golf-pga",
       "date": "2026-11-19",
       "status": "ok",
-      "count": 1,
+      "count": 0,
       "url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20261119&limit=250"
     },
     {
@@ -233,7 +233,7 @@
       "source": "golf-euro",
       "date": "2026-11-26",
       "status": "ok",
-      "count": 1,
+      "count": 0,
       "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261126&limit=250"
     },
     {
@@ -289,7 +289,7 @@
       "source": "golf-lpga",
       "date": "2026-11-19",
       "status": "ok",
-      "count": 1,
+      "count": 0,
       "url": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261119&limit=250"
     },
     {
@@ -2682,7 +2682,7 @@
   ],
   "successful_requests": 270,
   "failed_requests": 105,
-  "verified_start_times": 286,
+  "verified_start_times": 283,
   "coverage_only": 3,
   "cross_referenced": 11,
   "official_schedule_issues": [],
@@ -2805,10 +2805,10 @@
       "url": "https://www.skysports.com/watch/football-on-sky/competitions/premier-league"
     }
   ],
-  "tv_unconfirmed": 253,
+  "tv_unconfirmed": 250,
   "f1_official_sessions": 3,
   "golf_verified_coverage_sessions": 3,
-  "unverified_start_times": 263,
+  "unverified_start_times": 260,
   "conflicts": [],
   "limitations": [
     "Empty API results do not prove no events are scheduled.",
