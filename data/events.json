@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T09:25:16.928223+00:00",
+  "updated": "2026-11-22T09:29:19.510407+00:00",
   "events": [
     {
       "id": "soccer-nations-401861180",
@@ -486,28 +486,6 @@
       "result": "26 \u2013 3"
     },
     {
-      "id": "soccer-ger.1-401884736",
-      "category": "soccer-ger.1",
-      "sport": "Football",
-      "competition": "Bundesliga",
-      "name": "Bayern Munich vs FC Cologne",
-      "start": "2026-11-20T19:30:00+00:00",
-      "start_time": "2026-11-20T19:30:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261120&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261120&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "1 \u2013 1"
-    },
-    {
       "id": "soccer-fra.1-401876395",
       "category": "soccer-fra.1",
       "sport": "Football",
@@ -528,28 +506,6 @@
       "channel": "",
       "completed": true,
       "result": "3 \u2013 1"
-    },
-    {
-      "id": "soccer-bel.1-401878937",
-      "category": "soccer-bel.1",
-      "sport": "Football",
-      "competition": "Belgian Pro League",
-      "name": "Cercle Brugge KSV vs KVC Westerlo",
-      "start": "2026-11-20T19:45:00+00:00",
-      "start_time": "2026-11-20T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261120&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261120&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "1 \u2013 0"
     },
     {
       "id": "soccer-esp.1-401882805",
@@ -654,7 +610,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1"
+      "result": "1 \u2013 1",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
+      ]
     },
     {
       "id": "soccer-eng.2-401880156",
@@ -745,50 +705,6 @@
       "result": "3 \u2013 1"
     },
     {
-      "id": "soccer-ita.1-401875056",
-      "category": "soccer-ita.1",
-      "sport": "Football",
-      "competition": "Serie A",
-      "name": "Como vs Cagliari",
-      "start": "2026-11-21T14:00:00+00:00",
-      "start_time": "2026-11-21T14:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "2 \u2013 0"
-    },
-    {
-      "id": "soccer-ita.1-401874981",
-      "category": "soccer-ita.1",
-      "sport": "Football",
-      "competition": "Serie A",
-      "name": "Lazio vs Lecce",
-      "start": "2026-11-21T14:00:00+00:00",
-      "start_time": "2026-11-21T14:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "3 \u2013 0"
-    },
-    {
       "id": "verified-nations-cup-20261121-georgia",
       "category": "rugby-autumn",
       "sport": "Rugby",
@@ -859,116 +775,6 @@
       "verification": "cross-referenced"
     },
     {
-      "id": "soccer-ger.1-401884732",
-      "category": "soccer-ger.1",
-      "sport": "Football",
-      "competition": "Bundesliga",
-      "name": "1. FC Union Berlin vs RB Leipzig",
-      "start": "2026-11-21T14:30:00+00:00",
-      "start_time": "2026-11-21T14:30:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "1 \u2013 5"
-    },
-    {
-      "id": "soccer-ger.1-401884735",
-      "category": "soccer-ger.1",
-      "sport": "Football",
-      "competition": "Bundesliga",
-      "name": "Bayer Leverkusen vs SC Paderborn 07",
-      "start": "2026-11-21T14:30:00+00:00",
-      "start_time": "2026-11-21T14:30:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "4 \u2013 0"
-    },
-    {
-      "id": "soccer-ger.1-401884731",
-      "category": "soccer-ger.1",
-      "sport": "Football",
-      "competition": "Bundesliga",
-      "name": "Borussia M\u00f6nchengladbach vs Borussia Dortmund",
-      "start": "2026-11-21T14:30:00+00:00",
-      "start_time": "2026-11-21T14:30:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "0 \u2013 1"
-    },
-    {
-      "id": "soccer-ger.1-401884734",
-      "category": "soccer-ger.1",
-      "sport": "Football",
-      "competition": "Bundesliga",
-      "name": "Eintracht Frankfurt vs TSG Hoffenheim",
-      "start": "2026-11-21T14:30:00+00:00",
-      "start_time": "2026-11-21T14:30:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "1 \u2013 0"
-    },
-    {
-      "id": "soccer-ger.1-401884728",
-      "category": "soccer-ger.1",
-      "sport": "Football",
-      "competition": "Bundesliga",
-      "name": "SV Elversberg vs SC Freiburg",
-      "start": "2026-11-21T14:30:00+00:00",
-      "start_time": "2026-11-21T14:30:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "0 \u2013 1"
-    },
-    {
       "id": "soccer-eng.1-401879238",
       "category": "soccer-eng.1",
       "sport": "Football",
@@ -988,7 +794,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 0"
+      "result": "2 \u2013 0",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/393.png"
+      ]
     },
     {
       "id": "soccer-eng.1-401878756",
@@ -1010,7 +820,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 0"
+      "result": "0 \u2013 0",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/366.png"
+      ]
     },
     {
       "id": "soccer-eng.1-401879236",
@@ -1032,7 +846,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 4"
+      "result": "1 \u2013 4",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
+      ]
     },
     {
       "id": "soccer-eng.1-401879235",
@@ -1054,7 +872,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 2"
+      "result": "3 \u2013 2",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/384.png"
+      ]
     },
     {
       "id": "soccer-eng.1-401878754",
@@ -1076,29 +898,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 0"
-    },
-    {
-      "id": "soccer-bel.1-401878940",
-      "category": "soccer-bel.1",
-      "sport": "Football",
-      "competition": "Belgian Pro League",
-      "name": "Royal Charleroi SC vs Sint-Truidense",
-      "start": "2026-11-21T15:00:00+00:00",
-      "start_time": "2026-11-21T15:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261121&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261121&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "2 \u2013 2"
+      "result": "2 \u2013 0",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/373.png"
+      ]
     },
     {
       "id": "soccer-eng.2-401880160",
@@ -1319,28 +1123,6 @@
       "result": "0 \u2013 1"
     },
     {
-      "id": "soccer-ned.1-401875541",
-      "category": "soccer-ned.1",
-      "sport": "Football",
-      "competition": "Eredivisie",
-      "name": "NEC Nijmegen vs PSV Eindhoven",
-      "start": "2026-11-21T15:30:00+00:00",
-      "start_time": "2026-11-21T15:30:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261121&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261121&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "1 \u2013 4"
-    },
-    {
       "id": "verified-nations-cup-20261121-spain",
       "category": "rugby-autumn",
       "sport": "Rugby",
@@ -1453,50 +1235,6 @@
       "verification": "cross-referenced"
     },
     {
-      "id": "soccer-ita.1-401874967",
-      "category": "soccer-ita.1",
-      "sport": "Football",
-      "competition": "Serie A",
-      "name": "Parma vs AS Roma",
-      "start": "2026-11-21T17:00:00+00:00",
-      "start_time": "2026-11-21T17:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "1 \u2013 5"
-    },
-    {
-      "id": "soccer-bel.1-401878939",
-      "category": "soccer-bel.1",
-      "sport": "Football",
-      "competition": "Belgian Pro League",
-      "name": "Racing Genk vs RAAL La Louvi\u00e8re",
-      "start": "2026-11-21T17:15:00+00:00",
-      "start_time": "2026-11-21T17:15:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261121&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261121&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "3 \u2013 0"
-    },
-    {
       "id": "verified-nations-cup-20261121-zimbabwe",
       "category": "rugby-autumn",
       "sport": "Rugby",
@@ -1536,7 +1274,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 2"
+      "result": "2 \u2013 2",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/359.png"
+      ]
     },
     {
       "id": "soccer-esp.1-401882797",
@@ -1561,28 +1303,6 @@
       "result": "1 \u2013 1"
     },
     {
-      "id": "soccer-ger.1-401884729",
-      "category": "soccer-ger.1",
-      "sport": "Football",
-      "competition": "Bundesliga",
-      "name": "Schalke 04 vs VfB Stuttgart",
-      "start": "2026-11-21T17:30:00+00:00",
-      "start_time": "2026-11-21T17:30:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "0 \u2013 0"
-    },
-    {
       "id": "verified-prem-cup-20261121-newcastle-red-bulls",
       "category": "rugby-premiership",
       "sport": "Rugby",
@@ -1601,72 +1321,6 @@
       "detail": "",
       "start_time": "2026-11-21T17:30:00+00:00",
       "verification": "official-schedule"
-    },
-    {
-      "id": "soccer-ned.1-401875544",
-      "category": "soccer-ned.1",
-      "sport": "Football",
-      "competition": "Eredivisie",
-      "name": "FC Utrecht vs SC Cambuur",
-      "start": "2026-11-21T17:45:00+00:00",
-      "start_time": "2026-11-21T17:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261121&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261121&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "2 \u2013 3"
-    },
-    {
-      "id": "soccer-ned.1-401875543",
-      "category": "soccer-ned.1",
-      "sport": "Football",
-      "competition": "Eredivisie",
-      "name": "Feyenoord Rotterdam vs Excelsior",
-      "start": "2026-11-21T17:45:00+00:00",
-      "start_time": "2026-11-21T17:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261121&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261121&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "2 \u2013 3"
-    },
-    {
-      "id": "soccer-ita.1-401875067",
-      "category": "soccer-ita.1",
-      "sport": "Football",
-      "competition": "Serie A",
-      "name": "Napoli vs Torino",
-      "start": "2026-11-21T19:45:00+00:00",
-      "start_time": "2026-11-21T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "1 \u2013 0"
     },
     {
       "id": "soccer-fra.1-401876399",
@@ -1757,50 +1411,6 @@
       "result": "0 \u2013 1"
     },
     {
-      "id": "soccer-bel.1-401878935",
-      "category": "soccer-bel.1",
-      "sport": "Football",
-      "competition": "Belgian Pro League",
-      "name": "KV Mechelen vs Club Brugge",
-      "start": "2026-11-21T19:45:00+00:00",
-      "start_time": "2026-11-21T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261121&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261121&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "1 \u2013 5"
-    },
-    {
-      "id": "soccer-bel.1-401878938",
-      "category": "soccer-bel.1",
-      "sport": "Football",
-      "competition": "Belgian Pro League",
-      "name": "Zulte-Waregem vs Antwerp",
-      "start": "2026-11-21T19:45:00+00:00",
-      "start_time": "2026-11-21T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261121&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261121&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "2 \u2013 2"
-    },
-    {
       "id": "soccer-esp.1-401882798",
       "category": "soccer-esp.1",
       "sport": "Football",
@@ -1821,50 +1431,6 @@
       "channel": "",
       "completed": true,
       "result": "2 \u2013 1"
-    },
-    {
-      "id": "soccer-ned.1-401875546",
-      "category": "soccer-ned.1",
-      "sport": "Football",
-      "competition": "Eredivisie",
-      "name": "FC Groningen vs Heerenveen",
-      "start": "2026-11-21T20:00:00+00:00",
-      "start_time": "2026-11-21T20:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261121&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261121&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "1 \u2013 3"
-    },
-    {
-      "id": "soccer-ned.1-401875539",
-      "category": "soccer-ned.1",
-      "sport": "Football",
-      "competition": "Eredivisie",
-      "name": "Telstar vs PEC Zwolle",
-      "start": "2026-11-21T20:00:00+00:00",
-      "start_time": "2026-11-21T20:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261121&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261121&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "1 \u2013 3"
     },
     {
       "id": "verified-nations-20261121-5",
@@ -1938,28 +1504,6 @@
       "channel": ""
     },
     {
-      "id": "soccer-ned.1-401875545",
-      "category": "soccer-ned.1",
-      "sport": "Football",
-      "competition": "Eredivisie",
-      "name": "FC Twente vs Willem II",
-      "start": "2026-11-22T11:15:00+00:00",
-      "start_time": "2026-11-22T11:15:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261122&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261122&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
       "id": "soccer-ita.1-401875008",
       "category": "soccer-ita.1",
       "sport": "Football",
@@ -2004,94 +1548,6 @@
       "result": null
     },
     {
-      "id": "soccer-bel.1-401878942",
-      "category": "soccer-bel.1",
-      "sport": "Football",
-      "competition": "Belgian Pro League",
-      "name": "Waasland-Beveren vs KAA Gent",
-      "start": "2026-11-22T12:30:00+00:00",
-      "start_time": "2026-11-22T12:30:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261122&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261122&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-esp.1-401882804",
-      "category": "soccer-esp.1",
-      "sport": "Football",
-      "competition": "La Liga",
-      "name": "Barcelona vs Villarreal",
-      "start": "2026-11-22T13:00:00+00:00",
-      "start_time": "2026-11-22T13:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-ned.1-401875547",
-      "category": "soccer-ned.1",
-      "sport": "Football",
-      "competition": "Eredivisie",
-      "name": "Ajax Amsterdam vs ADO Den Haag",
-      "start": "2026-11-22T13:30:00+00:00",
-      "start_time": "2026-11-22T13:30:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261122&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261122&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-ned.1-401875540",
-      "category": "soccer-ned.1",
-      "sport": "Football",
-      "competition": "Eredivisie",
-      "name": "Sparta Rotterdam vs AZ Alkmaar",
-      "start": "2026-11-22T13:30:00+00:00",
-      "start_time": "2026-11-22T13:30:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261122&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261122&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
       "id": "soccer-eng.1-401879234",
       "category": "soccer-eng.1",
       "sport": "Football",
@@ -2111,7 +1567,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
+      ]
     },
     {
       "id": "soccer-ita.1-401875047",
@@ -2158,138 +1618,6 @@
       "result": null
     },
     {
-      "id": "soccer-fra.1-401876397",
-      "category": "soccer-fra.1",
-      "sport": "Football",
-      "competition": "Ligue 1",
-      "name": "Paris FC vs Angers",
-      "start": "2026-11-22T14:00:00+00:00",
-      "start_time": "2026-11-22T14:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261122&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261122&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-ger.1-401884733",
-      "category": "soccer-ger.1",
-      "sport": "Football",
-      "competition": "Bundesliga",
-      "name": "FC Augsburg vs Mainz",
-      "start": "2026-11-22T14:30:00+00:00",
-      "start_time": "2026-11-22T14:30:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261122&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261122&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-bel.1-401878936",
-      "category": "soccer-bel.1",
-      "sport": "Football",
-      "competition": "Belgian Pro League",
-      "name": "KV Kortrijk vs Union St.-Gilloise",
-      "start": "2026-11-22T15:00:00+00:00",
-      "start_time": "2026-11-22T15:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261122&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261122&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-esp.1-401882800",
-      "category": "soccer-esp.1",
-      "sport": "Football",
-      "competition": "La Liga",
-      "name": "Racing Santander vs Real Sociedad",
-      "start": "2026-11-22T15:15:00+00:00",
-      "start_time": "2026-11-22T15:15:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-ned.1-401875542",
-      "category": "soccer-ned.1",
-      "sport": "Football",
-      "competition": "Eredivisie",
-      "name": "Go Ahead Eagles vs Fortuna Sittard",
-      "start": "2026-11-22T15:45:00+00:00",
-      "start_time": "2026-11-22T15:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261122&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261122&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-fra.1-401876401",
-      "category": "soccer-fra.1",
-      "sport": "Football",
-      "competition": "Ligue 1",
-      "name": "Lorient vs Stade Rennais",
-      "start": "2026-11-22T16:15:00+00:00",
-      "start_time": "2026-11-22T16:15:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261122&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261122&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
       "id": "soccer-eng.1-401878755",
       "category": "soccer-eng.1",
       "sport": "Football",
@@ -2309,29 +1637,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-ger.1-401884730",
-      "category": "soccer-ger.1",
-      "sport": "Football",
-      "competition": "Bundesliga",
-      "name": "Werder Bremen vs Hamburg SV",
-      "start": "2026-11-22T16:30:00+00:00",
-      "start_time": "2026-11-22T16:30:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261122&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261122&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
+      ]
     },
     {
       "id": "soccer-ita.1-401874989",
@@ -2346,50 +1656,6 @@
         {
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-esp.1-401882801",
-      "category": "soccer-esp.1",
-      "sport": "Football",
-      "competition": "La Liga",
-      "name": "Osasuna vs M\u00e1laga",
-      "start": "2026-11-22T17:30:00+00:00",
-      "start_time": "2026-11-22T17:30:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-bel.1-401878941",
-      "category": "soccer-bel.1",
-      "sport": "Football",
-      "competition": "Belgian Pro League",
-      "name": "Anderlecht vs OH Leuven",
-      "start": "2026-11-22T17:30:00+00:00",
-      "start_time": "2026-11-22T17:30:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261122&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261122&limit=250",
           "field": "start_time"
         }
       ],
@@ -2572,28 +1838,6 @@
       "result": null
     },
     {
-      "id": "soccer-bel.1-401878934",
-      "category": "soccer-bel.1",
-      "sport": "Football",
-      "competition": "Belgian Pro League",
-      "name": "Lommel SK vs Standard Liege",
-      "start": "2026-11-22T18:15:00+00:00",
-      "start_time": "2026-11-22T18:15:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261122&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261122&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
       "id": "soccer-ita.1-401875001",
       "category": "soccer-ita.1",
       "sport": "Football",
@@ -2606,50 +1850,6 @@
         {
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-fra.1-401876400",
-      "category": "soccer-fra.1",
-      "sport": "Football",
-      "competition": "Ligue 1",
-      "name": "Marseille vs Le Mans",
-      "start": "2026-11-22T19:45:00+00:00",
-      "start_time": "2026-11-22T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261122&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261122&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-esp.1-401882803",
-      "category": "soccer-esp.1",
-      "sport": "Football",
-      "competition": "La Liga",
-      "name": "Getafe vs Atl\u00e9tico Madrid",
-      "start": "2026-11-22T20:00:00+00:00",
-      "start_time": "2026-11-22T20:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=250",
           "field": "start_time"
         }
       ],
@@ -2816,29 +2016,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-esp.1-401882802",
-      "category": "soccer-esp.1",
-      "sport": "Football",
-      "competition": "La Liga",
-      "name": "Levante vs Elche",
-      "start": "2026-11-23T20:00:00+00:00",
-      "start_time": "2026-11-23T20:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261123&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261123&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/368.png"
+      ]
     },
     {
       "id": "football-nfl-401873078",
@@ -3290,72 +2472,6 @@
       "result": null
     },
     {
-      "id": "soccer-eng.2-401880140",
-      "category": "soccer-eng.2",
-      "sport": "Football",
-      "competition": "Championship",
-      "name": "Bolton Wanderers vs West Bromwich Albion",
-      "start": "2026-11-25T19:45:00+00:00",
-      "start_time": "2026-11-25T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261125&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261125&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-eng.2-401880139",
-      "category": "soccer-eng.2",
-      "sport": "Football",
-      "competition": "Championship",
-      "name": "Burnley vs Birmingham City",
-      "start": "2026-11-25T19:45:00+00:00",
-      "start_time": "2026-11-25T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261125&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261125&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-eng.2-401880137",
-      "category": "soccer-eng.2",
-      "sport": "Football",
-      "competition": "Championship",
-      "name": "Watford vs Blackburn Rovers",
-      "start": "2026-11-25T19:45:00+00:00",
-      "start_time": "2026-11-25T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261125&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261125&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
       "id": "soccer-uefa.champions-401915291",
       "category": "soccer-uefa.champions",
       "sport": "Football",
@@ -3510,28 +2626,6 @@
       "result": null
     },
     {
-      "id": "soccer-eng.2-401880138",
-      "category": "soccer-eng.2",
-      "sport": "Football",
-      "competition": "Championship",
-      "name": "Stoke City vs Millwall",
-      "start": "2026-11-25T20:00:00+00:00",
-      "start_time": "2026-11-25T20:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261125&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261125&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
       "id": "football-nfl-401873079",
       "category": "football-nfl",
       "sport": "NFL",
@@ -3576,182 +2670,6 @@
       "result": null
     },
     {
-      "id": "soccer-uefa.europa-401915506",
-      "category": "soccer-uefa.europa",
-      "sport": "Football",
-      "competition": "Europa League",
-      "name": "Besiktas vs Hapoel Be'er",
-      "start": "2026-11-26T17:45:00+00:00",
-      "start_time": "2026-11-26T17:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-uefa.europa-401915519",
-      "category": "soccer-uefa.europa",
-      "sport": "Football",
-      "competition": "Europa League",
-      "name": "Celta Vigo vs AFC Bournemouth",
-      "start": "2026-11-26T17:45:00+00:00",
-      "start_time": "2026-11-26T17:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-uefa.europa-401915517",
-      "category": "soccer-uefa.europa",
-      "sport": "Football",
-      "competition": "Europa League",
-      "name": "Dinamo Zagreb vs Bayer Leverkusen",
-      "start": "2026-11-26T17:45:00+00:00",
-      "start_time": "2026-11-26T17:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-uefa.europa-401915507",
-      "category": "soccer-uefa.europa",
-      "sport": "Football",
-      "competition": "Europa League",
-      "name": "Marseille vs Levski Sofia",
-      "start": "2026-11-26T17:45:00+00:00",
-      "start_time": "2026-11-26T17:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-uefa.europa-401915521",
-      "category": "soccer-uefa.europa",
-      "sport": "Football",
-      "competition": "Europa League",
-      "name": "Olympiacos vs AC Milan",
-      "start": "2026-11-26T17:45:00+00:00",
-      "start_time": "2026-11-26T17:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-uefa.europa-401915520",
-      "category": "soccer-uefa.europa",
-      "sport": "Football",
-      "competition": "Europa League",
-      "name": "RB Salzburg vs Ararat-Armenia",
-      "start": "2026-11-26T17:45:00+00:00",
-      "start_time": "2026-11-26T17:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-uefa.europa-401915508",
-      "category": "soccer-uefa.europa",
-      "sport": "Football",
-      "competition": "Europa League",
-      "name": "Union St.-Gilloise vs Lech Poznan",
-      "start": "2026-11-26T17:45:00+00:00",
-      "start_time": "2026-11-26T17:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-uefa.europa-401915518",
-      "category": "soccer-uefa.europa",
-      "sport": "Football",
-      "competition": "Europa League",
-      "name": "Viktoria Plzen vs Benfica",
-      "start": "2026-11-26T17:45:00+00:00",
-      "start_time": "2026-11-26T17:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
       "id": "football-nfl-401873081",
       "category": "football-nfl",
       "sport": "NFL",
@@ -3781,226 +2699,6 @@
       "tv_verification": "broadcaster-confirmed",
       "coverage_time": "2026-11-26T17:00:00+00:00",
       "coverage_source": "https://www.skysports.com/watch/nfl-on-sky"
-    },
-    {
-      "id": "soccer-uefa.europa-401915504",
-      "category": "soccer-uefa.europa",
-      "sport": "Football",
-      "competition": "Europa League",
-      "name": "Crystal Palace vs Real Sociedad",
-      "start": "2026-11-26T20:00:00+00:00",
-      "start_time": "2026-11-26T20:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-uefa.europa-401915516",
-      "category": "soccer-uefa.europa",
-      "sport": "Football",
-      "competition": "Europa League",
-      "name": "Ferencvaros vs NK Celje",
-      "start": "2026-11-26T20:00:00+00:00",
-      "start_time": "2026-11-26T20:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-uefa.europa-401915502",
-      "category": "soccer-uefa.europa",
-      "sport": "Football",
-      "competition": "Europa League",
-      "name": "Juventus vs Omonia Nicosia",
-      "start": "2026-11-26T20:00:00+00:00",
-      "start_time": "2026-11-26T20:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-uefa.europa-401915501",
-      "category": "soccer-uefa.europa",
-      "sport": "Football",
-      "competition": "Europa League",
-      "name": "Lyon vs Lillestrom",
-      "start": "2026-11-26T20:00:00+00:00",
-      "start_time": "2026-11-26T20:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-uefa.europa-401915505",
-      "category": "soccer-uefa.europa",
-      "sport": "Football",
-      "competition": "Europa League",
-      "name": "NEC Nijmegen vs Stade Rennais",
-      "start": "2026-11-26T20:00:00+00:00",
-      "start_time": "2026-11-26T20:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-uefa.europa-401915503",
-      "category": "soccer-uefa.europa",
-      "sport": "Football",
-      "competition": "Europa League",
-      "name": "OFI Crete vs Anderlecht",
-      "start": "2026-11-26T20:00:00+00:00",
-      "start_time": "2026-11-26T20:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-uefa.europa-401915514",
-      "category": "soccer-uefa.europa",
-      "sport": "Football",
-      "competition": "Europa League",
-      "name": "Sparta Prague vs AZ Alkmaar",
-      "start": "2026-11-26T20:00:00+00:00",
-      "start_time": "2026-11-26T20:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-uefa.europa-401915513",
-      "category": "soccer-uefa.europa",
-      "sport": "Football",
-      "competition": "Europa League",
-      "name": "Sunderland vs Jagiellonia Bialystok",
-      "start": "2026-11-26T20:00:00+00:00",
-      "start_time": "2026-11-26T20:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-uefa.europa-401915512",
-      "category": "soccer-uefa.europa",
-      "sport": "Football",
-      "competition": "Europa League",
-      "name": "Torreense vs Celtic",
-      "start": "2026-11-26T20:00:00+00:00",
-      "start_time": "2026-11-26T20:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-uefa.europa-401915515",
-      "category": "soccer-uefa.europa",
-      "sport": "Football",
-      "competition": "Europa League",
-      "name": "TSG Hoffenheim vs SK Sturm Graz",
-      "start": "2026-11-26T20:00:00+00:00",
-      "start_time": "2026-11-26T20:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
     },
     {
       "id": "football-nfl-401873080",
@@ -4109,50 +2807,6 @@
       "result": null
     },
     {
-      "id": "soccer-ita.1-401875004",
-      "category": "soccer-ita.1",
-      "sport": "Football",
-      "competition": "Serie A",
-      "name": "Venezia vs Bologna",
-      "start": "2026-11-27T19:45:00+00:00",
-      "start_time": "2026-11-27T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261127&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261127&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-fra.1-401876392",
-      "category": "soccer-fra.1",
-      "sport": "Football",
-      "competition": "Ligue 1",
-      "name": "Brest vs Paris FC",
-      "start": "2026-11-27T19:45:00+00:00",
-      "start_time": "2026-11-27T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261127&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261127&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
       "id": "soccer-bel.1-401878930",
       "category": "soccer-bel.1",
       "sport": "Football",
@@ -4194,7 +2848,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/363.png"
+      ]
     },
     {
       "id": "football-nfl-401873083",
@@ -4219,138 +2877,6 @@
       "result": null
     },
     {
-      "id": "soccer-esp.1-401882791",
-      "category": "soccer-esp.1",
-      "sport": "Football",
-      "competition": "La Liga",
-      "name": "Levante vs Racing Santander",
-      "start": "2026-11-27T20:00:00+00:00",
-      "start_time": "2026-11-27T20:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261127&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261127&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-eng.2-401880129",
-      "category": "soccer-eng.2",
-      "sport": "Football",
-      "competition": "Championship",
-      "name": "Southampton vs Middlesbrough",
-      "start": "2026-11-27T20:00:00+00:00",
-      "start_time": "2026-11-27T20:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261127&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261127&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-por.1-401885389",
-      "category": "soccer-por.1",
-      "sport": "Football",
-      "competition": "Primeira Liga",
-      "name": "Maritimo vs C.D. Nacional",
-      "start": "2026-11-27T20:15:00+00:00",
-      "start_time": "2026-11-27T20:15:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261127&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261127&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-eng.2-401880135",
-      "category": "soccer-eng.2",
-      "sport": "Football",
-      "competition": "Championship",
-      "name": "Blackburn Rovers vs Charlton Athletic",
-      "start": "2026-11-28T12:30:00+00:00",
-      "start_time": "2026-11-28T12:30:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-eng.2-401880133",
-      "category": "soccer-eng.2",
-      "sport": "Football",
-      "competition": "Championship",
-      "name": "Lincoln City vs Wolverhampton Wanderers",
-      "start": "2026-11-28T12:30:00+00:00",
-      "start_time": "2026-11-28T12:30:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-eng.2-401880131",
-      "category": "soccer-eng.2",
-      "sport": "Football",
-      "competition": "Championship",
-      "name": "Preston North End vs Norwich City",
-      "start": "2026-11-28T12:30:00+00:00",
-      "start_time": "2026-11-28T12:30:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
       "id": "soccer-esp.1-401882796",
       "category": "soccer-esp.1",
       "sport": "Football",
@@ -4363,28 +2889,6 @@
         {
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-ita.1-401875081",
-      "category": "soccer-ita.1",
-      "sport": "Football",
-      "competition": "Serie A",
-      "name": "Frosinone vs Parma",
-      "start": "2026-11-28T14:00:00+00:00",
-      "start_time": "2026-11-28T14:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261128&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261128&limit=250",
           "field": "start_time"
         }
       ],
@@ -4502,7 +3006,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/388.png"
+      ]
     },
     {
       "id": "soccer-eng.1-401879226",
@@ -4524,7 +3032,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/337.png"
+      ]
     },
     {
       "id": "soccer-bel.1-401878929",
@@ -4539,160 +3051,6 @@
         {
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261128&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-eng.2-401880136",
-      "category": "soccer-eng.2",
-      "sport": "Football",
-      "competition": "Championship",
-      "name": "Birmingham City vs Bolton Wanderers",
-      "start": "2026-11-28T15:00:00+00:00",
-      "start_time": "2026-11-28T15:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-eng.2-401880134",
-      "category": "soccer-eng.2",
-      "sport": "Football",
-      "competition": "Championship",
-      "name": "Derby County vs Watford",
-      "start": "2026-11-28T15:00:00+00:00",
-      "start_time": "2026-11-28T15:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-eng.2-401880132",
-      "category": "soccer-eng.2",
-      "sport": "Football",
-      "competition": "Championship",
-      "name": "Millwall vs Burnley",
-      "start": "2026-11-28T15:00:00+00:00",
-      "start_time": "2026-11-28T15:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-eng.2-401880130",
-      "category": "soccer-eng.2",
-      "sport": "Football",
-      "competition": "Championship",
-      "name": "Queens Park Rangers vs Sheffield United",
-      "start": "2026-11-28T15:00:00+00:00",
-      "start_time": "2026-11-28T15:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-eng.2-401880127",
-      "category": "soccer-eng.2",
-      "sport": "Football",
-      "competition": "Championship",
-      "name": "West Bromwich Albion vs Bristol City",
-      "start": "2026-11-28T15:00:00+00:00",
-      "start_time": "2026-11-28T15:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-eng.2-401880126",
-      "category": "soccer-eng.2",
-      "sport": "Football",
-      "competition": "Championship",
-      "name": "West Ham United vs Stoke City",
-      "start": "2026-11-28T15:00:00+00:00",
-      "start_time": "2026-11-28T15:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-eng.2-401880125",
-      "category": "soccer-eng.2",
-      "sport": "Football",
-      "competition": "Championship",
-      "name": "Wrexham vs Portsmouth",
-      "start": "2026-11-28T15:00:00+00:00",
-      "start_time": "2026-11-28T15:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=250",
           "field": "start_time"
         }
       ],
@@ -4813,28 +3171,6 @@
       "result": null
     },
     {
-      "id": "soccer-ita.1-401874826",
-      "category": "soccer-ita.1",
-      "sport": "Football",
-      "competition": "Serie A",
-      "name": "Torino vs Lazio",
-      "start": "2026-11-28T17:00:00+00:00",
-      "start_time": "2026-11-28T17:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261128&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261128&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
       "id": "soccer-bel.1-401878932",
       "category": "soccer-bel.1",
       "sport": "Football",
@@ -4876,7 +3212,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
+      ]
     },
     {
       "id": "soccer-esp.1-401882793",
@@ -4957,28 +3297,6 @@
         {
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261128&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-ita.1-401874977",
-      "category": "soccer-ita.1",
-      "sport": "Football",
-      "competition": "Serie A",
-      "name": "Internazionale vs Genoa",
-      "start": "2026-11-28T19:45:00+00:00",
-      "start_time": "2026-11-28T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261128&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261128&limit=250",
           "field": "start_time"
         }
       ],
@@ -5250,7 +3568,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
+      ]
     },
     {
       "id": "soccer-eng.2-401880128",
@@ -5287,28 +3609,6 @@
         {
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261129&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-esp.1-401882787",
-      "category": "soccer-esp.1",
-      "sport": "Football",
-      "competition": "La Liga",
-      "name": "Valencia vs Osasuna",
-      "start": "2026-11-29T13:00:00+00:00",
-      "start_time": "2026-11-29T13:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261129&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261129&limit=250",
           "field": "start_time"
         }
       ],
@@ -5385,28 +3685,6 @@
       "result": null
     },
     {
-      "id": "soccer-fra.1-401876393",
-      "category": "soccer-fra.1",
-      "sport": "Football",
-      "competition": "Ligue 1",
-      "name": "AJ Auxerre vs Marseille",
-      "start": "2026-11-29T14:00:00+00:00",
-      "start_time": "2026-11-29T14:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261129&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261129&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
       "id": "soccer-eng.1-401879231",
       "category": "soccer-eng.1",
       "sport": "Football",
@@ -5426,7 +3704,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
+      ]
     },
     {
       "id": "soccer-eng.1-401879230",
@@ -5448,7 +3730,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/306.png"
+      ]
     },
     {
       "id": "soccer-eng.1-401879228",
@@ -5470,7 +3756,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/349.png"
+      ]
     },
     {
       "id": "soccer-eng.1-401879224",
@@ -5492,7 +3782,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
+      ]
     },
     {
       "id": "soccer-ger.1-401884724",
@@ -5529,28 +3823,6 @@
         {
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261129&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-esp.1-401882794",
-      "category": "soccer-esp.1",
-      "sport": "Football",
-      "competition": "La Liga",
-      "name": "Deportivo vs Barcelona",
-      "start": "2026-11-29T15:15:00+00:00",
-      "start_time": "2026-11-29T15:15:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261129&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261129&limit=250",
           "field": "start_time"
         }
       ],
@@ -5604,28 +3876,6 @@
       "channel": ""
     },
     {
-      "id": "soccer-fra.1-401876386",
-      "category": "soccer-fra.1",
-      "sport": "Football",
-      "competition": "Ligue 1",
-      "name": "Toulouse vs Stade Rennais",
-      "start": "2026-11-29T16:15:00+00:00",
-      "start_time": "2026-11-29T16:15:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261129&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261129&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
       "id": "soccer-eng.1-401878753",
       "category": "soccer-eng.1",
       "sport": "Football",
@@ -5645,7 +3895,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
+      ]
     },
     {
       "id": "soccer-ger.1-401884725",
@@ -5682,28 +3936,6 @@
         {
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261129&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-esp.1-401882795",
-      "category": "soccer-esp.1",
-      "sport": "Football",
-      "competition": "La Liga",
-      "name": "Celta Vigo vs Villarreal",
-      "start": "2026-11-29T17:30:00+00:00",
-      "start_time": "2026-11-29T17:30:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261129&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261129&limit=250",
           "field": "start_time"
         }
       ],
@@ -5868,28 +4100,6 @@
       "result": null
     },
     {
-      "id": "soccer-por.1-401885390",
-      "category": "soccer-por.1",
-      "sport": "Football",
-      "competition": "Primeira Liga",
-      "name": "Gil Vicente vs Estoril",
-      "start": "2026-11-29T18:00:00+00:00",
-      "start_time": "2026-11-29T18:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261129&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261129&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
       "id": "soccer-bel.1-401878925",
       "category": "soccer-bel.1",
       "sport": "Football",
@@ -5968,72 +4178,6 @@
         {
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261129&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-fra.1-401876389",
-      "category": "soccer-fra.1",
-      "sport": "Football",
-      "competition": "Ligue 1",
-      "name": "Lyon vs AS Monaco",
-      "start": "2026-11-29T19:45:00+00:00",
-      "start_time": "2026-11-29T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261129&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261129&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-esp.1-401882788",
-      "category": "soccer-esp.1",
-      "sport": "Football",
-      "competition": "La Liga",
-      "name": "Real Sociedad vs Sevilla",
-      "start": "2026-11-29T20:00:00+00:00",
-      "start_time": "2026-11-29T20:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261129&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261129&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-por.1-401885387",
-      "category": "soccer-por.1",
-      "sport": "Football",
-      "competition": "Primeira Liga",
-      "name": "FC Porto vs Sporting CP",
-      "start": "2026-11-29T20:30:00+00:00",
-      "start_time": "2026-11-29T20:30:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261129&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261129&limit=250",
           "field": "start_time"
         }
       ],
@@ -6132,50 +4276,6 @@
       "result": null
     },
     {
-      "id": "soccer-ita.1-401875095",
-      "category": "soccer-ita.1",
-      "sport": "Football",
-      "competition": "Serie A",
-      "name": "Lecce vs Atalanta",
-      "start": "2026-11-30T17:30:00+00:00",
-      "start_time": "2026-11-30T17:30:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261130&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261130&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-ita.1-401875019",
-      "category": "soccer-ita.1",
-      "sport": "Football",
-      "competition": "Serie A",
-      "name": "Cagliari vs AC Milan",
-      "start": "2026-11-30T19:45:00+00:00",
-      "start_time": "2026-11-30T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261130&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261130&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
       "id": "soccer-esp.1-401882792",
       "category": "soccer-esp.1",
       "sport": "Football",
@@ -6188,50 +4288,6 @@
         {
           "provider": "espn",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261130&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-por.1-401885386",
-      "category": "soccer-por.1",
-      "sport": "Football",
-      "competition": "Primeira Liga",
-      "name": "Benfica vs FC Famalicao",
-      "start": "2026-11-30T20:15:00+00:00",
-      "start_time": "2026-11-30T20:15:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261130&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261130&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "soccer-por.1-401885391",
-      "category": "soccer-por.1",
-      "sport": "Football",
-      "competition": "Primeira Liga",
-      "name": "Casa Pia vs Braga",
-      "start": "2026-11-30T20:15:00+00:00",
-      "start_time": "2026-11-30T20:15:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261130&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261130&limit=250",
           "field": "start_time"
         }
       ],
