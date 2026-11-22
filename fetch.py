@@ -51,7 +51,7 @@ def weekend():
 def collection_days():
  today = dt.datetime.now(TZ).date()
  next_monday = today + dt.timedelta(days=7-today.weekday())
- return sorted(set([today-dt.timedelta(days=i) for i in range(7)] + weekend() + [next_monday + dt.timedelta(days=i) for i in range(7)]))
+ return sorted(set([today-dt.timedelta(days=i) for i in range(7)] + [today+dt.timedelta(days=i) for i in range(9)] + weekend() + [next_monday + dt.timedelta(days=i) for i in range(7)]))
 
 def valid_start(value, day):
  """Require a timezone-aware, plausible kickoff/session time on the Irish display day."""
@@ -93,7 +93,13 @@ def fetch_one(item):
  for event in payload["events"]:
   try:
    start=dt.datetime.fromisoformat(event["date"].replace("Z","+00:00"))
-   if start.astimezone(TZ).date()!=day: continue
+   if category=="football-nfl":
+    # US Sunday night games fall on Monday in Ireland; the ESPN scoreboard
+    # can attach them to the preceding US calendar date.
+    local_day=start.astimezone(TZ).date()
+    if local_day not in collection_days(): continue
+    if local_day!=day and local_day!=day+dt.timedelta(days=1):continue
+   elif start.astimezone(TZ).date()!=day: continue
    if category=="racing-f1": continue  # ESPN event.date is a meeting start, NOT a race/session time
    if not event.get("id"): continue
    match=(event.get("competitions") or [{}])[0]
@@ -316,6 +322,7 @@ def main():
  health=[h for _,h in batches]
  if not any(x["status"]=="ok" for x in health):
   raise SystemExit("All sources failed; preserving previously published fixtures")
+ events=list({e["id"]:e for e in events}.values())  # ESPN US/Irish date overlap must not duplicate events
  tv=attach_tv(events,days)
  nfl_tv_health=attach_nfl_tv(events)
  events.extend(tv)

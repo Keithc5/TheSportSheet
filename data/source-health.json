@@ -16,7 +16,7 @@
     "2026-11-28",
     "2026-11-29"
   ],
-  "total_events": 266,
+  "total_events": 267,
   "by_category": {
     "soccer-nations": 18,
     "golf-pga": 1,
@@ -32,7 +32,7 @@
     "soccer-ita.1": 18,
     "rugby": 6,
     "soccer-ned.1": 18,
-    "football-nfl": 22,
+    "football-nfl": 23,
     "soccer-uefa.champions": 18,
     "soccer-uefa.europa": 18,
     "soccer-por.1": 7
@@ -2587,7 +2587,7 @@
       "2026-11-29"
     ]
   },
-  "tv_confirmed": 13,
+  "tv_confirmed": 14,
   "nfl_tv_source": {
     "status": "ok",
     "count": 6,
@@ -2607,5 +2607,11 @@
     "NFL Sky Sports broadcast selections are refreshed from the dated weekly Sky guide with verified fallback records; unlisted games are not assumed to be on Sky.",
     "Coverage percentage cannot be calculated without independent expected-event inventory.",
     "TV channels are only confirmed when supplied by a verified, dated source; blank means unconfirmed, not unavailable."
-  ]
+  ],
+  "nfl_overnight_repair": {
+    "match": "Minnesota Vikings vs San Francisco 49ers",
+    "irish_kickoff": "2026-11-23T01:20:00+00:00",
+    "reason": "US Sunday to Irish Monday date boundary",
+    "source": "https://www.nfl.com/schedules/2026/reg11/"
+  }
 }
