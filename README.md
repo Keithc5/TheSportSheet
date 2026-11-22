@@ -57,3 +57,7 @@ Only **Qualifying, Sprint Qualifying, Sprint and Race** sessions are displayed; 
 ### Remaining production gaps
 
 The additional ESPN league identifiers must be verified individually. Recurring broadcaster discovery and independent competition-level expected-match inventories are not yet implemented. A production-grade second-pass search should ingest permitted official competition fixture APIs, match against a separate fixture index, ingest Irish TV schedules from an authorized provider, reconcile aliases and kickoff changes, and alert on low coverage. Do not claim comprehensive fixtures or TV listings until those integrations are proven.
+
+
+### NFL TV listings
+Sky Sports NFL and Sky Sports+ assignments are matched by both teams and Irish fixture date, using the weekly [Sky Sports NFL guide](https://www.skysports.com/nfl/news/13582747/nfl-2026-season-live-on-sky-sports-fixtures-kick-off-times-tv-channel-for-games-this-week-and-weekend). Dated, independently checked listings are stored in `data/nfl-tv-verified.json`. `fetch.py` refreshes weekly Sky assignments on each scheduled run, preserves broadcaster provenance, and leaves games without verified Sky assignments unconfirmed rather than guessing. Sky Sports+ is not the same as Sky Sports NFL.\n

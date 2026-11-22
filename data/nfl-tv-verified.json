@@ -1,0 +1,116 @@
+[
+  {
+    "date": "2026-11-22",
+    "teams": [
+      "Arizona Cardinals",
+      "Kansas City Chiefs"
+    ],
+    "channels": [
+      "Sky Sports NFL"
+    ],
+    "coverage_time": "2026-11-22T18:00:00+00:00",
+    "source": "https://www.skysports.com/watch/nfl-on-sky"
+  },
+  {
+    "date": "2026-11-22",
+    "teams": [
+      "Tampa Bay Buccaneers",
+      "Detroit Lions"
+    ],
+    "channels": [
+      "Sky Sports+"
+    ],
+    "coverage_time": "2026-11-22T17:30:00+00:00",
+    "source": "https://www.skysports.com/watch/nfl-on-sky"
+  },
+  {
+    "date": "2026-11-22",
+    "teams": [
+      "Jacksonville Jaguars",
+      "New York Giants"
+    ],
+    "channels": [
+      "Sky Sports NFL",
+      "Sky Sports Main Event"
+    ],
+    "coverage_time": "2026-11-22T21:15:00+00:00",
+    "source": "https://www.skysports.com/watch/nfl-on-sky"
+  },
+  {
+    "date": "2026-11-22",
+    "teams": [
+      "Las Vegas Raiders",
+      "Denver Broncos"
+    ],
+    "channels": [
+      "Sky Sports+"
+    ],
+    "coverage_time": "2026-11-22T21:25:00+00:00",
+    "source": "https://www.skysports.com/watch/nfl-on-sky"
+  },
+  {
+    "date": "2026-11-23",
+    "teams": [
+      "Minnesota Vikings",
+      "San Francisco 49ers"
+    ],
+    "channels": [
+      "Sky Sports NFL",
+      "Sky Sports Main Event"
+    ],
+    "coverage_time": "2026-11-23T01:10:00+00:00",
+    "source": "https://www.skysports.com/watch/nfl-on-sky"
+  },
+  {
+    "date": "2026-11-24",
+    "teams": [
+      "Cincinnati Bengals",
+      "Washington Commanders"
+    ],
+    "channels": [
+      "Sky Sports NFL",
+      "Sky Sports Main Event"
+    ],
+    "coverage_time": "2026-11-24T01:10:00+00:00",
+    "source": "https://www.skysports.com/watch/nfl-on-sky"
+  },
+  {
+    "date": "2026-11-26",
+    "teams": [
+      "Chicago Bears",
+      "Detroit Lions"
+    ],
+    "channels": [
+      "Sky Sports NFL",
+      "Sky Sports Main Event"
+    ],
+    "coverage_time": "2026-11-26T17:00:00+00:00",
+    "source": "https://www.skysports.com/watch/nfl-on-sky"
+  },
+  {
+    "date": "2026-11-26",
+    "teams": [
+      "Philadelphia Eagles",
+      "Dallas Cowboys"
+    ],
+    "channels": [
+      "Sky Sports NFL",
+      "Sky Sports Main Event"
+    ],
+    "coverage_time": "2026-11-26T21:00:00+00:00",
+    "source": "https://www.skysports.com/watch/nfl-on-sky"
+  },
+  {
+    "date": "2026-11-27",
+    "teams": [
+      "Kansas City Chiefs",
+      "Buffalo Bills"
+    ],
+    "channels": [
+      "Sky Sports NFL",
+      "Sky Sports Main Event"
+    ],
+    "coverage_time": "2026-11-27T01:10:00+00:00",
+    "source": "https://www.skysports.com/watch/nfl-on-sky"
+  }
+]

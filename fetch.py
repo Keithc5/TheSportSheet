@@ -8,6 +8,7 @@ import pathlib
 import os
 import re
 import urllib.request
+from html.parser import HTMLParser
 from collections import Counter, defaultdict
 from zoneinfo import ZoneInfo
 
@@ -158,6 +159,81 @@ def attach_tv(events,days):
   else: unmatched.append(tv)
  return unmatched
 
+
+SKY_NFL_GUIDE = "https://www.skysports.com/nfl/news/13582747/nfl-2026-season-live-on-sky-sports-fixtures-kick-off-times-tv-channel-for-games-this-week-and-weekend"
+SKY_NFL_TV = "https://www.skysports.com/watch/nfl-on-sky"
+class _Text(HTMLParser):
+ def __init__(self): super().__init__();self.parts=[];self.skip=0
+ def handle_starttag(self,tag,attrs):
+  if tag in ("script","style"): self.skip+=1
+  if tag in ("p","h2","h3","li","br"): self.parts.append("\\n")
+ def handle_endtag(self,tag):
+  if tag in ("script","style") and self.skip:self.skip-=1
+  if tag in ("p","h2","h3","li"):self.parts.append("\\n")
+ def handle_data(self,data):
+  if not self.skip:self.parts.append(data)
+def _sky_text(url):
+ req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 (compatible; TheSportSheet/1.0)","Accept":"text/html"})
+ with urllib.request.urlopen(req,timeout=16) as response:
+  parser=_Text();parser.feed(response.read(2_000_000).decode("utf-8","replace"))
+ return re.sub(r"[ \\t]+"," ","".join(parser.parts))
+def _nfl_pair(name):
+ parts=re.split(r"\\s+(?:@|vs\\.?|v\\.?|at|versus)\\s+",name,flags=re.I)
+ return frozenset(norm(x) for x in parts) if len(parts)==2 else frozenset()
+def _sky_channels(text):
+ channels=[]
+ for c in ("Sky Sports NFL","Sky Sports Main Event","Sky Sports+"):
+  if re.search(re.escape(c).replace(r"\\+","\\s*\\+"),text,re.I):channels.append(c)
+ return channels
+def sky_nfl_listings():
+ """Parse broadcaster's dated weekly article; do not infer Sky from NFL Game Pass."""
+ try: raw=_sky_text(SKY_NFL_GUIDE)
+ except Exception as exc:return [],{"status":"error","message":str(exc)[:180]}
+ listings=[]
+ # Match lines are explicitly dated within the WEEK section, not generic article prose.
+ day=None
+ for line in raw.splitlines():
+  line=line.strip()
+  matchday=re.search(r"^(?:Thursday|Friday|Saturday|Sunday|Monday|Tuesday|Wednesday)\\s+(?:November|December|January|February|September|October)\\s+(\\d{1,2})",line,re.I)
+  if matchday:
+   month=re.search(r"(November|December|January|February|September|October)",line,re.I).group(1)
+   year=2026 if month in ("September","October","November","December") else 2027
+   day=dt.date(year,dt.datetime.strptime(month,"%B").month,int(matchday.group(1)))
+   continue
+  m=re.search(r"([A-Za-z .'-]+?)\\s+@\\s+([A-Za-z .'-]+?)\\s+-\\s+KO\\s+",line,re.I)
+  if not m or not day:continue
+  pair=frozenset((norm(m.group(1)),norm(m.group(2))))
+  channels=_sky_channels(line)
+  if channels:listings.append({"day":day,"pair":pair,"channels":channels,"source":SKY_NFL_GUIDE})
+ return listings,{"status":"ok","count":len(listings),"source":SKY_NFL_GUIDE}
+def attach_nfl_tv(events):
+ """Match both teams and Irish game date, never assign channels by kickoff slot."""
+ listings,health=sky_nfl_listings()
+ curated_path=ROOT/"data"/"nfl-tv-verified.json"
+ if curated_path.exists():
+  for row in json.loads(curated_path.read_text()):
+   try:
+    listings.append({"day":dt.date.fromisoformat(row["date"]),"pair":frozenset(norm(t) for t in row["teams"]),"channels":row["channels"],"source":row["source"],"coverage_time":row.get("coverage_time")})
+   except (KeyError,ValueError,TypeError):continue
+ updated=0
+ for e in events:
+  if e.get("category")!="football-nfl":continue
+  pair=_nfl_pair(e.get("name",""))
+  if not pair:continue
+  day=dt.datetime.fromisoformat(e["start"]).astimezone(TZ).date()
+  matches=[x for x in listings if x["day"]==day and x["pair"]==pair]
+  if not matches:continue
+  # Curated verified rows override the live article when both exist.
+  listing=matches[-1]
+  e["channel"]=" / ".join(listing["channels"])
+  e["tv_source"]=listing["source"]
+  e["tv_verification"]="broadcaster-confirmed"
+  if listing.get("coverage_time"):e["coverage_time"]=listing["coverage_time"];e["coverage_source"]=listing["source"]
+  e.setdefault("sources",[]).append({"provider":"sky-sports","url":listing["source"],"field":"channel"})
+  updated+=1
+ health["matched_fixtures"]=updated
+ return health
+
 def curated_fixtures(days):
  """Load dated, source-attributed verified fixtures; never invent future matches."""
  path=ROOT/"data"/"verified-fixtures.json"
@@ -241,6 +317,7 @@ def main():
  if not any(x["status"]=="ok" for x in health):
   raise SystemExit("All sources failed; preserving previously published fixtures")
  tv=attach_tv(events,days)
+ nfl_tv_health=attach_nfl_tv(events)
  events.extend(tv)
  unique={e["id"]:e for e in events}
  events=sorted(unique.values(),key=lambda e:e.get("start_time") or e.get("coverage_time") or e["start"])
@@ -261,6 +338,7 @@ def main():
   "curated_fixtures":len(curated),
   "inventory":inventory,
   "tv_confirmed":sum(bool(e.get("channel")) for e in events),
+  "nfl_tv_source":nfl_tv_health,
   "tv_unconfirmed":sum(not e.get("channel") for e in events),
   "f1_official_sessions":len(f1),
   "unverified_start_times":sum(e.get("verification")=="single-source" for e in events),
@@ -270,7 +348,7 @@ def main():
   "F1 sessions are included only when independently listed in the curated official Formula 1 timetable; ESPN meeting dates are rejected.",
   "Official F1 timetable must be refreshed as each new Grand Prix approaches.",
   "Single-source ESPN fixture times are provisional, not independently confirmed.",
-  "TV guide supplement is manually curated for 13–15 November only.",
+  "NFL Sky Sports broadcast selections are refreshed from the dated weekly Sky guide with verified fallback records; unlisted games are not assumed to be on Sky.",
   "Coverage percentage cannot be calculated without independent expected-event inventory.",
   "TV channels are only confirmed when supplied by a verified, dated source; blank means unconfirmed, not unavailable."]}
  out=ROOT/"data";out.mkdir(exist_ok=True)

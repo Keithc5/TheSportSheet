@@ -9,6 +9,7 @@ on:
       - 'fetch.py'
       - 'tests/**'
       - 'data/verified-tv-*.json'
+      - 'data/nfl-tv-verified.json'
       - 'data/official-f1-sessions.json'
       - 'data/verified-fixtures.json'
       - 'sources/sources.json'
