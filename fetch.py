@@ -166,24 +166,24 @@ class _Text(HTMLParser):
  def __init__(self): super().__init__();self.parts=[];self.skip=0
  def handle_starttag(self,tag,attrs):
   if tag in ("script","style"): self.skip+=1
-  if tag in ("p","h2","h3","li","br"): self.parts.append("\\n")
+  if tag in ("p","h2","h3","li","br"): self.parts.append("\n")
  def handle_endtag(self,tag):
   if tag in ("script","style") and self.skip:self.skip-=1
-  if tag in ("p","h2","h3","li"):self.parts.append("\\n")
+  if tag in ("p","h2","h3","li"):self.parts.append("\n")
  def handle_data(self,data):
   if not self.skip:self.parts.append(data)
 def _sky_text(url):
  req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 (compatible; TheSportSheet/1.0)","Accept":"text/html"})
  with urllib.request.urlopen(req,timeout=16) as response:
   parser=_Text();parser.feed(response.read(2_000_000).decode("utf-8","replace"))
- return re.sub(r"[ \\t]+"," ","".join(parser.parts))
+ return re.sub(r"[ \t]+"," ","".join(parser.parts))
 def _nfl_pair(name):
- parts=re.split(r"\\s+(?:@|vs\\.?|v\\.?|at|versus)\\s+",name,flags=re.I)
+ parts=re.split(r"\s+(?:@|vs\.?|v\.?|at|versus)\s+",name,flags=re.I)
  return frozenset(norm(x) for x in parts) if len(parts)==2 else frozenset()
 def _sky_channels(text):
  channels=[]
  for c in ("Sky Sports NFL","Sky Sports Main Event","Sky Sports+"):
-  if re.search(re.escape(c).replace(r"\\+","\\s*\\+"),text,re.I):channels.append(c)
+  if re.search(re.escape(c).replace(r"\+","\s*\+"),text,re.I):channels.append(c)
  return channels
 def sky_nfl_listings():
  """Parse broadcaster's dated weekly article; do not infer Sky from NFL Game Pass."""
@@ -194,13 +194,13 @@ def sky_nfl_listings():
  day=None
  for line in raw.splitlines():
   line=line.strip()
-  matchday=re.search(r"^(?:Thursday|Friday|Saturday|Sunday|Monday|Tuesday|Wednesday)\\s+(?:November|December|January|February|September|October)\\s+(\\d{1,2})",line,re.I)
+  matchday=re.search(r"^(?:Thursday|Friday|Saturday|Sunday|Monday|Tuesday|Wednesday)\s+(?:November|December|January|February|September|October)\s+(\d{1,2})",line,re.I)
   if matchday:
    month=re.search(r"(November|December|January|February|September|October)",line,re.I).group(1)
    year=2026 if month in ("September","October","November","December") else 2027
    day=dt.date(year,dt.datetime.strptime(month,"%B").month,int(matchday.group(1)))
    continue
-  m=re.search(r"([A-Za-z .'-]+?)\\s+@\\s+([A-Za-z .'-]+?)\\s+-\\s+KO\\s+",line,re.I)
+  m=re.search(r"([A-Za-z .'-]+?)\s+@\s+([A-Za-z .'-]+?)\s+-\s+KO\s+",line,re.I)
   if not m or not day:continue
   pair=frozenset((norm(m.group(1)),norm(m.group(2))))
   channels=_sky_channels(line)

@@ -2578,14 +2578,14 @@
       "2026-11-29"
     ]
   },
-  "tv_confirmed": 7,
+  "tv_confirmed": 13,
   "nfl_tv_source": {
-    "status": "ok",
-    "count": 0,
-    "source": "https://www.skysports.com/nfl/news/13582747/nfl-2026-season-live-on-sky-sports-fixtures-kick-off-times-tv-channel-for-games-this-week-and-weekend",
-    "matched_fixtures": 0
+    "status": "verified-curated",
+    "count": 9,
+    "matched_fixtures": 6,
+    "live_parser": "pending next refresh"
   },
-  "tv_unconfirmed": 89,
+  "tv_unconfirmed": 83,
   "f1_official_sessions": 3,
   "unverified_start_times": 79,
   "conflicts": [],
