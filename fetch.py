@@ -336,6 +336,28 @@ def attach_nfl_tv(events):
  health["matched_fixtures"]=updated
  return health
 
+def attach_gaa_crests(events):
+ """Use only locally vetted club crests; aliases are exact, never fuzzy."""
+ path=ROOT/"data"/"gaa-crests.json"
+ if not path.exists():return {"matched":0,"missing":[]}
+ registry=json.loads(path.read_text())
+ clubs=registry.get("clubs",{})
+ aliases={alias.casefold():key for key,info in clubs.items() for alias in [key]+info.get("aliases",[])}
+ matched=0;missing=set()
+ for e in events:
+  if e.get("category")!="gaa":continue
+  names=re.split(r"\\s+(?:vs\\.?|v\\.?|versus)\\s+",e.get("name",""),flags=re.I)
+  if len(names)!=2:continue
+  logos=[]
+  for name in names:
+   info=clubs.get(aliases.get(name.strip().casefold(),"")) or {}
+   asset=info.get("asset","")
+   if asset and re.fullmatch(r"assets/gaa/[a-z0-9_-]+\\.(?:png|webp|svg)",asset) and (ROOT/asset).is_file():
+    logos.append(asset);matched+=1
+   else:logos.append("");missing.add(name)
+  e["team_logos"]=logos
+ return {"matched_team_appearances":matched,"missing_clubs":sorted(missing)}
+
 def curated_fixtures(days):
  """Load dated, source-attributed verified fixtures; never invent future matches."""
  path=ROOT/"data"/"verified-fixtures.json"
@@ -424,6 +446,7 @@ def main():
  broadcaster_tv_health=attach_broadcaster_tv(events)
  nfl_tv_health=attach_nfl_tv(events)
  events.extend(tv)
+ gaa_crest_health=attach_gaa_crests(events)
  unique={e["id"]:e for e in events}
  events=sorted(unique.values(),key=lambda e:e.get("start_time") or e.get("coverage_time") or e["start"])
  validate_output(events)
@@ -434,6 +457,7 @@ def main():
  now=dt.datetime.now(dt.timezone.utc).isoformat()
  audit={"updated":now,"collection_dates":[str(d) for d in days],
   "total_events":len(events),"by_category":counts,
+  "gaa_crest_source":gaa_crest_health,
   "source_requests":health,"successful_requests":sum(x["status"]=="ok" for x in health),
   "failed_requests":sum(x["status"]=="error" for x in health),
   "verified_start_times":sum(bool(e.get("start_time")) for e in events),

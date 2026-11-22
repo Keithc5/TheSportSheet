@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "description": "Verified local GAA club crest assets. Add only authentic club crests, never generated approximations. Each asset must exist in assets/gaa/. Aliases are exact matches.",
+  "clubs": {
+    "Ballyhale Shamrocks": {
+      "aliases": [
+        "Shamrocks Ballyhale"
+      ],
+      "asset": "",
+      "source": "https://kilkennygaa.ie/clubs/ballyhale-shamrocks/"
+    },
+    "Kilmacud Crokes": {
+      "aliases": [],
+      "asset": "",
+      "source": "https://kilmacudcrokes.com/ga/node/15135"
+    },
+    "Crossmaglen Rangers": {
+      "aliases": [
+        "Crossmaglen"
+      ],
+      "asset": "",
+      "source": "https://www.crossrangers.com/profile/"
+    },
+    "Edendork St Malachy's": {
+      "aliases": [
+        "Edendork"
+      ],
+      "asset": "",
+      "source": ""
+    },
+    "Caherlistrane": {
+      "aliases": [],
+      "asset": "",
+      "source": ""
+    },
+    "Éire Óg": {
+      "aliases": [],
+      "asset": "",
+      "source": ""
+    }
+  }
+}
