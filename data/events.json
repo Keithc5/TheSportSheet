@@ -21,7 +21,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 0"
+      "result": "1 – 0",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-nations-401861181",
@@ -43,7 +47,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 2"
+      "result": "2 – 2",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-nations-401861183",
@@ -65,7 +73,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 1"
+      "result": "2 – 1",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-nations-401861182",
@@ -87,7 +99,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 0"
+      "result": "3 – 0",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-nations-401861184",
@@ -109,7 +125,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 1"
+      "result": "2 – 1",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-nations-401861185",
@@ -131,7 +151,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "5 \u2013 0"
+      "result": "5 – 0",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-nations-401861179",
@@ -153,7 +177,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1"
+      "result": "1 – 1",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-nations-401861188",
@@ -175,7 +203,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 0"
+      "result": "1 – 0",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-nations-401861187",
@@ -197,7 +229,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 3"
+      "result": "0 – 3",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-nations-401861186",
@@ -219,7 +255,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "4 \u2013 0"
+      "result": "4 – 0",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "football-nfl-401873065",
@@ -241,7 +281,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "20 \u2013 23"
+      "result": "20 – 23"
     },
     {
       "id": "soccer-nations-401861196",
@@ -263,7 +303,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 1"
+      "result": "2 – 1",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-nations-401861194",
@@ -285,7 +329,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 3"
+      "result": "2 – 3",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-nations-401861191",
@@ -307,7 +355,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1"
+      "result": "1 – 1",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-nations-401861193",
@@ -329,7 +381,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1"
+      "result": "1 – 1",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-nations-401861195",
@@ -351,7 +407,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1"
+      "result": "1 – 1",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-nations-401861192",
@@ -373,7 +433,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 0"
+      "result": "3 – 0",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-nations-401861190",
@@ -395,7 +459,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 0"
+      "result": "1 – 0",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-nations-401861189",
@@ -417,7 +485,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 3"
+      "result": "2 – 3",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "golf-pga-401850981",
@@ -483,7 +555,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "26 \u2013 3"
+      "result": "26 – 3"
     },
     {
       "id": "soccer-ger.1-401884736",
@@ -505,7 +577,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1"
+      "result": "1 – 1",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-fra.1-401876395",
@@ -527,7 +603,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 1"
+      "result": "3 – 1",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-bel.1-401878937",
@@ -549,7 +629,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 0"
+      "result": "1 – 0",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-esp.1-401882805",
@@ -571,14 +655,18 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 1"
+      "result": "0 – 1",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "racing-f1-las-vegas-2026-qualifying",
       "category": "racing-f1",
       "sport": "Formula 1",
       "competition": "Formula 1",
-      "name": "Las Vegas Grand Prix \u2014 Qualifying",
+      "name": "Las Vegas Grand Prix — Qualifying",
       "session": "Qualifying",
       "start": "2026-11-21T04:00:00+00:00",
       "start_time": "2026-11-21T04:00:00+00:00",
@@ -659,7 +747,7 @@
       "detail": "",
       "channel": "TNT Sports 1 / TNT Sports Ultimate",
       "completed": true,
-      "result": "1 \u2013 1",
+      "result": "1 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
@@ -687,7 +775,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 1"
+      "result": "0 – 1",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880155",
@@ -709,7 +801,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 1"
+      "result": "2 – 1",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880153",
@@ -731,14 +827,18 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 0"
+      "result": "2 – 0",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-esp.1-401882806",
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Alav\u00e9s vs Deportivo",
+      "name": "Alavés vs Deportivo",
       "start": "2026-11-21T13:00:00+00:00",
       "start_time": "2026-11-21T13:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261121&limit=250",
@@ -753,7 +853,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 1"
+      "result": "3 – 1",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ita.1-401875056",
@@ -775,7 +879,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 0"
+      "result": "2 – 0",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ita.1-401874981",
@@ -797,7 +905,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 0"
+      "result": "3 – 0",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "verified-nations-cup-20261121-georgia",
@@ -889,7 +1001,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 5"
+      "result": "1 – 5",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ger.1-401884735",
@@ -911,14 +1027,18 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "4 \u2013 0"
+      "result": "4 – 0",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ger.1-401884731",
       "category": "soccer-ger.1",
       "sport": "Football",
       "competition": "Bundesliga",
-      "name": "Borussia M\u00f6nchengladbach vs Borussia Dortmund",
+      "name": "Borussia Mönchengladbach vs Borussia Dortmund",
       "start": "2026-11-21T14:30:00+00:00",
       "start_time": "2026-11-21T14:30:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
@@ -933,7 +1053,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 1"
+      "result": "0 – 1",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ger.1-401884734",
@@ -955,7 +1079,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 0"
+      "result": "1 – 0",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ger.1-401884728",
@@ -977,7 +1105,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 1"
+      "result": "0 – 1",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.1-401879238",
@@ -999,7 +1131,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 0",
+      "result": "2 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/393.png"
@@ -1025,7 +1157,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 0",
+      "result": "0 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/366.png"
@@ -1056,7 +1188,7 @@
       "detail": "",
       "channel": "Premier Sports 1",
       "completed": true,
-      "result": "1 \u2013 4",
+      "result": "1 – 4",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
@@ -1084,7 +1216,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 2",
+      "result": "3 – 2",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/384.png"
@@ -1110,7 +1242,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 0",
+      "result": "2 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/373.png"
@@ -1136,7 +1268,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 2"
+      "result": "2 – 2",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880160",
@@ -1158,7 +1294,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1"
+      "result": "1 – 1",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880158",
@@ -1180,7 +1320,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 1"
+      "result": "0 – 1",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880157",
@@ -1202,7 +1346,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 0"
+      "result": "2 – 0",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880154",
@@ -1224,7 +1372,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "4 \u2013 0"
+      "result": "4 – 0",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880152",
@@ -1246,7 +1398,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 0"
+      "result": "1 – 0",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880151",
@@ -1268,7 +1424,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 2"
+      "result": "2 – 2",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880150",
@@ -1290,7 +1450,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1"
+      "result": "1 – 1",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880149",
@@ -1312,7 +1476,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 1"
+      "result": "2 – 1",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "verified-nations-cup-20261121-portugal",
@@ -1354,7 +1522,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 1"
+      "result": "0 – 1",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ned.1-401875541",
@@ -1376,7 +1548,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 4"
+      "result": "1 – 4",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "verified-nations-cup-20261121-spain",
@@ -1418,7 +1594,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 3"
+      "result": "2 – 3",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "verified-prem-cup-20261121-exeter",
@@ -1510,14 +1690,18 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 5"
+      "result": "1 – 5",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-bel.1-401878939",
       "category": "soccer-bel.1",
       "sport": "Football",
       "competition": "Belgian Pro League",
-      "name": "Racing Genk vs RAAL La Louvi\u00e8re",
+      "name": "Racing Genk vs RAAL La Louvière",
       "start": "2026-11-21T17:15:00+00:00",
       "start_time": "2026-11-21T17:15:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261121&limit=250",
@@ -1532,7 +1716,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 0"
+      "result": "3 – 0",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "verified-nations-cup-20261121-zimbabwe",
@@ -1579,7 +1767,7 @@
       "detail": "",
       "channel": "Sky Sports Main Event / Sky Sports Premier League",
       "completed": true,
-      "result": "2 \u2013 2",
+      "result": "2 – 2",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/359.png"
@@ -1607,7 +1795,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1"
+      "result": "1 – 1",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ger.1-401884729",
@@ -1629,7 +1821,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 0"
+      "result": "0 – 0",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "verified-prem-cup-20261121-newcastle-red-bulls",
@@ -1671,7 +1867,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 3"
+      "result": "2 – 3",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ned.1-401875543",
@@ -1693,7 +1893,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 3"
+      "result": "2 – 3",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ita.1-401875067",
@@ -1715,7 +1919,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 0"
+      "result": "1 – 0",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-fra.1-401876399",
@@ -1737,7 +1945,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1"
+      "result": "1 – 1",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-fra.1-401876403",
@@ -1759,7 +1971,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1"
+      "result": "1 – 1",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-fra.1-401876402",
@@ -1781,7 +1997,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 1"
+      "result": "0 – 1",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-fra.1-401876396",
@@ -1803,7 +2023,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 1"
+      "result": "0 – 1",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-bel.1-401878935",
@@ -1825,7 +2049,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 5"
+      "result": "1 – 5",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-bel.1-401878938",
@@ -1847,7 +2075,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 2"
+      "result": "2 – 2",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-esp.1-401882798",
@@ -1869,7 +2101,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 1"
+      "result": "2 – 1",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ned.1-401875546",
@@ -1891,7 +2127,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 3"
+      "result": "1 – 3",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ned.1-401875539",
@@ -1913,7 +2153,11 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 3"
+      "result": "1 – 3",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "verified-nations-20261121-5",
@@ -1970,7 +2214,7 @@
       "category": "racing-f1",
       "sport": "Formula 1",
       "competition": "Formula 1",
-      "name": "Las Vegas Grand Prix \u2014 Race",
+      "name": "Las Vegas Grand Prix — Race",
       "session": "Race",
       "start": "2026-11-22T04:00:00+00:00",
       "start_time": "2026-11-22T04:00:00+00:00",
@@ -2006,7 +2250,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ita.1-401875008",
@@ -2028,7 +2276,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880159",
@@ -2050,7 +2302,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-bel.1-401878942",
@@ -2072,7 +2328,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-esp.1-401882804",
@@ -2094,7 +2354,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ned.1-401875547",
@@ -2116,7 +2380,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ned.1-401875540",
@@ -2138,7 +2406,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.1-401879234",
@@ -2193,7 +2465,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ita.1-401874960",
@@ -2215,7 +2491,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-fra.1-401876397",
@@ -2237,7 +2517,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ger.1-401884733",
@@ -2259,7 +2543,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-bel.1-401878936",
@@ -2281,7 +2569,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-esp.1-401882800",
@@ -2303,7 +2595,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ned.1-401875542",
@@ -2325,7 +2621,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-fra.1-401876401",
@@ -2347,7 +2647,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.1-401878755",
@@ -2402,7 +2706,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ita.1-401874989",
@@ -2424,14 +2732,18 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-esp.1-401882801",
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Osasuna vs M\u00e1laga",
+      "name": "Osasuna vs Málaga",
       "start": "2026-11-22T17:30:00+00:00",
       "start_time": "2026-11-22T17:30:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=250",
@@ -2446,7 +2758,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-bel.1-401878941",
@@ -2468,7 +2784,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "football-nfl-401873070",
@@ -2662,7 +2982,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ita.1-401875001",
@@ -2684,7 +3008,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-fra.1-401876400",
@@ -2706,14 +3034,18 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-esp.1-401882803",
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Getafe vs Atl\u00e9tico Madrid",
+      "name": "Getafe vs Atlético Madrid",
       "start": "2026-11-22T20:00:00+00:00",
       "start_time": "2026-11-22T20:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=250",
@@ -2728,7 +3060,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "football-nfl-401873074",
@@ -2865,7 +3201,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.1-401879237",
@@ -2920,7 +3260,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "football-nfl-401873078",
@@ -2973,7 +3317,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.champions-401915300",
@@ -2995,7 +3343,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
+      ]
     },
     {
       "id": "soccer-eng.2-401880148",
@@ -3017,7 +3369,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880147",
@@ -3039,7 +3395,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880146",
@@ -3061,7 +3421,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880145",
@@ -3083,7 +3447,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880144",
@@ -3105,7 +3473,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880143",
@@ -3127,7 +3499,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880142",
@@ -3149,7 +3525,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.champions-401915295",
@@ -3171,7 +3551,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.champions-401915296",
@@ -3193,7 +3577,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.champions-401915294",
@@ -3215,7 +3603,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.champions-401915379",
@@ -3237,7 +3629,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.champions-401915299",
@@ -3259,7 +3655,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.champions-401915298",
@@ -3281,7 +3681,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.champions-401915297",
@@ -3303,7 +3707,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880141",
@@ -3325,7 +3733,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.champions-401915378",
@@ -3347,7 +3759,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.champions-401915293",
@@ -3369,7 +3785,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880140",
@@ -3391,7 +3811,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880139",
@@ -3413,7 +3837,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880137",
@@ -3435,14 +3863,18 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.champions-401915291",
       "category": "soccer-uefa.champions",
       "sport": "Football",
       "competition": "Champions League",
-      "name": "Atl\u00e9tico Madrid vs Viking FK",
+      "name": "Atlético Madrid vs Viking FK",
       "start": "2026-11-25T20:00:00+00:00",
       "start_time": "2026-11-25T20:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=250",
@@ -3457,7 +3889,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.champions-401915292",
@@ -3479,7 +3915,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
+      ]
     },
     {
       "id": "soccer-uefa.champions-401915376",
@@ -3501,7 +3941,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.champions-401915377",
@@ -3523,7 +3967,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.champions-401915374",
@@ -3545,7 +3993,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.champions-401915375",
@@ -3567,7 +4019,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.champions-401915373",
@@ -3589,7 +4045,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
+      ]
     },
     {
       "id": "soccer-eng.2-401880138",
@@ -3611,7 +4071,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "football-nfl-401873079",
@@ -3677,7 +4141,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.europa-401915519",
@@ -3699,7 +4167,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/349.png"
+      ]
     },
     {
       "id": "soccer-uefa.europa-401915517",
@@ -3721,7 +4193,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.europa-401915507",
@@ -3743,7 +4219,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.europa-401915521",
@@ -3765,7 +4245,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.europa-401915520",
@@ -3787,7 +4271,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.europa-401915508",
@@ -3809,7 +4297,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.europa-401915518",
@@ -3831,7 +4323,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "football-nfl-401873081",
@@ -3884,7 +4380,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.europa-401915516",
@@ -3906,7 +4406,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.europa-401915502",
@@ -3928,7 +4432,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.europa-401915501",
@@ -3950,7 +4458,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.europa-401915505",
@@ -3972,7 +4484,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.europa-401915503",
@@ -3994,7 +4510,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.europa-401915514",
@@ -4016,7 +4536,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.europa-401915513",
@@ -4038,7 +4562,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.europa-401915512",
@@ -4060,7 +4588,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-uefa.europa-401915515",
@@ -4082,7 +4614,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "football-nfl-401873080",
@@ -4166,14 +4702,18 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ger.1-401884720",
       "category": "soccer-ger.1",
       "sport": "Football",
       "competition": "Bundesliga",
-      "name": "Werder Bremen vs Borussia M\u00f6nchengladbach",
+      "name": "Werder Bremen vs Borussia Mönchengladbach",
       "start": "2026-11-27T19:30:00+00:00",
       "start_time": "2026-11-27T19:30:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261127&limit=250",
@@ -4188,7 +4728,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ita.1-401875004",
@@ -4210,7 +4754,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-fra.1-401876392",
@@ -4232,7 +4780,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-bel.1-401878930",
@@ -4254,7 +4806,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.1-401879225",
@@ -4331,7 +4887,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880129",
@@ -4353,7 +4913,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-por.1-401885389",
@@ -4375,7 +4939,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880135",
@@ -4397,7 +4965,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880133",
@@ -4419,7 +4991,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880131",
@@ -4441,7 +5017,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-esp.1-401882796",
@@ -4463,7 +5043,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ita.1-401875081",
@@ -4485,7 +5069,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ger.1-401884721",
@@ -4507,7 +5095,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ger.1-401884722",
@@ -4529,7 +5121,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ger.1-401884723",
@@ -4551,7 +5147,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ger.1-401884719",
@@ -4573,7 +5173,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.1-401879227",
@@ -4632,7 +5236,7 @@
       "category": "soccer-bel.1",
       "sport": "Football",
       "competition": "Belgian Pro League",
-      "name": "KVC Westerlo vs RAAL La Louvi\u00e8re",
+      "name": "KVC Westerlo vs RAAL La Louvière",
       "start": "2026-11-28T15:00:00+00:00",
       "start_time": "2026-11-28T15:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261128&limit=250",
@@ -4647,7 +5251,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880136",
@@ -4669,7 +5277,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880134",
@@ -4691,7 +5303,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880132",
@@ -4713,7 +5329,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880130",
@@ -4735,7 +5355,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880127",
@@ -4757,7 +5381,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880126",
@@ -4779,7 +5407,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.2-401880125",
@@ -4801,14 +5433,18 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-esp.1-401882790",
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "M\u00e1laga vs Athletic Club",
+      "name": "Málaga vs Athletic Club",
       "start": "2026-11-28T15:15:00+00:00",
       "start_time": "2026-11-28T15:15:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128&limit=250",
@@ -4823,7 +5459,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-por.1-401885392",
@@ -4845,7 +5485,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-por.1-401885388",
@@ -4867,7 +5511,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ned.1-401875537",
@@ -4889,7 +5537,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-fra.1-401876394",
@@ -4911,7 +5563,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ita.1-401874826",
@@ -4933,7 +5589,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-bel.1-401878932",
@@ -4955,7 +5615,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.1-401878752",
@@ -4995,7 +5659,7 @@
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Elche vs Atl\u00e9tico Madrid",
+      "name": "Elche vs Atlético Madrid",
       "start": "2026-11-28T17:30:00+00:00",
       "start_time": "2026-11-28T17:30:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128&limit=250",
@@ -5010,7 +5674,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ger.1-401884726",
@@ -5032,7 +5700,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ned.1-401875531",
@@ -5054,14 +5726,18 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-por.1-401885393",
       "category": "soccer-por.1",
       "sport": "Football",
       "competition": "Primeira Liga",
-      "name": "Acad\u00e9mico de Viseu vs Alverca",
+      "name": "Académico de Viseu vs Alverca",
       "start": "2026-11-28T18:00:00+00:00",
       "start_time": "2026-11-28T18:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261128&limit=250",
@@ -5076,7 +5752,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ita.1-401874977",
@@ -5098,7 +5778,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-fra.1-401876391",
@@ -5120,7 +5804,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-fra.1-401876390",
@@ -5142,7 +5830,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-fra.1-401876388",
@@ -5164,7 +5856,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-fra.1-401876387",
@@ -5186,7 +5882,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-bel.1-401878931",
@@ -5208,7 +5908,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-bel.1-401878933",
@@ -5230,14 +5934,18 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-esp.1-401882789",
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Real Madrid vs Alav\u00e9s",
+      "name": "Real Madrid vs Alavés",
       "start": "2026-11-28T20:00:00+00:00",
       "start_time": "2026-11-28T20:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128&limit=250",
@@ -5252,7 +5960,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ned.1-401875530",
@@ -5274,14 +5986,18 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-por.1-401885385",
       "category": "soccer-por.1",
       "sport": "Football",
       "competition": "Primeira Liga",
-      "name": "Vit\u00f3ria de Guimaraes vs Estrela",
+      "name": "Vitória de Guimaraes vs Estrela",
       "start": "2026-11-28T20:30:00+00:00",
       "start_time": "2026-11-28T20:30:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261128&limit=250",
@@ -5296,7 +6012,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ned.1-401875538",
@@ -5318,7 +6038,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ita.1-401875031",
@@ -5340,7 +6064,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.1-401879229",
@@ -5388,7 +6116,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-bel.1-401878926",
@@ -5410,7 +6142,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-esp.1-401882787",
@@ -5432,7 +6168,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ned.1-401875535",
@@ -5454,7 +6194,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ned.1-401875534",
@@ -5476,7 +6220,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ita.1-401874992",
@@ -5498,7 +6246,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-fra.1-401876393",
@@ -5520,7 +6272,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.1-401879231",
@@ -5674,7 +6430,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-bel.1-401878928",
@@ -5696,7 +6456,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-esp.1-401882794",
@@ -5718,7 +6482,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ned.1-401875532",
@@ -5740,14 +6508,18 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "racing-f1-qatar-2026-race",
       "category": "racing-f1",
       "sport": "Formula 1",
       "competition": "Formula 1",
-      "name": "Qatar Grand Prix \u2014 Race",
+      "name": "Qatar Grand Prix — Race",
       "session": "Race",
       "start": "2026-11-29T16:00:00+00:00",
       "start_time": "2026-11-29T16:00:00+00:00",
@@ -5783,7 +6555,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.1-401878753",
@@ -5838,7 +6614,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ita.1-401874769",
@@ -5860,7 +6640,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-esp.1-401882795",
@@ -5882,7 +6666,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-bel.1-401878927",
@@ -5904,7 +6692,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "football-nfl-401873087",
@@ -6058,7 +6850,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-bel.1-401878925",
@@ -6080,7 +6876,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ger.1-401884727",
@@ -6102,7 +6902,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ned.1-401875533",
@@ -6124,7 +6928,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ita.1-401874994",
@@ -6146,7 +6954,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-fra.1-401876389",
@@ -6168,7 +6980,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-esp.1-401882788",
@@ -6190,7 +7006,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-por.1-401885387",
@@ -6212,7 +7032,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "football-nfl-401873093",
@@ -6322,7 +7146,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ita.1-401875019",
@@ -6344,7 +7172,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-esp.1-401882792",
@@ -6366,7 +7198,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-por.1-401885386",
@@ -6388,7 +7224,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-por.1-401885391",
@@ -6410,7 +7250,11 @@
       "detail": "",
       "channel": "",
       "completed": false,
-      "result": null
+      "result": null,
+      "team_logos": [
+        "",
+        ""
+      ]
     }
   ]
 }
