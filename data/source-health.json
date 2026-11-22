@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T09:51:34.923987+00:00",
+  "updated": "2026-11-22T09:53:21.619672+00:00",
   "collection_dates": [
     "2026-11-16",
     "2026-11-17",
@@ -44,7 +44,14 @@
   },
   "gaa_crest_source": {
     "matched_team_appearances": 0,
-    "missing_clubs": []
+    "missing_clubs": [
+      "Ballyhale Shamrocks",
+      "Caherlistrane",
+      "Crossmaglen Rangers",
+      "Edendork St Malachy's",
+      "Kilmacud Crokes",
+      "\u00c9ire \u00d3g"
+    ]
   },
   "source_requests": [
     {

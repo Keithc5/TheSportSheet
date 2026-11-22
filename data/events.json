@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T09:51:34.923987+00:00",
+  "updated": "2026-11-22T09:53:21.619672+00:00",
   "events": [
     {
       "id": "soccer-nations-401861180",
@@ -2481,7 +2481,11 @@
       ],
       "detail": "",
       "start_time": "2026-11-22T13:15:00+00:00",
-      "verification": "cross-referenced"
+      "verification": "cross-referenced",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ned.1-401875547",
@@ -2560,7 +2564,11 @@
       ],
       "detail": "",
       "start_time": "2026-11-22T13:30:00+00:00",
-      "verification": "cross-referenced"
+      "verification": "cross-referenced",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-eng.1-401879234",
@@ -2781,7 +2789,11 @@
       ],
       "detail": "",
       "start_time": "2026-11-22T15:30:00+00:00",
-      "verification": "cross-referenced"
+      "verification": "cross-referenced",
+      "team_logos": [
+        "",
+        ""
+      ]
     },
     {
       "id": "soccer-ned.1-401875542",
