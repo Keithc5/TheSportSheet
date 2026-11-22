@@ -358,6 +358,24 @@ def attach_gaa_crests(events):
   e["team_logos"]=logos
  return {"matched_team_appearances":matched,"missing_clubs":sorted(missing)}
 
+def verified_golf_coverage(days):
+ """Dated broadcast sessions; coverage start is NOT a tournament tee time."""
+ path=ROOT/"data"/"golf-tv-sessions.json"
+ if not path.exists():return []
+ rows=[]
+ for item in json.loads(path.read_text()):
+  try:
+   when=dt.datetime.fromisoformat(item["coverage_time"].replace("Z","+00:00"))
+   if when.tzinfo is None or when.astimezone(TZ).date() not in days:continue
+   rows.append({"id":item["id"],"category":item["category"],"sport":"Golf",
+    "competition":item["competition"],"name":item["name"],"start":when.isoformat(),
+    "start_time":None,"coverage_time":when.isoformat(),"coverage_source":item["source"],
+    "start_source":None,"channel":item.get("channel",""),
+    "sources":[{"provider":"dated-golf-broadcast","url":item["source"],"field":"coverage_time"}],
+    "verification":"coverage-only","detail":"TV coverage, not tee time"})
+  except (KeyError,ValueError,TypeError):continue
+ return rows
+
 def curated_fixtures(days):
  """Load dated, source-attributed verified fixtures; never invent future matches."""
  path=ROOT/"data"/"verified-fixtures.json"
@@ -435,6 +453,8 @@ def main():
  events=[e for batch,_ in batches for e in batch]
  f1,official_issues=official_f1_sessions(days)
  events.extend(f1)
+ golf_coverage=verified_golf_coverage(days)
+ events.extend(golf_coverage)
  curated,curated_issues=curated_fixtures(days)
  merge_curated(events,curated)
  health=[h for _,h in batches]
@@ -472,6 +492,7 @@ def main():
   "broadcaster_tv_source":broadcaster_tv_health,
   "tv_unconfirmed":sum(not e.get("channel") for e in events),
   "f1_official_sessions":len(f1),
+  "golf_verified_coverage_sessions":len(golf_coverage),
   "unverified_start_times":sum(e.get("verification")=="single-source" for e in events),
   "conflicts":[{"id":e["id"],"name":e["name"],"times":e["time_conflict"]} for e in events if e.get("time_conflict")],
   "limitations":["Empty API results do not prove no events are scheduled.",
