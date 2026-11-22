@@ -100,6 +100,7 @@ def fetch_one(item):
     if local_day not in collection_days(): continue
     if local_day!=day and local_day!=day+dt.timedelta(days=1):continue
    elif start.astimezone(TZ).date()!=day: continue
+   if category.startswith("golf-"): continue  # Tournament start is not a TV coverage time; use dated golf coverage only
    if category=="racing-f1": continue  # ESPN event.date is a meeting start, NOT a race/session time
    if not event.get("id"): continue
    match=(event.get("competitions") or [{}])[0]
