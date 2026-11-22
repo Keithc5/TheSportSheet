@@ -346,13 +346,13 @@ def attach_gaa_crests(events):
  matched=0;missing=set()
  for e in events:
   if e.get("category")!="gaa":continue
-  names=re.split(r"\\s+(?:vs\\.?|v\\.?|versus)\\s+",e.get("name",""),flags=re.I)
+  names=re.split(r"\s+(?:vs\.?|v\.?|versus)\s+",e.get("name",""),flags=re.I)
   if len(names)!=2:continue
   logos=[]
   for name in names:
    info=clubs.get(aliases.get(name.strip().casefold(),"")) or {}
    asset=info.get("asset","")
-   if asset and re.fullmatch(r"assets/gaa/[a-z0-9_-]+\\.(?:png|webp|svg)",asset) and (ROOT/asset).is_file():
+   if asset and re.fullmatch(r"assets/gaa/[a-z0-9_-]+\.(?:png|webp|svg)",asset) and (ROOT/asset).is_file():
     logos.append(asset);matched+=1
    else:logos.append("");missing.add(name)
   e["team_logos"]=logos
