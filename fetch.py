@@ -135,6 +135,75 @@ def fetch_one(item):
 
 def norm(name):
  return re.sub(r"[^a-z0-9]+"," ",name.casefold()).strip()
+# Broadcaster discovery: Irish football TV, independent of ESPN fixture data.
+# Match only an exact local date, kickoff time and BOTH club names; otherwise leave unconfirmed.
+BROADCAST_GUIDES = [
+ ("Sky Sports","https://www.skysports.com/watch/football-on-sky/competitions/premier-league","soccer-eng.1"),
+]
+SOCCER_ALIASES={"man utd":"manchester united","man united":"manchester united",
+ "man city":"manchester city","spurs":"tottenham hotspur",
+ "nott'm forest":"nottingham forest","nottm forest":"nottingham forest",
+ "brighton and hove albion":"brighton hove albion",
+ "bournemouth":"afc bournemouth","wolves":"wolverhampton wanderers"}
+def _club_key(value):
+ value=norm(value).replace(" fc "," ").removesuffix(" fc")
+ return SOCCER_ALIASES.get(value,value)
+def _fixture_parts(event):
+ parts=re.split(r"\\s+(?:vs\\.?|v\\.?|versus)\\s+",event.get("name",""),flags=re.I)
+ return [_club_key(p) for p in parts] if len(parts)==2 else []
+def _sky_guide_entries(text):
+ """Extract dated, timed match blocks from Sky's competition TV guide."""
+ entries=[];date=None
+ month_names={m.lower():i for i,m in enumerate(("January","February","March","April","May","June","July","August","September","October","November","December"),1)}
+ lines=[re.sub(r"\\s+"," ",x).strip() for x in text.splitlines()]
+ for i,line in enumerate(lines):
+  day=re.search(r"\\b(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*\\s+(\\d{1,2})(?:st|nd|rd|th)?\\s+([A-Za-z]+)",line,re.I)
+  if day and day.group(2).lower() in month_names:
+   month=month_names[day.group(2).lower()]
+   today=dt.datetime.now(TZ).date()
+   year=today.year
+   if month<today.month-6:year+=1
+   elif month>today.month+6:year-=1
+   try:date=dt.date(year,month,int(day.group(1)))
+   except ValueError:date=None
+   continue
+  if date is None:continue
+  clock=re.fullmatch(r"(\\d{1,2}):(\\d{2})",line)
+  if not clock or i<1 or i+1>=len(lines):continue
+  home=next((x for x in reversed(lines[max(0,i-4):i]) if x and x.lower() not in ("match preview","remote record")),None)
+  away=next((x for x in lines[i+1:i+5] if x and x.lower() not in ("match preview","remote record")),None)
+  if not home or not away:continue
+  segment=" ".join(lines[i+1:i+12])
+  channels=list(dict.fromkeys(re.findall(r"Sky Sports(?: Main Event| Premier League| Football| Action| Arena| Cricket|\\+)",segment,re.I)))
+  if not channels:continue
+  entries.append({"date":date.isoformat(),"time":clock.group(0),"teams":[_club_key(home),_club_key(away)],"channels":channels})
+ return entries
+def attach_broadcaster_tv(events):
+ """Independently verify fixtures against a live broadcaster guide; never infer a channel."""
+ health=[]
+ for provider,url,category in BROADCAST_GUIDES:
+  try:
+   entries=_sky_guide_entries(_sky_text(url))
+   matched=0
+   for e in events:
+    if e.get("category")!=category:continue
+    parts=_fixture_parts(e)
+    if len(parts)!=2:continue
+    start=dt.datetime.fromisoformat(e["start"]).astimezone(TZ)
+    matches=[x for x in entries if x["date"]==start.date().isoformat() and x["time"]==start.strftime("%H:%M") and x["teams"]==parts]
+    if len(matches)!=1:continue
+    row=matches[0]
+    existing=[x.strip() for x in e.get("channel","").split(" / ") if x.strip() and x.strip()!="Sky Sports"]
+    e["channel"]=" / ".join(dict.fromkeys(existing+row["channels"]))
+    e["tv_source"]=url
+    e["tv_verification"]="broadcaster-fixture-and-time"
+    e.setdefault("sources",[]).append({"provider":provider,"url":url,"field":"channel"})
+    matched+=1
+   health.append({"provider":provider,"status":"ok","parsed":len(entries),"matched":matched,"url":url})
+  except Exception as exc:
+   health.append({"provider":provider,"status":"error","message":str(exc)[:160],"url":url})
+ return health
+
 def attach_premier_league_tv(events):
  """Apply fixture-specific Irish TV selections without guessing by kickoff slot."""
  path=ROOT/"data"/"premier-league-tv-verified.json"
@@ -352,6 +421,7 @@ def main():
  events=list({e["id"]:e for e in events}.values())  # ESPN US/Irish date overlap must not duplicate events
  tv=attach_tv(events,days)
  premier_league_tv_health=attach_premier_league_tv(events)
+ broadcaster_tv_health=attach_broadcaster_tv(events)
  nfl_tv_health=attach_nfl_tv(events)
  events.extend(tv)
  unique={e["id"]:e for e in events}
@@ -375,6 +445,7 @@ def main():
   "tv_confirmed":sum(bool(e.get("channel")) for e in events),
   "nfl_tv_source":nfl_tv_health,
   "premier_league_tv_source":premier_league_tv_health,
+  "broadcaster_tv_source":broadcaster_tv_health,
   "tv_unconfirmed":sum(not e.get("channel") for e in events),
   "f1_official_sessions":len(f1),
   "unverified_start_times":sum(e.get("verification")=="single-source" for e in events),
