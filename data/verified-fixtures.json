@@ -393,5 +393,143 @@
         "field": "start_time"
       }
     ]
+  },
+  {
+    "id": "verified-nations-finals-20261127-italy-vs-fiji",
+    "category": "rugby-nations",
+    "sport": "Rugby",
+    "competition": "Nations Championship Finals",
+    "name": "Italy vs Fiji",
+    "start": "2026-11-27T16:40:00+00:00",
+    "start_source": "https://nationschampionshiprugby.com/en",
+    "channel": "",
+    "sources": [
+      {
+        "provider": "nations-championship-official",
+        "url": "https://nationschampionshiprugby.com/en",
+        "field": "start_time"
+      },
+      {
+        "provider": "all-blacks",
+        "url": "https://www.allblacks.com/news/all-blacks/all-blacks-and-england-go-again-for-bronze-at-nations-championship-finals-weekend",
+        "field": "start_time"
+      }
+    ],
+    "detail": "Allianz Stadium, Twickenham · Finals Weekend"
+  },
+  {
+    "id": "verified-nations-finals-20261127-ireland-vs-australia",
+    "category": "rugby-nations",
+    "sport": "Rugby",
+    "competition": "Nations Championship Finals",
+    "name": "Ireland vs Australia",
+    "start": "2026-11-27T20:10:00+00:00",
+    "start_source": "https://nationschampionshiprugby.com/en",
+    "channel": "",
+    "sources": [
+      {
+        "provider": "nations-championship-official",
+        "url": "https://nationschampionshiprugby.com/en",
+        "field": "start_time"
+      },
+      {
+        "provider": "all-blacks",
+        "url": "https://www.allblacks.com/news/all-blacks/all-blacks-and-england-go-again-for-bronze-at-nations-championship-finals-weekend",
+        "field": "start_time"
+      }
+    ],
+    "detail": "Allianz Stadium, Twickenham · Finals Weekend"
+  },
+  {
+    "id": "verified-nations-finals-20261128-wales-vs-japan",
+    "category": "rugby-nations",
+    "sport": "Rugby",
+    "competition": "Nations Championship Finals",
+    "name": "Wales vs Japan",
+    "start": "2026-11-28T13:10:00+00:00",
+    "start_source": "https://nationschampionshiprugby.com/en",
+    "channel": "",
+    "sources": [
+      {
+        "provider": "nations-championship-official",
+        "url": "https://nationschampionshiprugby.com/en",
+        "field": "start_time"
+      },
+      {
+        "provider": "all-blacks",
+        "url": "https://www.allblacks.com/news/all-blacks/all-blacks-and-england-go-again-for-bronze-at-nations-championship-finals-weekend",
+        "field": "start_time"
+      }
+    ],
+    "detail": "Allianz Stadium, Twickenham · Finals Weekend"
+  },
+  {
+    "id": "verified-nations-finals-20261128-england-vs-new-zealand",
+    "category": "rugby-nations",
+    "sport": "Rugby",
+    "competition": "Nations Championship Finals",
+    "name": "England vs New Zealand",
+    "start": "2026-11-28T16:40:00+00:00",
+    "start_source": "https://nationschampionshiprugby.com/en",
+    "channel": "",
+    "sources": [
+      {
+        "provider": "nations-championship-official",
+        "url": "https://nationschampionshiprugby.com/en",
+        "field": "start_time"
+      },
+      {
+        "provider": "all-blacks",
+        "url": "https://www.allblacks.com/news/all-blacks/all-blacks-and-england-go-again-for-bronze-at-nations-championship-finals-weekend",
+        "field": "start_time"
+      }
+    ],
+    "detail": "Allianz Stadium, Twickenham · Finals Weekend"
+  },
+  {
+    "id": "verified-nations-finals-20261129-scotland-vs-argentina",
+    "category": "rugby-nations",
+    "sport": "Rugby",
+    "competition": "Nations Championship Finals",
+    "name": "Scotland vs Argentina",
+    "start": "2026-11-29T13:10:00+00:00",
+    "start_source": "https://nationschampionshiprugby.com/en",
+    "channel": "",
+    "sources": [
+      {
+        "provider": "nations-championship-official",
+        "url": "https://nationschampionshiprugby.com/en",
+        "field": "start_time"
+      },
+      {
+        "provider": "all-blacks",
+        "url": "https://www.allblacks.com/news/all-blacks/all-blacks-and-england-go-again-for-bronze-at-nations-championship-finals-weekend",
+        "field": "start_time"
+      }
+    ],
+    "detail": "Allianz Stadium, Twickenham · Finals Weekend"
+  },
+  {
+    "id": "verified-nations-finals-20261129-france-vs-south-africa",
+    "category": "rugby-nations",
+    "sport": "Rugby",
+    "competition": "Nations Championship Finals",
+    "name": "France vs South Africa",
+    "start": "2026-11-29T16:40:00+00:00",
+    "start_source": "https://nationschampionshiprugby.com/en",
+    "channel": "",
+    "sources": [
+      {
+        "provider": "nations-championship-official",
+        "url": "https://nationschampionshiprugby.com/en",
+        "field": "start_time"
+      },
+      {
+        "provider": "all-blacks",
+        "url": "https://www.allblacks.com/news/all-blacks/all-blacks-and-england-go-again-for-bronze-at-nations-championship-finals-weekend",
+        "field": "start_time"
+      }
+    ],
+    "detail": "Allianz Stadium, Twickenham · Finals Weekend"
   }
 ]
