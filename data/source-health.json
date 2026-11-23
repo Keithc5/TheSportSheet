@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T14:17:47.493197+00:00",
+  "updated": "2026-11-23T19:15:32.755447+00:00",
   "collection_dates": [
     "2026-11-17",
     "2026-11-18",
@@ -22,31 +22,31 @@
     "2026-12-05",
     "2026-12-06"
   ],
-  "total_events": 384,
+  "total_events": 318,
   "by_category": {
     "soccer-nations": 8,
     "football-nfl": 41,
-    "soccer-ger.1": 27,
-    "soccer-fra.1": 27,
-    "soccer-bel.1": 18,
-    "soccer-esp.1": 31,
     "racing-f1": 3,
     "rugby-autumn": 5,
     "rugby-premiership": 3,
     "soccer-eng.1": 40,
-    "soccer-eng.2": 48,
-    "soccer-ita.1": 28,
     "rugby": 6,
-    "soccer-ned.1": 27,
     "darts": 3,
     "gaa": 3,
     "golf-lpga": 1,
     "golf-pga": 1,
+    "soccer-ita.1": 19,
+    "soccer-esp.1": 22,
     "soccer-uefa.champions": 18,
+    "soccer-eng.2": 36,
     "golf-euro": 1,
     "golf-let": 4,
     "soccer-uefa.europa": 18,
     "rugby-nations": 6,
+    "soccer-ned.1": 18,
+    "soccer-ger.1": 18,
+    "soccer-fra.1": 18,
+    "soccer-bel.1": 9,
     "soccer-por.1": 17
   },
   "failed_sources": {
@@ -56,7 +56,17 @@
     "rugby-nations": 20,
     "rugby-premiership": 20,
     "rugby-top14": 20,
-    "rugby-champions": 20
+    "rugby-champions": 20,
+    "soccer-esp.1": 20,
+    "soccer-ger.1": 20,
+    "soccer-ita.1": 20,
+    "soccer-fra.1": 20,
+    "soccer-por.1": 20,
+    "soccer-ned.1": 20,
+    "soccer-bel.1": 20,
+    "soccer-eng.2": 20,
+    "soccer-uefa.europa": 20,
+    "racing-f1": 20
   },
   "failed_source_dates": [
     {
@@ -512,17 +522,17 @@
     {
       "source": "rugby-premiership",
       "date": "2026-11-27",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-premiership",
       "date": "2026-11-28",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-premiership",
       "date": "2026-11-29",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-premiership",
@@ -537,7 +547,7 @@
     {
       "source": "rugby-premiership",
       "date": "2026-12-02",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-premiership",
@@ -552,215 +562,1391 @@
     {
       "source": "rugby-premiership",
       "date": "2026-12-05",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-premiership",
       "date": "2026-12-06",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-17",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-18",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-19",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-20",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-21",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-22",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-23",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-24",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-25",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-26",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-27",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-28",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-29",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-30",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-top14",
       "date": "2026-12-01",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-top14",
       "date": "2026-12-02",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-top14",
       "date": "2026-12-03",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-top14",
       "date": "2026-12-04",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-top14",
       "date": "2026-12-05",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-top14",
       "date": "2026-12-06",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-17",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-18",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-19",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-20",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-21",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-22",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-23",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-24",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-25",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-26",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-27",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-28",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-29",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-30",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-champions",
       "date": "2026-12-01",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-champions",
       "date": "2026-12-02",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-champions",
       "date": "2026-12-03",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-champions",
       "date": "2026-12-04",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-champions",
       "date": "2026-12-05",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "source": "rugby-champions",
       "date": "2026-12-06",
-      "message": "HTTP Error 400: Bad Request"
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-esp.1",
+      "date": "2026-11-17",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-esp.1",
+      "date": "2026-11-18",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-esp.1",
+      "date": "2026-11-19",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-esp.1",
+      "date": "2026-11-20",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-esp.1",
+      "date": "2026-11-21",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-esp.1",
+      "date": "2026-11-22",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-esp.1",
+      "date": "2026-11-23",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-esp.1",
+      "date": "2026-11-24",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-esp.1",
+      "date": "2026-11-25",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-esp.1",
+      "date": "2026-11-26",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-esp.1",
+      "date": "2026-11-27",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-esp.1",
+      "date": "2026-11-28",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-esp.1",
+      "date": "2026-11-29",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-esp.1",
+      "date": "2026-11-30",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-esp.1",
+      "date": "2026-12-01",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-esp.1",
+      "date": "2026-12-02",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-esp.1",
+      "date": "2026-12-03",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-esp.1",
+      "date": "2026-12-04",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-esp.1",
+      "date": "2026-12-05",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-esp.1",
+      "date": "2026-12-06",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ger.1",
+      "date": "2026-11-17",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ger.1",
+      "date": "2026-11-18",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ger.1",
+      "date": "2026-11-19",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ger.1",
+      "date": "2026-11-20",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ger.1",
+      "date": "2026-11-21",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ger.1",
+      "date": "2026-11-22",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ger.1",
+      "date": "2026-11-23",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ger.1",
+      "date": "2026-11-24",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ger.1",
+      "date": "2026-11-25",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ger.1",
+      "date": "2026-11-26",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ger.1",
+      "date": "2026-11-27",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ger.1",
+      "date": "2026-11-28",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ger.1",
+      "date": "2026-11-29",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ger.1",
+      "date": "2026-11-30",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ger.1",
+      "date": "2026-12-01",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ger.1",
+      "date": "2026-12-02",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ger.1",
+      "date": "2026-12-03",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ger.1",
+      "date": "2026-12-04",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ger.1",
+      "date": "2026-12-05",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ger.1",
+      "date": "2026-12-06",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ita.1",
+      "date": "2026-11-17",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ita.1",
+      "date": "2026-11-18",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ita.1",
+      "date": "2026-11-19",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ita.1",
+      "date": "2026-11-20",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ita.1",
+      "date": "2026-11-21",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ita.1",
+      "date": "2026-11-22",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ita.1",
+      "date": "2026-11-23",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ita.1",
+      "date": "2026-11-24",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ita.1",
+      "date": "2026-11-25",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ita.1",
+      "date": "2026-11-26",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ita.1",
+      "date": "2026-11-27",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ita.1",
+      "date": "2026-11-28",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ita.1",
+      "date": "2026-11-29",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ita.1",
+      "date": "2026-11-30",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ita.1",
+      "date": "2026-12-01",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ita.1",
+      "date": "2026-12-02",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ita.1",
+      "date": "2026-12-03",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ita.1",
+      "date": "2026-12-04",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ita.1",
+      "date": "2026-12-05",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ita.1",
+      "date": "2026-12-06",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-fra.1",
+      "date": "2026-11-17",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-fra.1",
+      "date": "2026-11-18",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-fra.1",
+      "date": "2026-11-19",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-fra.1",
+      "date": "2026-11-20",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-fra.1",
+      "date": "2026-11-21",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-fra.1",
+      "date": "2026-11-22",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-fra.1",
+      "date": "2026-11-23",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-fra.1",
+      "date": "2026-11-24",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-fra.1",
+      "date": "2026-11-25",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-fra.1",
+      "date": "2026-11-26",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-fra.1",
+      "date": "2026-11-27",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-fra.1",
+      "date": "2026-11-28",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-fra.1",
+      "date": "2026-11-29",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-fra.1",
+      "date": "2026-11-30",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-fra.1",
+      "date": "2026-12-01",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-fra.1",
+      "date": "2026-12-02",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-fra.1",
+      "date": "2026-12-03",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-fra.1",
+      "date": "2026-12-04",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-fra.1",
+      "date": "2026-12-05",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-fra.1",
+      "date": "2026-12-06",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-por.1",
+      "date": "2026-11-17",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-por.1",
+      "date": "2026-11-18",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-por.1",
+      "date": "2026-11-19",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-por.1",
+      "date": "2026-11-20",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-por.1",
+      "date": "2026-11-21",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-por.1",
+      "date": "2026-11-22",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-por.1",
+      "date": "2026-11-23",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-por.1",
+      "date": "2026-11-24",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-por.1",
+      "date": "2026-11-25",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-por.1",
+      "date": "2026-11-26",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-por.1",
+      "date": "2026-11-27",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-por.1",
+      "date": "2026-11-28",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-por.1",
+      "date": "2026-11-29",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-por.1",
+      "date": "2026-11-30",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-por.1",
+      "date": "2026-12-01",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-por.1",
+      "date": "2026-12-02",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-por.1",
+      "date": "2026-12-03",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-por.1",
+      "date": "2026-12-04",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-por.1",
+      "date": "2026-12-05",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-por.1",
+      "date": "2026-12-06",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ned.1",
+      "date": "2026-11-17",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ned.1",
+      "date": "2026-11-18",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ned.1",
+      "date": "2026-11-19",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ned.1",
+      "date": "2026-11-20",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ned.1",
+      "date": "2026-11-21",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ned.1",
+      "date": "2026-11-22",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ned.1",
+      "date": "2026-11-23",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ned.1",
+      "date": "2026-11-24",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ned.1",
+      "date": "2026-11-25",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ned.1",
+      "date": "2026-11-26",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ned.1",
+      "date": "2026-11-27",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ned.1",
+      "date": "2026-11-28",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ned.1",
+      "date": "2026-11-29",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ned.1",
+      "date": "2026-11-30",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ned.1",
+      "date": "2026-12-01",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ned.1",
+      "date": "2026-12-02",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ned.1",
+      "date": "2026-12-03",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ned.1",
+      "date": "2026-12-04",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ned.1",
+      "date": "2026-12-05",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-ned.1",
+      "date": "2026-12-06",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-bel.1",
+      "date": "2026-11-17",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-bel.1",
+      "date": "2026-11-18",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-bel.1",
+      "date": "2026-11-19",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-bel.1",
+      "date": "2026-11-20",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-bel.1",
+      "date": "2026-11-21",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-bel.1",
+      "date": "2026-11-22",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-bel.1",
+      "date": "2026-11-23",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-bel.1",
+      "date": "2026-11-24",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-bel.1",
+      "date": "2026-11-25",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-bel.1",
+      "date": "2026-11-26",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-bel.1",
+      "date": "2026-11-27",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-bel.1",
+      "date": "2026-11-28",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-bel.1",
+      "date": "2026-11-29",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-bel.1",
+      "date": "2026-11-30",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-bel.1",
+      "date": "2026-12-01",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-bel.1",
+      "date": "2026-12-02",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-bel.1",
+      "date": "2026-12-03",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-bel.1",
+      "date": "2026-12-04",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-bel.1",
+      "date": "2026-12-05",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-bel.1",
+      "date": "2026-12-06",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-eng.2",
+      "date": "2026-11-17",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-eng.2",
+      "date": "2026-11-18",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-eng.2",
+      "date": "2026-11-19",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-eng.2",
+      "date": "2026-11-20",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-eng.2",
+      "date": "2026-11-21",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-eng.2",
+      "date": "2026-11-22",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-eng.2",
+      "date": "2026-11-23",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-eng.2",
+      "date": "2026-11-24",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-eng.2",
+      "date": "2026-11-25",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-eng.2",
+      "date": "2026-11-26",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-eng.2",
+      "date": "2026-11-27",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-eng.2",
+      "date": "2026-11-28",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-eng.2",
+      "date": "2026-11-29",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-eng.2",
+      "date": "2026-11-30",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-eng.2",
+      "date": "2026-12-01",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-eng.2",
+      "date": "2026-12-02",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-eng.2",
+      "date": "2026-12-03",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-eng.2",
+      "date": "2026-12-04",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-eng.2",
+      "date": "2026-12-05",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-eng.2",
+      "date": "2026-12-06",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-uefa.europa",
+      "date": "2026-11-17",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-uefa.europa",
+      "date": "2026-11-18",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-uefa.europa",
+      "date": "2026-11-19",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-uefa.europa",
+      "date": "2026-11-20",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-uefa.europa",
+      "date": "2026-11-21",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-uefa.europa",
+      "date": "2026-11-22",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-uefa.europa",
+      "date": "2026-11-23",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-uefa.europa",
+      "date": "2026-11-24",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-uefa.europa",
+      "date": "2026-11-25",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-uefa.europa",
+      "date": "2026-11-26",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-uefa.europa",
+      "date": "2026-11-27",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-uefa.europa",
+      "date": "2026-11-28",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-uefa.europa",
+      "date": "2026-11-29",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-uefa.europa",
+      "date": "2026-11-30",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-uefa.europa",
+      "date": "2026-12-01",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-uefa.europa",
+      "date": "2026-12-02",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-uefa.europa",
+      "date": "2026-12-03",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-uefa.europa",
+      "date": "2026-12-04",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-uefa.europa",
+      "date": "2026-12-05",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "soccer-uefa.europa",
+      "date": "2026-12-06",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-11-17",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-11-18",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-11-19",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-11-20",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-11-21",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-11-22",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-11-23",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-11-24",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-11-25",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-11-26",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-11-27",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-11-28",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-11-29",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-11-30",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-12-01",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-12-02",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-12-03",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-12-04",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-12-05",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "racing-f1",
+      "date": "2026-12-06",
+      "message": "HTTP Error 403: Forbidden"
     }
   ],
-  "carried_forward_fixtures": [],
+  "carried_forward_fixtures": [
+    "soccer-ita.1-401875009",
+    "soccer-esp.1-401882802",
+    "soccer-eng.2-401880148",
+    "soccer-eng.2-401880147",
+    "soccer-eng.2-401880146",
+    "soccer-eng.2-401880145",
+    "soccer-eng.2-401880144",
+    "soccer-eng.2-401880143",
+    "soccer-eng.2-401880142",
+    "soccer-eng.2-401880141",
+    "soccer-eng.2-401880140",
+    "soccer-eng.2-401880139",
+    "soccer-eng.2-401880137",
+    "soccer-eng.2-401880138",
+    "soccer-uefa.europa-401915506",
+    "soccer-uefa.europa-401915519",
+    "soccer-uefa.europa-401915517",
+    "soccer-uefa.europa-401915507",
+    "soccer-uefa.europa-401915521",
+    "soccer-uefa.europa-401915520",
+    "soccer-uefa.europa-401915508",
+    "soccer-uefa.europa-401915518",
+    "soccer-uefa.europa-401915504",
+    "soccer-uefa.europa-401915516",
+    "soccer-uefa.europa-401915502",
+    "soccer-uefa.europa-401915501",
+    "soccer-uefa.europa-401915505",
+    "soccer-uefa.europa-401915503",
+    "soccer-uefa.europa-401915514",
+    "soccer-uefa.europa-401915513",
+    "soccer-uefa.europa-401915512",
+    "soccer-uefa.europa-401915515",
+    "soccer-ned.1-401875536",
+    "soccer-ger.1-401884720",
+    "soccer-ita.1-401875004",
+    "soccer-fra.1-401876392",
+    "soccer-bel.1-401878930",
+    "soccer-esp.1-401882791",
+    "soccer-eng.2-401880129",
+    "soccer-por.1-401885389",
+    "soccer-eng.2-401880135",
+    "soccer-eng.2-401880133",
+    "soccer-eng.2-401880131",
+    "soccer-esp.1-401882796",
+    "soccer-ita.1-401875081",
+    "soccer-ger.1-401884721",
+    "soccer-ger.1-401884722",
+    "soccer-ger.1-401884723",
+    "soccer-ger.1-401884719",
+    "soccer-bel.1-401878929",
+    "soccer-eng.2-401880136",
+    "soccer-eng.2-401880134",
+    "soccer-eng.2-401880132",
+    "soccer-eng.2-401880130",
+    "soccer-eng.2-401880127",
+    "soccer-eng.2-401880126",
+    "soccer-eng.2-401880125",
+    "soccer-esp.1-401882790",
+    "soccer-por.1-401885392",
+    "soccer-por.1-401885388",
+    "soccer-ned.1-401875537",
+    "soccer-fra.1-401876394",
+    "soccer-ita.1-401874826",
+    "soccer-bel.1-401878932",
+    "soccer-esp.1-401882793",
+    "soccer-ger.1-401884726",
+    "soccer-ned.1-401875531",
+    "soccer-por.1-401885393",
+    "soccer-ita.1-401874977",
+    "soccer-fra.1-401876391",
+    "soccer-fra.1-401876390",
+    "soccer-fra.1-401876388",
+    "soccer-fra.1-401876387",
+    "soccer-bel.1-401878931",
+    "soccer-bel.1-401878933",
+    "soccer-esp.1-401882789",
+    "soccer-ned.1-401875530",
+    "soccer-por.1-401885385",
+    "soccer-ned.1-401875538",
+    "soccer-ita.1-401875031",
+    "soccer-eng.2-401880128",
+    "soccer-bel.1-401878926",
+    "soccer-esp.1-401882787",
+    "soccer-ned.1-401875535",
+    "soccer-ned.1-401875534",
+    "soccer-ita.1-401874992",
+    "soccer-fra.1-401876393",
+    "soccer-ger.1-401884724",
+    "soccer-bel.1-401878928",
+    "soccer-esp.1-401882794",
+    "soccer-ned.1-401875532",
+    "soccer-fra.1-401876386",
+    "soccer-ger.1-401884725",
+    "soccer-ita.1-401874769",
+    "soccer-esp.1-401882795",
+    "soccer-bel.1-401878927",
+    "soccer-por.1-401885390",
+    "soccer-bel.1-401878925",
+    "soccer-ger.1-401884727",
+    "soccer-ned.1-401875533",
+    "soccer-ita.1-401874994",
+    "soccer-fra.1-401876389",
+    "soccer-esp.1-401882788",
+    "soccer-por.1-401885387",
+    "soccer-ita.1-401875095",
+    "soccer-ita.1-401875019",
+    "soccer-esp.1-401882792",
+    "soccer-por.1-401885386",
+    "soccer-por.1-401885391",
+    "soccer-esp.1-401882698",
+    "soccer-esp.1-401882700",
+    "soccer-ned.1-401875522",
+    "soccer-ger.1-401884718",
+    "soccer-ita.1-401874984",
+    "soccer-fra.1-401876378",
+    "soccer-esp.1-401882786",
+    "soccer-eng.2-401880116",
+    "soccer-por.1-401885376",
+    "soccer-eng.2-401880124",
+    "soccer-eng.2-401880123",
+    "soccer-eng.2-401880119",
+    "soccer-eng.2-401880114",
+    "soccer-esp.1-401882780",
+    "soccer-ita.1-401874975",
+    "soccer-ger.1-401884712",
+    "soccer-ger.1-401884716",
+    "soccer-ger.1-401884713",
+    "soccer-ger.1-401884717",
+    "soccer-ger.1-401884715",
+    "soccer-eng.2-401880121",
+    "soccer-eng.2-401880120",
+    "soccer-eng.2-401880118",
+    "soccer-eng.2-401880117",
+    "soccer-eng.2-401880115",
+    "soccer-eng.2-401880113",
+    "soccer-esp.1-401882779",
+    "soccer-por.1-401885379",
+    "soccer-ned.1-401875521",
+    "soccer-fra.1-401876384",
+    "soccer-ita.1-401875023",
+    "soccer-esp.1-401882777",
+    "soccer-ger.1-401884714",
+    "soccer-ned.1-401875523",
+    "soccer-por.1-401885377",
+    "soccer-ned.1-401875527",
+    "soccer-ita.1-401874788",
+    "soccer-fra.1-401876382",
+    "soccer-fra.1-401876385",
+    "soccer-fra.1-401876381",
+    "soccer-fra.1-401876379",
+    "soccer-esp.1-401882783",
+    "soccer-ned.1-401875526",
+    "soccer-por.1-401885382",
+    "soccer-ned.1-401875524",
+    "soccer-ita.1-401875017",
+    "soccer-eng.2-401880122",
+    "soccer-esp.1-401882781",
+    "soccer-ned.1-401875528",
+    "soccer-ned.1-401875525",
+    "soccer-ita.1-401875029",
+    "soccer-fra.1-401876377",
+    "soccer-ger.1-401884711",
+    "soccer-esp.1-401882785",
+    "soccer-por.1-401885383",
+    "soccer-por.1-401885378",
+    "soccer-ned.1-401875529",
+    "soccer-fra.1-401876380",
+    "soccer-ger.1-401884710",
+    "soccer-ita.1-401875006",
+    "soccer-esp.1-401882782",
+    "soccer-por.1-401885381",
+    "soccer-ita.1-401874995",
+    "soccer-fra.1-401876383",
+    "soccer-esp.1-401882784",
+    "soccer-por.1-401885380"
+  ],
   "gaa_crest_source": {
     "matched_team_appearances": 0,
     "missing_clubs": [
@@ -2527,21 +3713,21 @@
       "source": "rugby-premiership",
       "date": "2026-11-27",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-premiership",
       "date": "2026-11-28",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-premiership",
       "date": "2026-11-29",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
@@ -2562,7 +3748,7 @@
       "source": "rugby-premiership",
       "date": "2026-12-02",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
@@ -2583,1700 +3769,1700 @@
       "source": "rugby-premiership",
       "date": "2026-12-05",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-premiership",
       "date": "2026-12-06",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-17",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-18",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-19",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-20",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-21",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-22",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-23",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-24",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-25",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-26",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-27",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-28",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-29",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-top14",
       "date": "2026-11-30",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-top14",
       "date": "2026-12-01",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-top14",
       "date": "2026-12-02",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-top14",
       "date": "2026-12-03",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-top14",
       "date": "2026-12-04",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-top14",
       "date": "2026-12-05",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-top14",
       "date": "2026-12-06",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-17",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-18",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-19",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-20",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-21",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-22",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-23",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-24",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-25",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-26",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-27",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-28",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-29",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-champions",
       "date": "2026-11-30",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-champions",
       "date": "2026-12-01",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-champions",
       "date": "2026-12-02",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-champions",
       "date": "2026-12-03",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-champions",
       "date": "2026-12-04",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-champions",
       "date": "2026-12-05",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "rugby-champions",
       "date": "2026-12-06",
       "status": "error",
-      "message": "HTTP Error 400: Bad Request",
+      "message": "HTTP Error 403: Forbidden",
       "count": 0
     },
     {
       "source": "soccer-esp.1",
       "date": "2026-11-17",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261117&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-esp.1",
       "date": "2026-11-18",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261118&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-esp.1",
       "date": "2026-11-19",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261119&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-esp.1",
       "date": "2026-11-20",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261120&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-esp.1",
       "date": "2026-11-21",
-      "status": "ok",
-      "count": 4,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261121&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-esp.1",
       "date": "2026-11-22",
-      "status": "ok",
-      "count": 4,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-esp.1",
       "date": "2026-11-23",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261123&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-esp.1",
       "date": "2026-11-24",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261124&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-esp.1",
       "date": "2026-11-25",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261125&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-esp.1",
       "date": "2026-11-26",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261126&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-esp.1",
       "date": "2026-11-27",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261127&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-esp.1",
       "date": "2026-11-28",
-      "status": "ok",
-      "count": 4,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-esp.1",
       "date": "2026-11-29",
-      "status": "ok",
-      "count": 4,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261129&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-esp.1",
       "date": "2026-11-30",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261130&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-esp.1",
       "date": "2026-12-01",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261201&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-esp.1",
       "date": "2026-12-02",
-      "status": "ok",
-      "count": 2,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261202&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-esp.1",
       "date": "2026-12-03",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261203&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-esp.1",
       "date": "2026-12-04",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261204&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-esp.1",
       "date": "2026-12-05",
-      "status": "ok",
-      "count": 4,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261205&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-esp.1",
       "date": "2026-12-06",
-      "status": "ok",
-      "count": 4,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261206&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ger.1",
       "date": "2026-11-17",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261117&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ger.1",
       "date": "2026-11-18",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261118&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ger.1",
       "date": "2026-11-19",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261119&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ger.1",
       "date": "2026-11-20",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261120&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ger.1",
       "date": "2026-11-21",
-      "status": "ok",
-      "count": 6,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ger.1",
       "date": "2026-11-22",
-      "status": "ok",
-      "count": 2,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261122&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ger.1",
       "date": "2026-11-23",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261123&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ger.1",
       "date": "2026-11-24",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261124&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ger.1",
       "date": "2026-11-25",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261125&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ger.1",
       "date": "2026-11-26",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261126&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ger.1",
       "date": "2026-11-27",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261127&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ger.1",
       "date": "2026-11-28",
-      "status": "ok",
-      "count": 5,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261128&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ger.1",
       "date": "2026-11-29",
-      "status": "ok",
-      "count": 3,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261129&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ger.1",
       "date": "2026-11-30",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261130&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ger.1",
       "date": "2026-12-01",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261201&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ger.1",
       "date": "2026-12-02",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261202&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ger.1",
       "date": "2026-12-03",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261203&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ger.1",
       "date": "2026-12-04",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261204&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ger.1",
       "date": "2026-12-05",
-      "status": "ok",
-      "count": 6,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261205&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ger.1",
       "date": "2026-12-06",
-      "status": "ok",
-      "count": 2,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261206&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ita.1",
       "date": "2026-11-17",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261117&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ita.1",
       "date": "2026-11-18",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261118&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ita.1",
       "date": "2026-11-19",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261119&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ita.1",
       "date": "2026-11-20",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261120&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ita.1",
       "date": "2026-11-21",
-      "status": "ok",
-      "count": 4,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ita.1",
       "date": "2026-11-22",
-      "status": "ok",
-      "count": 5,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ita.1",
       "date": "2026-11-23",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261123&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ita.1",
       "date": "2026-11-24",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261124&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ita.1",
       "date": "2026-11-25",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261125&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ita.1",
       "date": "2026-11-26",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261126&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ita.1",
       "date": "2026-11-27",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261127&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ita.1",
       "date": "2026-11-28",
-      "status": "ok",
-      "count": 3,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261128&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ita.1",
       "date": "2026-11-29",
-      "status": "ok",
-      "count": 4,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261129&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ita.1",
       "date": "2026-11-30",
-      "status": "ok",
-      "count": 2,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261130&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ita.1",
       "date": "2026-12-01",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261201&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ita.1",
       "date": "2026-12-02",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261202&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ita.1",
       "date": "2026-12-03",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261203&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ita.1",
       "date": "2026-12-04",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261204&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ita.1",
       "date": "2026-12-05",
-      "status": "ok",
-      "count": 3,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261205&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ita.1",
       "date": "2026-12-06",
-      "status": "ok",
-      "count": 4,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261206&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-fra.1",
       "date": "2026-11-17",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261117&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-fra.1",
       "date": "2026-11-18",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261118&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-fra.1",
       "date": "2026-11-19",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261119&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-fra.1",
       "date": "2026-11-20",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261120&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-fra.1",
       "date": "2026-11-21",
-      "status": "ok",
-      "count": 5,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261121&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-fra.1",
       "date": "2026-11-22",
-      "status": "ok",
-      "count": 3,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261122&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-fra.1",
       "date": "2026-11-23",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261123&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-fra.1",
       "date": "2026-11-24",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261124&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-fra.1",
       "date": "2026-11-25",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261125&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-fra.1",
       "date": "2026-11-26",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261126&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-fra.1",
       "date": "2026-11-27",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261127&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-fra.1",
       "date": "2026-11-28",
-      "status": "ok",
-      "count": 5,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261128&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-fra.1",
       "date": "2026-11-29",
-      "status": "ok",
-      "count": 3,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261129&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-fra.1",
       "date": "2026-11-30",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261130&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-fra.1",
       "date": "2026-12-01",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261201&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-fra.1",
       "date": "2026-12-02",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261202&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-fra.1",
       "date": "2026-12-03",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261203&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-fra.1",
       "date": "2026-12-04",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261204&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-fra.1",
       "date": "2026-12-05",
-      "status": "ok",
-      "count": 5,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261205&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-fra.1",
       "date": "2026-12-06",
-      "status": "ok",
-      "count": 3,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261206&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-por.1",
       "date": "2026-11-17",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261117&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-por.1",
       "date": "2026-11-18",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261118&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-por.1",
       "date": "2026-11-19",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261119&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-por.1",
       "date": "2026-11-20",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261120&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-por.1",
       "date": "2026-11-21",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261121&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-por.1",
       "date": "2026-11-22",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261122&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-por.1",
       "date": "2026-11-23",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261123&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-por.1",
       "date": "2026-11-24",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261124&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-por.1",
       "date": "2026-11-25",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261125&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-por.1",
       "date": "2026-11-26",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261126&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-por.1",
       "date": "2026-11-27",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261127&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-por.1",
       "date": "2026-11-28",
-      "status": "ok",
-      "count": 4,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261128&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-por.1",
       "date": "2026-11-29",
-      "status": "ok",
-      "count": 2,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261129&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-por.1",
       "date": "2026-11-30",
-      "status": "ok",
-      "count": 2,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261130&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-por.1",
       "date": "2026-12-01",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261201&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-por.1",
       "date": "2026-12-02",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261202&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-por.1",
       "date": "2026-12-03",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261203&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-por.1",
       "date": "2026-12-04",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261204&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-por.1",
       "date": "2026-12-05",
-      "status": "ok",
-      "count": 3,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261205&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-por.1",
       "date": "2026-12-06",
-      "status": "ok",
-      "count": 4,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261206&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ned.1",
       "date": "2026-11-17",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261117&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ned.1",
       "date": "2026-11-18",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261118&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ned.1",
       "date": "2026-11-19",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261119&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ned.1",
       "date": "2026-11-20",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261120&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ned.1",
       "date": "2026-11-21",
-      "status": "ok",
-      "count": 5,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261121&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ned.1",
       "date": "2026-11-22",
-      "status": "ok",
-      "count": 4,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261122&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ned.1",
       "date": "2026-11-23",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261123&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ned.1",
       "date": "2026-11-24",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261124&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ned.1",
       "date": "2026-11-25",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261125&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ned.1",
       "date": "2026-11-26",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261126&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ned.1",
       "date": "2026-11-27",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261127&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ned.1",
       "date": "2026-11-28",
-      "status": "ok",
-      "count": 3,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261128&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ned.1",
       "date": "2026-11-29",
-      "status": "ok",
-      "count": 5,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261129&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ned.1",
       "date": "2026-11-30",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261130&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ned.1",
       "date": "2026-12-01",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261201&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ned.1",
       "date": "2026-12-02",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261202&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ned.1",
       "date": "2026-12-03",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261203&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ned.1",
       "date": "2026-12-04",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261204&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ned.1",
       "date": "2026-12-05",
-      "status": "ok",
-      "count": 4,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261205&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-ned.1",
       "date": "2026-12-06",
-      "status": "ok",
-      "count": 4,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261206&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-bel.1",
       "date": "2026-11-17",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261117&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-bel.1",
       "date": "2026-11-18",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261118&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-bel.1",
       "date": "2026-11-19",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261119&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-bel.1",
       "date": "2026-11-20",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261120&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-bel.1",
       "date": "2026-11-21",
-      "status": "ok",
-      "count": 4,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261121&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-bel.1",
       "date": "2026-11-22",
-      "status": "ok",
-      "count": 4,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261122&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-bel.1",
       "date": "2026-11-23",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261123&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-bel.1",
       "date": "2026-11-24",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261124&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-bel.1",
       "date": "2026-11-25",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261125&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-bel.1",
       "date": "2026-11-26",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261126&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-bel.1",
       "date": "2026-11-27",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261127&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-bel.1",
       "date": "2026-11-28",
-      "status": "ok",
-      "count": 4,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261128&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-bel.1",
       "date": "2026-11-29",
-      "status": "ok",
-      "count": 4,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261129&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-bel.1",
       "date": "2026-11-30",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261130&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-bel.1",
       "date": "2026-12-01",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261201&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-bel.1",
       "date": "2026-12-02",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261202&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-bel.1",
       "date": "2026-12-03",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261203&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-bel.1",
       "date": "2026-12-04",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261204&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-bel.1",
       "date": "2026-12-05",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261205&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-bel.1",
       "date": "2026-12-06",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261206&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-eng.2",
       "date": "2026-11-17",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261117&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-eng.2",
       "date": "2026-11-18",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261118&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-eng.2",
       "date": "2026-11-19",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261119&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-eng.2",
       "date": "2026-11-20",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261120&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-eng.2",
       "date": "2026-11-21",
-      "status": "ok",
-      "count": 11,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261121&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-eng.2",
       "date": "2026-11-22",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261122&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-eng.2",
       "date": "2026-11-23",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261123&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-eng.2",
       "date": "2026-11-24",
-      "status": "ok",
-      "count": 8,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261124&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-eng.2",
       "date": "2026-11-25",
-      "status": "ok",
-      "count": 4,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261125&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-eng.2",
       "date": "2026-11-26",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261126&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-eng.2",
       "date": "2026-11-27",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261127&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-eng.2",
       "date": "2026-11-28",
-      "status": "ok",
-      "count": 10,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-eng.2",
       "date": "2026-11-29",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261129&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-eng.2",
       "date": "2026-11-30",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261130&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-eng.2",
       "date": "2026-12-01",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261201&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-eng.2",
       "date": "2026-12-02",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261202&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-eng.2",
       "date": "2026-12-03",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261203&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-eng.2",
       "date": "2026-12-04",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261204&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-eng.2",
       "date": "2026-12-05",
-      "status": "ok",
-      "count": 10,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261205&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-eng.2",
       "date": "2026-12-06",
-      "status": "ok",
-      "count": 1,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261206&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-uefa.europa",
       "date": "2026-11-17",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261117&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-uefa.europa",
       "date": "2026-11-18",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261118&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-uefa.europa",
       "date": "2026-11-19",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261119&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-uefa.europa",
       "date": "2026-11-20",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261120&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-uefa.europa",
       "date": "2026-11-21",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261121&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-uefa.europa",
       "date": "2026-11-22",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261122&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-uefa.europa",
       "date": "2026-11-23",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261123&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-uefa.europa",
       "date": "2026-11-24",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261124&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-uefa.europa",
       "date": "2026-11-25",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261125&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-uefa.europa",
       "date": "2026-11-26",
-      "status": "ok",
-      "count": 18,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-uefa.europa",
       "date": "2026-11-27",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261127&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-uefa.europa",
       "date": "2026-11-28",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261128&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-uefa.europa",
       "date": "2026-11-29",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261129&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-uefa.europa",
       "date": "2026-11-30",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261130&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-uefa.europa",
       "date": "2026-12-01",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261201&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-uefa.europa",
       "date": "2026-12-02",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261202&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-uefa.europa",
       "date": "2026-12-03",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261203&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-uefa.europa",
       "date": "2026-12-04",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261204&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-uefa.europa",
       "date": "2026-12-05",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261205&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "soccer-uefa.europa",
       "date": "2026-12-06",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261206&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "racing-f1",
       "date": "2026-11-17",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261117&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "racing-f1",
       "date": "2026-11-18",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261118&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "racing-f1",
       "date": "2026-11-19",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261119&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "racing-f1",
       "date": "2026-11-20",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261120&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "racing-f1",
       "date": "2026-11-21",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261121&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "racing-f1",
       "date": "2026-11-22",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261122&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "racing-f1",
       "date": "2026-11-23",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261123&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "racing-f1",
       "date": "2026-11-24",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261124&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "racing-f1",
       "date": "2026-11-25",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261125&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "racing-f1",
       "date": "2026-11-26",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261126&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "racing-f1",
       "date": "2026-11-27",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261127&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "racing-f1",
       "date": "2026-11-28",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261128&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "racing-f1",
       "date": "2026-11-29",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261129&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "racing-f1",
       "date": "2026-11-30",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261130&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "racing-f1",
       "date": "2026-12-01",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261201&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "racing-f1",
       "date": "2026-12-02",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261202&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "racing-f1",
       "date": "2026-12-03",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261203&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "racing-f1",
       "date": "2026-12-04",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261204&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "racing-f1",
       "date": "2026-12-05",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261205&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     },
     {
       "source": "racing-f1",
       "date": "2026-12-06",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261206&limit=250"
+      "status": "error",
+      "message": "HTTP Error 403: Forbidden",
+      "count": 0
     }
   ],
-  "successful_requests": 360,
-  "failed_requests": 140,
-  "verified_start_times": 377,
+  "successful_requests": 160,
+  "failed_requests": 340,
+  "verified_start_times": 311,
   "coverage_only": 7,
   "cross_referenced": 17,
   "official_schedule_issues": [],
@@ -4426,10 +5612,10 @@
       "url": "https://www.skysports.com/watch/football-on-sky/competitions/premier-league"
     }
   ],
-  "tv_unconfirmed": 343,
+  "tv_unconfirmed": 277,
   "f1_official_sessions": 3,
   "golf_verified_coverage_sessions": 7,
-  "unverified_start_times": 348,
+  "unverified_start_times": 107,
   "conflicts": [],
   "limitations": [
     "Empty API results do not prove no events are scheduled.",
