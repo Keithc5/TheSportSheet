@@ -8,6 +8,9 @@ import pathlib
 import os
 import re
 import urllib.request
+import urllib.error
+import time
+import random
 from html.parser import HTMLParser
 from collections import Counter, defaultdict
 from zoneinfo import ZoneInfo
@@ -85,8 +88,16 @@ def fetch_one(item):
  url=f"{ESPN}/{sport}/{league}/scoreboard?dates={day:%Y%m%d}&limit=250"
  try:
   req=urllib.request.Request(url,headers={"User-Agent":"TheSportSheet/1.1 (public fixture research)","Accept":"application/json"})
-  with urllib.request.urlopen(req,timeout=18) as resp: payload=json.load(resp)
-  if not isinstance(payload.get("events"),list): raise ValueError("No events array")
+  for attempt in range(3):
+   try:
+    with urllib.request.urlopen(req,timeout=12) as resp: payload=json.load(resp)
+    if not isinstance(payload.get("events"),list): raise ValueError("No events array")
+    break
+   except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, OSError, ValueError) as error:
+    # Retrying a permanent 400/404 wastes requests and can amplify rate limiting.
+    if isinstance(error,urllib.error.HTTPError) and error.code in (400,401,403,404,410): raise
+    if attempt==2: raise
+    time.sleep((0.5 * (2 ** attempt)) + random.uniform(0,0.25))
  except Exception as exc:
   return [],{"source":category,"date":str(day),"status":"error","message":str(exc)[:180],"count":0}
  result=[]
@@ -447,6 +458,43 @@ def validate_output(events):
   if dt.datetime.fromisoformat(value.replace("Z","+00:00")).tzinfo is None:
    raise ValueError("Naive time for "+identifier)
 
+def preserve_failed_source_fixtures(events, health, days):
+ """Carry forward only future, previously published fixtures for failed source/date pairs.
+
+ A broken upstream feed must not erase a known kickoff. Never preserve past
+ fixtures or replace newly retrieved records; flag every carried record.
+ """
+ failed={(h["source"],h["date"]) for h in health if h["status"]=="error"}
+ previous=ROOT/"data"/"events.json"
+ if not failed or not previous.exists(): return []
+ try:
+  rows=json.loads(previous.read_text()).get("events",[])
+ except (ValueError,OSError,TypeError):
+  return []
+ known={e.get("id") for e in events}
+ now=dt.datetime.now(dt.timezone.utc)
+ carried=[]
+ for row in rows:
+  if row.get("id") in known or row.get("category") not in LEAGUES: continue
+  start=row.get("start_time") or row.get("start")
+  try:
+   instant=dt.datetime.fromisoformat(start.replace("Z","+00:00"))
+   if instant.tzinfo is None or instant<=now: continue
+  except (ValueError,AttributeError,TypeError): continue
+  # Match both the ESPN query date and Irish-local day; NFL can cross midnight.
+  local_day=instant.astimezone(TZ).date()
+  query_days={str(local_day)}
+  if row.get("category")=="football-nfl":
+   query_days.add(str(instant.astimezone(ZoneInfo("America/New_York")).date()))
+  if not any((row["category"],d) in failed for d in query_days): continue
+  copy=dict(row)
+  copy["data_warning"]="Retained from last successful refresh; source request failed"
+  copy["verification"]="stale-source-fallback"
+  events.append(copy)
+  known.add(copy["id"])
+  carried.append(copy["id"])
+ return carried
+
 def main():
  days=collection_days()
  jobs=[(cat,day) for cat in LEAGUES for day in days]
@@ -462,6 +510,7 @@ def main():
  health=[h for _,h in batches]
  if not any(x["status"]=="ok" for x in health):
   raise SystemExit("All sources failed; preserving previously published fixtures")
+ carried=preserve_failed_source_fixtures(events,health,days)
  events=list({e["id"]:e for e in events}.values())  # ESPN US/Irish date overlap must not duplicate events
  tv=attach_tv(events,days)
  premier_league_tv_health=attach_premier_league_tv(events)
@@ -479,6 +528,9 @@ def main():
  now=dt.datetime.now(dt.timezone.utc).isoformat()
  audit={"updated":now,"collection_dates":[str(d) for d in days],
   "total_events":len(events),"by_category":counts,
+  "failed_sources":dict(Counter(h["source"] for h in health if h["status"]=="error")),
+  "failed_source_dates":[{"source":h["source"],"date":h["date"],"message":h.get("message","")} for h in health if h["status"]=="error"],
+  "carried_forward_fixtures":carried,
   "gaa_crest_source":gaa_crest_health,
   "source_requests":health,"successful_requests":sum(x["status"]=="ok" for x in health),
   "failed_requests":sum(x["status"]=="error" for x in health),
@@ -508,6 +560,10 @@ def main():
  out=ROOT/"data";out.mkdir(exist_ok=True)
  (out/"events.json").write_text(json.dumps({"updated":now,"events":events},indent=2)+"\n")
  (out/"source-health.json").write_text(json.dumps(audit,indent=2)+"\n")
+ if audit["failed_requests"]:
+  print("::warning::Fixture retrieval degraded: %d/%d source requests failed; %d future fixtures retained from previous data" % (audit["failed_requests"],len(health),len(carried)))
+  for source,count in sorted(audit["failed_sources"].items(),key=lambda item:-item[1]):
+   print("::warning::%s: %d failed requests" % (source,count))
  print("Fixtures",len(events),"verified starts",audit["verified_start_times"],
        "coverage only",audit["coverage_only"],"failed requests",audit["failed_requests"])
 if __name__=="__main__":main()
