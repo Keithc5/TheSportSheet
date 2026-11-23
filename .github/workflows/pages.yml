@@ -5,6 +5,7 @@ on:
     paths:
       - 'index.html'
       - 'assets/**'
+      - 'app/**'
       - 'data/**'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
@@ -29,6 +30,10 @@ jobs:
           import json, pathlib
           root=pathlib.Path('.')
           assert (root/'index.html').exists()
+          manifest=json.loads((root/'app/manifest.webmanifest').read_text())
+          assert manifest['start_url']=='/TheSportSheet/app/'
+          assert (root/'app/index.html').exists() and (root/'app/sw.js').exists()
+          assert '../data/events.json' in (root/'app/index.html').read_text()
           events=json.loads((root/'data/events.json').read_text())['events']
           assert events, 'Refusing empty fixture feed'
           ids=[e['id'] for e in events]
