@@ -21,7 +21,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 1",
+      "result": "2 – 1",
       "team_logos": [
         "",
         ""
@@ -48,7 +48,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 3",
+      "result": "2 – 3",
       "team_logos": [
         "",
         ""
@@ -75,7 +75,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1",
+      "result": "1 – 1",
       "team_logos": [
         "",
         ""
@@ -102,7 +102,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1",
+      "result": "1 – 1",
       "team_logos": [
         "",
         ""
@@ -129,7 +129,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1",
+      "result": "1 – 1",
       "team_logos": [
         "",
         ""
@@ -156,7 +156,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 0",
+      "result": "3 – 0",
       "team_logos": [
         "",
         ""
@@ -183,7 +183,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 0",
+      "result": "1 – 0",
       "team_logos": [
         "",
         ""
@@ -210,7 +210,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 3",
+      "result": "2 – 3",
       "team_logos": [
         "",
         ""
@@ -237,7 +237,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "26 \u2013 3"
+      "result": "26 – 3"
     },
     {
       "id": "soccer-ger.1-401884736",
@@ -259,7 +259,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1",
+      "result": "1 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/122.png"
@@ -286,7 +286,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 1",
+      "result": "3 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png"
@@ -313,7 +313,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 0",
+      "result": "1 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/3610.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/606.png"
@@ -340,7 +340,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 1",
+      "result": "0 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/88.png"
@@ -352,7 +352,7 @@
       "category": "racing-f1",
       "sport": "Formula 1",
       "competition": "Formula 1",
-      "name": "Las Vegas Grand Prix \u2014 Qualifying",
+      "name": "Las Vegas Grand Prix — Qualifying",
       "session": "Qualifying",
       "start": "2026-11-21T04:00:00+00:00",
       "start_time": "2026-11-21T04:00:00+00:00",
@@ -433,7 +433,7 @@
       "detail": "",
       "channel": "TNT Sports 1 / TNT Sports Ultimate",
       "completed": true,
-      "result": "1 \u2013 1",
+      "result": "1 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
@@ -462,7 +462,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 1",
+      "result": "0 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/391.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/334.png"
@@ -489,7 +489,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 1",
+      "result": "2 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/381.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/347.png"
@@ -516,7 +516,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 0",
+      "result": "2 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/376.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/374.png"
@@ -528,7 +528,7 @@
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Alav\u00e9s vs Deportivo",
+      "name": "Alavés vs Deportivo",
       "start": "2026-11-21T13:00:00+00:00",
       "start_time": "2026-11-21T13:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261121&limit=250",
@@ -543,7 +543,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 1",
+      "result": "3 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/90.png"
@@ -570,7 +570,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 0",
+      "result": "2 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png"
@@ -597,7 +597,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 0",
+      "result": "3 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/113.png"
@@ -694,7 +694,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 5",
+      "result": "1 – 5",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png"
@@ -721,7 +721,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "4 \u2013 0",
+      "result": "4 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/3307.png"
@@ -733,7 +733,7 @@
       "category": "soccer-ger.1",
       "sport": "Football",
       "competition": "Bundesliga",
-      "name": "Borussia M\u00f6nchengladbach vs Borussia Dortmund",
+      "name": "Borussia Mönchengladbach vs Borussia Dortmund",
       "start": "2026-11-21T14:30:00+00:00",
       "start_time": "2026-11-21T14:30:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
@@ -748,7 +748,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 1",
+      "result": "0 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/124.png"
@@ -775,7 +775,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 0",
+      "result": "1 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png"
@@ -802,7 +802,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 1",
+      "result": "0 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/10388.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/126.png"
@@ -829,7 +829,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 0",
+      "result": "2 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/393.png"
@@ -856,7 +856,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 0",
+      "result": "0 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/366.png"
@@ -888,7 +888,7 @@
       "detail": "",
       "channel": "Premier Sports 1",
       "completed": true,
-      "result": "1 \u2013 4",
+      "result": "1 – 4",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
@@ -917,7 +917,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 2",
+      "result": "3 – 2",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/384.png"
@@ -944,7 +944,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 0",
+      "result": "2 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/373.png"
@@ -971,7 +971,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 2",
+      "result": "2 – 2",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/3616.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/936.png"
@@ -998,7 +998,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1",
+      "result": "1 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/358.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/385.png"
@@ -1025,7 +1025,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 1",
+      "result": "0 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/314.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/352.png"
@@ -1052,7 +1052,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 0",
+      "result": "2 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/369.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/333.png"
@@ -1079,7 +1079,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "4 \u2013 0",
+      "result": "4 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/398.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/395.png"
@@ -1106,7 +1106,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 0",
+      "result": "1 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/336.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/392.png"
@@ -1133,7 +1133,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 2",
+      "result": "2 – 2",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/318.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/383.png"
@@ -1160,7 +1160,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1",
+      "result": "1 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/371.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/394.png"
@@ -1187,7 +1187,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 1",
+      "result": "2 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/380.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/372.png"
@@ -1234,7 +1234,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 1",
+      "result": "0 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/94.png"
@@ -1261,7 +1261,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 4",
+      "result": "1 – 4",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/147.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/148.png"
@@ -1308,7 +1308,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 3",
+      "result": "2 – 3",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/160.png"
@@ -1405,7 +1405,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 5",
+      "result": "1 – 5",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/104.png"
@@ -1417,7 +1417,7 @@
       "category": "soccer-bel.1",
       "sport": "Football",
       "competition": "Belgian Pro League",
-      "name": "Racing Genk vs RAAL La Louvi\u00e8re",
+      "name": "Racing Genk vs RAAL La Louvière",
       "start": "2026-11-21T17:15:00+00:00",
       "start_time": "2026-11-21T17:15:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261121&limit=250",
@@ -1432,7 +1432,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 0",
+      "result": "3 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/938.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/131235.png"
@@ -1484,7 +1484,7 @@
       "detail": "",
       "channel": "Sky Sports Main Event / Sky Sports Premier League",
       "completed": true,
-      "result": "2 \u2013 2",
+      "result": "2 – 2",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/359.png"
@@ -1513,7 +1513,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1",
+      "result": "1 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/244.png"
@@ -1540,7 +1540,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 0",
+      "result": "0 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/134.png"
@@ -1587,7 +1587,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 3",
+      "result": "2 – 3",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/153.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/3736.png"
@@ -1614,7 +1614,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 3",
+      "result": "2 – 3",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/2566.png"
@@ -1641,7 +1641,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 0",
+      "result": "1 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/239.png"
@@ -1668,7 +1668,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1",
+      "result": "1 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/172.png"
@@ -1695,7 +1695,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1",
+      "result": "1 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/179.png"
@@ -1722,7 +1722,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 1",
+      "result": "0 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/167.png"
@@ -1749,7 +1749,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 1",
+      "result": "0 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png"
@@ -1776,7 +1776,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 5",
+      "result": "1 – 5",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/7879.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/570.png"
@@ -1803,7 +1803,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 2",
+      "result": "2 – 2",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/4691.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/17544.png"
@@ -1830,7 +1830,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 1",
+      "result": "2 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/85.png"
@@ -1857,7 +1857,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 3",
+      "result": "1 – 3",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/145.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/146.png"
@@ -1884,7 +1884,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 3",
+      "result": "1 – 3",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/3735.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/2565.png"
@@ -1946,7 +1946,7 @@
       "category": "racing-f1",
       "sport": "Formula 1",
       "competition": "Formula 1",
-      "name": "Las Vegas Grand Prix \u2014 Race",
+      "name": "Las Vegas Grand Prix — Race",
       "session": "Race",
       "start": "2026-11-22T04:00:00+00:00",
       "start_time": "2026-11-22T04:00:00+00:00",
@@ -1982,7 +1982,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 1",
+      "result": "2 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/152.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/156.png"
@@ -2009,7 +2009,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "4 \u2013 0",
+      "result": "4 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png"
@@ -2036,7 +2036,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 2",
+      "result": "2 – 2",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/379.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/365.png"
@@ -2063,7 +2063,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 0",
+      "result": "1 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/13450.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/3611.png"
@@ -2090,7 +2090,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 2",
+      "result": "3 – 2",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
@@ -2102,7 +2102,7 @@
       "category": "darts",
       "sport": "Darts",
       "competition": "Grand Slam of Darts",
-      "name": "Grand Slam of Darts \u2014 Semi-finals",
+      "name": "Grand Slam of Darts — Semi-finals",
       "start": "2026-11-22T13:00:00+00:00",
       "start_source": "https://www.wheresthematch.com/pdc-darts-schedule/",
       "channel": "Sky Sports+",
@@ -2171,7 +2171,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 0",
+      "result": "3 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/139.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/2726.png"
@@ -2198,7 +2198,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 5",
+      "result": "1 – 5",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/151.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/140.png"
@@ -2210,7 +2210,7 @@
       "category": "gaa",
       "sport": "GAA",
       "competition": "Connacht Club Intermediate Football",
-      "name": "Caherlistrane vs \u00c9ire \u00d3g",
+      "name": "Caherlistrane vs Éire Óg",
       "start": "2026-11-22T13:30:00+00:00",
       "start_source": "https://the42.lambda-front.jrnl.ie/gaa-club-fixtures-tv-streaming-7231535-Nov2026/",
       "channel": "Connacht GAA Livestream",
@@ -2259,7 +2259,7 @@
       "detail": "",
       "channel": "Sky Sports Main Event / Sky Sports Premier League",
       "completed": true,
-      "result": "2 \u2013 0",
+      "result": "2 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
@@ -2288,7 +2288,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1",
+      "result": "1 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/118.png"
@@ -2315,7 +2315,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 2",
+      "result": "0 – 2",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png"
@@ -2342,7 +2342,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "4 \u2013 0",
+      "result": "4 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png"
@@ -2369,7 +2369,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 1",
+      "result": "3 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png"
@@ -2396,7 +2396,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 1",
+      "result": "0 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/5786.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png"
@@ -2423,7 +2423,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "3 \u2013 2",
+      "result": "3 – 2",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/89.png"
@@ -2479,7 +2479,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 1",
+      "result": "0 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/3706.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/143.png"
@@ -2506,7 +2506,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 1",
+      "result": "1 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/169.png"
@@ -2538,7 +2538,7 @@
       "detail": "",
       "channel": "Sky Sports Main Event / Sky Sports Premier League",
       "completed": true,
-      "result": "4 \u2013 0",
+      "result": "4 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
@@ -2567,7 +2567,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "4 \u2013 0",
+      "result": "4 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/127.png"
@@ -2594,7 +2594,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "5 \u2013 1",
+      "result": "5 – 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png"
@@ -2606,7 +2606,7 @@
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Osasuna vs M\u00e1laga",
+      "name": "Osasuna vs Málaga",
       "start": "2026-11-22T17:30:00+00:00",
       "start_time": "2026-11-22T17:30:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=250",
@@ -2621,7 +2621,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 0",
+      "result": "1 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/99.png"
@@ -2648,7 +2648,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 0",
+      "result": "1 – 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/441.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/5579.png"
@@ -2675,7 +2675,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "26 \u2013 9"
+      "result": "26 – 9"
     },
     {
       "id": "football-nfl-401873071",
@@ -2697,7 +2697,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "21 \u2013 13"
+      "result": "21 – 13"
     },
     {
       "id": "football-nfl-401873073",
@@ -2719,7 +2719,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "51 \u2013 30"
+      "result": "51 – 30"
     },
     {
       "id": "football-nfl-401873072",
@@ -2746,7 +2746,7 @@
       "detail": "",
       "channel": "Sky Sports+",
       "completed": true,
-      "result": "31 \u2013 21",
+      "result": "31 – 21",
       "tv_source": "https://www.skysports.com/watch/nfl-on-sky",
       "tv_verification": "broadcaster-confirmed",
       "coverage_time": "2026-11-22T17:30:00+00:00",
@@ -2777,7 +2777,7 @@
       "detail": "",
       "channel": "Sky Sports NFL",
       "completed": true,
-      "result": "34 \u2013 7",
+      "result": "34 – 7",
       "tv_source": "https://www.skysports.com/watch/nfl-on-sky",
       "tv_verification": "broadcaster-confirmed",
       "coverage_time": "2026-11-22T18:00:00+00:00",
@@ -2803,7 +2803,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "19 \u2013 16"
+      "result": "19 – 16"
     },
     {
       "id": "football-nfl-401873068",
@@ -2825,14 +2825,14 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "35 \u2013 33"
+      "result": "35 – 33"
     },
     {
       "id": "golf-lpga-cme-final-20261122",
       "category": "golf-lpga",
       "sport": "Golf",
       "competition": "LPGA Tour",
-      "name": "CME Group Tour Championship \u2014 Final round",
+      "name": "CME Group Tour Championship — Final round",
       "start": "2026-11-22T18:00:00+00:00",
       "start_time": null,
       "coverage_time": "2026-11-22T18:00:00+00:00",
@@ -2856,7 +2856,7 @@
       "category": "golf-pga",
       "sport": "Golf",
       "competition": "PGA Tour",
-      "name": "The RSM Classic \u2014 Final round coverage",
+      "name": "The RSM Classic — Final round coverage",
       "start": "2026-11-22T18:00:00+00:00",
       "start_time": null,
       "coverage_time": "2026-11-22T18:00:00+00:00",
@@ -2895,7 +2895,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "1 \u2013 2",
+      "result": "1 – 2",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/22269.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/559.png"
@@ -2907,7 +2907,7 @@
       "category": "darts",
       "sport": "Darts",
       "competition": "Grand Slam of Darts",
-      "name": "Grand Slam of Darts \u2014 Final",
+      "name": "Grand Slam of Darts — Final",
       "start": "2026-11-22T19:00:00+00:00",
       "start_source": "https://www.wheresthematch.com/pdc-darts-schedule/",
       "channel": "Sky Sports Main Event / Sky Sports+",
@@ -2947,7 +2947,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "4 \u2013 4",
+      "result": "4 – 4",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/110.png"
@@ -2974,7 +2974,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "2 \u2013 3",
+      "result": "2 – 3",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png"
@@ -2986,7 +2986,7 @@
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Getafe vs Atl\u00e9tico Madrid",
+      "name": "Getafe vs Atlético Madrid",
       "start": "2026-11-22T20:00:00+00:00",
       "start_time": "2026-11-22T20:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=250",
@@ -3001,7 +3001,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "0 \u2013 3",
+      "result": "0 – 3",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png"
@@ -3028,7 +3028,7 @@
       "detail": "",
       "channel": "",
       "completed": true,
-      "result": "24 \u2013 27"
+      "result": "24 – 27"
     },
     {
       "id": "football-nfl-401873075",
@@ -3055,7 +3055,7 @@
       "detail": "",
       "channel": "Sky Sports+",
       "completed": true,
-      "result": "38 \u2013 24",
+      "result": "38 – 24",
       "tv_source": "https://www.skysports.com/watch/nfl-on-sky",
       "tv_verification": "broadcaster-confirmed",
       "coverage_time": "2026-11-22T21:25:00+00:00",
@@ -3086,7 +3086,7 @@
       "detail": "",
       "channel": "Sky Sports NFL / Sky Sports Main Event",
       "completed": true,
-      "result": "23 \u2013 18",
+      "result": "23 – 18",
       "tv_source": "https://www.skysports.com/watch/nfl-on-sky",
       "tv_verification": "broadcaster-confirmed",
       "coverage_time": "2026-11-22T21:15:00+00:00",
@@ -3841,7 +3841,7 @@
       "category": "soccer-uefa.champions",
       "sport": "Football",
       "competition": "Champions League",
-      "name": "Atl\u00e9tico Madrid vs Viking FK",
+      "name": "Atlético Madrid vs Viking FK",
       "start": "2026-11-25T20:00:00+00:00",
       "start_time": "2026-11-25T20:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=250",
@@ -4079,7 +4079,7 @@
       "category": "golf-euro",
       "sport": "Golf",
       "competition": "DP World Tour",
-      "name": "BMW Australian PGA Championship \u2014 Coverage",
+      "name": "BMW Australian PGA Championship — Coverage",
       "start": "2026-11-26T01:00:00+00:00",
       "start_time": null,
       "coverage_time": "2026-11-26T01:00:00+00:00",
@@ -4103,7 +4103,7 @@
       "category": "golf-let",
       "sport": "Golf",
       "competition": "Ladies European Tour",
-      "name": "Andaluc\u00eda Costa del Sol Open de Espa\u00f1a \u2014 Round 1",
+      "name": "Andalucía Costa del Sol Open de España — Round 1",
       "start": "2026-11-26T13:00:00+00:00",
       "start_time": null,
       "coverage_time": "2026-11-26T13:00:00+00:00",
@@ -4706,7 +4706,7 @@
       "category": "golf-let",
       "sport": "Golf",
       "competition": "Ladies European Tour",
-      "name": "Andaluc\u00eda Costa del Sol Open de Espa\u00f1a \u2014 Round 2",
+      "name": "Andalucía Costa del Sol Open de España — Round 2",
       "start": "2026-11-27T13:00:00+00:00",
       "start_time": null,
       "coverage_time": "2026-11-27T13:00:00+00:00",
@@ -4730,7 +4730,7 @@
       "category": "darts",
       "sport": "Darts",
       "competition": "Players Championship Finals",
-      "name": "Players Championship Finals \u2014 Afternoon session",
+      "name": "Players Championship Finals — Afternoon session",
       "start": "2026-11-27T13:00:00+00:00",
       "start_source": "https://www.wheresthematch.com/pdc-darts-schedule/",
       "channel": "",
@@ -4744,6 +4744,32 @@
       "detail": "",
       "start_time": "2026-11-27T13:00:00+00:00",
       "verification": "official-schedule"
+    },
+    {
+      "id": "verified-nations-finals-20261127-italy-vs-fiji",
+      "category": "rugby-nations",
+      "sport": "Rugby",
+      "competition": "Nations Championship Finals",
+      "name": "Italy vs Fiji",
+      "start": "2026-11-27T16:40:00+00:00",
+      "start_source": "https://nationschampionshiprugby.com/en",
+      "channel": "",
+      "sources": [
+        {
+          "provider": "nations-championship-official",
+          "url": "https://nationschampionshiprugby.com/en",
+          "field": "start_time"
+        },
+        {
+          "provider": "all-blacks",
+          "url": "https://www.allblacks.com/news/all-blacks/all-blacks-and-england-go-again-for-bronze-at-nations-championship-finals-weekend",
+          "field": "start_time"
+        }
+      ],
+      "detail": "Allianz Stadium, Twickenham · Finals Weekend",
+      "start_time": "2026-11-27T16:40:00+00:00",
+      "verification": "cross-referenced",
+      "completed": false
     },
     {
       "id": "soccer-ned.1-401875536",
@@ -4777,7 +4803,7 @@
       "category": "soccer-ger.1",
       "sport": "Football",
       "competition": "Bundesliga",
-      "name": "Werder Bremen vs Borussia M\u00f6nchengladbach",
+      "name": "Werder Bremen vs Borussia Mönchengladbach",
       "start": "2026-11-27T19:30:00+00:00",
       "start_time": "2026-11-27T19:30:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261127&limit=250",
@@ -4991,6 +5017,32 @@
       "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
     },
     {
+      "id": "verified-nations-finals-20261127-ireland-vs-australia",
+      "category": "rugby-nations",
+      "sport": "Rugby",
+      "competition": "Nations Championship Finals",
+      "name": "Ireland vs Australia",
+      "start": "2026-11-27T20:10:00+00:00",
+      "start_source": "https://nationschampionshiprugby.com/en",
+      "channel": "",
+      "sources": [
+        {
+          "provider": "nations-championship-official",
+          "url": "https://nationschampionshiprugby.com/en",
+          "field": "start_time"
+        },
+        {
+          "provider": "all-blacks",
+          "url": "https://www.allblacks.com/news/all-blacks/all-blacks-and-england-go-again-for-bronze-at-nations-championship-finals-weekend",
+          "field": "start_time"
+        }
+      ],
+      "detail": "Allianz Stadium, Twickenham · Finals Weekend",
+      "start_time": "2026-11-27T20:10:00+00:00",
+      "verification": "cross-referenced",
+      "completed": false
+    },
+    {
       "id": "soccer-por.1-401885389",
       "category": "soccer-por.1",
       "sport": "Football",
@@ -5130,7 +5182,7 @@
       "category": "golf-let",
       "sport": "Golf",
       "competition": "Ladies European Tour",
-      "name": "Andaluc\u00eda Costa del Sol Open de Espa\u00f1a \u2014 Round 3",
+      "name": "Andalucía Costa del Sol Open de España — Round 3",
       "start": "2026-11-28T13:00:00+00:00",
       "start_time": null,
       "coverage_time": "2026-11-28T13:00:00+00:00",
@@ -5148,6 +5200,32 @@
       ],
       "verification": "coverage-only",
       "detail": "TV coverage, not tee time"
+    },
+    {
+      "id": "verified-nations-finals-20261128-wales-vs-japan",
+      "category": "rugby-nations",
+      "sport": "Rugby",
+      "competition": "Nations Championship Finals",
+      "name": "Wales vs Japan",
+      "start": "2026-11-28T13:10:00+00:00",
+      "start_source": "https://nationschampionshiprugby.com/en",
+      "channel": "",
+      "sources": [
+        {
+          "provider": "nations-championship-official",
+          "url": "https://nationschampionshiprugby.com/en",
+          "field": "start_time"
+        },
+        {
+          "provider": "all-blacks",
+          "url": "https://www.allblacks.com/news/all-blacks/all-blacks-and-england-go-again-for-bronze-at-nations-championship-finals-weekend",
+          "field": "start_time"
+        }
+      ],
+      "detail": "Allianz Stadium, Twickenham · Finals Weekend",
+      "start_time": "2026-11-28T13:10:00+00:00",
+      "verification": "cross-referenced",
+      "completed": false
     },
     {
       "id": "soccer-ita.1-401875081",
@@ -5343,7 +5421,7 @@
       "category": "soccer-bel.1",
       "sport": "Football",
       "competition": "Belgian Pro League",
-      "name": "KVC Westerlo vs RAAL La Louvi\u00e8re",
+      "name": "KVC Westerlo vs RAAL La Louvière",
       "start": "2026-11-28T15:00:00+00:00",
       "start_time": "2026-11-28T15:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261128&limit=250",
@@ -5559,7 +5637,7 @@
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "M\u00e1laga vs Athletic Club",
+      "name": "Málaga vs Athletic Club",
       "start": "2026-11-28T15:15:00+00:00",
       "start_time": "2026-11-28T15:15:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128&limit=250",
@@ -5690,6 +5768,32 @@
       "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
     },
     {
+      "id": "verified-nations-finals-20261128-england-vs-new-zealand",
+      "category": "rugby-nations",
+      "sport": "Rugby",
+      "competition": "Nations Championship Finals",
+      "name": "England vs New Zealand",
+      "start": "2026-11-28T16:40:00+00:00",
+      "start_source": "https://nationschampionshiprugby.com/en",
+      "channel": "",
+      "sources": [
+        {
+          "provider": "nations-championship-official",
+          "url": "https://nationschampionshiprugby.com/en",
+          "field": "start_time"
+        },
+        {
+          "provider": "all-blacks",
+          "url": "https://www.allblacks.com/news/all-blacks/all-blacks-and-england-go-again-for-bronze-at-nations-championship-finals-weekend",
+          "field": "start_time"
+        }
+      ],
+      "detail": "Allianz Stadium, Twickenham · Finals Weekend",
+      "start_time": "2026-11-28T16:40:00+00:00",
+      "verification": "cross-referenced",
+      "completed": false
+    },
+    {
       "id": "soccer-ita.1-401874826",
       "category": "soccer-ita.1",
       "sport": "Football",
@@ -5782,7 +5886,7 @@
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Elche vs Atl\u00e9tico Madrid",
+      "name": "Elche vs Atlético Madrid",
       "start": "2026-11-28T17:30:00+00:00",
       "start_time": "2026-11-28T17:30:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128&limit=250",
@@ -5863,7 +5967,7 @@
       "category": "soccer-por.1",
       "sport": "Football",
       "competition": "Primeira Liga",
-      "name": "Acad\u00e9mico de Viseu vs Alverca",
+      "name": "Académico de Viseu vs Alverca",
       "start": "2026-11-28T18:00:00+00:00",
       "start_time": "2026-11-28T18:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261128&limit=250",
@@ -6079,7 +6183,7 @@
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Real Madrid vs Alav\u00e9s",
+      "name": "Real Madrid vs Alavés",
       "start": "2026-11-28T20:00:00+00:00",
       "start_time": "2026-11-28T20:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128&limit=250",
@@ -6133,7 +6237,7 @@
       "category": "soccer-por.1",
       "sport": "Football",
       "competition": "Primeira Liga",
-      "name": "Vit\u00f3ria de Guimaraes vs Estrela",
+      "name": "Vitória de Guimaraes vs Estrela",
       "start": "2026-11-28T20:30:00+00:00",
       "start_time": "2026-11-28T20:30:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261128&limit=250",
@@ -6295,7 +6399,7 @@
       "category": "golf-let",
       "sport": "Golf",
       "competition": "Ladies European Tour",
-      "name": "Andaluc\u00eda Costa del Sol Open de Espa\u00f1a \u2014 Final round",
+      "name": "Andalucía Costa del Sol Open de España — Final round",
       "start": "2026-11-29T12:30:00+00:00",
       "start_time": null,
       "coverage_time": "2026-11-29T12:30:00+00:00",
@@ -6340,6 +6444,32 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/97.png"
       ],
       "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+    },
+    {
+      "id": "verified-nations-finals-20261129-scotland-vs-argentina",
+      "category": "rugby-nations",
+      "sport": "Rugby",
+      "competition": "Nations Championship Finals",
+      "name": "Scotland vs Argentina",
+      "start": "2026-11-29T13:10:00+00:00",
+      "start_source": "https://nationschampionshiprugby.com/en",
+      "channel": "",
+      "sources": [
+        {
+          "provider": "nations-championship-official",
+          "url": "https://nationschampionshiprugby.com/en",
+          "field": "start_time"
+        },
+        {
+          "provider": "all-blacks",
+          "url": "https://www.allblacks.com/news/all-blacks/all-blacks-and-england-go-again-for-bronze-at-nations-championship-finals-weekend",
+          "field": "start_time"
+        }
+      ],
+      "detail": "Allianz Stadium, Twickenham · Finals Weekend",
+      "start_time": "2026-11-29T13:10:00+00:00",
+      "verification": "cross-referenced",
+      "completed": false
     },
     {
       "id": "soccer-ned.1-401875535",
@@ -6698,7 +6828,7 @@
       "category": "racing-f1",
       "sport": "Formula 1",
       "competition": "Formula 1",
-      "name": "Qatar Grand Prix \u2014 Race",
+      "name": "Qatar Grand Prix — Race",
       "session": "Race",
       "start": "2026-11-29T16:00:00+00:00",
       "start_time": "2026-11-29T16:00:00+00:00",
@@ -6801,6 +6931,32 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png"
       ],
       "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+    },
+    {
+      "id": "verified-nations-finals-20261129-france-vs-south-africa",
+      "category": "rugby-nations",
+      "sport": "Rugby",
+      "competition": "Nations Championship Finals",
+      "name": "France vs South Africa",
+      "start": "2026-11-29T16:40:00+00:00",
+      "start_source": "https://nationschampionshiprugby.com/en",
+      "channel": "",
+      "sources": [
+        {
+          "provider": "nations-championship-official",
+          "url": "https://nationschampionshiprugby.com/en",
+          "field": "start_time"
+        },
+        {
+          "provider": "all-blacks",
+          "url": "https://www.allblacks.com/news/all-blacks/all-blacks-and-england-go-again-for-bronze-at-nations-championship-finals-weekend",
+          "field": "start_time"
+        }
+      ],
+      "detail": "Allianz Stadium, Twickenham · Finals Weekend",
+      "start_time": "2026-11-29T16:40:00+00:00",
+      "verification": "cross-referenced",
+      "completed": false
     },
     {
       "id": "soccer-ita.1-401874769",
@@ -7751,7 +7907,7 @@
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Barcelona vs Atl\u00e9tico Madrid",
+      "name": "Barcelona vs Atlético Madrid",
       "start": "2026-12-02T20:30:00+00:00",
       "start_time": "2026-12-02T20:30:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261202&limit=250",
@@ -7935,7 +8091,7 @@
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Alav\u00e9s vs Espanyol",
+      "name": "Alavés vs Espanyol",
       "start": "2026-12-04T20:00:00+00:00",
       "start_time": "2026-12-04T20:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261204&limit=250",
@@ -8232,7 +8388,7 @@
       "category": "soccer-ger.1",
       "sport": "Football",
       "competition": "Bundesliga",
-      "name": "Bayer Leverkusen vs Borussia M\u00f6nchengladbach",
+      "name": "Bayer Leverkusen vs Borussia Mönchengladbach",
       "start": "2026-12-05T14:30:00+00:00",
       "start_time": "2026-12-05T14:30:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261205&limit=250",
@@ -9844,7 +10000,7 @@
       "category": "soccer-por.1",
       "sport": "Football",
       "competition": "Primeira Liga",
-      "name": "Estoril vs Vit\u00f3ria de Guimaraes",
+      "name": "Estoril vs Vitória de Guimaraes",
       "start": "2026-12-06T18:00:00+00:00",
       "start_time": "2026-12-06T18:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261206&limit=250",
@@ -9925,7 +10081,7 @@
       "category": "soccer-esp.1",
       "sport": "Football",
       "competition": "La Liga",
-      "name": "Atl\u00e9tico Madrid vs Real Betis",
+      "name": "Atlético Madrid vs Real Betis",
       "start": "2026-12-06T20:00:00+00:00",
       "start_time": "2026-12-06T20:00:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261206&limit=250",
@@ -9952,7 +10108,7 @@
       "category": "soccer-por.1",
       "sport": "Football",
       "competition": "Primeira Liga",
-      "name": "FC Famalicao vs Acad\u00e9mico de Viseu",
+      "name": "FC Famalicao vs Académico de Viseu",
       "start": "2026-12-06T20:30:00+00:00",
       "start_time": "2026-12-06T20:30:00+00:00",
       "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261206&limit=250",
