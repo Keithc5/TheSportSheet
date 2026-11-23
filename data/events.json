@@ -1,298 +1,6 @@
 {
-  "updated": "2026-11-22T21:05:14.112832+00:00",
+  "updated": "2026-11-23T03:44:11.390102+00:00",
   "events": [
-    {
-      "id": "soccer-nations-401861180",
-      "category": "soccer-nations",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "name": "Faroe Islands vs Moldova",
-      "start": "2026-11-16T15:00:00+00:00",
-      "start_time": "2026-11-16T15:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "1 \u2013 0",
-      "team_logos": [
-        "",
-        ""
-      ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
-    },
-    {
-      "id": "soccer-nations-401861181",
-      "category": "soccer-nations",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "name": "Kazakhstan vs Slovakia",
-      "start": "2026-11-16T15:00:00+00:00",
-      "start_time": "2026-11-16T15:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "2 \u2013 2",
-      "team_logos": [
-        "",
-        ""
-      ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
-    },
-    {
-      "id": "soccer-nations-401861183",
-      "category": "soccer-nations",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "name": "Estonia vs Bulgaria",
-      "start": "2026-11-16T17:00:00+00:00",
-      "start_time": "2026-11-16T17:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "2 \u2013 1",
-      "team_logos": [
-        "",
-        ""
-      ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
-    },
-    {
-      "id": "soccer-nations-401861182",
-      "category": "soccer-nations",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "name": "Iceland vs Luxembourg",
-      "start": "2026-11-16T17:00:00+00:00",
-      "start_time": "2026-11-16T17:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "3 \u2013 0",
-      "team_logos": [
-        "",
-        ""
-      ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
-    },
-    {
-      "id": "soccer-nations-401861184",
-      "category": "soccer-nations",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "name": "Lithuania vs Liechtenstein",
-      "start": "2026-11-16T17:00:00+00:00",
-      "start_time": "2026-11-16T17:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "2 \u2013 1",
-      "team_logos": [
-        "",
-        ""
-      ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
-    },
-    {
-      "id": "soccer-nations-401861185",
-      "category": "soccer-nations",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "name": "Germany vs Netherlands",
-      "start": "2026-11-16T19:45:00+00:00",
-      "start_time": "2026-11-16T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "5 \u2013 0",
-      "team_logos": [
-        "",
-        ""
-      ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
-    },
-    {
-      "id": "soccer-nations-401861179",
-      "category": "soccer-nations",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "name": "Gibraltar vs Malta",
-      "start": "2026-11-16T19:45:00+00:00",
-      "start_time": "2026-11-16T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "1 \u2013 1",
-      "team_logos": [
-        "",
-        ""
-      ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
-    },
-    {
-      "id": "soccer-nations-401861188",
-      "category": "soccer-nations",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "name": "Greece vs Serbia",
-      "start": "2026-11-16T19:45:00+00:00",
-      "start_time": "2026-11-16T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "1 \u2013 0",
-      "team_logos": [
-        "",
-        ""
-      ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
-    },
-    {
-      "id": "soccer-nations-401861187",
-      "category": "soccer-nations",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "name": "North Macedonia vs Slovenia",
-      "start": "2026-11-16T19:45:00+00:00",
-      "start_time": "2026-11-16T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "0 \u2013 3",
-      "team_logos": [
-        "",
-        ""
-      ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
-    },
-    {
-      "id": "soccer-nations-401861186",
-      "category": "soccer-nations",
-      "sport": "Football",
-      "competition": "UEFA Nations League",
-      "name": "Switzerland vs Scotland",
-      "start": "2026-11-16T19:45:00+00:00",
-      "start_time": "2026-11-16T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "4 \u2013 0",
-      "team_logos": [
-        "",
-        ""
-      ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
-    },
-    {
-      "id": "football-nfl-401873065",
-      "category": "football-nfl",
-      "sport": "NFL",
-      "competition": "NFL",
-      "name": "Baltimore Ravens vs Los Angeles Chargers",
-      "start": "2026-11-17T01:15:00+00:00",
-      "start_time": "2026-11-17T01:15:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261116&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261116&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "20 \u2013 23"
-    },
     {
       "id": "soccer-nations-401861196",
       "category": "soccer-nations",
@@ -2966,8 +2674,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "26 \u2013 9"
     },
     {
       "id": "football-nfl-401873071",
@@ -2988,8 +2696,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "21 \u2013 13"
     },
     {
       "id": "football-nfl-401873073",
@@ -3037,56 +2745,12 @@
       "verification": "single-source",
       "detail": "",
       "channel": "Sky Sports+",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "31 \u2013 21",
       "tv_source": "https://www.skysports.com/watch/nfl-on-sky",
       "tv_verification": "broadcaster-confirmed",
       "coverage_time": "2026-11-22T17:30:00+00:00",
       "coverage_source": "https://www.skysports.com/watch/nfl-on-sky"
-    },
-    {
-      "id": "football-nfl-401873076",
-      "category": "football-nfl",
-      "sport": "NFL",
-      "competition": "NFL",
-      "name": "Philadelphia Eagles vs Pittsburgh Steelers",
-      "start": "2026-11-22T18:00:00+00:00",
-      "start_time": "2026-11-22T18:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
-    },
-    {
-      "id": "football-nfl-401873068",
-      "category": "football-nfl",
-      "sport": "NFL",
-      "competition": "NFL",
-      "name": "Carolina Panthers vs Baltimore Ravens",
-      "start": "2026-11-22T18:00:00+00:00",
-      "start_time": "2026-11-22T18:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null
     },
     {
       "id": "football-nfl-401873067",
@@ -3118,6 +2782,50 @@
       "tv_verification": "broadcaster-confirmed",
       "coverage_time": "2026-11-22T18:00:00+00:00",
       "coverage_source": "https://www.skysports.com/watch/nfl-on-sky"
+    },
+    {
+      "id": "football-nfl-401873076",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Philadelphia Eagles vs Pittsburgh Steelers",
+      "start": "2026-11-22T18:00:00+00:00",
+      "start_time": "2026-11-22T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "19 \u2013 16"
+    },
+    {
+      "id": "football-nfl-401873068",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Carolina Panthers vs Baltimore Ravens",
+      "start": "2026-11-22T18:00:00+00:00",
+      "start_time": "2026-11-22T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "35 \u2013 33"
     },
     {
       "id": "golf-lpga-cme-final-20261122",
@@ -3238,8 +2946,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "4 \u2013 4",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/110.png"
@@ -3265,8 +2973,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "2 \u2013 3",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png"
@@ -3292,8 +3000,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "0 \u2013 3",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png"
@@ -3319,8 +3027,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "24 \u2013 27"
     },
     {
       "id": "football-nfl-401873075",
@@ -3346,8 +3054,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "Sky Sports+",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "38 \u2013 24",
       "tv_source": "https://www.skysports.com/watch/nfl-on-sky",
       "tv_verification": "broadcaster-confirmed",
       "coverage_time": "2026-11-22T21:25:00+00:00",
@@ -3377,8 +3085,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "Sky Sports NFL / Sky Sports Main Event",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "23 \u2013 18",
       "tv_source": "https://www.skysports.com/watch/nfl-on-sky",
       "tv_verification": "broadcaster-confirmed",
       "coverage_time": "2026-11-22T21:15:00+00:00",
@@ -7745,6 +7453,2614 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/2994.png"
       ],
       "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
+    },
+    {
+      "id": "football-nfl-401873094",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Tampa Bay Buccaneers vs Carolina Panthers",
+      "start": "2026-12-01T01:15:00+00:00",
+      "start_time": "2026-12-01T01:15:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261130&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261130&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "soccer-eng.1-401879221",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "Coventry City vs Ipswich Town",
+      "start": "2026-12-01T20:00:00+00:00",
+      "start_time": "2026-12-01T20:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261201&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261201&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/373.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+    },
+    {
+      "id": "soccer-esp.1-401882698",
+      "category": "soccer-esp.1",
+      "sport": "Football",
+      "competition": "La Liga",
+      "name": "Real Sociedad vs Real Madrid",
+      "start": "2026-12-02T18:00:00+00:00",
+      "start_time": "2026-12-02T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261202&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261202&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/86.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+    },
+    {
+      "id": "soccer-eng.1-401879222",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "Chelsea vs Crystal Palace",
+      "start": "2026-12-02T19:30:00+00:00",
+      "start_time": "2026-12-02T19:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261202&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261202&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/384.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+    },
+    {
+      "id": "soccer-eng.1-401879220",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "Hull City vs Nottingham Forest",
+      "start": "2026-12-02T19:30:00+00:00",
+      "start_time": "2026-12-02T19:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261202&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261202&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/393.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+    },
+    {
+      "id": "soccer-eng.1-401879219",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "Liverpool vs Sunderland",
+      "start": "2026-12-02T19:30:00+00:00",
+      "start_time": "2026-12-02T19:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261202&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261202&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/366.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+    },
+    {
+      "id": "soccer-eng.1-401879218",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "Manchester City vs Leeds United",
+      "start": "2026-12-02T19:30:00+00:00",
+      "start_time": "2026-12-02T19:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261202&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261202&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+    },
+    {
+      "id": "soccer-eng.1-401879223",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "AFC Bournemouth vs Brighton & Hove Albion",
+      "start": "2026-12-02T20:15:00+00:00",
+      "start_time": "2026-12-02T20:15:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261202&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261202&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+    },
+    {
+      "id": "soccer-eng.1-401878751",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "Aston Villa vs Everton",
+      "start": "2026-12-02T20:15:00+00:00",
+      "start_time": "2026-12-02T20:15:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261202&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261202&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/368.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+    },
+    {
+      "id": "soccer-eng.1-401878750",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "Brentford vs Arsenal",
+      "start": "2026-12-02T20:15:00+00:00",
+      "start_time": "2026-12-02T20:15:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261202&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261202&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/359.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+    },
+    {
+      "id": "soccer-eng.1-401879217",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "Newcastle United vs Manchester United",
+      "start": "2026-12-02T20:15:00+00:00",
+      "start_time": "2026-12-02T20:15:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261202&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261202&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+    },
+    {
+      "id": "soccer-esp.1-401882700",
+      "category": "soccer-esp.1",
+      "sport": "Football",
+      "competition": "La Liga",
+      "name": "Barcelona vs Atl\u00e9tico Madrid",
+      "start": "2026-12-02T20:30:00+00:00",
+      "start_time": "2026-12-02T20:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261202&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261202&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+    },
+    {
+      "id": "soccer-eng.1-401878749",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "Tottenham Hotspur vs Fulham",
+      "start": "2026-12-03T20:00:00+00:00",
+      "start_time": "2026-12-03T20:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261203&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261203&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+    },
+    {
+      "id": "football-nfl-401873096",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Los Angeles Rams vs Kansas City Chiefs",
+      "start": "2026-12-04T01:15:00+00:00",
+      "start_time": "2026-12-04T01:15:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261203&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261203&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "soccer-ned.1-401875522",
+      "category": "soccer-ned.1",
+      "sport": "Football",
+      "competition": "Eredivisie",
+      "name": "Telstar vs FC Groningen",
+      "start": "2026-12-04T19:00:00+00:00",
+      "start_time": "2026-12-04T19:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261204&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261204&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/3735.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/145.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
+    },
+    {
+      "id": "soccer-ger.1-401884718",
+      "category": "soccer-ger.1",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "name": "Bayern Munich vs SC Paderborn 07",
+      "start": "2026-12-04T19:30:00+00:00",
+      "start_time": "2026-12-04T19:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261204&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261204&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/3307.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+    },
+    {
+      "id": "soccer-ita.1-401874984",
+      "category": "soccer-ita.1",
+      "sport": "Football",
+      "competition": "Serie A",
+      "name": "Bologna vs AS Roma",
+      "start": "2026-12-04T19:45:00+00:00",
+      "start_time": "2026-12-04T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261204&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261204&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/104.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
+    },
+    {
+      "id": "soccer-fra.1-401876378",
+      "category": "soccer-fra.1",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "name": "Toulouse vs Paris Saint-Germain",
+      "start": "2026-12-04T19:45:00+00:00",
+      "start_time": "2026-12-04T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261204&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261204&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/160.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+    },
+    {
+      "id": "soccer-esp.1-401882786",
+      "category": "soccer-esp.1",
+      "sport": "Football",
+      "competition": "La Liga",
+      "name": "Alav\u00e9s vs Espanyol",
+      "start": "2026-12-04T20:00:00+00:00",
+      "start_time": "2026-12-04T20:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261204&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261204&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/88.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+    },
+    {
+      "id": "soccer-eng.2-401880116",
+      "category": "soccer-eng.2",
+      "sport": "Football",
+      "competition": "Championship",
+      "name": "Sheffield United vs West Ham United",
+      "start": "2026-12-04T20:00:00+00:00",
+      "start_time": "2026-12-04T20:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261204&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261204&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/398.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/371.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+    },
+    {
+      "id": "soccer-por.1-401885376",
+      "category": "soccer-por.1",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "name": "Sporting CP vs Maritimo",
+      "start": "2026-12-04T20:15:00+00:00",
+      "start_time": "2026-12-04T20:15:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261204&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261204&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/552.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
+    },
+    {
+      "id": "soccer-eng.1-401879213",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "Chelsea vs Liverpool",
+      "start": "2026-12-05T12:30:00+00:00",
+      "start_time": "2026-12-05T12:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+    },
+    {
+      "id": "soccer-eng.2-401880124",
+      "category": "soccer-eng.2",
+      "sport": "Football",
+      "competition": "Championship",
+      "name": "Bolton Wanderers vs Blackburn Rovers",
+      "start": "2026-12-05T12:30:00+00:00",
+      "start_time": "2026-12-05T12:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/358.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/365.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+    },
+    {
+      "id": "soccer-eng.2-401880123",
+      "category": "soccer-eng.2",
+      "sport": "Football",
+      "competition": "Championship",
+      "name": "Bristol City vs Swansea City",
+      "start": "2026-12-05T12:30:00+00:00",
+      "start_time": "2026-12-05T12:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/333.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/318.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+    },
+    {
+      "id": "soccer-eng.2-401880119",
+      "category": "soccer-eng.2",
+      "sport": "Football",
+      "competition": "Championship",
+      "name": "Middlesbrough vs Derby County",
+      "start": "2026-12-05T12:30:00+00:00",
+      "start_time": "2026-12-05T12:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/369.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/374.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+    },
+    {
+      "id": "soccer-eng.2-401880114",
+      "category": "soccer-eng.2",
+      "sport": "Football",
+      "competition": "Championship",
+      "name": "Watford vs Millwall",
+      "start": "2026-12-05T12:30:00+00:00",
+      "start_time": "2026-12-05T12:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/395.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/391.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+    },
+    {
+      "id": "soccer-esp.1-401882780",
+      "category": "soccer-esp.1",
+      "sport": "Football",
+      "competition": "La Liga",
+      "name": "Racing Santander vs Deportivo",
+      "start": "2026-12-05T13:00:00+00:00",
+      "start_time": "2026-12-05T13:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/90.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+    },
+    {
+      "id": "soccer-ita.1-401874975",
+      "category": "soccer-ita.1",
+      "sport": "Football",
+      "competition": "Serie A",
+      "name": "Monza vs Como",
+      "start": "2026-12-05T14:00:00+00:00",
+      "start_time": "2026-12-05T14:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
+    },
+    {
+      "id": "soccer-ger.1-401884712",
+      "category": "soccer-ger.1",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "name": "1. FC Union Berlin vs Hamburg SV",
+      "start": "2026-12-05T14:30:00+00:00",
+      "start_time": "2026-12-05T14:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/127.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+    },
+    {
+      "id": "soccer-ger.1-401884716",
+      "category": "soccer-ger.1",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "name": "Bayer Leverkusen vs Borussia M\u00f6nchengladbach",
+      "start": "2026-12-05T14:30:00+00:00",
+      "start_time": "2026-12-05T14:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/268.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+    },
+    {
+      "id": "soccer-ger.1-401884713",
+      "category": "soccer-ger.1",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "name": "FC Augsburg vs FC Cologne",
+      "start": "2026-12-05T14:30:00+00:00",
+      "start_time": "2026-12-05T14:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/122.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+    },
+    {
+      "id": "soccer-ger.1-401884717",
+      "category": "soccer-ger.1",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "name": "RB Leipzig vs Mainz",
+      "start": "2026-12-05T14:30:00+00:00",
+      "start_time": "2026-12-05T14:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+    },
+    {
+      "id": "soccer-ger.1-401884715",
+      "category": "soccer-ger.1",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "name": "SC Freiburg vs TSG Hoffenheim",
+      "start": "2026-12-05T14:30:00+00:00",
+      "start_time": "2026-12-05T14:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+    },
+    {
+      "id": "soccer-eng.1-401879216",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "AFC Bournemouth vs Hull City",
+      "start": "2026-12-05T15:00:00+00:00",
+      "start_time": "2026-12-05T15:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/306.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+    },
+    {
+      "id": "soccer-eng.1-401879215",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "Aston Villa vs Crystal Palace",
+      "start": "2026-12-05T15:00:00+00:00",
+      "start_time": "2026-12-05T15:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/384.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+    },
+    {
+      "id": "soccer-eng.1-401879211",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "Leeds United vs Ipswich Town",
+      "start": "2026-12-05T15:00:00+00:00",
+      "start_time": "2026-12-05T15:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/373.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+    },
+    {
+      "id": "soccer-eng.1-401879210",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "Manchester United vs Coventry City",
+      "start": "2026-12-05T15:00:00+00:00",
+      "start_time": "2026-12-05T15:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/388.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+    },
+    {
+      "id": "soccer-eng.2-401880121",
+      "category": "soccer-eng.2",
+      "sport": "Football",
+      "competition": "Championship",
+      "name": "Cardiff City vs Lincoln City",
+      "start": "2026-12-05T15:00:00+00:00",
+      "start_time": "2026-12-05T15:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/347.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/314.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+    },
+    {
+      "id": "soccer-eng.2-401880120",
+      "category": "soccer-eng.2",
+      "sport": "Football",
+      "competition": "Championship",
+      "name": "Charlton Athletic vs Birmingham City",
+      "start": "2026-12-05T15:00:00+00:00",
+      "start_time": "2026-12-05T15:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/372.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/392.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+    },
+    {
+      "id": "soccer-eng.2-401880118",
+      "category": "soccer-eng.2",
+      "sport": "Football",
+      "competition": "Championship",
+      "name": "Norwich City vs Wrexham",
+      "start": "2026-12-05T15:00:00+00:00",
+      "start_time": "2026-12-05T15:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/381.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/352.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+    },
+    {
+      "id": "soccer-eng.2-401880117",
+      "category": "soccer-eng.2",
+      "sport": "Football",
+      "competition": "Championship",
+      "name": "Portsmouth vs West Bromwich Albion",
+      "start": "2026-12-05T15:00:00+00:00",
+      "start_time": "2026-12-05T15:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/385.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/383.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+    },
+    {
+      "id": "soccer-eng.2-401880115",
+      "category": "soccer-eng.2",
+      "sport": "Football",
+      "competition": "Championship",
+      "name": "Stoke City vs Queens Park Rangers",
+      "start": "2026-12-05T15:00:00+00:00",
+      "start_time": "2026-12-05T15:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/336.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/334.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+    },
+    {
+      "id": "soccer-eng.2-401880113",
+      "category": "soccer-eng.2",
+      "sport": "Football",
+      "competition": "Championship",
+      "name": "Wolverhampton Wanderers vs Southampton",
+      "start": "2026-12-05T15:00:00+00:00",
+      "start_time": "2026-12-05T15:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/380.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/376.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+    },
+    {
+      "id": "soccer-esp.1-401882779",
+      "category": "soccer-esp.1",
+      "sport": "Football",
+      "competition": "La Liga",
+      "name": "Rayo Vallecano vs Levante",
+      "start": "2026-12-05T15:15:00+00:00",
+      "start_time": "2026-12-05T15:15:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+    },
+    {
+      "id": "soccer-por.1-401885379",
+      "category": "soccer-por.1",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "name": "C.D. Nacional vs Benfica",
+      "start": "2026-12-05T15:30:00+00:00",
+      "start_time": "2026-12-05T15:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/3472.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
+    },
+    {
+      "id": "soccer-ned.1-401875521",
+      "category": "soccer-ned.1",
+      "sport": "Football",
+      "competition": "Eredivisie",
+      "name": "Willem II vs Feyenoord Rotterdam",
+      "start": "2026-12-05T15:30:00+00:00",
+      "start_time": "2026-12-05T15:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/156.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/142.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
+    },
+    {
+      "id": "soccer-fra.1-401876384",
+      "category": "soccer-fra.1",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "name": "Lille vs AJ Auxerre",
+      "start": "2026-12-05T16:15:00+00:00",
+      "start_time": "2026-12-05T16:15:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/172.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+    },
+    {
+      "id": "soccer-ita.1-401875023",
+      "category": "soccer-ita.1",
+      "sport": "Football",
+      "competition": "Serie A",
+      "name": "Frosinone vs Internazionale",
+      "start": "2026-12-05T17:00:00+00:00",
+      "start_time": "2026-12-05T17:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/110.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
+    },
+    {
+      "id": "soccer-eng.1-401878747",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "Nottingham Forest vs Brighton & Hove Albion",
+      "start": "2026-12-05T17:30:00+00:00",
+      "start_time": "2026-12-05T17:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+    },
+    {
+      "id": "soccer-esp.1-401882777",
+      "category": "soccer-esp.1",
+      "sport": "Football",
+      "competition": "La Liga",
+      "name": "Villarreal vs Real Sociedad",
+      "start": "2026-12-05T17:30:00+00:00",
+      "start_time": "2026-12-05T17:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/89.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+    },
+    {
+      "id": "soccer-ger.1-401884714",
+      "category": "soccer-ger.1",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "name": "Eintracht Frankfurt vs Werder Bremen",
+      "start": "2026-12-05T17:30:00+00:00",
+      "start_time": "2026-12-05T17:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/137.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+    },
+    {
+      "id": "soccer-ned.1-401875523",
+      "category": "soccer-ned.1",
+      "sport": "Football",
+      "competition": "Eredivisie",
+      "name": "Sparta Rotterdam vs NEC Nijmegen",
+      "start": "2026-12-05T17:45:00+00:00",
+      "start_time": "2026-12-05T17:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/151.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/147.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
+    },
+    {
+      "id": "soccer-por.1-401885377",
+      "category": "soccer-por.1",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "name": "Santa Clara vs FC Porto",
+      "start": "2026-12-05T18:00:00+00:00",
+      "start_time": "2026-12-05T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/12215.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/437.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
+    },
+    {
+      "id": "soccer-ned.1-401875527",
+      "category": "soccer-ned.1",
+      "sport": "Football",
+      "competition": "Eredivisie",
+      "name": "AZ Alkmaar vs PSV Eindhoven",
+      "start": "2026-12-05T19:00:00+00:00",
+      "start_time": "2026-12-05T19:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/148.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
+    },
+    {
+      "id": "soccer-ita.1-401874788",
+      "category": "soccer-ita.1",
+      "sport": "Football",
+      "competition": "Serie A",
+      "name": "Napoli vs Lecce",
+      "start": "2026-12-05T19:45:00+00:00",
+      "start_time": "2026-12-05T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/113.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
+    },
+    {
+      "id": "soccer-fra.1-401876382",
+      "category": "soccer-fra.1",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "name": "AS Monaco vs Angers",
+      "start": "2026-12-05T19:45:00+00:00",
+      "start_time": "2026-12-05T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+    },
+    {
+      "id": "soccer-fra.1-401876385",
+      "category": "soccer-fra.1",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "name": "Lens vs Le Havre AC",
+      "start": "2026-12-05T19:45:00+00:00",
+      "start_time": "2026-12-05T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+    },
+    {
+      "id": "soccer-fra.1-401876381",
+      "category": "soccer-fra.1",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "name": "Paris FC vs Le Mans",
+      "start": "2026-12-05T19:45:00+00:00",
+      "start_time": "2026-12-05T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+    },
+    {
+      "id": "soccer-fra.1-401876379",
+      "category": "soccer-fra.1",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "name": "Strasbourg vs Lorient",
+      "start": "2026-12-05T19:45:00+00:00",
+      "start_time": "2026-12-05T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/273.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+    },
+    {
+      "id": "soccer-eng.1-401879214",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "Brentford vs Manchester City",
+      "start": "2026-12-05T20:00:00+00:00",
+      "start_time": "2026-12-05T20:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+    },
+    {
+      "id": "soccer-esp.1-401882783",
+      "category": "soccer-esp.1",
+      "sport": "Football",
+      "competition": "La Liga",
+      "name": "Barcelona vs Celta Vigo",
+      "start": "2026-12-05T20:00:00+00:00",
+      "start_time": "2026-12-05T20:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/85.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+    },
+    {
+      "id": "soccer-ned.1-401875526",
+      "category": "soccer-ned.1",
+      "sport": "Football",
+      "competition": "Eredivisie",
+      "name": "Fortuna Sittard vs PEC Zwolle",
+      "start": "2026-12-05T20:00:00+00:00",
+      "start_time": "2026-12-05T20:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/143.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/2565.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
+    },
+    {
+      "id": "soccer-por.1-401885382",
+      "category": "soccer-por.1",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "name": "Braga vs Arouca",
+      "start": "2026-12-05T20:30:00+00:00",
+      "start_time": "2026-12-05T20:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261205&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261205&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/2994.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/15784.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
+    },
+    {
+      "id": "soccer-ned.1-401875524",
+      "category": "soccer-ned.1",
+      "sport": "Football",
+      "competition": "Eredivisie",
+      "name": "Heerenveen vs SC Cambuur",
+      "start": "2026-12-06T11:15:00+00:00",
+      "start_time": "2026-12-06T11:15:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/146.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/3736.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
+    },
+    {
+      "id": "soccer-ita.1-401875017",
+      "category": "soccer-ita.1",
+      "sport": "Football",
+      "competition": "Serie A",
+      "name": "Genoa vs Torino",
+      "start": "2026-12-06T11:30:00+00:00",
+      "start_time": "2026-12-06T11:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/239.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
+    },
+    {
+      "id": "soccer-eng.2-401880122",
+      "category": "soccer-eng.2",
+      "sport": "Football",
+      "competition": "Championship",
+      "name": "Burnley vs Preston North End",
+      "start": "2026-12-06T12:00:00+00:00",
+      "start_time": "2026-12-06T12:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/379.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/394.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+    },
+    {
+      "id": "soccer-esp.1-401882781",
+      "category": "soccer-esp.1",
+      "sport": "Football",
+      "competition": "La Liga",
+      "name": "Osasuna vs Elche",
+      "start": "2026-12-06T13:00:00+00:00",
+      "start_time": "2026-12-06T13:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+    },
+    {
+      "id": "soccer-ned.1-401875528",
+      "category": "soccer-ned.1",
+      "sport": "Football",
+      "competition": "Eredivisie",
+      "name": "Ajax Amsterdam vs FC Utrecht",
+      "start": "2026-12-06T13:30:00+00:00",
+      "start_time": "2026-12-06T13:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/139.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/153.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
+    },
+    {
+      "id": "soccer-ned.1-401875525",
+      "category": "soccer-ned.1",
+      "sport": "Football",
+      "competition": "Eredivisie",
+      "name": "Go Ahead Eagles vs FC Twente",
+      "start": "2026-12-06T13:30:00+00:00",
+      "start_time": "2026-12-06T13:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/3706.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/152.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
+    },
+    {
+      "id": "soccer-eng.1-401879212",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "Everton vs Fulham",
+      "start": "2026-12-06T14:00:00+00:00",
+      "start_time": "2026-12-06T14:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+    },
+    {
+      "id": "soccer-eng.1-401878748",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "Newcastle United vs Sunderland",
+      "start": "2026-12-06T14:00:00+00:00",
+      "start_time": "2026-12-06T14:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/366.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+    },
+    {
+      "id": "soccer-ita.1-401875029",
+      "category": "soccer-ita.1",
+      "sport": "Football",
+      "competition": "Serie A",
+      "name": "Lazio vs Atalanta",
+      "start": "2026-12-06T14:00:00+00:00",
+      "start_time": "2026-12-06T14:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/105.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
+    },
+    {
+      "id": "soccer-fra.1-401876377",
+      "category": "soccer-fra.1",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "name": "Troyes vs Lyon",
+      "start": "2026-12-06T14:00:00+00:00",
+      "start_time": "2026-12-06T14:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/167.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+    },
+    {
+      "id": "soccer-ger.1-401884711",
+      "category": "soccer-ger.1",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "name": "Schalke 04 vs Borussia Dortmund",
+      "start": "2026-12-06T14:30:00+00:00",
+      "start_time": "2026-12-06T14:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/124.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+    },
+    {
+      "id": "soccer-esp.1-401882785",
+      "category": "soccer-esp.1",
+      "sport": "Football",
+      "competition": "La Liga",
+      "name": "Athletic Club vs Real Madrid",
+      "start": "2026-12-06T15:15:00+00:00",
+      "start_time": "2026-12-06T15:15:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/86.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+    },
+    {
+      "id": "soccer-por.1-401885383",
+      "category": "soccer-por.1",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "name": "Estrela vs Gil Vicente",
+      "start": "2026-12-06T15:30:00+00:00",
+      "start_time": "2026-12-06T15:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/21610.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/3699.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
+    },
+    {
+      "id": "soccer-por.1-401885378",
+      "category": "soccer-por.1",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "name": "Rio Ave vs Casa Pia",
+      "start": "2026-12-06T15:30:00+00:00",
+      "start_time": "2026-12-06T15:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/3822.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/21581.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
+    },
+    {
+      "id": "soccer-ned.1-401875529",
+      "category": "soccer-ned.1",
+      "sport": "Football",
+      "competition": "Eredivisie",
+      "name": "ADO Den Haag vs Excelsior",
+      "start": "2026-12-06T15:45:00+00:00",
+      "start_time": "2026-12-06T15:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/2726.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/2566.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
+    },
+    {
+      "id": "soccer-fra.1-401876380",
+      "category": "soccer-fra.1",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "name": "Stade Rennais vs Brest",
+      "start": "2026-12-06T16:15:00+00:00",
+      "start_time": "2026-12-06T16:15:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+    },
+    {
+      "id": "soccer-eng.1-401879209",
+      "category": "soccer-eng.1",
+      "sport": "Football",
+      "competition": "Premier League",
+      "name": "Tottenham Hotspur vs Arsenal",
+      "start": "2026-12-06T16:30:00+00:00",
+      "start_time": "2026-12-06T16:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/359.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+    },
+    {
+      "id": "soccer-ger.1-401884710",
+      "category": "soccer-ger.1",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "name": "SV Elversberg vs VfB Stuttgart",
+      "start": "2026-12-06T16:30:00+00:00",
+      "start_time": "2026-12-06T16:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/10388.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/134.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+    },
+    {
+      "id": "soccer-ita.1-401875006",
+      "category": "soccer-ita.1",
+      "sport": "Football",
+      "competition": "Serie A",
+      "name": "Juventus vs Udinese",
+      "start": "2026-12-06T17:00:00+00:00",
+      "start_time": "2026-12-06T17:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/118.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
+    },
+    {
+      "id": "soccer-esp.1-401882782",
+      "category": "soccer-esp.1",
+      "sport": "Football",
+      "competition": "La Liga",
+      "name": "Getafe vs Valencia",
+      "start": "2026-12-06T17:30:00+00:00",
+      "start_time": "2026-12-06T17:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/94.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+    },
+    {
+      "id": "football-nfl-401873098",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Atlanta Falcons vs Detroit Lions",
+      "start": "2026-12-06T18:00:00+00:00",
+      "start_time": "2026-12-06T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "football-nfl-401873100",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Chicago Bears vs Jacksonville Jaguars",
+      "start": "2026-12-06T18:00:00+00:00",
+      "start_time": "2026-12-06T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "football-nfl-401873097",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Cleveland Browns vs Cincinnati Bengals",
+      "start": "2026-12-06T18:00:00+00:00",
+      "start_time": "2026-12-06T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "football-nfl-401873102",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Tennessee Titans vs Washington Commanders",
+      "start": "2026-12-06T18:00:00+00:00",
+      "start_time": "2026-12-06T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "football-nfl-401873099",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "New Orleans Saints vs Green Bay Packers",
+      "start": "2026-12-06T18:00:00+00:00",
+      "start_time": "2026-12-06T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "football-nfl-401873095",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "New York Giants vs San Francisco 49ers",
+      "start": "2026-12-06T18:00:00+00:00",
+      "start_time": "2026-12-06T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "football-nfl-401873101",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Tampa Bay Buccaneers vs Los Angeles Chargers",
+      "start": "2026-12-06T18:00:00+00:00",
+      "start_time": "2026-12-06T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "soccer-por.1-401885381",
+      "category": "soccer-por.1",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "name": "Estoril vs Vit\u00f3ria de Guimaraes",
+      "start": "2026-12-06T18:00:00+00:00",
+      "start_time": "2026-12-06T18:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/12216.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/5309.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
+    },
+    {
+      "id": "soccer-ita.1-401874995",
+      "category": "soccer-ita.1",
+      "sport": "Football",
+      "competition": "Serie A",
+      "name": "AC Milan vs Parma",
+      "start": "2026-12-06T19:45:00+00:00",
+      "start_time": "2026-12-06T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/115.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
+    },
+    {
+      "id": "soccer-fra.1-401876383",
+      "category": "soccer-fra.1",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "name": "Marseille vs Nice",
+      "start": "2026-12-06T19:45:00+00:00",
+      "start_time": "2026-12-06T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+    },
+    {
+      "id": "soccer-esp.1-401882784",
+      "category": "soccer-esp.1",
+      "sport": "Football",
+      "competition": "La Liga",
+      "name": "Atl\u00e9tico Madrid vs Real Betis",
+      "start": "2026-12-06T20:00:00+00:00",
+      "start_time": "2026-12-06T20:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/244.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+    },
+    {
+      "id": "soccer-por.1-401885380",
+      "category": "soccer-por.1",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "name": "FC Famalicao vs Acad\u00e9mico de Viseu",
+      "start": "2026-12-06T20:30:00+00:00",
+      "start_time": "2026-12-06T20:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/12698.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/21607.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
+    },
+    {
+      "id": "football-nfl-401873103",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Denver Broncos vs Miami Dolphins",
+      "start": "2026-12-06T21:05:00+00:00",
+      "start_time": "2026-12-06T21:05:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "football-nfl-401873104",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Arizona Cardinals vs Philadelphia Eagles",
+      "start": "2026-12-06T21:05:00+00:00",
+      "start_time": "2026-12-06T21:05:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "football-nfl-401873106",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "Minnesota Vikings vs Carolina Panthers",
+      "start": "2026-12-06T21:25:00+00:00",
+      "start_time": "2026-12-06T21:25:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
+    },
+    {
+      "id": "football-nfl-401873105",
+      "category": "football-nfl",
+      "sport": "NFL",
+      "competition": "NFL",
+      "name": "New England Patriots vs Buffalo Bills",
+      "start": "2026-12-06T21:25:00+00:00",
+      "start_time": "2026-12-06T21:25:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261206&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261206&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null
     }
   ]
 }
