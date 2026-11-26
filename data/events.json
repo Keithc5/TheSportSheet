@@ -1,28 +1,6 @@
 {
-  "updated": "2026-11-25T23:39:08.462030+00:00",
+  "updated": "2026-11-26T12:39:03.580049+00:00",
   "events": [
-    {
-      "id": "football-nfl-401873066",
-      "category": "football-nfl",
-      "sport": "NFL",
-      "competition": "NFL",
-      "name": "Houston Texans vs Indianapolis Colts",
-      "start": "2026-11-20T01:15:00+00:00",
-      "start_time": "2026-11-20T01:15:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261119&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261119&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "single-source",
-      "detail": "",
-      "channel": "",
-      "completed": true,
-      "result": "26 \u2013 3"
-    },
     {
       "id": "soccer-ger.1-401884736",
       "category": "soccer-ger.1",
@@ -3855,8 +3833,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "26 \u2013 13"
     },
     {
       "id": "golf-euro-australian-pga-20261126",
