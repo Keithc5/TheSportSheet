@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T12:25:50.810026+00:00",
+  "updated": "2026-11-27T23:28:49.920868+00:00",
   "events": [
     {
       "id": "racing-f1-las-vegas-2026-qualifying",
@@ -327,6 +327,141 @@
       "detail": "",
       "start_time": "2026-11-21T14:10:00+00:00",
       "verification": "cross-referenced"
+    },
+    {
+      "id": "soccer-ger.1-401884732",
+      "category": "soccer-ger.1",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "name": "1. FC Union Berlin vs RB Leipzig",
+      "start": "2026-11-21T14:30:00+00:00",
+      "start_time": "2026-11-21T14:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "1 \u2013 5",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+    },
+    {
+      "id": "soccer-ger.1-401884735",
+      "category": "soccer-ger.1",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "name": "Bayer Leverkusen vs SC Paderborn 07",
+      "start": "2026-11-21T14:30:00+00:00",
+      "start_time": "2026-11-21T14:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "4 \u2013 0",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/3307.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+    },
+    {
+      "id": "soccer-ger.1-401884731",
+      "category": "soccer-ger.1",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "name": "Borussia M\u00f6nchengladbach vs Borussia Dortmund",
+      "start": "2026-11-21T14:30:00+00:00",
+      "start_time": "2026-11-21T14:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "0 \u2013 1",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/124.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+    },
+    {
+      "id": "soccer-ger.1-401884734",
+      "category": "soccer-ger.1",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "name": "Eintracht Frankfurt vs TSG Hoffenheim",
+      "start": "2026-11-21T14:30:00+00:00",
+      "start_time": "2026-11-21T14:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "1 \u2013 0",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+    },
+    {
+      "id": "soccer-ger.1-401884728",
+      "category": "soccer-ger.1",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "name": "SV Elversberg vs SC Freiburg",
+      "start": "2026-11-21T14:30:00+00:00",
+      "start_time": "2026-11-21T14:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "0 \u2013 1",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/10388.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/126.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
     },
     {
       "id": "soccer-eng.1-401879238",
@@ -1040,6 +1175,33 @@
       "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
     },
     {
+      "id": "soccer-ger.1-401884729",
+      "category": "soccer-ger.1",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "name": "Schalke 04 vs VfB Stuttgart",
+      "start": "2026-11-21T17:30:00+00:00",
+      "start_time": "2026-11-21T17:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "0 \u2013 0",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/134.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+    },
+    {
       "id": "verified-prem-cup-20261121-newcastle-red-bulls",
       "category": "rugby-premiership",
       "sport": "Rugby",
@@ -1509,6 +1671,87 @@
       "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
     },
     {
+      "id": "soccer-eng.2-401880159",
+      "category": "soccer-eng.2",
+      "sport": "Football",
+      "competition": "Championship",
+      "name": "Burnley vs Blackburn Rovers",
+      "start": "2026-11-22T12:00:00+00:00",
+      "start_time": "2026-11-22T12:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261122&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261122&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "2 \u2013 2",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/379.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/365.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+    },
+    {
+      "id": "soccer-bel.1-401878942",
+      "category": "soccer-bel.1",
+      "sport": "Football",
+      "competition": "Belgian Pro League",
+      "name": "Waasland-Beveren vs KAA Gent",
+      "start": "2026-11-22T12:30:00+00:00",
+      "start_time": "2026-11-22T12:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261122&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261122&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "1 \u2013 0",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/13450.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/3611.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/6.png"
+    },
+    {
+      "id": "soccer-esp.1-401882804",
+      "category": "soccer-esp.1",
+      "sport": "Football",
+      "competition": "La Liga",
+      "name": "Barcelona vs Villarreal",
+      "start": "2026-11-22T13:00:00+00:00",
+      "start_time": "2026-11-22T13:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "3 \u2013 2",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+    },
+    {
       "id": "darts-20261122-grand-slam-sf",
       "category": "darts",
       "sport": "Darts",
@@ -1761,6 +2004,87 @@
       "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
     },
     {
+      "id": "soccer-ger.1-401884733",
+      "category": "soccer-ger.1",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "name": "FC Augsburg vs Mainz",
+      "start": "2026-11-22T14:30:00+00:00",
+      "start_time": "2026-11-22T14:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261122&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261122&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "3 \u2013 1",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+    },
+    {
+      "id": "soccer-bel.1-401878936",
+      "category": "soccer-bel.1",
+      "sport": "Football",
+      "competition": "Belgian Pro League",
+      "name": "KV Kortrijk vs Union St.-Gilloise",
+      "start": "2026-11-22T15:00:00+00:00",
+      "start_time": "2026-11-22T15:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261122&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261122&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "0 \u2013 1",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/5786.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/6.png"
+    },
+    {
+      "id": "soccer-esp.1-401882800",
+      "category": "soccer-esp.1",
+      "sport": "Football",
+      "competition": "La Liga",
+      "name": "Racing Santander vs Real Sociedad",
+      "start": "2026-11-22T15:15:00+00:00",
+      "start_time": "2026-11-22T15:15:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "3 \u2013 2",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/89.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+    },
+    {
       "id": "gaa-20261122-crossmaglen",
       "category": "gaa",
       "sport": "GAA",
@@ -1878,6 +2202,33 @@
       "tv_verification": "fixture-specific-irish-listing"
     },
     {
+      "id": "soccer-ger.1-401884730",
+      "category": "soccer-ger.1",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "name": "Werder Bremen vs Hamburg SV",
+      "start": "2026-11-22T16:30:00+00:00",
+      "start_time": "2026-11-22T16:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261122&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261122&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "4 \u2013 0",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/127.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+    },
+    {
       "id": "soccer-ita.1-401874989",
       "category": "soccer-ita.1",
       "sport": "Football",
@@ -1903,6 +2254,60 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png"
       ],
       "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
+    },
+    {
+      "id": "soccer-esp.1-401882801",
+      "category": "soccer-esp.1",
+      "sport": "Football",
+      "competition": "La Liga",
+      "name": "Osasuna vs M\u00e1laga",
+      "start": "2026-11-22T17:30:00+00:00",
+      "start_time": "2026-11-22T17:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "1 \u2013 0",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/99.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+    },
+    {
+      "id": "soccer-bel.1-401878941",
+      "category": "soccer-bel.1",
+      "sport": "Football",
+      "competition": "Belgian Pro League",
+      "name": "Anderlecht vs OH Leuven",
+      "start": "2026-11-22T17:30:00+00:00",
+      "start_time": "2026-11-22T17:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261122&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261122&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "1 \u2013 0",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/441.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/5579.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/6.png"
     },
     {
       "id": "football-nfl-401873070",
@@ -2125,6 +2530,33 @@
       "detail": "TV coverage, not tee time"
     },
     {
+      "id": "soccer-bel.1-401878934",
+      "category": "soccer-bel.1",
+      "sport": "Football",
+      "competition": "Belgian Pro League",
+      "name": "Lommel SK vs Standard Liege",
+      "start": "2026-11-22T18:15:00+00:00",
+      "start_time": "2026-11-22T18:15:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261122&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261122&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "1 \u2013 2",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/22269.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/559.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/6.png"
+    },
+    {
       "id": "darts-20261122-grand-slam-final",
       "category": "darts",
       "sport": "Darts",
@@ -2202,6 +2634,33 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png"
       ],
       "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+    },
+    {
+      "id": "soccer-esp.1-401882803",
+      "category": "soccer-esp.1",
+      "sport": "Football",
+      "competition": "La Liga",
+      "name": "Getafe vs Atl\u00e9tico Madrid",
+      "start": "2026-11-22T20:00:00+00:00",
+      "start_time": "2026-11-22T20:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "0 \u2013 3",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
     },
     {
       "id": "football-nfl-401873074",
@@ -2492,6 +2951,195 @@
       "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2.png"
     },
     {
+      "id": "soccer-eng.2-401880148",
+      "category": "soccer-eng.2",
+      "sport": "Football",
+      "competition": "Championship",
+      "name": "Bristol City vs Wrexham",
+      "start": "2026-11-24T19:45:00+00:00",
+      "start_time": "2026-11-24T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261124&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261124&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "1 \u2013 1",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/333.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/352.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+    },
+    {
+      "id": "soccer-eng.2-401880147",
+      "category": "soccer-eng.2",
+      "sport": "Football",
+      "competition": "Championship",
+      "name": "Cardiff City vs Preston North End",
+      "start": "2026-11-24T19:45:00+00:00",
+      "start_time": "2026-11-24T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261124&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261124&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "0 \u2013 4",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/347.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/394.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+    },
+    {
+      "id": "soccer-eng.2-401880146",
+      "category": "soccer-eng.2",
+      "sport": "Football",
+      "competition": "Championship",
+      "name": "Charlton Athletic vs Lincoln City",
+      "start": "2026-11-24T19:45:00+00:00",
+      "start_time": "2026-11-24T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261124&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261124&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "4 \u2013 0",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/372.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/314.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+    },
+    {
+      "id": "soccer-eng.2-401880145",
+      "category": "soccer-eng.2",
+      "sport": "Football",
+      "competition": "Championship",
+      "name": "Middlesbrough vs Swansea City",
+      "start": "2026-11-24T19:45:00+00:00",
+      "start_time": "2026-11-24T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261124&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261124&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "2 \u2013 1",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/369.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/318.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+    },
+    {
+      "id": "soccer-eng.2-401880144",
+      "category": "soccer-eng.2",
+      "sport": "Football",
+      "competition": "Championship",
+      "name": "Norwich City vs Queens Park Rangers",
+      "start": "2026-11-24T19:45:00+00:00",
+      "start_time": "2026-11-24T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261124&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261124&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "1 \u2013 1",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/381.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/334.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+    },
+    {
+      "id": "soccer-eng.2-401880143",
+      "category": "soccer-eng.2",
+      "sport": "Football",
+      "competition": "Championship",
+      "name": "Portsmouth vs West Ham United",
+      "start": "2026-11-24T19:45:00+00:00",
+      "start_time": "2026-11-24T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261124&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261124&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "1 \u2013 0",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/385.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/371.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+    },
+    {
+      "id": "soccer-eng.2-401880142",
+      "category": "soccer-eng.2",
+      "sport": "Football",
+      "competition": "Championship",
+      "name": "Sheffield United vs Southampton",
+      "start": "2026-11-24T19:45:00+00:00",
+      "start_time": "2026-11-24T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261124&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261124&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "1 \u2013 1",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/398.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/376.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+    },
+    {
       "id": "soccer-uefa.champions-401915295",
       "category": "soccer-uefa.champions",
       "sport": "Football",
@@ -2679,6 +3327,33 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/244.png"
       ],
       "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2.png"
+    },
+    {
+      "id": "soccer-eng.2-401880141",
+      "category": "soccer-eng.2",
+      "sport": "Football",
+      "competition": "Championship",
+      "name": "Wolverhampton Wanderers vs Derby County",
+      "start": "2026-11-24T20:00:00+00:00",
+      "start_time": "2026-11-24T20:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261124&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261124&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "3 \u2013 0",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/380.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/374.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
     },
     {
       "id": "soccer-uefa.champions-401915378",
@@ -3102,6 +3777,222 @@
       "detail": "TV coverage, not tee time"
     },
     {
+      "id": "soccer-uefa.europa-401915506",
+      "category": "soccer-uefa.europa",
+      "sport": "Football",
+      "competition": "Europa League",
+      "name": "Besiktas vs Hapoel Be'er",
+      "start": "2026-11-26T17:45:00+00:00",
+      "start_time": "2026-11-26T17:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "2 \u2013 1",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/13083.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+    },
+    {
+      "id": "soccer-uefa.europa-401915519",
+      "category": "soccer-uefa.europa",
+      "sport": "Football",
+      "competition": "Europa League",
+      "name": "Celta Vigo vs AFC Bournemouth",
+      "start": "2026-11-26T17:45:00+00:00",
+      "start_time": "2026-11-26T17:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "1 \u2013 2",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/349.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+    },
+    {
+      "id": "soccer-uefa.europa-401915517",
+      "category": "soccer-uefa.europa",
+      "sport": "Football",
+      "competition": "Europa League",
+      "name": "Dinamo Zagreb vs Bayer Leverkusen",
+      "start": "2026-11-26T17:45:00+00:00",
+      "start_time": "2026-11-26T17:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "0 \u2013 2",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/597.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/131.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+    },
+    {
+      "id": "soccer-uefa.europa-401915507",
+      "category": "soccer-uefa.europa",
+      "sport": "Football",
+      "competition": "Europa League",
+      "name": "Marseille vs Levski Sofia",
+      "start": "2026-11-26T17:45:00+00:00",
+      "start_time": "2026-11-26T17:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "1 \u2013 0",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/490.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+    },
+    {
+      "id": "soccer-uefa.europa-401915521",
+      "category": "soccer-uefa.europa",
+      "sport": "Football",
+      "competition": "Europa League",
+      "name": "Olympiacos vs AC Milan",
+      "start": "2026-11-26T17:45:00+00:00",
+      "start_time": "2026-11-26T17:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "2 \u2013 4",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/103.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+    },
+    {
+      "id": "soccer-uefa.europa-401915520",
+      "category": "soccer-uefa.europa",
+      "sport": "Football",
+      "competition": "Europa League",
+      "name": "RB Salzburg vs Ararat-Armenia",
+      "start": "2026-11-26T17:45:00+00:00",
+      "start_time": "2026-11-26T17:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "2 \u2013 0",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/2790.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/20024.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+    },
+    {
+      "id": "soccer-uefa.europa-401915508",
+      "category": "soccer-uefa.europa",
+      "sport": "Football",
+      "competition": "Europa League",
+      "name": "Union St.-Gilloise vs Lech Poznan",
+      "start": "2026-11-26T17:45:00+00:00",
+      "start_time": "2026-11-26T17:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "2 \u2013 2",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/2990.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+    },
+    {
+      "id": "soccer-uefa.europa-401915518",
+      "category": "soccer-uefa.europa",
+      "sport": "Football",
+      "competition": "Europa League",
+      "name": "Viktoria Plzen vs Benfica",
+      "start": "2026-11-26T17:45:00+00:00",
+      "start_time": "2026-11-26T17:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "4 \u2013 0",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/11706.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+    },
+    {
       "id": "football-nfl-401873081",
       "category": "football-nfl",
       "sport": "NFL",
@@ -3131,6 +4022,276 @@
       "tv_verification": "broadcaster-confirmed",
       "coverage_time": "2026-11-26T17:00:00+00:00",
       "coverage_source": "https://www.skysports.com/watch/nfl-on-sky"
+    },
+    {
+      "id": "soccer-uefa.europa-401915504",
+      "category": "soccer-uefa.europa",
+      "sport": "Football",
+      "competition": "Europa League",
+      "name": "Crystal Palace vs Real Sociedad",
+      "start": "2026-11-26T20:00:00+00:00",
+      "start_time": "2026-11-26T20:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "2 \u2013 1",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/89.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+    },
+    {
+      "id": "soccer-uefa.europa-401915516",
+      "category": "soccer-uefa.europa",
+      "sport": "Football",
+      "competition": "Europa League",
+      "name": "Ferencvaros vs NK Celje",
+      "start": "2026-11-26T20:00:00+00:00",
+      "start_time": "2026-11-26T20:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "0 \u2013 0",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/622.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/3362.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+    },
+    {
+      "id": "soccer-uefa.europa-401915502",
+      "category": "soccer-uefa.europa",
+      "sport": "Football",
+      "competition": "Europa League",
+      "name": "Juventus vs Omonia Nicosia",
+      "start": "2026-11-26T20:00:00+00:00",
+      "start_time": "2026-11-26T20:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "4 \u2013 1",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/617.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+    },
+    {
+      "id": "soccer-uefa.europa-401915501",
+      "category": "soccer-uefa.europa",
+      "sport": "Football",
+      "competition": "Europa League",
+      "name": "Lyon vs Lillestrom",
+      "start": "2026-11-26T20:00:00+00:00",
+      "start_time": "2026-11-26T20:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "0 \u2013 0",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/987.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+    },
+    {
+      "id": "soccer-uefa.europa-401915505",
+      "category": "soccer-uefa.europa",
+      "sport": "Football",
+      "competition": "Europa League",
+      "name": "NEC Nijmegen vs Stade Rennais",
+      "start": "2026-11-26T20:00:00+00:00",
+      "start_time": "2026-11-26T20:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "3 \u2013 1",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/147.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/169.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+    },
+    {
+      "id": "soccer-uefa.europa-401915503",
+      "category": "soccer-uefa.europa",
+      "sport": "Football",
+      "competition": "Europa League",
+      "name": "OFI Crete vs Anderlecht",
+      "start": "2026-11-26T20:00:00+00:00",
+      "start_time": "2026-11-26T20:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "1 \u2013 3",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/1010.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/441.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+    },
+    {
+      "id": "soccer-uefa.europa-401915514",
+      "category": "soccer-uefa.europa",
+      "sport": "Football",
+      "competition": "Europa League",
+      "name": "Sparta Prague vs AZ Alkmaar",
+      "start": "2026-11-26T20:00:00+00:00",
+      "start_time": "2026-11-26T20:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "2 \u2013 4",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/433.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/140.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+    },
+    {
+      "id": "soccer-uefa.europa-401915513",
+      "category": "soccer-uefa.europa",
+      "sport": "Football",
+      "competition": "Europa League",
+      "name": "Sunderland vs Jagiellonia Bialystok",
+      "start": "2026-11-26T20:00:00+00:00",
+      "start_time": "2026-11-26T20:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "1 \u2013 1",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/11505.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+    },
+    {
+      "id": "soccer-uefa.europa-401915512",
+      "category": "soccer-uefa.europa",
+      "sport": "Football",
+      "competition": "Europa League",
+      "name": "Torreense vs Celtic",
+      "start": "2026-11-26T20:00:00+00:00",
+      "start_time": "2026-11-26T20:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "1 \u2013 2",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/21615.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/256.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+    },
+    {
+      "id": "soccer-uefa.europa-401915515",
+      "category": "soccer-uefa.europa",
+      "sport": "Football",
+      "competition": "Europa League",
+      "name": "TSG Hoffenheim vs SK Sturm Graz",
+      "start": "2026-11-26T20:00:00+00:00",
+      "start_time": "2026-11-26T20:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "3 \u2013 1",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/3746.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
     },
     {
       "id": "football-nfl-401873080",
@@ -3279,17 +4440,16 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "1 \u2013 1",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/145.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/156.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
     },
     {
       "id": "soccer-ger.1-401884720",
@@ -3307,17 +4467,16 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "3 \u2013 3",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/268.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
     },
     {
       "id": "soccer-ita.1-401875004",
@@ -3338,8 +4497,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "0 \u2013 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/107.png"
@@ -3365,8 +4524,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "1 \u2013 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png"
@@ -3392,8 +4551,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "2 \u2013 2",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/5579.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/5786.png"
@@ -3424,8 +4583,8 @@
       "verification": "single-source",
       "detail": "",
       "channel": "Sky Sports",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "3 \u2013 2",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/363.png"
@@ -3453,8 +4612,35 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null
+      "completed": true,
+      "result": "27 \u2013 5"
+    },
+    {
+      "id": "soccer-esp.1-401882791",
+      "category": "soccer-esp.1",
+      "sport": "Football",
+      "competition": "La Liga",
+      "name": "Levante vs Racing Santander",
+      "start": "2026-11-27T20:00:00+00:00",
+      "start_time": "2026-11-27T20:00:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261127&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261127&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": true,
+      "result": "1 \u2013 3",
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/87.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
     },
     {
       "id": "soccer-eng.2-401880129",
@@ -3475,41 +4661,13 @@
       "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "2 \u2013 0",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/376.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/369.png"
       ],
       "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
-    },
-    {
-      "id": "soccer-esp.1-401882791",
-      "category": "soccer-esp.1",
-      "sport": "Football",
-      "competition": "La Liga",
-      "name": "Levante vs Racing Santander",
-      "start": "2026-11-27T20:00:00+00:00",
-      "start_time": "2026-11-27T20:00:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261127&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261127&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "stale-source-fallback",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null,
-      "team_logos": [
-        "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-        "https://a.espncdn.com/i/teamlogos/soccer/500/87.png"
-      ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
     },
     {
       "id": "verified-nations-finals-20261127-ireland-vs-australia",
@@ -3552,17 +4710,16 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
-      "completed": false,
-      "result": null,
+      "completed": true,
+      "result": "1 \u2013 2",
       "team_logos": [
         "https://a.espncdn.com/i/teamlogos/soccer/500/552.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/3472.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
     },
     {
       "id": "soccer-eng.2-401880135",
@@ -3580,7 +4737,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -3589,8 +4746,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/365.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/372.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
     },
     {
       "id": "soccer-eng.2-401880133",
@@ -3608,7 +4764,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -3617,8 +4773,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/314.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/380.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
     },
     {
       "id": "soccer-eng.2-401880131",
@@ -3636,7 +4791,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -3645,8 +4800,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/394.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/381.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
     },
     {
       "id": "soccer-esp.1-401882796",
@@ -3740,7 +4894,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -3749,8 +4903,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/115.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
     },
     {
       "id": "soccer-ger.1-401884721",
@@ -3957,7 +5110,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -3966,8 +5119,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/392.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/358.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
     },
     {
       "id": "soccer-eng.2-401880134",
@@ -3985,7 +5137,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -3994,8 +5146,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/374.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/395.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
     },
     {
       "id": "soccer-eng.2-401880132",
@@ -4013,7 +5164,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -4022,8 +5173,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/391.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/379.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
     },
     {
       "id": "soccer-eng.2-401880130",
@@ -4041,7 +5191,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -4050,8 +5200,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/334.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/398.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
     },
     {
       "id": "soccer-eng.2-401880127",
@@ -4069,7 +5218,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -4078,8 +5227,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/383.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/333.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
     },
     {
       "id": "soccer-eng.2-401880126",
@@ -4097,7 +5245,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -4106,8 +5254,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/371.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/336.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
     },
     {
       "id": "soccer-eng.2-401880125",
@@ -4125,7 +5272,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -4134,8 +5281,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/352.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/385.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
     },
     {
       "id": "soccer-esp.1-401882790",
@@ -4165,6 +5311,60 @@
       "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
     },
     {
+      "id": "soccer-por.1-401885392",
+      "category": "soccer-por.1",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "name": "Arouca vs Rio Ave",
+      "start": "2026-11-28T15:30:00+00:00",
+      "start_time": "2026-11-28T15:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261128&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261128&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/15784.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/3822.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
+    },
+    {
+      "id": "soccer-por.1-401885388",
+      "category": "soccer-por.1",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "name": "Moreirense vs Santa Clara",
+      "start": "2026-11-28T15:30:00+00:00",
+      "start_time": "2026-11-28T15:30:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261128&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261128&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/3696.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/12215.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
+    },
+    {
       "id": "soccer-ned.1-401875537",
       "category": "soccer-ned.1",
       "sport": "Football",
@@ -4192,62 +5392,6 @@
       "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
     },
     {
-      "id": "soccer-por.1-401885392",
-      "category": "soccer-por.1",
-      "sport": "Football",
-      "competition": "Primeira Liga",
-      "name": "Arouca vs Rio Ave",
-      "start": "2026-11-28T15:30:00+00:00",
-      "start_time": "2026-11-28T15:30:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261128&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261128&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "stale-source-fallback",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null,
-      "team_logos": [
-        "https://a.espncdn.com/i/teamlogos/soccer/500/15784.png",
-        "https://a.espncdn.com/i/teamlogos/soccer/500/3822.png"
-      ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
-    },
-    {
-      "id": "soccer-por.1-401885388",
-      "category": "soccer-por.1",
-      "sport": "Football",
-      "competition": "Primeira Liga",
-      "name": "Moreirense vs Santa Clara",
-      "start": "2026-11-28T15:30:00+00:00",
-      "start_time": "2026-11-28T15:30:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261128&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261128&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "stale-source-fallback",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null,
-      "team_logos": [
-        "https://a.espncdn.com/i/teamlogos/soccer/500/3696.png",
-        "https://a.espncdn.com/i/teamlogos/soccer/500/12215.png"
-      ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
-    },
-    {
       "id": "soccer-fra.1-401876394",
       "category": "soccer-fra.1",
       "sport": "Football",
@@ -4263,7 +5407,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -4272,8 +5416,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/175.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
     },
     {
       "id": "verified-nations-finals-20261128-england-vs-new-zealand",
@@ -4316,7 +5459,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -4325,8 +5468,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/112.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
     },
     {
       "id": "soccer-bel.1-401878932",
@@ -4486,7 +5628,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -4495,8 +5637,142 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/21607.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/21613.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
+    },
+    {
+      "id": "soccer-ita.1-401874977",
+      "category": "soccer-ita.1",
+      "sport": "Football",
+      "competition": "Serie A",
+      "name": "Internazionale vs Genoa",
+      "start": "2026-11-28T19:45:00+00:00",
+      "start_time": "2026-11-28T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261128&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261128&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
+    },
+    {
+      "id": "soccer-fra.1-401876391",
+      "category": "soccer-fra.1",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "name": "Le Havre AC vs Strasbourg",
+      "start": "2026-11-28T19:45:00+00:00",
+      "start_time": "2026-11-28T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261128&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261128&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/180.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+    },
+    {
+      "id": "soccer-fra.1-401876390",
+      "category": "soccer-fra.1",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "name": "Le Mans vs Lille",
+      "start": "2026-11-28T19:45:00+00:00",
+      "start_time": "2026-11-28T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261128&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261128&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/166.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+    },
+    {
+      "id": "soccer-fra.1-401876388",
+      "category": "soccer-fra.1",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "name": "Nice vs Troyes",
+      "start": "2026-11-28T19:45:00+00:00",
+      "start_time": "2026-11-28T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261128&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261128&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/170.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+    },
+    {
+      "id": "soccer-fra.1-401876387",
+      "category": "soccer-fra.1",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "name": "Paris Saint-Germain vs Lorient",
+      "start": "2026-11-28T19:45:00+00:00",
+      "start_time": "2026-11-28T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261128&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261128&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/273.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
     },
     {
       "id": "soccer-bel.1-401878931",
@@ -4551,146 +5827,6 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/13450.png"
       ],
       "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/6.png"
-    },
-    {
-      "id": "soccer-ita.1-401874977",
-      "category": "soccer-ita.1",
-      "sport": "Football",
-      "competition": "Serie A",
-      "name": "Internazionale vs Genoa",
-      "start": "2026-11-28T19:45:00+00:00",
-      "start_time": "2026-11-28T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261128&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261128&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "stale-source-fallback",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null,
-      "team_logos": [
-        "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
-        "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png"
-      ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
-    },
-    {
-      "id": "soccer-fra.1-401876391",
-      "category": "soccer-fra.1",
-      "sport": "Football",
-      "competition": "Ligue 1",
-      "name": "Le Havre AC vs Strasbourg",
-      "start": "2026-11-28T19:45:00+00:00",
-      "start_time": "2026-11-28T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261128&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261128&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "stale-source-fallback",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null,
-      "team_logos": [
-        "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
-        "https://a.espncdn.com/i/teamlogos/soccer/500/180.png"
-      ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
-    },
-    {
-      "id": "soccer-fra.1-401876390",
-      "category": "soccer-fra.1",
-      "sport": "Football",
-      "competition": "Ligue 1",
-      "name": "Le Mans vs Lille",
-      "start": "2026-11-28T19:45:00+00:00",
-      "start_time": "2026-11-28T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261128&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261128&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "stale-source-fallback",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null,
-      "team_logos": [
-        "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
-        "https://a.espncdn.com/i/teamlogos/soccer/500/166.png"
-      ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
-    },
-    {
-      "id": "soccer-fra.1-401876388",
-      "category": "soccer-fra.1",
-      "sport": "Football",
-      "competition": "Ligue 1",
-      "name": "Nice vs Troyes",
-      "start": "2026-11-28T19:45:00+00:00",
-      "start_time": "2026-11-28T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261128&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261128&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "stale-source-fallback",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null,
-      "team_logos": [
-        "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
-        "https://a.espncdn.com/i/teamlogos/soccer/500/170.png"
-      ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
-    },
-    {
-      "id": "soccer-fra.1-401876387",
-      "category": "soccer-fra.1",
-      "sport": "Football",
-      "competition": "Ligue 1",
-      "name": "Paris Saint-Germain vs Lorient",
-      "start": "2026-11-28T19:45:00+00:00",
-      "start_time": "2026-11-28T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261128&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261128&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "stale-source-fallback",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null,
-      "team_logos": [
-        "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-        "https://a.espncdn.com/i/teamlogos/soccer/500/273.png"
-      ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
     },
     {
       "id": "soccer-esp.1-401882789",
@@ -4762,7 +5898,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -4771,8 +5907,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/5309.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/21610.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
     },
     {
       "id": "soccer-ned.1-401875538",
@@ -4790,7 +5925,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -4799,8 +5934,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/2726.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/153.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
     },
     {
       "id": "soccer-ita.1-401875031",
@@ -4872,7 +6006,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -4881,8 +6015,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/318.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/347.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
     },
     {
       "id": "soccer-bel.1-401878926",
@@ -5003,7 +6136,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -5012,8 +6145,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/139.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
     },
     {
       "id": "soccer-ned.1-401875534",
@@ -5031,7 +6163,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -5040,8 +6172,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/143.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/146.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
     },
     {
       "id": "soccer-ita.1-401874992",
@@ -5330,7 +6461,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -5339,8 +6470,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/2565.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/140.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
     },
     {
       "id": "racing-f1-qatar-2026-race",
@@ -5800,7 +6930,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -5809,8 +6939,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/147.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/152.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
     },
     {
       "id": "soccer-ita.1-401874994",
@@ -6119,7 +7248,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -6128,8 +7257,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/12698.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
     },
     {
       "id": "soccer-por.1-401885391",
@@ -6147,7 +7275,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -6156,8 +7284,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/21581.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/2994.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
     },
     {
       "id": "football-nfl-401873094",
@@ -6224,7 +7351,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -6233,8 +7360,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/86.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
     },
     {
       "id": "soccer-eng.1-401879222",
@@ -6468,7 +7594,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -6477,8 +7603,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
     },
     {
       "id": "soccer-eng.1-401878749",
@@ -6584,6 +7709,33 @@
       "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
     },
     {
+      "id": "soccer-ita.1-401874984",
+      "category": "soccer-ita.1",
+      "sport": "Football",
+      "competition": "Serie A",
+      "name": "Bologna vs AS Roma",
+      "start": "2026-12-04T19:45:00+00:00",
+      "start_time": "2026-12-04T19:45:00+00:00",
+      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261204&limit=250",
+      "sources": [
+        {
+          "provider": "espn",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261204&limit=250",
+          "field": "start_time"
+        }
+      ],
+      "verification": "single-source",
+      "detail": "",
+      "channel": "",
+      "completed": false,
+      "result": null,
+      "team_logos": [
+        "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
+        "https://a.espncdn.com/i/teamlogos/soccer/500/104.png"
+      ],
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
+    },
+    {
       "id": "soccer-fra.1-401876378",
       "category": "soccer-fra.1",
       "sport": "Football",
@@ -6609,34 +7761,6 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/160.png"
       ],
       "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
-    },
-    {
-      "id": "soccer-ita.1-401874984",
-      "category": "soccer-ita.1",
-      "sport": "Football",
-      "competition": "Serie A",
-      "name": "Bologna vs AS Roma",
-      "start": "2026-12-04T19:45:00+00:00",
-      "start_time": "2026-12-04T19:45:00+00:00",
-      "start_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261204&limit=250",
-      "sources": [
-        {
-          "provider": "espn",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261204&limit=250",
-          "field": "start_time"
-        }
-      ],
-      "verification": "stale-source-fallback",
-      "detail": "",
-      "channel": "",
-      "completed": false,
-      "result": null,
-      "team_logos": [
-        "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
-        "https://a.espncdn.com/i/teamlogos/soccer/500/104.png"
-      ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
     },
     {
       "id": "soccer-esp.1-401882786",
@@ -6681,7 +7805,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -6690,8 +7814,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/398.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/371.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
     },
     {
       "id": "soccer-por.1-401885376",
@@ -6709,7 +7832,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -6718,8 +7841,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/552.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
     },
     {
       "id": "soccer-eng.1-401879213",
@@ -6764,7 +7886,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -6773,8 +7895,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/358.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/365.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
     },
     {
       "id": "soccer-eng.2-401880123",
@@ -6792,7 +7913,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -6801,8 +7922,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/333.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/318.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
     },
     {
       "id": "soccer-eng.2-401880119",
@@ -6820,7 +7940,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -6829,8 +7949,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/369.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/374.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
     },
     {
       "id": "soccer-eng.2-401880114",
@@ -6848,7 +7967,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -6857,8 +7976,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/395.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/391.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
     },
     {
       "id": "soccer-esp.1-401882780",
@@ -6876,7 +7994,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -6885,8 +8003,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/90.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
     },
     {
       "id": "soccer-ita.1-401874975",
@@ -6931,7 +8048,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -6940,8 +8057,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/127.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
     },
     {
       "id": "soccer-ger.1-401884716",
@@ -6959,7 +8075,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -6968,8 +8084,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/268.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
     },
     {
       "id": "soccer-ger.1-401884713",
@@ -6987,7 +8102,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -6996,8 +8111,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/122.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
     },
     {
       "id": "soccer-ger.1-401884717",
@@ -7015,7 +8129,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -7024,8 +8138,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
     },
     {
       "id": "soccer-ger.1-401884715",
@@ -7043,7 +8156,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -7052,8 +8165,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
     },
     {
       "id": "soccer-eng.1-401879216",
@@ -7179,7 +8291,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -7188,8 +8300,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/347.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/314.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
     },
     {
       "id": "soccer-eng.2-401880120",
@@ -7207,7 +8318,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -7216,8 +8327,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/372.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/392.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
     },
     {
       "id": "soccer-eng.2-401880118",
@@ -7235,7 +8345,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -7244,8 +8354,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/381.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/352.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
     },
     {
       "id": "soccer-eng.2-401880117",
@@ -7263,7 +8372,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -7272,8 +8381,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/385.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/383.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
     },
     {
       "id": "soccer-eng.2-401880115",
@@ -7291,7 +8399,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -7300,8 +8408,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/336.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/334.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
     },
     {
       "id": "soccer-eng.2-401880113",
@@ -7319,7 +8426,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -7328,8 +8435,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/380.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/376.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
     },
     {
       "id": "soccer-esp.1-401882779",
@@ -7347,7 +8453,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -7356,8 +8462,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
     },
     {
       "id": "soccer-por.1-401885379",
@@ -7402,7 +8507,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -7411,8 +8516,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/156.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/142.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
     },
     {
       "id": "soccer-fra.1-401876384",
@@ -7430,7 +8534,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -7439,8 +8543,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/172.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
     },
     {
       "id": "soccer-ita.1-401875023",
@@ -7512,7 +8615,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -7521,8 +8624,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/89.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
     },
     {
       "id": "soccer-ger.1-401884714",
@@ -7540,7 +8642,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -7549,8 +8651,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/137.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
     },
     {
       "id": "soccer-ned.1-401875523",
@@ -7568,7 +8669,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -7577,8 +8678,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/151.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/147.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
     },
     {
       "id": "soccer-por.1-401885377",
@@ -7623,7 +8723,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -7632,8 +8732,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/148.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
     },
     {
       "id": "soccer-ita.1-401874788",
@@ -7678,7 +8777,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -7687,8 +8786,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
     },
     {
       "id": "soccer-fra.1-401876385",
@@ -7706,7 +8804,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -7715,8 +8813,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
     },
     {
       "id": "soccer-fra.1-401876381",
@@ -7734,7 +8831,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -7743,8 +8840,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
     },
     {
       "id": "soccer-fra.1-401876379",
@@ -7762,7 +8858,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -7771,8 +8867,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/273.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
     },
     {
       "id": "soccer-eng.1-401879214",
@@ -7817,7 +8912,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -7826,8 +8921,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/85.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
     },
     {
       "id": "soccer-ned.1-401875526",
@@ -7845,7 +8939,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -7854,8 +8948,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/143.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/2565.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
     },
     {
       "id": "soccer-por.1-401885382",
@@ -7900,7 +8993,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -7909,8 +9002,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/146.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/3736.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
     },
     {
       "id": "soccer-ita.1-401875017",
@@ -7928,7 +9020,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -7937,8 +9029,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/239.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
     },
     {
       "id": "soccer-eng.2-401880122",
@@ -7983,7 +9074,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -7992,8 +9083,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
     },
     {
       "id": "soccer-ned.1-401875528",
@@ -8011,7 +9101,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -8020,8 +9110,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/139.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/153.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
     },
     {
       "id": "soccer-ned.1-401875525",
@@ -8039,7 +9128,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -8048,8 +9137,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/3706.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/152.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
     },
     {
       "id": "soccer-eng.1-401879212",
@@ -8121,7 +9209,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -8130,8 +9218,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/105.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
     },
     {
       "id": "soccer-fra.1-401876377",
@@ -8149,7 +9236,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -8158,8 +9245,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/167.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
     },
     {
       "id": "soccer-ger.1-401884711",
@@ -8204,7 +9290,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -8213,8 +9299,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/86.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
     },
     {
       "id": "soccer-por.1-401885383",
@@ -8232,7 +9317,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -8241,8 +9326,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/21610.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/3699.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
     },
     {
       "id": "soccer-por.1-401885378",
@@ -8260,7 +9344,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -8269,8 +9353,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/3822.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/21581.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
     },
     {
       "id": "soccer-ned.1-401875529",
@@ -8288,7 +9371,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -8297,8 +9380,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/2726.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/2566.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
     },
     {
       "id": "soccer-fra.1-401876380",
@@ -8316,7 +9398,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -8325,8 +9407,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
     },
     {
       "id": "soccer-eng.1-401879209",
@@ -8398,7 +9479,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -8407,8 +9488,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/118.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
     },
     {
       "id": "soccer-esp.1-401882782",
@@ -8426,7 +9506,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -8435,8 +9515,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/94.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
     },
     {
       "id": "football-nfl-401873098",
@@ -8608,7 +9687,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -8617,8 +9696,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/12216.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/5309.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
     },
     {
       "id": "soccer-ita.1-401874995",
@@ -8636,7 +9714,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -8645,8 +9723,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/115.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
     },
     {
       "id": "soccer-fra.1-401876383",
@@ -8664,7 +9741,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -8673,8 +9750,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
     },
     {
       "id": "soccer-esp.1-401882784",
@@ -8692,7 +9768,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -8701,8 +9777,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/244.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
     },
     {
       "id": "soccer-por.1-401885380",
@@ -8720,7 +9795,7 @@
           "field": "start_time"
         }
       ],
-      "verification": "stale-source-fallback",
+      "verification": "single-source",
       "detail": "",
       "channel": "",
       "completed": false,
@@ -8729,8 +9804,7 @@
         "https://a.espncdn.com/i/teamlogos/soccer/500/12698.png",
         "https://a.espncdn.com/i/teamlogos/soccer/500/21607.png"
       ],
-      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png",
-      "data_warning": "Retained from last successful refresh; source request failed"
+      "competition_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
     },
     {
       "id": "football-nfl-401873103",
