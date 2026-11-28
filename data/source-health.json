@@ -1,7 +1,6 @@
 {
-  "updated": "2026-11-27T23:28:49.920868+00:00",
+  "updated": "2026-11-28T11:50:35.403116+00:00",
   "collection_dates": [
-    "2026-11-21",
     "2026-11-22",
     "2026-11-23",
     "2026-11-24",
@@ -18,22 +17,19 @@
     "2026-12-05",
     "2026-12-06"
   ],
-  "total_events": 371,
+  "total_events": 310,
   "by_category": {
-    "racing-f1": 3,
-    "rugby-autumn": 5,
-    "rugby-premiership": 3,
-    "soccer-eng.1": 40,
-    "soccer-eng.2": 48,
-    "soccer-esp.1": 30,
-    "soccer-ita.1": 28,
-    "rugby": 6,
-    "soccer-ger.1": 26,
-    "soccer-bel.1": 17,
-    "soccer-ned.1": 27,
-    "soccer-fra.1": 26,
+    "racing-f1": 2,
+    "soccer-ned.1": 22,
+    "soccer-ita.1": 24,
+    "soccer-eng.2": 37,
+    "soccer-bel.1": 13,
+    "soccer-esp.1": 26,
     "darts": 3,
     "gaa": 3,
+    "soccer-eng.1": 33,
+    "soccer-fra.1": 21,
+    "soccer-ger.1": 20,
     "football-nfl": 40,
     "golf-lpga": 1,
     "golf-pga": 1,
@@ -45,22 +41,17 @@
     "soccer-por.1": 17
   },
   "failed_sources": {
-    "rugby": 16,
-    "rugby-urc": 16,
-    "rugby-autumn": 16,
-    "rugby-nations": 16,
-    "rugby-premiership": 16,
-    "rugby-top14": 16,
-    "rugby-champions": 16
+    "rugby": 15,
+    "rugby-urc": 15,
+    "rugby-autumn": 15,
+    "rugby-nations": 15,
+    "rugby-premiership": 15,
+    "rugby-top14": 15,
+    "rugby-champions": 15
   },
   "failed_source_dates": [
     {
       "source": "rugby",
-      "date": "2026-11-21",
-      "message": "HTTP Error 400: Bad Request"
-    },
-    {
-      "source": "rugby",
       "date": "2026-11-22",
       "message": "HTTP Error 400: Bad Request"
     },
@@ -132,11 +123,6 @@
     {
       "source": "rugby",
       "date": "2026-12-06",
-      "message": "HTTP Error 400: Bad Request"
-    },
-    {
-      "source": "rugby-urc",
-      "date": "2026-11-21",
       "message": "HTTP Error 400: Bad Request"
     },
     {
@@ -216,11 +202,6 @@
     },
     {
       "source": "rugby-autumn",
-      "date": "2026-11-21",
-      "message": "HTTP Error 400: Bad Request"
-    },
-    {
-      "source": "rugby-autumn",
       "date": "2026-11-22",
       "message": "HTTP Error 400: Bad Request"
     },
@@ -292,11 +273,6 @@
     {
       "source": "rugby-autumn",
       "date": "2026-12-06",
-      "message": "HTTP Error 400: Bad Request"
-    },
-    {
-      "source": "rugby-nations",
-      "date": "2026-11-21",
       "message": "HTTP Error 400: Bad Request"
     },
     {
@@ -376,11 +352,6 @@
     },
     {
       "source": "rugby-premiership",
-      "date": "2026-11-21",
-      "message": "HTTP Error 400: Bad Request"
-    },
-    {
-      "source": "rugby-premiership",
       "date": "2026-11-22",
       "message": "HTTP Error 400: Bad Request"
     },
@@ -456,11 +427,6 @@
     },
     {
       "source": "rugby-top14",
-      "date": "2026-11-21",
-      "message": "HTTP Error 400: Bad Request"
-    },
-    {
-      "source": "rugby-top14",
       "date": "2026-11-22",
       "message": "HTTP Error 400: Bad Request"
     },
@@ -532,11 +498,6 @@
     {
       "source": "rugby-top14",
       "date": "2026-12-06",
-      "message": "HTTP Error 400: Bad Request"
-    },
-    {
-      "source": "rugby-champions",
-      "date": "2026-11-21",
       "message": "HTTP Error 400: Bad Request"
     },
     {
@@ -628,13 +589,6 @@
     ]
   },
   "source_requests": [
-    {
-      "source": "golf-pga",
-      "date": "2026-11-21",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20261121&limit=250"
-    },
     {
       "source": "golf-pga",
       "date": "2026-11-22",
@@ -739,13 +693,6 @@
       "status": "ok",
       "count": 0,
       "url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20261206&limit=250"
-    },
-    {
-      "source": "golf-euro",
-      "date": "2026-11-21",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/eur/scoreboard?dates=20261121&limit=250"
     },
     {
       "source": "golf-euro",
@@ -854,13 +801,6 @@
     },
     {
       "source": "golf-lpga",
-      "date": "2026-11-21",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261121&limit=250"
-    },
-    {
-      "source": "golf-lpga",
       "date": "2026-11-22",
       "status": "ok",
       "count": 0,
@@ -963,13 +903,6 @@
       "status": "ok",
       "count": 0,
       "url": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard?dates=20261206&limit=250"
-    },
-    {
-      "source": "soccer-eng.1",
-      "date": "2026-11-21",
-      "status": "ok",
-      "count": 7,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=250"
     },
     {
       "source": "soccer-eng.1",
@@ -1078,13 +1011,6 @@
     },
     {
       "source": "soccer-uefa.champions",
-      "date": "2026-11-21",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261121&limit=250"
-    },
-    {
-      "source": "soccer-uefa.champions",
       "date": "2026-11-22",
       "status": "ok",
       "count": 0,
@@ -1187,13 +1113,6 @@
       "status": "ok",
       "count": 0,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261206&limit=250"
-    },
-    {
-      "source": "soccer-fifa.world",
-      "date": "2026-11-21",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20261121&limit=250"
     },
     {
       "source": "soccer-fifa.world",
@@ -1302,13 +1221,6 @@
     },
     {
       "source": "soccer-nations",
-      "date": "2026-11-21",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261121&limit=250"
-    },
-    {
-      "source": "soccer-nations",
       "date": "2026-11-22",
       "status": "ok",
       "count": 0,
@@ -1411,13 +1323,6 @@
       "status": "ok",
       "count": 0,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261206&limit=250"
-    },
-    {
-      "source": "football-nfl",
-      "date": "2026-11-21",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261121&limit=250"
     },
     {
       "source": "football-nfl",
@@ -1526,13 +1431,6 @@
     },
     {
       "source": "rugby",
-      "date": "2026-11-21",
-      "status": "error",
-      "message": "HTTP Error 400: Bad Request",
-      "count": 0
-    },
-    {
-      "source": "rugby",
       "date": "2026-11-22",
       "status": "error",
       "message": "HTTP Error 400: Bad Request",
@@ -1632,13 +1530,6 @@
     {
       "source": "rugby",
       "date": "2026-12-06",
-      "status": "error",
-      "message": "HTTP Error 400: Bad Request",
-      "count": 0
-    },
-    {
-      "source": "rugby-urc",
-      "date": "2026-11-21",
       "status": "error",
       "message": "HTTP Error 400: Bad Request",
       "count": 0
@@ -1750,13 +1641,6 @@
     },
     {
       "source": "rugby-autumn",
-      "date": "2026-11-21",
-      "status": "error",
-      "message": "HTTP Error 400: Bad Request",
-      "count": 0
-    },
-    {
-      "source": "rugby-autumn",
       "date": "2026-11-22",
       "status": "error",
       "message": "HTTP Error 400: Bad Request",
@@ -1856,13 +1740,6 @@
     {
       "source": "rugby-autumn",
       "date": "2026-12-06",
-      "status": "error",
-      "message": "HTTP Error 400: Bad Request",
-      "count": 0
-    },
-    {
-      "source": "rugby-nations",
-      "date": "2026-11-21",
       "status": "error",
       "message": "HTTP Error 400: Bad Request",
       "count": 0
@@ -1974,13 +1851,6 @@
     },
     {
       "source": "rugby-premiership",
-      "date": "2026-11-21",
-      "status": "error",
-      "message": "HTTP Error 400: Bad Request",
-      "count": 0
-    },
-    {
-      "source": "rugby-premiership",
       "date": "2026-11-22",
       "status": "error",
       "message": "HTTP Error 400: Bad Request",
@@ -2080,13 +1950,6 @@
     {
       "source": "rugby-premiership",
       "date": "2026-12-06",
-      "status": "error",
-      "message": "HTTP Error 400: Bad Request",
-      "count": 0
-    },
-    {
-      "source": "rugby-top14",
-      "date": "2026-11-21",
       "status": "error",
       "message": "HTTP Error 400: Bad Request",
       "count": 0
@@ -2198,13 +2061,6 @@
     },
     {
       "source": "rugby-champions",
-      "date": "2026-11-21",
-      "status": "error",
-      "message": "HTTP Error 400: Bad Request",
-      "count": 0
-    },
-    {
-      "source": "rugby-champions",
       "date": "2026-11-22",
       "status": "error",
       "message": "HTTP Error 400: Bad Request",
@@ -2307,13 +2163,6 @@
       "status": "error",
       "message": "HTTP Error 400: Bad Request",
       "count": 0
-    },
-    {
-      "source": "soccer-esp.1",
-      "date": "2026-11-21",
-      "status": "ok",
-      "count": 4,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261121&limit=250"
     },
     {
       "source": "soccer-esp.1",
@@ -2422,13 +2271,6 @@
     },
     {
       "source": "soccer-ger.1",
-      "date": "2026-11-21",
-      "status": "ok",
-      "count": 6,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=250"
-    },
-    {
-      "source": "soccer-ger.1",
       "date": "2026-11-22",
       "status": "ok",
       "count": 2,
@@ -2531,13 +2373,6 @@
       "status": "ok",
       "count": 2,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261206&limit=250"
-    },
-    {
-      "source": "soccer-ita.1",
-      "date": "2026-11-21",
-      "status": "ok",
-      "count": 4,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=250"
     },
     {
       "source": "soccer-ita.1",
@@ -2646,13 +2481,6 @@
     },
     {
       "source": "soccer-fra.1",
-      "date": "2026-11-21",
-      "status": "ok",
-      "count": 5,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261121&limit=250"
-    },
-    {
-      "source": "soccer-fra.1",
       "date": "2026-11-22",
       "status": "ok",
       "count": 3,
@@ -2755,13 +2583,6 @@
       "status": "ok",
       "count": 3,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261206&limit=250"
-    },
-    {
-      "source": "soccer-por.1",
-      "date": "2026-11-21",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261121&limit=250"
     },
     {
       "source": "soccer-por.1",
@@ -2870,13 +2691,6 @@
     },
     {
       "source": "soccer-ned.1",
-      "date": "2026-11-21",
-      "status": "ok",
-      "count": 5,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261121&limit=250"
-    },
-    {
-      "source": "soccer-ned.1",
       "date": "2026-11-22",
       "status": "ok",
       "count": 4,
@@ -2979,13 +2793,6 @@
       "status": "ok",
       "count": 4,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261206&limit=250"
-    },
-    {
-      "source": "soccer-bel.1",
-      "date": "2026-11-21",
-      "status": "ok",
-      "count": 4,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261121&limit=250"
     },
     {
       "source": "soccer-bel.1",
@@ -3094,13 +2901,6 @@
     },
     {
       "source": "soccer-eng.2",
-      "date": "2026-11-21",
-      "status": "ok",
-      "count": 11,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261121&limit=250"
-    },
-    {
-      "source": "soccer-eng.2",
       "date": "2026-11-22",
       "status": "ok",
       "count": 1,
@@ -3203,13 +3003,6 @@
       "status": "ok",
       "count": 1,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261206&limit=250"
-    },
-    {
-      "source": "soccer-uefa.europa",
-      "date": "2026-11-21",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261121&limit=250"
     },
     {
       "source": "soccer-uefa.europa",
@@ -3318,13 +3111,6 @@
     },
     {
       "source": "racing-f1",
-      "date": "2026-11-21",
-      "status": "ok",
-      "count": 0,
-      "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261121&limit=250"
-    },
-    {
-      "source": "racing-f1",
       "date": "2026-11-22",
       "status": "ok",
       "count": 0,
@@ -3429,22 +3215,17 @@
       "url": "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261206&limit=250"
     }
   ],
-  "successful_requests": 288,
-  "failed_requests": 112,
-  "verified_start_times": 364,
+  "successful_requests": 270,
+  "failed_requests": 105,
+  "verified_start_times": 303,
   "coverage_only": 7,
-  "cross_referenced": 17,
+  "cross_referenced": 11,
   "official_schedule_issues": [],
-  "curated_fixtures": 26,
+  "curated_fixtures": 12,
   "inventory": {
     "missing_curated": [],
     "missing_curated_channels": [],
     "rugby_by_day": {
-      "2026-11-21": {
-        "total": 14,
-        "with_tv": 7,
-        "without_tv": 7
-      },
       "2026-11-22": {
         "total": 0,
         "with_tv": 0,
@@ -3536,7 +3317,7 @@
       "2026-12-06"
     ]
   },
-  "tv_confirmed": 45,
+  "tv_confirmed": 35,
   "nfl_tv_source": {
     "status": "ok",
     "count": 9,
@@ -3545,8 +3326,12 @@
   },
   "premier_league_tv_source": {
     "verified_listings": 13,
-    "matched_fixtures": 13,
-    "missing_fixture_ids": []
+    "matched_fixtures": 10,
+    "missing_fixture_ids": [
+      "soccer-eng.1-401879233",
+      "soccer-eng.1-401879236",
+      "soccer-eng.1-401879232"
+    ]
   },
   "broadcaster_tv_source": [
     {
@@ -3557,10 +3342,10 @@
       "url": "https://www.skysports.com/watch/football-on-sky/competitions/premier-league"
     }
   ],
-  "tv_unconfirmed": 326,
-  "f1_official_sessions": 3,
+  "tv_unconfirmed": 275,
+  "f1_official_sessions": 2,
   "golf_verified_coverage_sessions": 7,
-  "unverified_start_times": 335,
+  "unverified_start_times": 289,
   "conflicts": [],
   "limitations": [
     "Empty API results do not prove no events are scheduled.",
